@@ -4,41 +4,168 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Wheresrhys</title>
-        <meta name="description" content="A sophisticated, minimal-configuration, command-line savvy front-end developer">
+        <meta name="description" content="A sophisticated, minimal-configuration front-end developer">
         <meta name="author" content="Rhys Evans">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+
+          html {
+            font-size: 62.5%;
+          }
           body {
             background-color: #222;
             color: #ddd;
           }
 
-          pre {
+          .fake-json {
             display: block;
             width: 800px;
             margin: 0 auto;
           }
+
+          .fake-json h1,
+          .fake-json h2,
+          .fake-json dl,
+          .fake-json dt,
+          .fake-json dd,
+          .fake-json ol,
+          .fake-json li,
+          .fake-json a {
+            font-family: courier;
+            font-size: 1.4rem;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 1.3;
+            text-indent: 0;
+            display: inline;
+          }
+
+          .fake-json a:link,
+          .fake-json a:visited {
+            color: #bdf;
+            text-decoration: none;
+          }
+
+          .fake-json a:hover {
+            text-decoration: underline;
+          }
+
+          .fake-json h1 {
+            display: block;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+          }
+
+          .fake-json h1 span {
+            display: none;
+          }
+
+
+          .fake-json h1:after {
+            content: attr(data-large);
+            white-space: pre;
+          }
+
+          @media only screen and (max-width: 480px) {
+            .fake-json h1:after {
+              content: attr(data-small);
+            }
+          }
+
+          .fake-json h2:after {
+            content: ' = ';
+          }
+
+          .fake-json dl,
+          .fake-json ol {
+            display: inline;
+          }
+
+          .fake-json dl:before {
+            content: '{\a';
+            white-space: pre;
+          }
+
+          .fake-json dl:after {
+            content: '}';
+          }
+
+          .fake-json ol:before {
+            content: '[\a';
+            white-space: pre;
+          }
+
+          .fake-json ol:after {
+            content: ']';
+          }
+
+
+          .fake-json dd dl:after,
+          .fake-json dd ol:after {
+            padding-left: 2rem;
+          }
+
+          .fake-json dt,
+          .fake-json dd {
+            display: inline;
+          }
+
+          .fake-json dt:before {
+            content: '"';
+          }
+
+          .fake-json dt.new-section:before {
+            content: '\a"';
+            white-space: pre;
+          }
+
+
+          .fake-json li:before {
+            content: '';
+          }
+
+          .fake-json dt:before,
+          .fake-json li:before {
+            display: inline-block;
+            padding-left: 2rem;
+          }
+
+          .fake-json dd li:before,
+          .fake-json li dt:before,
+          .fake-json dd dt:before,
+          .fake-json li li:before {
+            display: inline-block;
+            padding-left: 4rem;
+          }
+
+          .fake-json dt:after {
+            content: '": ';
+          }
+
+          .fake-json dd span:before {
+            content: '"';
+          }
+
+          .fake-json dd span:after {
+            content: '"';
+          }
+
+          .fake-json dd:after,
+          .fake-json li:after  {
+            content: ',\a';
+            white-space: pre;
+          }
+
+
+
         </style>
     </head>
     <body>
 
-<!--
-/*      
-
- +-+-+-+-+-+-+-+-+-+-+
- |w|h|e|r|e|s|r|h|y|s|
- +-+-+-+-+-+-+-+-+-+-+    
-
-
-/*
-
-       .                 .        
-.    ,|_  _ ._. _  __._.|_   . __
- \/\/ [ )(/,[  (/,_) [  [ )\_|_) 
-                           ._|  
--->
-<pre>
-/*
+  <div class='fake-json'>
+<h1 data-large="/*
             __                                         __                        
            /\ \                                       /\ \                       
  __  __  __\ \ \___      __   _ __    __    ____  _ __\ \ \___   __  __    ____  
@@ -48,87 +175,105 @@
   \/__//__/    \/_/\/_/\/____/ \/_/ \/____/\/___/  \/_/   \/_/\/_/`/___/> \/___/ 
                                                                      /\___/      
                                                                      \/__/       
-*/
+*/" data-small="/*      
+
+       .                 .        
+.    ,|_  _ ._. _  __._.|_   . __
+ \/\/ [ )(/,[  (/,_) [  [ )\_|_) 
+                           ._|  
+ 
+*/"><span>Wheresrhys</span></h1>
 
 
-wheresrhys.package.json = {
-
-  "name": "Rhys Evans",
-  "author": "Wrexham, Wales",
-  "version": "0.3.2",
-  "distribution": "East London",
-  
-  "description": "A sophisticated, minimal-configuration, command-line savvy front-end developer",
-  "keywords": [
-    "Object-oriented javascript", 
-    "HTML5", 
-    "CSS3"
-  ],
-  "licence": "BSc in Mathematics, 1st class honours, University of Warwick",
-
-  "scripts": [
-    "backbone.js",
-    "jquery",
-    "raphael.js",
-    "Google Maps",
-    "Modernizr",
-    "require.js",
-    "node.js"
-  ],
-  "styles": {
-    "CSS3",
-    "SASS",
-    "Stylus"
-  },
-  "templates": [
-    "HTML5",
-    "Responsive/mobile design",
-    "Mustache.js",
-    "Accessibility and WAI-ARIA",
-    "Photoshop"
-  ],
-  "devDependencies": {
-    "version" : GIT || SVN,
-    "tracking": Jira || fogbugz,
-    "build" : Grunt.js || apacheAnt,
-    "test": PhantomJS && ( Jasmine || QUnit ),
-    "lang": PHP || node.js,
-    "environment": "works best in a collaborative, AGILE development environment"
-  },
-  
-  "contributor": [
-    "brandongenerator.com", 
-    "m.hotels4u.com", 
-    "tinyurl.com/bt-graphs", 
-    "tinyurl.com/garanti-calendar", 
-    "tinyurl.com/bt-status-updates",
-    "astonmartin.com",
-    "tinyurl.com/aramco-history",
-    "http://tinyurl.com/aramco-map",
-    "healthcheck.moneyadviceservice.org.uk",
-    "localpeople.co.uk",
-    "www.sumpuzzles.org", 
-    "ukcampingmap.co.uk"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wheresrhys"
-  },
-
-  "dependencies" : [
-    "assorted jigs and reels", 
-    "literature", 
-    "mountains", 
-    "cycling", 
-    "satisfying amounts of humour", 
-    "dangerous levels of hummus"
-  ],
-
-  "contact": {
-    "linkedin": "http://tinyurl.com/wheresrhys"
-  }
-}
-
-</pre>
+<h2>wheresrhys.package.json</h2>
+<dl>
+  <dt>name</dt><dd><span>Rhys Evans</span></dd>
+  <dt>version</dt><dd><span>0.3.2</span></dd>
+  <dt>distribution</dt><dd><span>East London</span></dd>
+  <dt>description</dt><dd><span>A sophisticated, minimal-configuration front-end developer</span></dd>
+  <dt>keywords</dt><dd>
+    <ol>
+      <li><span>Object-oriented javascript</span></li>
+      <li><span>HTML5</span></li>
+      <li><span>CS</span></li>
+    </ol>
+  </dd>
+  <dt>licence</dt><dd><span>BSc in Mathematics, 1st class honours, University of Warwick</span></dd>
+  <dt class='new-section'>scripts</dt><dd>
+    <ol>
+      <li><span>backbone.js</span></li>
+      <li><span>jquery</span></li>
+      <li><span>raphael.js</span></li>
+      <li><span>Google Maps</span></li>
+      <li><span>Modernizr</span></li>
+      <li><span>require.js</span></li>
+      <li><span>node.j</span></li>
+    </ol>
+  </dd>
+  <dt>styles</dt><dd>
+    <ol>
+      <li><span>CSS3</span></li>
+      <li><span>SASS</span></li>
+      <li><span>Stylus</span></li>
+    </ol>
+  </dd>
+  <dt>templates</dt><dd>
+    <ol>
+      <li><span>HTML5</span></li>
+      <li><span>Responsive/mobile design</span></li>
+      <li><span>Mustache.js</span></li>
+      <li><span>Accessibility and WAI-ARIA</span></li>
+      <li><span>Photosho</span></li>
+    </ol>
+  </dd>
+  <dt>devDependencies</dt><dd>
+    <dl>
+      <dt>version</dt><dd>GIT || SVN</dd>
+      <dt>tracking</dt><dd>Jira || fogbugz</dd>
+      <dt>build</dt><dd> Grunt.js || apacheAnt</dd>
+      <dt>test</dt><dd>PhantomJS && ( Jasmine || QUnit )</dd>
+      <dt>lang</dt><dd>PHP || node.js</dd>
+      <dt>environment</dt><dd><span>works best in a collaborative, AGILE development environment</span></dd>
+    </dl>  
+  </dd>
+  <dt class='new-section'>contributor</dt><dd>
+    <ol>
+      <li><span><a href='http://brandongenerator.com'>brandongenerator.com</a></span></li> 
+      <li><span><a href='http://m.hotels4u.com'>m.hotels4u.com</a></span></li> 
+      <li><span><a href='http://tinyurl.com/bt-graphs'>tinyurl.com/bt-graphs</a></span></li> 
+      <li><span><a href='http://tinyurl.com/garanti-calendar'>tinyurl.com/garanti-calendar</a></span></li> 
+      <li><span><a href='http://tinyurl.com/bt-status-updates'>tinyurl.com/bt-status-updates</a></span></li>
+      <li><span><a href='http://astonmartin.com'>astonmartin.com</a></span></li>
+      <li><span><a href='http://tinyurl.com/aramco-history'>tinyurl.com/aramco-history</a></span></li>
+      <li><span><a href='http://tinyurl.com/aramco-map'>tinyurl.com/aramco-map</a></span></li>
+      <li><span><a href='http://healthcheck.moneyadviceservice.org.uk'>healthcheck.moneyadviceservice.org.uk</a></span></li>
+      <li><span><a href='http://localpeople.co.uk'>localpeople.co.uk</a></span></li>
+    </ol>
+  </dd>
+  <dt>author</dt><dd>
+    <ol>
+      <li><span><a href='http://wheresrhys.co.uk'>wheresrhys.co.uk</a></span></li>
+      <li><span><a href='http://sumpuzzles.org'>sumpuzzles.org</a></span></li> 
+      <li><span><a href='http://ukcampingmap.co.uk'>ukcampingmap.co.uk</a></span></li>
+    </ol>
+  </dd>
+  <dt>repository</dt><dd>
+    <dl>
+      <dt>type</dt><dd><span>git</span></dd>
+      <dt>url</dt><dd><span><a href='https://github.com/wheresrhys'>github.com/wheresrhys</a></span></dd>
+    </dl>
+  </dd>
+  <dt class='new-section'>dependencies</dt><dd>
+    <ol>
+      <li><span><a href=''>assorted jigs and reels</a></span></li>
+      <li><span><a href=''>mountains</a></span></li>
+      <li><span><a href=''>cycling</a></span></li>
+      <li><span><a href='http://www.youtube.com/watch?v=9EZTaEh-inM'>humour</a></span></li>
+      <li><span><a href=''>hummus</a></span></li>
+    </ol>
+  </dd>
+  <dt>contact</dt><dd><span><a href='http://www.linkedin.com/profile/view?id=122443382'>linkedin</a></span></dd>
+</dl>
+</div>
 </body>
 </html>
