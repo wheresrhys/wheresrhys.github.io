@@ -30,7 +30,8 @@
           .fake-json dd,
           .fake-json ol,
           .fake-json li,
-          .fake-json a {
+          .fake-json a,
+          .fake-json b {
             font-family: courier;
             font-size: 1.4rem;
             font-weight: normal;
@@ -144,11 +145,14 @@
             content: '": ';
           }
 
-          .fake-json dd span:before {
-            content: '"';
-          }
+         /* .fake-json dd:before {
+            content: ': ';
+          }*/
 
-          .fake-json dd span:after {
+          .fake-json dd>span:before,
+          .fake-json li>span:before,
+          .fake-json dd>span:after,
+          .fake-json li>span:after  {
             content: '"';
           }
 
@@ -156,6 +160,29 @@
           .fake-json li:after  {
             content: ',\a';
             white-space: pre;
+          }
+
+          .fake-json dt,
+          .fake-json dd ol,
+          .fake-json dd dl,
+          .fake-json dd:after,
+          .fake-json li:after,
+          .fake-json .plain {
+            color: #fff;
+          }
+
+          .fake-json dd,
+          .fake-json li {
+            color: #8f8;
+          }
+
+          .fake-json dd>span,
+          .fake-json li>span {
+            color: #ff8;
+          }
+
+          .fake-json .operator {
+            color: #f8f;
           }
 
 
@@ -195,7 +222,7 @@
     <ol>
       <li><span>Object-oriented javascript</span></li>
       <li><span>HTML5</span></li>
-      <li><span>CS</span></li>
+      <li><span>CSS</span></li>
     </ol>
   </dd>
   <dt>licence</dt><dd><span>BSc in Mathematics, 1st class honours, University of Warwick</span></dd>
@@ -207,7 +234,7 @@
       <li><span>Google Maps</span></li>
       <li><span>Modernizr</span></li>
       <li><span>require.js</span></li>
-      <li><span>node.j</span></li>
+      <li><span>node.js</span></li>
     </ol>
   </dd>
   <dt>styles</dt><dd>
@@ -221,18 +248,18 @@
     <ol>
       <li><span>HTML5</span></li>
       <li><span>Responsive/mobile design</span></li>
-      <li><span>Mustache.js</span></li>
+      <li>Mustache and handlebars.js</li>
       <li><span>Accessibility and WAI-ARIA</span></li>
-      <li><span>Photosho</span></li>
+      <li><span>Photoshop</span></li>
     </ol>
   </dd>
   <dt>devDependencies</dt><dd>
     <dl>
-      <dt>version</dt><dd>GIT || SVN</dd>
-      <dt>tracking</dt><dd>Jira || fogbugz</dd>
-      <dt>build</dt><dd> Grunt.js || apacheAnt</dd>
-      <dt>test</dt><dd>PhantomJS && ( Jasmine || QUnit )</dd>
-      <dt>lang</dt><dd>PHP || node.js</dd>
+      <dt>version</dt><dd>GIT or SVN</dd>
+      <dt>tracking</dt><dd>Jira or fogbugz</dd>
+      <dt>build</dt><dd> Grunt.js or apacheAnt</dd>
+      <dt>test</dt><dd>PhantomJS and ( Jasmine or QUnit )</dd>
+      <dt>lang</dt><dd>PHP or node.js</dd>
       <dt>environment</dt><dd><span>works best in a collaborative, AGILE development environment</span></dd>
     </dl>  
   </dd>
@@ -275,5 +302,28 @@
   <dt>contact</dt><dd><span><a href='http://www.linkedin.com/profile/view?id=122443382'>linkedin</a></span></dd>
 </dl>
 </div>
+<script>
+(function () {
+  var nonStrings = document.querySelectorAll('.fake-json dd, .fake-json li');
+
+  nonStrings = Array.prototype.filter.call(nonStrings, function (el) {
+    return !el.childElementCount;
+  });
+
+  nonStrings.forEach(function(el) {
+    el.innerHTML = el.innerHTML.replace(/(\sor\s|\sand\s|\(|\))/g, function ($0, $1) {
+      switch ($1) {
+        case ' or ' :
+          return ' <b class="operator">||</b> ';         
+        case ' and ' :
+          return ' <b class="operator">&&</b> ';
+        default :
+          return '<b class="plain">' + $1 + '</b>';
+      }
+    }) 
+  })
+  console.log(nonStrings);
+}());   
+</script>
 </body>
 </html>
