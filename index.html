@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class='no-js'>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -7,6 +7,11 @@
         <meta name="description" content="A sophisticated, minimal-configuration front-end developer">
         <meta name="author" content="Rhys Evans">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+          
+            document.getElementsByTagName('html')[0].className = 'js';
+          
+        </script>
         <style>
 
           html {
@@ -14,7 +19,7 @@
           }
           body {
             background-color: #222;
-            color: #ddd;
+            color: #eee;
           }
 
           .fake-json {
@@ -210,7 +215,7 @@
           .fake-json dd:after,
           .fake-json li:after,
           .fake-json .plain {
-            color: #fff;
+            color: #eee;
           }
 
           .fake-json dd,
@@ -226,6 +231,34 @@
           .fake-json .operator {
             color: #f8f;
           }
+
+          
+
+          .js .fake-json .accordion .content {
+            display: inline-block;
+            height: 0;
+            overflow: hidden;
+            width: 0;
+            
+          }
+
+          .no-js .fake-json .accordion .content,
+          .js .fake-json .accordion .expanded .content {
+            height: 130px;
+            display: block;
+            margin: 1rem 1rem 1rem 4rem;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            width: auto;
+            box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
+            background: #181818;
+          }
+
+          .js .fake-json .accordion .expanded:after {
+            display: none;
+          }
+
+
 
 
 
@@ -308,8 +341,8 @@
       <dt>environment</dt><dd><span>works best in a collaborative, AGILE development environment</span></dd>
     </dl></dd>
   <dt class='new-section'>contributor</dt>
-    <dd><ol>
-      <li><a href='http://brandongenerator.com'>brandongenerator.com</a></li> 
+    <dd><ol class='accordion'>
+      <li><a href='http://brandongenerator.com'>brandongenerator.com</a><div class='content'>content</div></li> 
       <li><a href='http://m.hotels4u.com'>m.hotels4u.com</a></li> 
       <li><a href='http://tinyurl.com/bt-graphs'>tinyurl.com/bt-graphs</a></li> 
       <li><a href='http://tinyurl.com/garanti-calendar'>tinyurl.com/garanti-calendar</a></li> 
@@ -343,6 +376,8 @@
 </div>
 <script>
 (function () {
+
+  // carry out formatting for js operators and other symbols
   var nonStrings = document.querySelectorAll('.fake-json dd, .fake-json li');
 
   nonStrings = Array.prototype.filter.call(nonStrings, function (el) {
@@ -362,9 +397,60 @@
     }) 
   })
 
+  // auto increment version number
   var age = document.getElementById('age');
 
   age.innerHTML =  '0.' + ((new Date()).getFullYear() - 1981)/10;
+
+  // add listeners to show/hide portfolio panels
+  var container = document.querySelectorAll('.fake-json')[0],
+      portfolioLinks = document.querySelectorAll('.accordion a'),
+      cloneLink = (function () {
+        if (!!container.cloneNode) {
+          return function (el) {
+            return el.cloneNode();
+          }
+        } else {
+          return function (el) {
+            var clone = document.createElement('a');
+            clone.setAttribute('href', el.href);
+            clone.textContent = el.textContent;
+            return clone;
+          }
+        }
+        
+
+      }());
+      
+
+  Array.prototype.forEach.call(portfolioLinks, function (el) {
+    var content = el.nextElementSibling;
+
+    if (!content) {
+      return false;
+    }
+
+    var h2 = document.createElement('h2');
+
+    h2.appendChild(cloneLink(el));
+
+    content.insertBefore(h2, content.firstChild);
+  });
+
+
+
+  container.addEventListener('click', function (ev) {
+    if (ev.target.nodeName === 'A' && ev.target.parentNode.parentNode.className.indexOf('accordion') > -1) {
+
+      ev.target.parentNode.className = ev.target.parentNode.className === 'expanded' ? '' : 'expanded';
+      ev.cancelBubble = true;
+      ev.preventDefault();
+      ev.stopPropagation();
+      return false;
+    }
+
+  });
+
 
 }());   
 </script>
