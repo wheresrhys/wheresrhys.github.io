@@ -162,11 +162,7 @@
           .fake-json dd>span:before,
           .fake-json li>span:before,
           .fake-json dd>span:after,
-          .fake-json li>span:after,
-          .fake-json dd>a:before,
-          .fake-json li>a:before,
-          .fake-json dd>a:after,
-          .fake-json li>a:after  {
+          .fake-json li>span:after {
             content: '"';
           }
 
@@ -232,26 +228,61 @@
             color: #f8f;
           }
 
-          
+          .fake-json .accordion > li {
+            display: block;
+          }          
+          .fake-json .accordion > li:after {
+            display: none;
+          }
+
+          .fake-json .accordion > li >span:before {
+            color: #bdf;
+          }
+          .fake-json .accordion > li >span>a:after {
+            content: '"';
+            color: #bdf;
+          }
+          .fake-json .accordion > li >span>a:hover:after {
+            text-decoration: none;
+          }
+          .fake-json .accordion > li >span:after {
+            content: ',';
+            color: #eee;
+            opacity: 1;
+            transition: opacity 0.5s;
+          }
+
+
+          .fake-json .accordion > .expanded > span:after {
+             opacity: 0;
+          }
 
           .js .fake-json .accordion .content {
-            display: inline-block;
+            display: block;
             height: 0;
+            max-height: 0;
             overflow: hidden;
-            width: 0;
-            
+            box-sizing: border-box;
+          /*  width: 0;*/
+            border-radius: 0.5rem;
+            box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
+            background: #181818;
+            padding: 0 1rem;
+            margin: 0 0 0 4rem;
+            opacity: 0;
+            transition-property: max-height, padding, margin, opacity;
+            transition-duration: 0.5s;
           }
 
           .no-js .fake-json .accordion .content,
           .js .fake-json .accordion .expanded .content {
-            height: 130px;
-            display: block;
+            height: auto;
+            max-height: 200rem;
             margin: 1rem 1rem 1rem 4rem;
-            border-radius: 0.5rem;
             padding: 1rem;
             width: auto;
-            box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
-            background: #181818;
+            opacity: 1;
+            
           }
 
           .js .fake-json .accordion .expanded:after {
@@ -342,22 +373,74 @@
     </dl></dd>
   <dt class='new-section'>contributor</dt>
     <dd><ol class='accordion'>
-      <li><a href='http://brandongenerator.com'>brandongenerator.com</a><div class='content'>content</div></li> 
-      <li><a href='http://m.hotels4u.com'>m.hotels4u.com</a></li> 
-      <li><a href='http://tinyurl.com/bt-graphs'>tinyurl.com/bt-graphs</a></li> 
-      <li><a href='http://tinyurl.com/garanti-calendar'>tinyurl.com/garanti-calendar</a></li> 
-      <li><a href='http://tinyurl.com/bt-status-updates'>tinyurl.com/bt-status-updates</a></li>
-      <li><a href='http://astonmartin.com'>astonmartin.com</a></li>
-      <li><a href='http://tinyurl.com/aramco-history'>tinyurl.com/aramco-history</a></li>
-      <li><a href='http://tinyurl.com/aramco-map'>tinyurl.com/aramco-map</a></li>
-      <li><a href='http://healthcheck.moneyadviceservice.org.uk'>healthcheck.moneyadviceservice.org.uk</a></li>
-      <li><a href='http://localpeople.co.uk'>localpeople.co.uk</a></li>
+      <li><span><a href='http://brandongenerator.com'>brandongenerator.com</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p>Brandon generator is an interactive, crowd-sourced comic built to showcase IE10's new features, including hardware accelerated animation, CSS3 and OS integration. Built using <b>backbone.js</b>, I created several of the scaffolding elements of the site (e.g footer menus, taskbar notifications) that responded intelligently to user interaction and loading of views.</p>    
+        </div>
+      </li> 
+      <li><span><a href='http://m.hotels4u.com'>m.hotels4u.com</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li> 
+      <li><span><a href='http://tinyurl.com/bt-graphs'>tinyurl.com/bt-graphs</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li> 
+      <li><span><a href='http://tinyurl.com/garanti-calendar'>tinyurl.com/garanti-calendar</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li> 
+      <li><span><a href='http://tinyurl.com/bt-status-updates'>tinyurl.com/bt-status-updates</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
+      <li><span><a href='http://astonmartin.com'>astonmartin.com</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
+      <li><span><a href='http://tinyurl.com/aramco-history'>tinyurl.com/aramco-history</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
+      <li><span><a href='http://tinyurl.com/aramco-map'>tinyurl.com/aramco-map</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
+      <li><span><a href='http://healthcheck.moneyadviceservice.org.uk'>healthcheck.moneyadviceservice.org.uk</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
+      <li><span><a href='http://localpeople.co.uk'>localpeople.co.uk</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
     </ol></dd>
   <dt>author</dt>
     <dd><ol>
-      <li><a href='http://wheresrhys.co.uk'>wheresrhys.co.uk</a></li>
-      <li><a href='http://sumpuzzles.org'>sumpuzzles.org</a></li> 
-      <li><a href='http://ukcampingmap.co.uk'>ukcampingmap.co.uk</a></li>
+      <li><span><a href='http://wheresrhys.co.uk'>wheresrhys.co.uk</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
+      <li><span><a href='http://sumpuzzles.org'>sumpuzzles.org</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li> 
+      <li><span><a href='http://ukcampingmap.co.uk'>ukcampingmap.co.uk</a></span>
+        <div class='content'>
+          <img src='/img/.png' /><p></p>    
+        </div>
+      </li>
     </ol></dd>
   <dt>repository</dt>
     <dd><dl>
@@ -366,10 +449,10 @@
     </dl></dd>
   <dt class='new-section'>dependencies</dt>
     <dd><ol>
-      <li><a href='http://thesession.org/members/61738/tunebook'>assorted jigs and reels</a></li>
-      <li><a href='http://www.flickr.com/photos/rhysickle/6175595864/in/set-72157627610966925'>mountains</a></li>
-      <li><a href='http://www.youtube.com/watch?v=9EZTaEh-inM'>humour</a></li>
-      <li><a href='http://veggiestan.com/'>hummus</a></li>
+      <li><span><a href='http://thesession.org/members/61738/tunebook'>assorted jigs and reels</a></li>
+      <li><span><a href='http://www.flickr.com/photos/rhysickle/6175595864/in/set-72157627610966925'>mountains</a></li>
+      <li><span><a href='http://www.youtube.com/watch?v=9EZTaEh-inM'>humour</a></li>
+      <li><span><a href='http://veggiestan.com/'>hummus</a></li>
     </ol></dd>
   <dt>contact</dt><dd><a href='http://www.linkedin.com/profile/view?id=122443382'>linkedin</a></dd>
 </dl>
@@ -424,7 +507,7 @@
       
 
   Array.prototype.forEach.call(portfolioLinks, function (el) {
-    var content = el.nextElementSibling;
+    var content = el.parentNode.nextElementSibling;
 
     if (!content) {
       return false;
@@ -440,9 +523,13 @@
 
 
   container.addEventListener('click', function (ev) {
-    if (ev.target.nodeName === 'A' && ev.target.parentNode.parentNode.className.indexOf('accordion') > -1) {
+    if (ev.target.nodeName === 'A' && ev.target.parentNode.parentNode.parentNode.className.indexOf('accordion') > -1) {
+      var open = ev.target.parentNode.parentNode.parentNode.querySelectorAll('.expanded');
 
-      ev.target.parentNode.className = ev.target.parentNode.className === 'expanded' ? '' : 'expanded';
+      if (open.length && open[0] !== ev.target.parentNode.parentNode) {
+        open[0].className = '';
+      }
+      ev.target.parentNode.parentNode.className = ev.target.parentNode.parentNode.className === 'expanded' ? '' : 'expanded';
       ev.cancelBubble = true;
       ev.preventDefault();
       ev.stopPropagation();
