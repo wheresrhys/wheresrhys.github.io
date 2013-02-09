@@ -75,7 +75,13 @@
             white-space: pre;
           }
 
-          @media only screen and (max-width: 700px) {
+          @media only screen and (max-width: 720px) {
+            .fake-json h1:after {
+              content: attr(data-medium);
+            }
+          }
+
+          @media only screen and (max-width: 480px) {
             .fake-json h1:after {
               content: attr(data-small);
             }
@@ -259,10 +265,11 @@
 
           .js .fake-json .accordion .content {
             display: block;
-            height: 0;
+            height: auto;
             max-height: 0;
             overflow: hidden;
             box-sizing: border-box;
+            width: auto;
           /*  width: 0;*/
             border-radius: 0.5rem;
             box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
@@ -276,17 +283,74 @@
 
           .no-js .fake-json .accordion .content,
           .js .fake-json .accordion .expanded .content {
-            height: auto;
-            max-height: 200rem;
+            
+            max-height: 50rem;
             margin: 1rem 1rem 1rem 4rem;
-            padding: 1rem;
-            width: auto;
+            padding: 1rem 1rem;
+            
             opacity: 1;
+            
             
           }
 
           .js .fake-json .accordion .expanded:after {
             display: none;
+          }
+
+
+
+          .js .fake-json .accordion .content img {
+            float: left;
+            margin-top: -2rem;
+          }
+
+          .js .fake-json .accordion .content p,
+          .js .fake-json .accordion .content h2,
+          .js .fake-json .accordion .content ul {
+            margin-left: 15rem;
+            display: block;
+          }
+
+          @media only screen and (max-width: 480px) {
+            .js .fake-json .accordion .content img {
+              display: none;
+            }
+
+            .js .fake-json .accordion .content p,
+            .js .fake-json .accordion .content h2,
+            .js .fake-json .accordion .content ul {
+              margin-left: 0;
+            }
+          }
+
+         
+          
+          .fake-json .accordion .content p {
+            margin: 0;
+          }
+          .fake-json .accordion .content ul {
+            padding: 0;
+          }
+
+          .fake-json .accordion .content h2:after {
+            display: none;
+          }
+          .fake-json .accordion .content li {
+            display: block;
+            padding-left: 1.6rem;
+            text-indent: -1.6rem;
+          }
+          .fake-json .accordion .content li:before {
+            content: ' - ';
+            display: inline;
+            padding: 0;
+          }
+          .fake-json .accordion .content li:after {
+            display: none;
+          }
+
+          .fake-json .accordion .content:after {
+            clear:left;
           }
 
 
@@ -299,22 +363,28 @@
 
   <div class='fake-json'>
 <h1 data-large="/*
-            __                                         __                        
-           /\ \                                       /\ \                       
- __  __  __\ \ \___      __   _ __    __    ____  _ __\ \ \___   __  __    ____  
-/\ \/\ \/\ \\ \  _ `\  /'__`\/\`'__\/'__`\ /',__\/\`'__\ \  _ `\/\ \/\ \  /',__\ 
-\ \ \_/ \_/ \\ \ \ \ \/\  __/\ \ \//\  __//\__, `\ \ \/ \ \ \ \ \ \ \_\ \/\__, `\
- \ \___x___/' \ \_\ \_\ \____\\ \_\\ \____\/\____/\ \_\  \ \_\ \_\/`____ \/\____/
-  \/__//__/    \/_/\/_/\/____/ \/_/ \/____/\/___/  \/_/   \/_/\/_/`/___/> \/___/ 
-                                                                     /\___/      
-                                                                     \/__/       
-*/" data-small="/*      
+              __                                         __                        
+             /\ \                                       /\ \                       
+   __  __  __\ \ \___      __   _ __    __    ____  _ __\ \ \___   __  __    ____  
+  /\ \/\ \/\ \\ \  _ `\  /'__`\/\`'__\/'__`\ /',__\/\`'__\ \  _ `\/\ \/\ \  /',__\ 
+  \ \ \_/ \_/ \\ \ \ \ \/\  __/\ \ \//\  __//\__, `\ \ \/ \ \ \ \ \ \ \_\ \/\__, `\
+   \ \___x___/' \ \_\ \_\ \____\\ \_\\ \____\/\____/\ \_\  \ \_\ \_\/`____ \/\____/
+    \/__//__/    \/_/\/_/\/____/ \/_/ \/____/\/___/  \/_/   \/_/\/_/`/___/> \/___/ 
+                                                                       /\___/      
+                                                                       \/__/       
+*/" data-small="/*
+         .                 .        
+  .    ,|_  _ ._. _  __._.|_   . __
+   \/\/ [ )(/,[  (/,_) [  [ )\_|_) 
+                             ._|  
+*/" data-medium="/*      
 
-       .                 .        
-.    ,|_  _ ._. _  __._.|_   . __
- \/\/ [ )(/,[  (/,_) [  [ )\_|_) 
-                           ._|  
- 
+        /                             /             
+       (___  ___  ___  ___  ___  ___ (___       ___ 
+  |   )|   )|___)|   )|___)|___ |   )|   )\   )|___ 
+  |/\/ |  / |__  |    |__   __/ |    |  /  \_/  __/ 
+                                            /       
+
 */"><span>Wheresrhys</span></h1>
 
 
@@ -373,72 +443,72 @@
     </dl></dd>
   <dt class='new-section'>contributor</dt>
     <dd><ol class='accordion'>
-      <li><span><a href='http://brandongenerator.com'>brandongenerator.com</a></span>
+      <li><span><a href='http://m.hotels4u.com'>Hotels4U.com mobile</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p>Brandon generator is an interactive, crowd-sourced comic built to showcase IE10's new features, including hardware accelerated animation, CSS3 and OS integration. Built using <b>backbone.js</b>, I created several of the scaffolding elements of the site (e.g footer menus, taskbar notifications) that responded intelligently to user interaction and loading of views.</p>    
+          <img data-src='img/h4u.jpg' /><p>I was responsible for implementing the front-end for this mobile hotel booking app. Using <strong>backbone.js, require.js, stylus</strong> and extensive use of <strong>CSS3</strong> the front-end provided a dynamic user experience, communicating with the search engine and checkout via a <strong>RESTful</strong> web service.</p>    
         </div>
       </li> 
-      <li><span><a href='http://m.hotels4u.com'>m.hotels4u.com</a></span>
+      <li><span><a href='http://tinyurl.com/bt-graphs'>BT Broadband usage monitor</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/bt-graphs.jpg' /><p>Using <strong>raphael.js</strong> and an inheritance model based on Backbone.extend I created a vector graphing library and flyweight tooltip module to display BT customers' monthly usage of their bandwidth allowance and also used <strong>CSS3</strong> to implement the page design.</p>    
         </div>
       </li> 
-      <li><span><a href='http://tinyurl.com/bt-graphs'>tinyurl.com/bt-graphs</a></span>
+      <li><span><a href='http://tinyurl.com/garanti-calendar'>Garanti financial calendar</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/garanti.jpg' /><p>Working within a large existing codebase I implemented a financial transactions calendar, similar in functionality to iCal or the MS Outlook calendar. I wrote an ajax view loader and code to handle the complex repercussions of various user actions, and worked with the UX and design teams to address the many unforseen edge cases.</p>    
         </div>
       </li> 
-      <li><span><a href='http://tinyurl.com/garanti-calendar'>tinyurl.com/garanti-calendar</a></span>
+      <li><span><a href='http://tinyurl.com/bt-status-updates'>BT Broadband status updates</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/bt-status.jpg' /><p>A responsive, two-page subsite for finding out if there are any reported problems affecting broadband in your area. As well as general resizing and laying out of the page for mobile the site also used a tabbed interface on desktop/tablet which became an accordion on mobile, and all achieved with <strong>CSS media queries</strong></p>    
+        </div>
+      </li>
+      <li><span><a href='http://brandongenerator.com'>Brandon Generator</a></span>
+        <div class='content'>
+          <img data-src='img/brandon.jpg' /><p>Brandon generator is an interactive, crowd-sourced comic built to showcase IE10's new features, built using <strong>backbone.js</strong>. Working in an <strong>AGILE</strong> team I created several of the scaffolding elements of the site (e.g footer menus, taskbar notifications) that responded intelligently to user interaction with the site.</p>    
         </div>
       </li> 
-      <li><span><a href='http://tinyurl.com/bt-status-updates'>tinyurl.com/bt-status-updates</a></span>
+      <li><span><a href='http://astonmartin.com'>Aston Martin</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/aston.jpg' /><p>Working with <strong>SASS</strong> and a large existing codebase I implemented a responsive design for several components of the site, including a video player, a configurable carousel and an online shop</p>    
         </div>
       </li>
-      <li><span><a href='http://astonmartin.com'>astonmartin.com</a></span>
+      <li><span><a href='http://saudiaramco.com'>Saudi Aramco</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/aramco.jpg' />
+          <p>Implementation of two components for Saudi Aramco's bilingual (rtl &amp; ltr) site</p>
+          <ul>
+            <li>An interactive map, using <strong>raphael.js</strong> and a custom-made library to plot points in a variety of categories, filter the information shown and display information panels. <a href='http://tinyurl.com/aramco-map'>tinyurl.com/aramco-map</a></li>
+            <li>A complex, multi-tiered accordion for illustrating the history of the company. <a href='http://tinyurl.com/aramco-history'>tinyurl.com/aramco-history</a></li>
+          </ul>   
         </div>
       </li>
-      <li><span><a href='http://tinyurl.com/aramco-history'>tinyurl.com/aramco-history</a></span>
+      <li><span><a href='http://healthcheck.moneyadviceservice.org.uk'>Financial Healthcheck</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/mas.jpg' /><p>This financial health diagnosic tool demanded a surprising amount of hard work to turn the non-MVC .NET generated html into an interactive and accessible application, which included a custom built validation library and <strong>WAI-ARIA</strong> roles built into each component.</p>    
         </div>
       </li>
-      <li><span><a href='http://tinyurl.com/aramco-map'>tinyurl.com/aramco-map</a></span>
+      <li><span><a href='http://localpeople.co.uk'>Local People</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
-        </div>
-      </li>
-      <li><span><a href='http://healthcheck.moneyadviceservice.org.uk'>healthcheck.moneyadviceservice.org.uk</a></span>
-        <div class='content'>
-          <img src='/img/.png' /><p></p>    
-        </div>
-      </li>
-      <li><span><a href='http://localpeople.co.uk'>localpeople.co.uk</a></span>
-        <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/localpeople.jpg' /><p>I was responsible for implenting about a third of the reusable modules used in this application, working with <strong>JSTL templates, YUI</strong> and <strong>Google Maps</strong>. Examples of my work include the discussion module and the sign-up process.</p>    
         </div>
       </li>
     </ol></dd>
   <dt>author</dt>
-    <dd><ol>
+    <dd><ol class='accordion'>
       <li><span><a href='http://wheresrhys.co.uk'>wheresrhys.co.uk</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/wheresrhys.jpg' /><p>This site - you're on it now - uses <strong>CSS3, Semantic markup</strong> and <strong>no-jQuery whatsoever</strong> to deliver my portfolio in a single extremely lightweight page. It's a subtlely responsive design too, and only requires a single http request on mobile.</p>    
         </div>
       </li>
-      <li><span><a href='http://sumpuzzles.org'>sumpuzzles.org</a></span>
+      <li><span><a href='http://sumpuzzles.org'>Sumpuzzles</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/sumpuzzles.jpg' /><p>An interactive mathematical game built using <strong>jquery, jquery-ui</strong> and a custom made library to construct the various objects needed for the game. I also architected and wrote the back-end of the site using <strong>Zend Framework</strong> and <strong>MySQL</strong></p>    
         </div>
       </li> 
-      <li><span><a href='http://ukcampingmap.co.uk'>ukcampingmap.co.uk</a></span>
+      <li><span><a href='http://ukcampingmap.co.uk'>UK Camping Map</a></span>
         <div class='content'>
-          <img src='/img/.png' /><p></p>    
+          <img data-src='img/ukcampingmap.jpg' /><p>My campsite search engine, using <strong>Google Maps, jquery, CodeIgniter</strong> and <strong>MySQL</strong>. Among its more unique features are 3-way 'radio buttons' (yes, no and maybe), and incremental adding of points to the map as the user zooms in (most other sites opt for plotting clusters at lower zoom levels).</p>    
         </div>
       </li>
     </ol></dd>
@@ -487,25 +557,25 @@
 
   // add listeners to show/hide portfolio panels
   var container = document.querySelectorAll('.fake-json')[0],
-      portfolioLinks = document.querySelectorAll('.accordion a'),
+      portfolioLinks = document.querySelectorAll('.accordion>li>span>a'),
       cloneLink = (function () {
-        if (!!container.cloneNode) {
-          return function (el) {
-            return el.cloneNode();
-          }
-        } else {
+        // if (!!container.cloneNode) {
+        //   return function (el) {
+        //     return el.cloneNode();
+        //   }
+        // } else {
           return function (el) {
             var clone = document.createElement('a');
             clone.setAttribute('href', el.href);
             clone.textContent = el.textContent;
             return clone;
           }
-        }
+        // }
         
 
       }());
       
-
+      //TODO - wrap the image in a link too
   Array.prototype.forEach.call(portfolioLinks, function (el) {
     var content = el.parentNode.nextElementSibling;
 
@@ -516,20 +586,34 @@
     var h2 = document.createElement('h2');
 
     h2.appendChild(cloneLink(el));
-
-    content.insertBefore(h2, content.firstChild);
+    var firstProperChild = (function () {
+      var child = content.firstChild;
+      while (child.nodeType === 3) {
+        child = child.nextSibling;
+      }
+      return child;
+    }())
+    content.insertBefore(h2, firstProperChild);
   });
 
+  //download images 
+  var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
+  if (screenWidth > 480) {
+    var images = document.getElementsByTagName('img');
+    Array.prototype.forEach.call(images, function (img) {
+      img.setAttribute('src', img.getAttribute('data-src'));
+    })
+  }
 
   container.addEventListener('click', function (ev) {
     if (ev.target.nodeName === 'A' && ev.target.parentNode.parentNode.parentNode.className.indexOf('accordion') > -1) {
-      var open = ev.target.parentNode.parentNode.parentNode.querySelectorAll('.expanded');
+      var open = container.querySelectorAll('.expanded');
 
       if (open.length && open[0] !== ev.target.parentNode.parentNode) {
         open[0].className = '';
       }
-      ev.target.parentNode.parentNode.className = ev.target.parentNode.parentNode.className === 'expanded' ? '' : 'expanded';
+      ev.target.parentNode.parentNode.className = (ev.target.parentNode.parentNode.className === 'expanded') ? '' : 'expanded';
       ev.cancelBubble = true;
       ev.preventDefault();
       ev.stopPropagation();
@@ -537,6 +621,9 @@
     }
 
   });
+
+
+
 
 
 }());   
