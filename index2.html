@@ -12,8 +12,358 @@
             document.getElementsByTagName('html')[0].className = 'js';
           
         </script>
-<link href='style/main.css' type='text/css' rel='stylesheet'></link>
-</head>
+        <style>
+
+          html {
+            font-size: 62.5%;
+          }
+          body {
+            background-color: #222;
+            color: #eee;
+          }
+
+          .fake-json {
+            display: block;
+            max-width: 700px;
+            margin: 0 auto;
+          }
+
+          .fake-json h1,
+          .fake-json h2,
+          .fake-json dl,
+          .fake-json dt,
+          .fake-json dd,
+          .fake-json ol,
+          .fake-json li,
+          .fake-json a,
+          .fake-json b {
+            font-family: courier;
+            font-size: 1.4rem;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 1.3;
+            text-indent: 0;
+            display: inline;
+          }
+
+
+          .fake-json a:link,
+          .fake-json a:visited {
+            color: #bdf;
+            text-decoration: none;
+          }
+
+          .fake-json a:hover {
+            text-decoration: underline;
+          }
+
+          .fake-json h1 {
+            display: block;
+            margin-bottom: 2rem;
+            line-height: 1.2;
+          }
+
+          .fake-json h1 span {
+            display: none;
+          }
+
+
+          .fake-json h1:after {
+            content: attr(data-large);
+            white-space: pre;
+          }
+
+          @media only screen and (max-width: 720px) {
+            .fake-json h1:after {
+              content: attr(data-medium);
+            }
+          }
+
+          @media only screen and (max-width: 480px) {
+            .fake-json h1:after {
+              content: attr(data-small);
+            }
+          }
+
+          .fake-json h2:after {
+            content: ' = ';
+          }
+
+          .fake-json dl,
+          .fake-json ol {
+            display: inline;
+          }
+
+          .fake-json dl:before {
+            content: '{\a';
+            white-space: pre;
+          }
+
+          .fake-json h2 + dl:before {
+            content: '{\a\a';
+          }
+
+          .fake-json dl:after {
+            content: '}';
+          }
+
+          .fake-json ol:before {
+            content: '[\a';
+            white-space: pre;
+          }
+
+          .fake-json ol:after {
+            content: ']';
+          }
+
+
+          .fake-json dd dl:after,
+          .fake-json dd ol:after {
+            padding-left: 2rem;
+          }
+
+          .fake-json dt,
+          .fake-json dd {
+            display: inline;
+          }
+
+          .fake-json dt:before {
+            content: '"';
+          }
+
+          .fake-json dt.new-section:before {
+            content: '\a"';
+            white-space: pre;
+          }
+
+
+          .fake-json li:before {
+            content: '';
+          }
+
+          .fake-json dt:before,
+          .fake-json li:before {
+            display: inline-block;
+            padding-left: 2rem;
+          }
+
+          .fake-json dd li:before,
+          .fake-json li dt:before,
+          .fake-json dd dt:before,
+          .fake-json li li:before {
+            display: inline-block;
+            padding-left: 4rem;
+          }
+
+          .fake-json dt:after {
+            content: '": ';
+          }
+
+         /* .fake-json dd:before {
+            content: ': ';
+          }*/
+
+          .fake-json dd>span:before,
+          .fake-json li>span:before,
+          .fake-json dd>span:after,
+          .fake-json li>span:after {
+            content: '"';
+          }
+
+          .fake-json dd:after,
+          .fake-json li:after  {
+            content: ',\a';
+            white-space: pre;
+          }
+
+          
+
+          .fake-json dd:last-child:after,
+          .fake-json li:last-child:after  {
+            content: '\a';
+            white-space: pre;
+          }
+
+          .fake-json dd .one-line:after {
+            padding-left: 0;
+          }
+
+          .fake-json .one-line li:after {
+            content: ',';
+          }
+
+          .fake-json .one-line:before {
+            content: '[';
+            white-space: pre;
+          }
+
+          .fake-json .one-line li:after {
+            content: ', ';
+          }
+
+          .fake-json .one-line li:last-child:after {
+            content: '';
+          }
+
+          .fake-json .one-line li:before {
+            display: none;
+          }
+
+          .fake-json dt,
+          .fake-json dd ol,
+          .fake-json dd dl,
+          .fake-json dd:after,
+          .fake-json li:after,
+          .fake-json .plain {
+            color: #eee;
+          }
+
+          .fake-json dd,
+          .fake-json li {
+            color: #8f8;
+          }
+
+          .fake-json dd>span,
+          .fake-json li>span {
+            color: #ff8;
+          }
+
+          .fake-json .operator {
+            color: #f8f;
+          }
+
+          .fake-json .accordion > li {
+            display: block;
+          }          
+          .fake-json .accordion > li:after {
+            display: none;
+          }
+
+          .fake-json .accordion > li >span:before {
+            color: #bdf;
+          }
+          .fake-json .accordion > li >span>a:after {
+            content: '"';
+            color: #bdf;
+          }
+          .fake-json .accordion > li >span>a:hover:after {
+            text-decoration: none;
+          }
+          .fake-json .accordion > li >span:after {
+            content: ',';
+            color: #eee;
+            opacity: 1;
+            transition: opacity 0.5s;
+          }
+
+
+          .fake-json .accordion > .expanded > span:after {
+             opacity: 0;
+          }
+
+          .js .fake-json .accordion .content {
+            display: block;
+            height: auto;
+            max-height: 0;
+            overflow: hidden;
+            box-sizing: border-box;
+            width: auto;
+          /*  width: 0;*/
+            border-radius: 0.5rem;
+            box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
+            background: #181818;
+            padding: 0 1.5rem;
+            margin: 0 0 0 4rem;
+            opacity: 0;
+            transition-property: max-height, padding, margin, opacity;
+            transition-duration: 0.5s;
+          }
+
+          .no-js .fake-json .accordion .content,
+          .js .fake-json .accordion .expanded .content {
+            
+            max-height: 50rem;
+            margin: 1rem 1rem 1rem 4rem;
+            padding: 1.5rem 1.5rem;
+            
+            opacity: 1;
+            
+            
+          }
+
+          .js .fake-json .accordion .expanded:after {
+            display: none;
+          }
+
+
+
+          .js .fake-json .accordion .content img {
+            float: left;
+            margin-top: -2rem;
+          }
+
+          .js .fake-json .accordion .content p,
+          .js .fake-json .accordion .content h2,
+          .js .fake-json .accordion .content ul {
+            margin-left: 15.5rem;
+            display: block;
+          }
+
+          @media only screen and (max-width: 480px) {
+            .js .fake-json .accordion .content img {
+              display: none;
+            }
+
+            .js .fake-json .accordion .content p,
+            .js .fake-json .accordion .content h2,
+            .js .fake-json .accordion .content ul {
+              margin-left: 0;
+            }
+          }
+
+         
+          
+          .fake-json .accordion .content p {
+            margin: 0;
+          }
+          .fake-json .accordion .content ul {
+            padding: 0;
+          }
+
+          .fake-json .accordion .content h2:after {
+            display: none;
+          }
+          .fake-json .accordion .content li {
+            display: block;
+            padding-left: 1.6rem;
+            text-indent: -1.6rem;
+          }
+          .fake-json .accordion .content li:before {
+            content: ' - ';
+            display: inline;
+            padding: 0;
+          }
+          .fake-json .accordion .content li:after {
+            display: none;
+          }
+
+          .fake-json .accordion .content:after {
+            clear:left;
+          }
+
+          .fake-json .accordion .content strong {
+            color: #22AA33;
+            font-weight: normal;
+          }
+
+
+
+
+
+        </style>
+    </head>
     <body>
 
   <div class='fake-json'>
@@ -182,7 +532,108 @@
   <dt>contact</dt><dd><a href='http://www.linkedin.com/profile/view?id=122443382'>linkedin</a></dd>
 </dl>
 </div>
-<script src='src/main.js'></script>
+<script>
+(function () {
+
+  // carry out formatting for js operators and other symbols
+  var nonStrings = document.querySelectorAll('.fake-json dd, .fake-json li');
+
+  nonStrings = Array.prototype.filter.call(nonStrings, function (el) {
+    return !el.childElementCount;
+  });
+
+  nonStrings.forEach(function(el) {
+    el.innerHTML = el.innerHTML.replace(/(\sor\s|\sand\s|\(|\))/g, function ($0, $1) {
+      switch ($1) {
+        case ' or ' :
+          return ' <b class="operator">||</b> ';         
+        case ' and ' :
+          return ' <b class="operator">&&</b> ';
+        default :
+          return '<b class="plain">' + $1 + '</b>';
+      }
+    }) 
+  })
+
+  // auto increment version number
+  var age = document.getElementById('age');
+
+  age.innerHTML =  '0.' + ((new Date()).getFullYear() - 1981)/10;
+
+  // add listeners to show/hide portfolio panels
+  var container = document.querySelectorAll('.fake-json')[0],
+      portfolioLinks = document.querySelectorAll('.accordion>li>span>a'),
+      cloneLink = (function () {
+        // if (!!container.cloneNode) {
+        //   return function (el) {
+        //     return el.cloneNode();
+        //   }
+        // } else {
+          return function (el) {
+            var clone = document.createElement('a');
+            clone.setAttribute('href', el.href);
+            clone.textContent = el.textContent;
+            return clone;
+          }
+        // }
+        
+
+      }());
+      
+      //TODO - wrap the image in a link too
+  Array.prototype.forEach.call(portfolioLinks, function (el) {
+    var content = el.parentNode.nextElementSibling;
+
+    if (!content) {
+      return false;
+    }
+
+    var h2 = document.createElement('h2');
+
+    h2.appendChild(cloneLink(el));
+    var firstProperChild = (function () {
+      var child = content.firstChild;
+      while (child.nodeType === 3) {
+        child = child.nextSibling;
+      }
+      return child;
+    }())
+    content.insertBefore(h2, firstProperChild);
+  });
+
+  //download images 
+  var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+
+  if (screenWidth > 480) {
+    var images = document.getElementsByTagName('img');
+    Array.prototype.forEach.call(images, function (img) {
+      img.setAttribute('src', img.getAttribute('data-src'));
+    })
+  }
+
+  container.addEventListener('click', function (ev) {
+    if (ev.target.nodeName === 'A' && ev.target.parentNode.parentNode.parentNode.className.indexOf('accordion') > -1) {
+      var open = container.querySelectorAll('.expanded');
+
+      if (open.length && open[0] !== ev.target.parentNode.parentNode) {
+        open[0].className = '';
+      }
+      ev.target.parentNode.parentNode.className = (ev.target.parentNode.parentNode.className === 'expanded') ? '' : 'expanded';
+      ev.cancelBubble = true;
+      ev.preventDefault();
+      ev.stopPropagation();
+      return false;
+    }
+
+  });
+
+
+
+
+
+}());   
+</script>
+
   <script type="text/javascript">//<![CDATA[
   // Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
   var _gaq = _gaq || [];
