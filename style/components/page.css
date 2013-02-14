@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+.fake-json h1 {
+  display: block;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.fake-json h1 span {
+  display: none;
+}
+
+
+.fake-json h1:after {
+  content: attr(data-large);
+  white-space: pre;
+}
+
+@media only screen and (max-width: 720px) {
+  .fake-json h1:after {
+    content: attr(data-medium);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .fake-json h1:after {
+    content: attr(data-small);
+  }
+}

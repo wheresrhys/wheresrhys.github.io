@@ -21,6 +21,10 @@ module.exports = function(grunt) {
       dev: {
         src: ['templates/header.html', 'templates/dev/style.html', 'templates/body.html', 'templates/dev/script.html', 'templates/foot.html'],
         dest: 'index.html'
+      },
+      css: {
+         src: 'style/components/*.css',
+        dest: 'style/main.css'
       }
     },
     min: {
@@ -35,7 +39,16 @@ module.exports = function(grunt) {
         dest: 'dist/main.css'
       }
     },
-
+    watch: {
+      templates: {
+        files: 'templates/**/*.html',
+        tasks: ['concat:dev']
+      },
+      styles: {
+        files: 'style/components/*.css',
+        tasks: ['concat:css']
+      }
+    },
 
 
     htmlcompressor: {

@@ -1,0 +1,125 @@
+
+
+.fake-json .accordion > li {
+  display: block;
+}          
+.fake-json .accordion > li:after {
+  display: none;
+}
+
+.fake-json .accordion > li >span:before {
+  color: #bdf;
+}
+.fake-json .accordion > li >span>a:after {
+  content: '"';
+  color: #bdf;
+}
+.fake-json .accordion > li >span>a:hover:after {
+  text-decoration: none;
+}
+.fake-json .accordion > li >span:after {
+  content: ',';
+  color: #eee;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+
+.fake-json .accordion > .expanded > span:after {
+   opacity: 0;
+}
+
+.js .fake-json .accordion .content {
+  display: block;
+  height: auto;
+  max-height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: auto;
+/*  width: 0;*/
+  border-radius: 0.5rem;
+  box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
+  background: #181818;
+  padding: 0 1.5rem;
+  margin: 0 0 0 4rem;
+  opacity: 0;
+  transition-property: max-height, padding, margin, opacity;
+  transition-duration: 0.5s;
+}
+
+.no-js .fake-json .accordion .content,
+.js .fake-json .accordion .expanded .content {
+  
+  max-height: 50rem;
+  margin: 1rem 1rem 1rem 4rem;
+  padding: 1.5rem 1.5rem;
+  
+  opacity: 1;
+  
+  
+}
+
+.js .fake-json .accordion .expanded:after {
+  display: none;
+}
+
+
+
+.js .fake-json .accordion .content img {
+  float: left;
+  margin-top: -2rem;
+}
+
+.js .fake-json .accordion .content p,
+.js .fake-json .accordion .content h2,
+.js .fake-json .accordion .content ul {
+  margin-left: 15.5rem;
+  display: block;
+}
+
+@media only screen and (max-width: 480px) {
+  .js .fake-json .accordion .content img {
+    display: none;
+  }
+
+  .js .fake-json .accordion .content p,
+  .js .fake-json .accordion .content h2,
+  .js .fake-json .accordion .content ul {
+    margin-left: 0;
+  }
+}
+
+
+
+.fake-json .accordion .content p {
+  margin: 0;
+}
+.fake-json .accordion .content ul {
+  padding: 0;
+}
+
+.fake-json .accordion .content h2:after {
+  display: none;
+}
+.fake-json .accordion .content li {
+  display: block;
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+}
+.fake-json .accordion .content li:before {
+  content: ' - ';
+  display: inline;
+  padding: 0;
+}
+.fake-json .accordion .content li:after {
+  display: none;
+}
+
+.fake-json .accordion .content:after {
+  clear:left;
+}
+
+.fake-json .accordion .content strong {
+  color: #22AA33;
+  font-weight: normal;
+}
