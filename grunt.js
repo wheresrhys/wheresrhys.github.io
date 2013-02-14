@@ -5,7 +5,17 @@ module.exports = function(grunt) {
   grunt.initConfig({
     concat: {
       prod: {
-        src: ['templates/header.html', '<file_strip_banner:src/<%= pkg.name %>.js>'],
+        src: [
+          'templates/header.html',
+          'templates/prod/style-start.html',
+          'dist/main.css',
+          'templates/prod/style-end.html',
+          'templates/body.html',
+          'templates/prod/script-start.html',
+          'dist/main.js',
+          'templates/prod/script-end.html',
+          'templates/foot.html'
+        ],
         dest: 'dist/index.html'
       },
       dev: {
@@ -14,28 +24,33 @@ module.exports = function(grunt) {
       }
     },
     min: {
-      dist: {
-        src: ['<banner:meta.banner>', '<config:concat.dist.dest>'],
-        dest: 'dist/jquery.<%= pkg.name %>.min.js'
+      def: {
+        src: 'src/main.js',
+        dest: 'dist/main.js'
       }
     },
-    qunit: {
-      urls: {
-        src: '1.5,1.6,1.7,1.8.0,1.9.0,git'.split(',').map(function(v) { 
-          return 'http://localhost:9001/test/defer.html?jquery=' + v; 
-        })
+    cssmin: {
+      def: {
+        src: 'style/main.css',
+        dest: 'dist/main.css'
       }
     },
-    server: {
-      port: 9001,
-      base: '.'
+
+
+
+    htmlcompressor: {
+      compile: {
+        files: {
+          'dest/index.html': 'dest/index.html'
+        },
+        options: {
+          type: 'html',
+          preserveServerScript: true
+        }
+      }
     },
     lint: {
       files: ['grunt.js', 'src/**/*.js', 'test/**/*.js']
-    },
-    watch: {
-      files: '<config:lint.files>',
-      tasks: 'lint qunit'
     },
     jshint: {
       options: {
@@ -57,11 +72,12 @@ module.exports = function(grunt) {
     },
     uglify: {}
   });
-
+  grunt.loadNpmTasks('grunt-css');
+  //grunt.loadNpmTasks('grunt-htmlcompressor');
   // Default task.
-  grunt.registerTask('buildProd', 'min cssmin concat:prod');
+  grunt.registerTask('buildProd', 'min cssmin:def concat:prod');// htmlcompressor');
   grunt.registerTask('buildDev', 'concat:dev');
-
+  grunt.registerTask('build', 'buildDev buildProd');
 };
 
 // module.exports = function (grunt) {
