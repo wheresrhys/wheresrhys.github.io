@@ -1,49 +1,10 @@
 
-
-
-.fake-json {
-  display: block;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.fake-json h1,
-.fake-json h2,
-.fake-json dl,
-.fake-json dt,
-.fake-json dd,
-.fake-json ol,
-.fake-json li,
-.fake-json a,
-.fake-json b {
-  font-family: courier;
-  font-size: 1.4rem;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  line-height: 1.3;
-  text-indent: 0;
-  display: inline;
-}
-
-
-.fake-json a:link,
-.fake-json a:visited {
-  color: #bdf;
-  text-decoration: none;
-}
-
-.fake-json a:hover {
-  text-decoration: underline;
-}
-
-
-
+/* Beginning the json */
 .fake-json h2:after {
   content: ' = ';
 }
 
+/* objects and arrays */
 .fake-json dl,
 .fake-json ol {
   display: inline;
@@ -54,6 +15,7 @@
   white-space: pre;
 }
 
+/* leave an extra space at the top of the json*/
 .fake-json h2 + dl:before {
   content: '{\a\a';
 }
@@ -185,5 +147,17 @@
 
 .fake-json .operator {
   color: #f8f;
+}
+
+
+
+.fake-json a:link,
+.fake-json a:visited {
+  color: #bdf;
+  text-decoration: none;
+}
+
+.fake-json a:hover {
+  text-decoration: underline;
 }
  
