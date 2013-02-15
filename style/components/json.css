@@ -54,10 +54,10 @@
   display: none;
 }
 .fake-json .one-line li:after {
-  content: '';
+  content: ', ';
 }
 .fake-json .one-line li:last-child:after {
-  content: ',';
+  content: '';
 }
 .fake-json dd dl:after,
 .fake-json dd ol:after {
@@ -114,4 +114,29 @@
 }
 .fake-json a:hover {
   text-decoration: underline;
+}
+.fake-json .links li > span:before,
+.fake-json .links dd > span:before,
+.fake-json .link > span:before,
+.fake-json .link > span:before {
+  color: #bdf;
+}
+.fake-json .links li > span:after,
+.fake-json .links dd > span:after,
+.fake-json .link > span:after,
+.fake-json .link > span:after {
+  display: none;
+}
+.fake-json .links li > span > a:after,
+.fake-json .links dd > span > a:after,
+.fake-json .link > span > a:after,
+.fake-json .link > span > a:after {
+  content: '"';
+  color: #bdf;
+}
+.fake-json .links li span >a:hover:after,
+.fake-json .links dd span >a:hover:after,
+.fake-json .link span >a:hover:after,
+.fake-json .link span >a:hover:after {
+  text-decoration: none;
 }

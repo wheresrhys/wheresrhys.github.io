@@ -24,7 +24,7 @@ module.exports = function(grunt) {
       },
       css: {
         src: 'style/components/*.css',
-        dest: 'style/main.css'
+        dest: 'dist/main.css'
       }
     },
     min: {
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     },
     cssmin: {
       def: {
-        src: 'style/components/*.css',
+        src: 'dist/main.css',
         dest: 'dist/main.css'
       }
     },
@@ -124,7 +124,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-css');
   //grunt.loadNpmTasks('grunt-htmlcompressor');
   // Default task.
-  grunt.registerTask('buildProd', 'min cssmin:def concat:prod');// htmlcompressor');
+  grunt.registerTask('buildProd', 'min concat:css cssmin:def concat:prod');// htmlcompressor');
   grunt.registerTask('buildDev', 'concat:dev');
   grunt.registerTask('build', 'buildDev buildProd');
 };

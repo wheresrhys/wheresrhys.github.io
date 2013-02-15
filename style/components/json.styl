@@ -65,10 +65,10 @@
     display none
 
   .one-line li:after
-    content ''
+    content ', '
 
   .one-line li:last-child:after
-    content ','
+    content ''
 
 
   // Indentation
@@ -134,3 +134,17 @@
 
   a:hover
     text-decoration underline
+
+  .links li
+  .links dd
+  .link
+  .link
+    > span:before
+      color: link
+    > span:after
+      display: none
+    > span > a:after
+      content: '"'
+      color: link
+    span >a:hover:after
+      text-decoration: none

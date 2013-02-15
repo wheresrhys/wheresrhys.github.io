@@ -9,6 +9,23 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .fake-json dd dl:after,
+  .fake-json dd ol:after {
+    padding-left: 1rem;
+  }
+  .fake-json dt:before,
+  .fake-json li:before {
+    padding-left: 1rem;
+  }
+  .fake-json dd li:before,
+  .fake-json li dt:before,
+  .fake-json dd dt:before,
+  .fake-json li li:before {
+    padding-left: 2rem;
+  }
+  .js .fake-json .accordion .content {
+    margin: 0 1rem;
+  }
   .js .fake-json .accordion .content img {
     display: none;
   }
@@ -16,5 +33,8 @@
   .js .fake-json .accordion .content h2,
   .js .fake-json .accordion .content ul {
     margin-left: 0;
+  }
+  .js .fake-json .accordion .expanded .content {
+    margin: 1rem;
   }
 }

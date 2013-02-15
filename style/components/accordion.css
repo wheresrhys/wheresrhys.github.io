@@ -4,20 +4,8 @@
 .fake-json .accordion > li:after {
   display: none;
 }
-.fake-json .accordion > li > span:before {
-  color: #bdf;
-}
-.fake-json .accordion > li > span >a:after {
-  content: '"';
-  color: #bdf;
-}
-.fake-json .accordion > li > span >a:hover:after {
-  text-decoration: none;
-}
-.no-js .fake-json .accordion > li > span:after {
-  display: none;
-}
 .js .fake-json .accordion > li >span:after {
+  display: inline;
   content: ',';
   color: #eee;
   opacity: 1;
@@ -40,7 +28,7 @@
   box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
   background: #181818;
   padding: 0 1.5rem;
-  margin: 0 0 0 4rem;
+  margin: 0 1rem 0 4rem;
 }
 .fake-json .accordion .content p {
   margin: 0;
@@ -64,12 +52,12 @@
 .fake-json .accordion .content li:after {
   display: none;
 }
-.fake-json .accordion .content:after {
-  clear: left;
-}
 .fake-json .accordion .content strong {
   color: #2a3;
   font-weight: normal;
+}
+.fake-json .accordion .content:after {
+  clear: left;
 }
 .js .fake-json .accordion .content {
   opacity: 0;

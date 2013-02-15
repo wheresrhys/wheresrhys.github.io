@@ -8,11 +8,33 @@
 
 
 @media only screen and (max-width: 480px)
-  .js .fake-json .accordion 
-    .content img
+
+  .fake-json 
+    // Indentation
+    dd dl:after,
+    dd ol:after
+      padding-left 1rem
+
+    dt:before,
+    li:before
+      padding-left 1rem
+
+    dd li:before,
+    li dt:before,
+    dd dt:before,
+    li li:before 
+      padding-left 2rem
+
+  .js .fake-json .accordion .content 
+    margin: 0 1rem
+
+    img
       display: none
 
-    .content p,
-    .content h2,
-    .content ul
+    p,
+    h2,
+    ul
       margin-left: 0
+
+  .js .fake-json .accordion .expanded .content
+    margin: 1rem
