@@ -1,0 +1,115 @@
+@import 'colours'
+
+.fake-json .accordion 
+
+  // basic display of closed accordion items
+  > li
+    display: block
+
+  > li:after
+    display: none
+
+  > li > span:before
+    color: link
+
+  > li > span >a:after
+    content: '"'
+    color: link
+
+  > li > span >a:hover:after
+    text-decoration: none
+
+
+.no-js .fake-json .accordion 
+  > li > span:after
+    display: none
+
+.js .fake-json .accordion 
+
+  > li >span:after
+    content: ','
+    color: default
+    opacity: 1
+    transition: opacity 0.5s
+
+  > li:last-child >span:after
+    display: none
+
+  > .expanded > span:after
+    opacity: 0
+
+
+// content styling
+.fake-json .accordion
+  .content
+    display: block
+    height: auto
+    max-height: 0
+    overflow: hidden
+    box-sizing: border-box
+    width: auto
+    border-radius: 0.5rem
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1)
+    background: #181818
+    padding: 0 1.5rem
+    margin: 0 0 0 4rem
+
+  .content p
+    margin: 0
+
+  .content ul
+    padding: 0
+
+  .content h2:after
+    display: none
+
+  .content li
+    display: block
+    padding-left: 1.6rem
+    text-indent: -1.6rem
+
+  .content li:before
+    content: ' - '
+    display: inline
+    padding: 0
+
+  .content li:after
+    display: none
+
+  .content:after
+    clear: left
+
+  .content strong
+    color: emphasis
+    font-weight: normal
+
+// closed and open state of accordion
+.js .fake-json .accordion .content
+  opacity: 0
+  transition-property: max-height, padding, margin, opacity
+  transition-duration: 0.5s  
+
+.no-js .fake-json .accordion .content,
+.js .fake-json .accordion .expanded .content
+  max-height: 50rem
+  margin: 1rem 1rem 1rem 4rem
+  padding: 1.5rem 1.5rem
+  opacity: 1
+
+
+// layout for content with images loaded
+.js .fake-json .accordion 
+  .content img
+    float: left
+    margin-top: -2rem
+
+  .content p,
+  .content h2,
+  .content ul
+    margin-left: 15.5rem
+    display: block
+
+
+
+
+

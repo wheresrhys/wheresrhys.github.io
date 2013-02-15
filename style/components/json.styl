@@ -1,0 +1,136 @@
+@import 'colours'
+
+.fake-json
+  // LAYOUT
+
+  // start the json
+  h2:after
+    content ' = '
+
+  // Arrays and objects
+  dl
+  ol
+    display inline
+
+  dl:before
+    content '{\a'
+    white-space pre
+
+  dl:after
+    content '}'
+
+  ol:before
+    content '[\a'
+    white-space pre
+
+  ol:after
+    content ']'
+
+
+  // entries in arrays/objects
+  dt
+  dd
+    display inline
+    margin 0
+
+  dt:before
+    content '"'
+
+  li:before
+    content ''
+
+  dt:after
+    content '": '
+
+  dd:after,
+  li:after
+    content ',\a'
+    white-space pre
+
+  dd:last-child:after,
+  li:last-child:after
+    content '\a'
+    white-space pre
+
+
+  //single line arrays
+  .one-line:after
+    padding-left 0
+
+  .one-line:before
+    content '['
+    white-space pre
+
+  .one-line li:before
+    display none
+
+  .one-line li:after
+    content ''
+
+  .one-line li:last-child:after
+    content ','
+
+
+  // Indentation
+  dd dl:after,
+  dd ol:after
+    padding-left 2rem
+
+  dt:before,
+  li:before
+    display inline-block
+    padding-left 2rem
+
+  dd li:before,
+  li dt:before,
+  dd dt:before,
+  li li:before 
+    display inline-block
+    padding-left 4rem
+
+
+  // leave extra space after opening of json and at selected intervals
+  h2 + dl:before
+    content '{\a\a'
+
+  dt.new-section:before
+    content '\a"'
+    white-space pre
+
+  // CONTENT STYLING  
+
+  // generic
+  dt,
+  dd ol,
+  dd dl,
+  dd:after,
+  li:after,
+  .plain
+    color default 
+
+  dd
+  li
+    color variable
+
+  .operator
+    color operator
+ 
+  // Strings
+  dd>span:before,
+  li>span:before,
+  dd>span:after,
+  li>span:after
+    content '"'
+
+  dd>span,
+  li>span
+    color string
+
+  //links
+  a:link,
+  a:visited
+    color link
+    text-decoration none
+
+  a:hover
+    text-decoration underline

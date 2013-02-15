@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         dest: 'index.html'
       },
       css: {
-         src: 'style/components/*.css',
+        src: 'style/components/*.css',
         dest: 'style/main.css'
       }
     },
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     },
     cssmin: {
       def: {
-        src: 'style/main.css',
+        src: 'style/components/*.css',
         dest: 'dist/main.css'
       }
     },
@@ -44,9 +44,45 @@ module.exports = function(grunt) {
         files: 'templates/**/*.html',
         tasks: ['concat:dev']
       },
-      styles: {
-        files: 'style/components/*.css',
-        tasks: ['concat:css']
+      // styluses: {
+      //   files: 'style/components/*.styl',
+      //   tasks: ['shell:stylus']
+      // },
+      // styles: {
+      //   files: 'style/components/*.css',
+      //   tasks: ['concat:css']
+      // }
+    },
+    shell: {
+      // updateEnvironment: {
+      //   command: 'svn update package.json && npm install -d && svn update ../'
+      // },
+      // savePackageToSVN: {
+      //   command: 'svn commit package.json -m "Dev server build completed"'
+      // },
+      // removeBuildFolder: {
+      //   command: 'rm -rf build'
+      // },
+      // emptyDev: {
+      //   command: 'rm -rf ../../dev && mkdir ../../dev'
+      // },
+      // emptyQa: {
+      //   command: 'rm -rf ../../qa && mkdir ../../qa'
+      // },
+      // emptyStage: {
+      //   command: 'rm -rf ../../stage && mkdir ../../stage'
+      // },
+      // copyBuildToDev: {
+      //   command: 'cp -r build*/* ../../dev'
+      // },
+      // copyDevToQA: {
+      //   command: 'cp -r ../../dev/* ../../qa'
+      // },
+      // copyQAToStage: {
+      //   command: 'cp -r ../../qa/* ../../stage'
+      // },
+      stylus: {
+        command: 'stylus package/assets/css/master.styl -u ./node_modules/nib/lib/nib -c'
       }
     },
 

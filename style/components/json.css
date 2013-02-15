@@ -1,69 +1,73 @@
-
-/* Beginning the json */
 .fake-json h2:after {
   content: ' = ';
 }
-
-/* objects and arrays */
 .fake-json dl,
 .fake-json ol {
   display: inline;
 }
-
 .fake-json dl:before {
   content: '{\a';
   white-space: pre;
 }
-
-/* leave an extra space at the top of the json*/
-.fake-json h2 + dl:before {
-  content: '{\a\a';
-}
-
 .fake-json dl:after {
   content: '}';
 }
-
 .fake-json ol:before {
   content: '[\a';
   white-space: pre;
 }
-
 .fake-json ol:after {
   content: ']';
 }
-
-
+.fake-json dt,
+.fake-json dd {
+  display: inline;
+  margin: 0;
+}
+.fake-json dt:before {
+  content: '"';
+}
+.fake-json li:before {
+  content: '';
+}
+.fake-json dt:after {
+  content: '": ';
+}
+.fake-json dd:after,
+.fake-json li:after {
+  content: ',\a';
+  white-space: pre;
+}
+.fake-json dd:last-child:after,
+.fake-json li:last-child:after {
+  content: '\a';
+  white-space: pre;
+}
+.fake-json .one-line:after {
+  padding-left: 0;
+}
+.fake-json .one-line:before {
+  content: '[';
+  white-space: pre;
+}
+.fake-json .one-line li:before {
+  display: none;
+}
+.fake-json .one-line li:after {
+  content: '';
+}
+.fake-json .one-line li:last-child:after {
+  content: ',';
+}
 .fake-json dd dl:after,
 .fake-json dd ol:after {
   padding-left: 2rem;
 }
-
-.fake-json dt,
-.fake-json dd {
-  display: inline;
-}
-
-.fake-json dt:before {
-  content: '"';
-}
-
-.fake-json dt.new-section:before {
-  content: '\a"';
-  white-space: pre;
-}
-
-
-.fake-json li:before {
-  content: '';
-}
-
 .fake-json dt:before,
 .fake-json li:before {
   display: inline-block;
   padding-left: 2rem;
 }
-
 .fake-json dd li:before,
 .fake-json li dt:before,
 .fake-json dd dt:before,
@@ -71,61 +75,13 @@
   display: inline-block;
   padding-left: 4rem;
 }
-
-.fake-json dt:after {
-  content: '": ';
+.fake-json h2 + dl:before {
+  content: '{\a\a';
 }
-
-/* .fake-json dd:before {
-  content: ': ';
-}*/
-
-.fake-json dd>span:before,
-.fake-json li>span:before,
-.fake-json dd>span:after,
-.fake-json li>span:after {
-  content: '"';
-}
-
-.fake-json dd:after,
-.fake-json li:after  {
-  content: ',\a';
+.fake-json dt.new-section:before {
+  content: '\a"';
   white-space: pre;
 }
-
-
-
-.fake-json dd:last-child:after,
-.fake-json li:last-child:after  {
-  content: '\a';
-  white-space: pre;
-}
-
-.fake-json dd .one-line:after {
-  padding-left: 0;
-}
-
-.fake-json .one-line li:after {
-  content: ',';
-}
-
-.fake-json .one-line:before {
-  content: '[';
-  white-space: pre;
-}
-
-.fake-json .one-line li:after {
-  content: ', ';
-}
-
-.fake-json .one-line li:last-child:after {
-  content: '';
-}
-
-.fake-json .one-line li:before {
-  display: none;
-}
-
 .fake-json dt,
 .fake-json dd ol,
 .fake-json dd dl,
@@ -134,30 +90,28 @@
 .fake-json .plain {
   color: #eee;
 }
-
 .fake-json dd,
 .fake-json li {
   color: #8f8;
 }
-
+.fake-json .operator {
+  color: #f8f;
+}
+.fake-json dd>span:before,
+.fake-json li>span:before,
+.fake-json dd>span:after,
+.fake-json li>span:after {
+  content: '"';
+}
 .fake-json dd>span,
 .fake-json li>span {
   color: #ff8;
 }
-
-.fake-json .operator {
-  color: #f8f;
-}
-
-
-
 .fake-json a:link,
 .fake-json a:visited {
   color: #bdf;
   text-decoration: none;
 }
-
 .fake-json a:hover {
   text-decoration: underline;
 }
- 
