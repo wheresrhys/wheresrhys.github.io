@@ -40,17 +40,17 @@
     content ''
 
   dt:after
-    content '": '
+    content '":\00a0'
 
   dd:after,
   li:after
     content ',\a'
-    white-space pre
+    white-space pre-wrap
 
   dd:last-child:after,
   li:last-child:after
     content '\a'
-    white-space pre
+    white-space pre-wrap
 
 
   //single line arrays
@@ -65,7 +65,7 @@
     display none
 
   .one-line li:after
-    content ', '
+    content ',\00a0'
 
   .one-line li:last-child:after
     content ''

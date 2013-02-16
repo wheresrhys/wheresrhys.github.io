@@ -2,14 +2,18 @@
   .fake-json h1:after
     content: attr(data-medium)
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 420px)
   .fake-json h1:after
     content: attr(data-small) 
 
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-device-width: 320px)
 
   .fake-json 
+    // -webkit-hyphens: auto;
+    // -moz-hyphens: auto;
+    // hyphens: auto;
+
     // Indentation
     dd dl:after,
     dd ol:after

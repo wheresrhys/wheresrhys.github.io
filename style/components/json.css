@@ -31,17 +31,17 @@
   content: '';
 }
 .fake-json dt:after {
-  content: '": ';
+  content: '":\00a0';
 }
 .fake-json dd:after,
 .fake-json li:after {
   content: ',\a';
-  white-space: pre;
+  white-space: pre-wrap;
 }
 .fake-json dd:last-child:after,
 .fake-json li:last-child:after {
   content: '\a';
-  white-space: pre;
+  white-space: pre-wrap;
 }
 .fake-json .one-line:after {
   padding-left: 0;
@@ -54,7 +54,7 @@
   display: none;
 }
 .fake-json .one-line li:after {
-  content: ', ';
+  content: ',\00a0';
 }
 .fake-json .one-line li:last-child:after {
   content: '';
