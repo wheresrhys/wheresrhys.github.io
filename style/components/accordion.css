@@ -61,6 +61,12 @@
 }
 .js .fake-json .accordion .content {
   opacity: 0;
+  -ms-transition-property: max-height, padding, margin, opacity;
+  -ms-transition-duration: 0.5s;
+  -o-transition-property: max-height, padding, margin, opacity;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-property: max-height, padding, margin, opacity;
+  -webkit-transition-duration: 0.5s;
   transition-property: max-height, padding, margin, opacity;
   transition-duration: 0.5s;
 }
