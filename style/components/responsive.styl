@@ -21,30 +21,35 @@
       font-size: 1.3rem
 
     // Indentation
-    dd dl:after,
-    dd ol:after
-      padding-left 1rem
+    dd 
+      dl,
+      ol
+        &:after
+          padding-left 1rem
 
-    dt:before,
-    li:before
-      padding-left 1rem
+    dt,
+    li
+      &:before
+        padding-left 1rem
 
-    dd li:before,
-    li dt:before,
-    dd dt:before,
-    li li:before 
-      padding-left 2rem
+    dd,
+    li
+      dt,
+      li
+        &:before
+        padding-left 2rem
 
-  .js .fake-json .accordion .content 
-    margin: 0 1rem
+  .js .fake-json .accordion 
+    .content 
+      margin: 0 1rem
 
-    img
-      display: none
+      img
+        display: none
 
-    p,
-    h2,
-    ul
-      margin-left: 0
+      p,
+      h2,
+      ul
+        margin-left: 0
 
-  .js .fake-json .accordion .expanded .content
-    margin: 1rem
+    .expanded .content
+      margin: 1rem

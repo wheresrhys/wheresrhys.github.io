@@ -41,7 +41,6 @@
 .fake-json dd:last-child:after,
 .fake-json li:last-child:after {
   content: '\a';
-  white-space: pre-wrap;
 }
 .fake-json .one-line:after {
   padding-left: 0;
@@ -68,9 +67,9 @@
   display: inline-block;
   padding-left: 2rem;
 }
-.fake-json dd li:before,
-.fake-json li dt:before,
 .fake-json dd dt:before,
+.fake-json li dt:before,
+.fake-json dd li:before,
 .fake-json li li:before {
   display: inline-block;
   padding-left: 4rem;
@@ -90,22 +89,22 @@
 .fake-json .plain {
   color: #eee;
 }
+.fake-json .operator {
+  color: #f8f;
+}
 .fake-json dd,
 .fake-json li {
   color: #8f8;
 }
-.fake-json .operator {
-  color: #f8f;
-}
-.fake-json dd>span:before,
-.fake-json li>span:before,
-.fake-json dd>span:after,
-.fake-json li>span:after {
-  content: '"';
-}
-.fake-json dd>span,
-.fake-json li>span {
+.fake-json dd >span,
+.fake-json li >span {
   color: #ff8;
+}
+.fake-json dd >span:before,
+.fake-json li >span:before,
+.fake-json dd >span:after,
+.fake-json li >span:after {
+  content: '"';
 }
 .fake-json a:link,
 .fake-json a:visited {
@@ -117,26 +116,22 @@
 }
 .fake-json .links li > span:before,
 .fake-json .links dd > span:before,
-.fake-json .link > span:before,
 .fake-json .link > span:before {
   color: #bdf;
 }
 .fake-json .links li > span:after,
 .fake-json .links dd > span:after,
-.fake-json .link > span:after,
 .fake-json .link > span:after {
   display: none;
 }
 .fake-json .links li > span > a:after,
 .fake-json .links dd > span > a:after,
-.fake-json .link > span > a:after,
 .fake-json .link > span > a:after {
   content: '"';
   color: #bdf;
 }
-.fake-json .links li span >a:hover:after,
-.fake-json .links dd span >a:hover:after,
-.fake-json .link span >a:hover:after,
-.fake-json .link span >a:hover:after {
+.fake-json .links li > span > a:hover:after,
+.fake-json .links dd > span > a:hover:after,
+.fake-json .link > span > a:hover:after {
   text-decoration: none;
 }

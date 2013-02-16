@@ -12,19 +12,21 @@
   ol
     display inline
 
-  dl:before
-    content '{\a'
-    white-space pre
+  dl
+    &:before
+      content '{\a'
+      white-space pre
 
-  dl:after
-    content '}'
+    &:after
+      content '}'
 
-  ol:before
-    content '[\a'
-    white-space pre
+  ol
+    &:before
+      content '[\a'
+      white-space pre
 
-  ol:after
-    content ']'
+    &:after
+      content ']'
 
 
   // entries in arrays/objects
@@ -37,56 +39,61 @@
     content '"'
 
   li:before
-    content ''
+    content '' // need this as padding is applied to :before not directly on li
 
   dt:after
     content '":\00a0'
 
-  dd:after,
-  li:after
-    content ',\a'
-    white-space pre-wrap
+  dd,
+  li
+    &:after
+      content ',\a'
+      white-space pre-wrap
 
-  dd:last-child:after,
-  li:last-child:after
-    content '\a'
-    white-space pre-wrap
+    &:last-child:after
+      content '\a'
 
 
   //single line arrays
-  .one-line:after
-    padding-left 0
+  .one-line
+    &:after
+      padding-left 0
 
-  .one-line:before
-    content '['
-    white-space pre
+    &:before
+      content '['
+      white-space pre
 
-  .one-line li:before
-    display none
+    li
+      &:before
+        display none
 
-  .one-line li:after
-    content ',\00a0'
+      &:after
+        content ',\00a0'
 
-  .one-line li:last-child:after
-    content ''
+      &:last-child:after
+        content ''
 
 
   // Indentation
-  dd dl:after,
-  dd ol:after
-    padding-left 2rem
+  dd 
+    dl,
+    ol
+      &:after
+        padding-left 2rem
 
-  dt:before,
-  li:before
-    display inline-block
-    padding-left 2rem
+  dt,
+  li
+    &:before
+      display inline-block
+      padding-left 2rem
 
-  dd li:before,
-  li dt:before,
-  dd dt:before,
-  li li:before 
-    display inline-block
-    padding-left 4rem
+  dd,
+  li
+    dt,
+    li
+      &:before
+        display inline-block
+        padding-left 4rem
 
 
   // leave extra space after opening of json and at selected intervals
@@ -108,23 +115,21 @@
   .plain
     color default 
 
+  .operator
+    color operator
+
   dd
   li
     color variable
 
-  .operator
-    color operator
- 
-  // Strings
-  dd>span:before,
-  li>span:before,
-  dd>span:after,
-  li>span:after
-    content '"'
+    // Strings
+    >span
+      color string
+      &:before,
+      &:after
+        content '"'
 
-  dd>span,
-  li>span
-    color string
+    
 
   //links
   a:link,
@@ -138,13 +143,14 @@
   .links li
   .links dd
   .link
-  .link
-    > span:before
-      color: link
-    > span:after
-      display: none
-    > span > a:after
-      content: '"'
-      color: link
-    span >a:hover:after
-      text-decoration: none
+    > span
+      &:before
+        color: link
+      &:after
+        display: none
+      > a
+        &:after
+          content: '"'
+          color: link
+        &:hover:after
+          text-decoration: none
