@@ -9,6 +9,16 @@
   }
 }
 @media only screen and (max-device-width: 320px) {
+  .fake-json h2,
+  .fake-json dl,
+  .fake-json dt,
+  .fake-json dd,
+  .fake-json ol,
+  .fake-json li,
+  .fake-json a,
+  .fake-json b {
+    font-size: 1.3rem;
+  }
   .fake-json dd dl:after,
   .fake-json dd ol:after {
     padding-left: 1rem;
