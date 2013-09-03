@@ -41,7 +41,7 @@
     padding: 0 1.5rem
     margin: 0 1rem 0 4rem
 
-    p
+    p 
       margin: 0
 
     ul
@@ -62,9 +62,16 @@
 
     li:after
       display: none
+
     strong
       color: emphasis
       font-weight: normal
+    
+    strong:before
+      content: '\00a0' 
+    
+    strong:after
+      content: '\00a0' 
       
   .content:after
     clear: left

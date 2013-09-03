@@ -56,6 +56,12 @@
   color: #2a3;
   font-weight: normal;
 }
+.fake-json .accordion .content strong:before {
+  content: '\00a0';
+}
+.fake-json .accordion .content strong:after {
+  content: '\00a0';
+}
 .fake-json .accordion .content:after {
   clear: left;
 }
