@@ -1,6 +1,6 @@
 module.exports = {
     dist: {
         src: 'src/main.js',
-        dest: 'dist/main.js'
+        dest: '_site/src/main.js'
     }
 };

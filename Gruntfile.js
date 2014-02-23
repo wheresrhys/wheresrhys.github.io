@@ -6,5 +6,5 @@ module.exports = function(grunt) {
     // Default task.
     grunt.registerTask('buildProd', ['sass:dist', 'uglify', 'htmlmin']);
     grunt.registerTask('buildDev', ['sass:dev']);
-    grunt.registerTask('default', ['buildDev', 'buildProd']);
+    grunt.registerTask('default', ['buildDev']);
 };
