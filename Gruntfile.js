@@ -4,7 +4,7 @@ module.exports = function(grunt) {
 
     require('load-grunt-config')(grunt);
     // Default task.
-    grunt.registerTask('buildProd', ['sass:dist', 'uglify', 'concat:prod', 'htmlmin']);
-    grunt.registerTask('buildDev', ['sass:dev', 'concat:dev']);
+    grunt.registerTask('buildProd', ['sass:dist', 'uglify', 'htmlmin']);
+    grunt.registerTask('buildDev', ['sass:dev']);
     grunt.registerTask('default', ['buildDev', 'buildProd']);
 };
