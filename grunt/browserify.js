@@ -1,18 +1,18 @@
 module.exports = {
     dev: {
         options: {
-            style: 'expanded'
+            debug: true
         },
         files: {
-            './main.css': './style/main.scss'
+            './main.js': './src/main.js'
         }
     },
     dist: {
         options: {
-            style: 'compressed'
+            debug: false
         },
         files: {
-            './_site/main.css': './style/main.scss'
+            './_site/main.js': './src/main.js'
         }
     }
 };
