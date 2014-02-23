@@ -1,0 +1,71 @@
+@media only screen and (max-width: 720px) {
+  .fake-json h1:after {
+    content: attr(data-medium)
+  }
+}
+@media only screen and (max-width: 420px) {
+  .fake-json h1:after {
+    content: attr(data-small) 
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+
+  .fake-json {
+    h2,
+    dl,
+    dt,
+    dd,
+    ol,
+    li {
+      font-size: 1.3rem
+    }
+
+    // Indentation
+    dd {
+      dl,
+      ol {
+        &:after {
+          padding-left: 1rem;
+        }
+      }
+    }
+
+    dt,
+    li {
+      &:before {
+        padding-left: 1rem;
+      }
+    }
+
+    dd,
+    li {
+      dt,
+      li {
+        &:before {
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
+
+  .js .fake-json .accordion {
+    .content {
+      margin: 0 1rem;
+
+      img {
+        display: none
+      }
+
+      p,
+      h2,
+      ul {
+        margin-left: 0
+      }
+    }
+
+    .expanded .content {
+      margin: 1rem;
+    }
+  }
+}
