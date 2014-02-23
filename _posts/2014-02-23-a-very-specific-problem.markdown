@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: post
 title:  "A very specific problem"
 date:   2014-02-23 11:18:34
 ---
-
-# 
 
 There are many things that are 'the' bane of a front-end developer's life. Many of these are a consequence of the fact we have to support an ever growing number of environments with increasing, rather than decreasing, variance in their adoption of given APIs. Even tough all browser vendor snow basically buy in to adopting and implementing the standards, it's still highly likely that a large chunk of our audience will always be running on legacy systems.
 
