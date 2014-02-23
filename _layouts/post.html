@@ -1,11 +1,11 @@
----
-layout: default
----
-<article  class="fake-json">
+{% include head.html %}
+<a href="/">Home</a>
+<article class="like-editor">
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div>
+<div class="content" >
 {{ content }}
 </div>
 </article>
+{% include foot.html %}

@@ -34,17 +34,17 @@
 // content styling
 .fake-json .accordion {
   .content {
+    @include contentBlock();
     display: block;
     height: auto;
     max-height: 0;
     overflow: hidden;
     box-sizing: border-box;
     width: auto;
-    border-radius: 0.5rem;
-    box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.1);
-    background: #181818;
     padding: 0 1.5rem;
     margin: 0 1rem 0 4rem;
+
+    
 
     p  {
       margin: 0;
