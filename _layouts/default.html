@@ -1,13 +1,4 @@
 {% include head.html %}
-    <nav>
-      <h2>Articles</h2>
-      <ul>
-        {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
     {{ content }}
-    <script src='/static/main.js'></script>
 {% include foot.html %}
 

@@ -3,3 +3,5 @@ markdown: redcarpet
 pygments: true
 exclude: ['node_modules', 'grunt', 'Gruntfile.js', 'wheresrhys.sublime-*', 'package.json', '*.scss']
 include: ['main.js', 'main.css']
+paginate: 1
+paginate_path: "articles/page:num"
