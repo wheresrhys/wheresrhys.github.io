@@ -1,13 +1,4 @@
-@media only screen and (max-width: 720px) {
-  header h1:after {
-    content: attr(data-medium)
-  }
-}
-@media only screen and (max-width: 420px) {
-  header h1:after {
-    content: attr(data-small) 
-  }
-}
+
 
 @media only screen and (max-device-width: 320px) {
 

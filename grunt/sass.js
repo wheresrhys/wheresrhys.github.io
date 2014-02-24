@@ -4,7 +4,7 @@ module.exports = {
             style: 'expanded'
         },
         files: {
-            './main.css': './style/main.scss'
+            './static/main.css': './style/main.scss'
         }
     },
     dist: {
@@ -12,7 +12,7 @@ module.exports = {
             style: 'compressed'
         },
         files: {
-            './_site/main.css': './style/main.scss'
+            './_site/static/main.css': './style/main.scss'
         }
     }
 };

@@ -1,6 +1,27 @@
-@import "colours";
+@import "utils";
 
 .fake-json {
+  
+  font-family: courier;
+
+  h2,
+  dl,
+  dt,
+  dd,
+  ol,
+  li,
+  p {
+
+    font-size: 1.4rem;
+    font-weight: normal;
+    padding: 0;
+    list-style: none;
+    line-height: 1.3;
+    text-indent: 0;
+    display: inline;
+    margin: 0;
+  }
+
   // LAYOUT
 
   // start the json

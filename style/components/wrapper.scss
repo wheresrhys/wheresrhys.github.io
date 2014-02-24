@@ -1,0 +1,76 @@
+@import "utils";
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background-color: #222;
+}
+body {
+  max-width: 700px;
+  color: $default;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  h1 {
+    font-size: 1.4rem;
+    font-family: courier;
+    font-weight: normal;
+    padding: 0;
+    margin: 0 0 2rem;
+    line-height: 1.2;
+
+    span {
+      font-size: 2rem;
+      text-indent: 1rem;
+      line-height: 2;
+      display: block;
+    }      
+    
+    &:before,
+    &:after {
+      font-size: 1.4rem;
+      display: block;
+    } 
+    &:before {
+      content: '\/\*';
+    }
+    &:after {
+      content: '*/';
+    }
+
+  }
+}
+
+@media only screen and (min-width: 290px) {
+  header h1 {
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0 0 2rem;
+    line-height: 1.2; 
+
+    span {
+      display: none;
+    }
+    &:before {
+      display: none;
+    }
+    &:after {
+      content: attr(data-small);
+      white-space: pre;
+    }  
+  }
+}
+@media only screen and (min-width: 430px) {
+  header h1:after {
+    content: attr(data-medium);
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  header h1:after {
+    content: attr(data-large);
+  }
+}

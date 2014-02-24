@@ -4,7 +4,7 @@ module.exports = {
             debug: true
         },
         files: {
-            './main.js': './src/main.js'
+            './static/main.js': './src/main.js'
         }
     },
     dist: {
@@ -12,7 +12,7 @@ module.exports = {
             debug: false
         },
         files: {
-            './_site/main.js': './src/main.js'
+            './_site/static/main.js': './src/main.js'
         }
     }
 };

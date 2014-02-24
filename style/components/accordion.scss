@@ -1,4 +1,4 @@
-@import "colours";
+@import "utils";
 
 .fake-json .accordion {
   // basic display of closed accordion items
@@ -35,6 +35,7 @@
 .fake-json .accordion {
   .content {
     @include contentBlock();
+    background: #181818;
     display: block;
     height: auto;
     max-height: 0;
