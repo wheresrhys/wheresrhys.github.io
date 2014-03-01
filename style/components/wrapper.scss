@@ -7,10 +7,10 @@ html {
   background-color: #222;
 }
 body {
-  max-width: 700px;
+  max-width: 750px;
   color: $default;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 1rem 3rem;
 }
 
 header {
@@ -44,7 +44,7 @@ header {
   }
 }
 
-@media only screen and (min-width: 290px) {
+@media only screen and (min-width: 300px) {
   header h1 {
     font-size: 1.4rem;
     padding: 0;
@@ -63,7 +63,8 @@ header {
     }  
   }
 }
-@media only screen and (min-width: 430px) {
+
+@media only screen and (min-width: 440px) {
   header h1:after {
     content: attr(data-medium);
   }

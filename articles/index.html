@@ -18,15 +18,8 @@ title: Wheresrhys
                 <div class="content" >
                 {{ post.content }}
                 </div>
+                {% include posts-nav.html %}
+
             </article>
         {% endfor %}
 
-    <nav>
-      <h2>More thoughts</h2>
-      <ul>
-        {% for post in site.posts %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-
-    </nav>

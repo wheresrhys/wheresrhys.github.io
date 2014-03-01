@@ -191,8 +191,9 @@
   }
 
   a:not([href]) {
+    color: $link;
     text-decoration: none;
-    cursor: default;
+    cursor: pointer;
   }
 
   .links li,
