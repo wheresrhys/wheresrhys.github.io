@@ -44,6 +44,32 @@ header {
   }
 }
 
+.top-nav,
+.posts-nav {
+    font-family: courier;
+    font-size: 1.4rem;
+}
+
+.top-nav,
+.posts-nav a {
+    color: $link;
+}
+
+.top-nav {
+    float: right;
+}
+
+.posts-nav ul,
+.posts-nav li {
+  list-style: none;
+  text-indent: none;
+}
+
+.posts-nav h2 {
+  font-weight: normal;
+  color: $string;
+}
+
 @media only screen and (min-width: 300px) {
   header h1 {
     font-size: 1.4rem;

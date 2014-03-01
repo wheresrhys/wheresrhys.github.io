@@ -1,5 +1,5 @@
 {% include head.html %}
-<a href="/">Home</a>
+<a class="top-nav" href="/">Home</a>
 <article class="like-editor">
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
@@ -7,7 +7,7 @@
 <div class="content" >
 {{ content }}
 </div>
-{% include posts-nav.html %}
 
 </article>
+{% include posts-nav.html %}
 {% include foot.html %}

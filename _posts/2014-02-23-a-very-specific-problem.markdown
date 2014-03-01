@@ -4,6 +4,11 @@ title:  "A specific solution to a specific problem"
 date:   2014-02-23 11:18:34
 ---
 
+{% highlight javascript linenos%}
+window
+{% endhighlight %}
+
+
 There are many things that are 'the' bane of a front-end developer's life. Many of these are a consequence of the fact we have to support an ever growing number of environments with increasing, rather than decreasing, variance in their adoption of given APIs. Even though browser vendors now cooperate more fully than in the past when it comes to writing and implementing the standards, a large chunk of our audience still visit our sites using legacy browsers.
 
 As well as restricting access to new APIs this slow and piecemeal upgrading of the web has another side effect - it's nigh-on impossible for the specs to make breaking changes, therefore bad engineering/design decisions stick around for a long time. 
