@@ -14,19 +14,7 @@
         };
 
 
-    // download images if screen is wide enough
-    var screenWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-
-    if (screenWidth > 320) {
-        var images = document.getElementsByTagName('img');
-        Array.prototype.forEach.call(images, function(img) {
-            img.setAttribute('src', img.getAttribute('data-src'));
-        })
-    }
-
-
-
-    // Duplicate the titel and link at the top of teh content boxes
+    // Duplicate the titleand link at the top of teh content boxes
     // TODO - wrap the image in a link too
     Array.prototype.forEach.call(portfolioLinks, function(el) {
         var content = el.parentNode.nextElementSibling;
@@ -62,6 +50,20 @@
             }
 
             li.className = (li.className === 'expanded') ? '' : 'expanded';
+            if (li.className === 'expanded') {
+                // download images if screen is wide enough
+                var screenWidth = document.documentElement.clientWidth;
+
+                if (screenWidth >= 500) {
+                    var img = li.getElementsByTagName('img');
+
+                    if (img.length) {
+                        img = img[0];
+                        img.setAttribute('src', img.getAttribute('data-src'));
+                        li.className += ' hasImage';
+                    }
+                }
+            }
             ev.cancelBubble = true;
             ev.preventDefault();
             ev.stopPropagation();

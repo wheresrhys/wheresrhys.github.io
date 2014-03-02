@@ -45,7 +45,9 @@
     padding: 0 1.5rem;
     margin: 0 1rem 0 4rem;
 
-    
+    img {
+      display: none
+    }    
 
     p  {
       margin: 0;
@@ -54,7 +56,9 @@
     ul {
       padding: 0;
     }
-
+    h2 {
+      display: block;
+    }
     h2:after {
       display: none;
     }
@@ -115,7 +119,7 @@
 .no-js .fake-json .accordion .content,
 .js .fake-json .accordion .expanded .content {
   max-height: 50rem;
-  margin: 1rem 1rem 1rem 4rem;
+  margin: 1rem;
   padding: 1.5rem 1.5rem;
   opacity: 1;
   -ms-transition-duration: 0.5s;
@@ -124,17 +128,33 @@
   transition-duration: 0.5s;
 }
 
-// layout for content with images loaded
-.js .fake-json .accordion {
-  .content img {
-    float: left;
-    margin-top: -2rem;
+
+@media only screen and (min-width: 500px) {
+  // layout for content with images loaded
+  .js .fake-json .accordion {
+    .hasImage {
+      img[src] {
+        float: left;
+        margin-top: -2rem;
+        display: block;
+      }
+      
+      p,
+      h2,
+      ul {
+        margin-left: 15.5rem;
+        display: block;
+      }
+    }
+
+    .expanded .content {
+      /*margin: 1rem 1rem 1rem 4rem;*/
+    }
   }
-  
-  .content p,
-  .content h2,
-  .content ul {
-    margin-left: 15.5rem;
-    display: block;
+}
+
+@media only screen and (min-width: 360px) {
+  .js .fake-json .accordion .expanded .content {
+    margin: 1rem 1rem 1rem 4rem;
   }
 }
