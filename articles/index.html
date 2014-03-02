@@ -2,24 +2,24 @@
 layout: default
 title: Wheresrhys
 ---
-<a href="/">Home</a>
+<a class="top-nav" href="/">Home</a>
 
-      <!-- This loops through the paginated posts -->
-        {% for post in paginator.posts %}
-            <article>
-                <script>
-                  (function () {
-                    history.replaceState([], '', '{{ post.url }}');
-                  })();
-                </script>
-                <h1>{{ post.title }}</a></h1>
-                <p class="meta">{{ post.date | date_to_string }}</p>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<article class="like-editor">
+  <script>
+    (function () {
+      history.replaceState([], '', '{{ post.url }}');
+    })();
+  </script>
+  <h1>{{ post.title }}</h1>
+  <p class="meta">{{ post.date | date_to_string }}</p>
 
-                <div class="content" >
-                {{ post.content }}
-                </div>
-                {% include posts-nav.html %}
+  <div class="content" >
+  {{ post.content }}
+  </div>
+</article>
+{% endfor %}
 
-            </article>
-        {% endfor %}
 
+{% include posts-nav.html %}

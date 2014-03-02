@@ -1,4 +1,6 @@
-.highlight  { background: #ffffff; }
+@import "utils";
+
+.highlight  { @include contentBlock(); background: #ffffff; padding: 0.5rem 1.5rem;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
