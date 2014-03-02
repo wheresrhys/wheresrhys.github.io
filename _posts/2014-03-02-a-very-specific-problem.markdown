@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A specific solution to a specific problem"
-date:   2014-02-23 11:18:34
+title:  "A very specific problem"
+date:   2014-03-02
 ---
 
 There are many things that are 'the' bane of a front-end developer's life. Many of these are a consequence of the fact we have to support an ever growing number of environments with increasing, rather than decreasing, variance in their adoption of given APIs. Even though browser vendors now cooperate more fully than in the past when it comes to writing and implementing the standards, a large chunk of our audience still visit our sites using legacy browsers.
@@ -24,7 +24,7 @@ I think what the web needs is a new attribute on the `<link>` tag:
 <link rel="stylesheet" href="main.css" specicifity="false" />
 {% endhighlight %}
 
-which developers can use to turn off specicifity in browsers that support doing so. Stylesheets written using a well structured cascade from general to narrower use cases *should* still work fine without any change. They will likely already contain a few extra-specific style rules in order to cope with specicifity problems in existing browsers, but as long as these specicifity overrides are included in a sensible order then removing specicifity shouldn't lead to them getting overridden by other styles. And testing to see whether your styles work with specicifity on or off is trivial. Any styles that need to preserve specicifity (for instance to override third party styles) could have this re-enabled using, for instance a css property `specific: true`.
+which developers can use to turn off specicifity in browsers that support doing so. Stylesheets written using a well structured cascade from general to narrower use cases *should* still work fine without any change. They will likely already contain a few extra-specific style rules in order to cope with specicifity problems in existing browsers, but as long as these specicifity overrides are included in a sensible order then removing specicifity shouldn't lead to them getting overridden by other styles. And testing to see whether your styles work with specicifity on or off is trivial - just add or remove the `specicifity="false"` attribute. Any styles that need to preserve specicifity (for instance to override third party styles) could have it re-enabled using, for instance a css property `specific: true`.
 
 As well as getting rid of what is probably the hardest problem while writing scaleable CSS, removing specicifity would likely improve rendering times slightly as it's one less thing for browsers to have to process. It's probably also not particularly difficult for browsers to implement (I'd be surprised if it doesn't boil down to skipping over a step or two when parsing and rendering).
 
