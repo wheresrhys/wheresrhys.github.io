@@ -12,7 +12,7 @@ module.exports = {
             debug: false
         },
         files: {
-            './_site/static/main.js': './src/main.js'
+            './static/main.js': './src/main.js'
         }
     }
 };
