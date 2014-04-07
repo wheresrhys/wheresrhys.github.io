@@ -1,90 +1,65 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-    //
-    // Add interactivity to accordions and download images if not on mobile
-    // 
+// Duplicate the title and link at the top of the content boxes
+// TODO - wrap the image in a link too
+Array.prototype.forEach.call(document.querySelectorAll('.accordion>li>span>a'), function(el) {
+    var content = el.parentNode.nextElementSibling;
 
+    if (!content) {
+        return false;
+    }
 
-    var container = document.querySelectorAll('.fake-json')[0],
-        portfolioLinks = document.querySelectorAll('.accordion>li>span>a'),
-
-        cloneLink = function(el) {
-            var clone = document.createElement('a');
-            clone.setAttribute('href', el.href);
-            clone.textContent = el.textContent;
-            return clone;
-        };
-
-
-    // Duplicate the titleand link at the top of teh content boxes
-    // TODO - wrap the image in a link too
-    Array.prototype.forEach.call(portfolioLinks, function(el) {
-        var content = el.parentNode.nextElementSibling;
-
-        if (!content) {
-            return false;
-        }
-
-        var h2 = document.createElement('h2'),
-            firstProperChild = (function() {
-                var child = content.firstChild;
-                while (child.nodeType === 3) {
-                    child = child.nextSibling;
-                }
-                return child;
-            }());
-
-        h2.appendChild(cloneLink(el));
-
-        content.insertBefore(h2, firstProperChild);
-    });
-
-
-    // Add event handlers to open and close teh accordions
-    container.addEventListener('click', function(ev) {
-        var link = ev.target;
-        li = link.parentNode.parentNode;
-        if (link.nodeName === 'A' && li.parentNode.className.indexOf('accordion') > -1) {
-            var open = container.querySelectorAll('.expanded');
-
-            if (open.length && open[0] !== li) {
-                open[0].className = '';
+    var h2 = document.createElement('h2'),
+        firstProperChild = (function() {
+            var child = content.firstChild;
+            while (child.nodeType === 3) {
+                child = child.nextSibling;
             }
+            return child;
+        }());
 
-            li.className = (li.className === 'expanded') ? '' : 'expanded';
-            if (li.className === 'expanded') {
-                // download images if screen is wide enough
-                var screenWidth = document.documentElement.clientWidth;
+    h2.appendChild(document.cloneNode(el));
 
-                if (screenWidth >= 500) {
-                    var img = li.getElementsByTagName('img');
-
-                    if (img.length) {
-                        img = img[0];
-                        img.setAttribute('src', img.getAttribute('data-src'));
-                        li.className += ' hasImage';
-                    }
-                }
-            }
-            ev.cancelBubble = true;
-            ev.preventDefault();
-            ev.stopPropagation();
-            return false;
-        }
-
-    });
-},{}],2:[function(require,module,exports){
-//
-// Carry out any formatting that requires js
-// 
-
-// carry out formatting for js operators and other symbols
-var nonStrings = document.querySelectorAll('.fake-json dd, .fake-json li');
-
-nonStrings = Array.prototype.filter.call(nonStrings, function(el) {
-    return !el.childElementCount;
+    content.insertBefore(h2, firstProperChild);
 });
 
-nonStrings.forEach(function(el) {
+var container = document.querySelector('.fake-json');
+// Add event handlers to open and close teh accordions
+container.addEventListener('click', function(ev) {
+    var link = ev.target,
+        li = link.parentNode.parentNode;
+    if (link.nodeName === 'A' && li.parentNode.className.indexOf('accordion') > -1) {
+        var open = container.querySelectorAll('.expanded');
+
+        if (open.length && open[0] !== li) {
+            open[0].className = '';
+        }
+
+        li.className = (li.className === 'expanded') ? '' : 'expanded';
+        if (li.className === 'expanded') {
+            // download images if screen is wide enough
+            var screenWidth = document.documentElement.clientWidth;
+
+            if (screenWidth >= 500) {
+                var img = li.querySelector('img');
+
+                if (img) {
+                    img.setAttribute('src', img.getAttribute('data-src'));
+                    li.className += ' hasImage';
+                }
+            }
+        }
+        ev.cancelBubble = true;
+        ev.preventDefault();
+        ev.stopPropagation();
+        return false;
+    }
+
+});
+},{}],2:[function(require,module,exports){
+// carry out formatting for js operators and other symbols
+Array.prototype.filter.call(document.querySelectorAll('.fake-json dd, .fake-json li'), function(el) {
+    return !el.childElementCount;
+}).forEach(function(el) {
     el.innerHTML = el.innerHTML.replace(/(\sor\s|\sand\s|\(|\))/g, function($0, $1) {
         switch ($1) {
             case ' or ':
@@ -98,9 +73,7 @@ nonStrings.forEach(function(el) {
 });
 
 // auto increment version number
-var age = document.getElementById('age');
-
-age.innerHTML = '0.' + ((new Date()).getFullYear() - 1981) / 10;
+document.getElementById('age').innerHTML = '0.' + ((new Date()).getFullYear() - 1981) / 10;
 },{}],3:[function(require,module,exports){
 // 
 // Hide url bar on mobile and iPad

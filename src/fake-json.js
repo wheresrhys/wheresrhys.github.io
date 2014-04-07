@@ -1,15 +1,7 @@
-//
-// Carry out any formatting that requires js
-// 
-
 // carry out formatting for js operators and other symbols
-var nonStrings = document.querySelectorAll('.fake-json dd, .fake-json li');
-
-nonStrings = Array.prototype.filter.call(nonStrings, function(el) {
+Array.prototype.filter.call(document.querySelectorAll('.fake-json dd, .fake-json li'), function(el) {
     return !el.childElementCount;
-});
-
-nonStrings.forEach(function(el) {
+}).forEach(function(el) {
     el.innerHTML = el.innerHTML.replace(/(\sor\s|\sand\s|\(|\))/g, function($0, $1) {
         switch ($1) {
             case ' or ':
@@ -23,6 +15,4 @@ nonStrings.forEach(function(el) {
 });
 
 // auto increment version number
-var age = document.getElementById('age');
-
-age.innerHTML = '0.' + ((new Date()).getFullYear() - 1981) / 10;
+document.getElementById('age').innerHTML = '0.' + ((new Date()).getFullYear() - 1981) / 10;
