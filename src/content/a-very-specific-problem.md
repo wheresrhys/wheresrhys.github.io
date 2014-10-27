@@ -1,7 +1,7 @@
 ---
-layout: post
+template: post.html
 title:  "A very specific problem"
-date:   2014-03-02
+date: 2014-03-02
 ---
 
 There are many things that are 'the' bane of a front-end developer's life. Many of these are a consequence of the fact we have to support an ever growing number of environments with increasing, rather than decreasing, variance in their adoption of given APIs. Even though browser vendors now cooperate more fully than in the past when it comes to writing and implementing the standards, a large chunk of our audience still visit our sites using legacy browsers.

@@ -16,7 +16,7 @@ Array.prototype.forEach.call(document.querySelectorAll('.accordion>li>span>a'), 
             return child;
         }());
 
-    h2.appendChild(document.cloneNode(el));
+    h2.appendChild(el.cloneNode(true));
 
     content.insertBefore(h2, firstProperChild);
 });
