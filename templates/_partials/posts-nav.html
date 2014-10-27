@@ -1,8 +1,8 @@
                 <nav class="posts-nav">
                   <h2>More thoughts</h2>
                   <ul>
-                    {% for post in site.posts %}
-                      <li><a href="{{ post.url }}">{{ title }}</a> ({{ publish | date('d M Y') }})</li>
+                    {% for article in nav %}
+                      <li><a href="{{ article.url }}">{{ article.title }}</a> ({{ article.date | date('d M Y') }})</li>
                     {% endfor %}
                   </ul>
                   <script>

@@ -1,24 +1,44 @@
-
 var chalk = require('chalk');
 var Metalsmith = require('metalsmith');
 var swig = require('swig');
 var gulp = require('gulp');
 
 gulp.task('pages', function () {
-  
   var metalsmith = require('gulpsmith')();
+  var nav = [];
+  function sort () {
+    nav.sort(function (a, b) {
+      return (new Date(b.date)) - (new Date(a.date));
+    });
+  }
   metalsmith.metadata({
     title: 'wheresrhys',
     description: 'Home of London based web developer Rhys Evans'
   });
   metalsmith
-    .use(require('metalsmith-markdown')())
     .use(require('metalsmith-drafts')())
+    .use(require('metalsmith-collections')({
+      articles: '*.md'
+    }))
+    .use(require('metalsmith-markdown')())
     .use(require('metalsmith-permalinks')({
       pattern: ':date/:title',
       date: 'YYYY'
     }))
-    .use(require('metalsmith-templates')('swig'))
+    .use(require('metalsmith-each')(function (file, fileName) {
+        if (file.date) {
+          nav.push({
+            title: file.title,
+            date: file.date,
+            url: '/' + file.path
+          })
+          sort();
+          metalsmith.metadata({
+            nav: nav
+          });
+        }
+   }))
+    .use(require('metalsmith-templates')('swig'));
 
   return gulp.src('./src/content/*.md')
     .pipe(require('gulp-front-matter')()).on('data', function(file) {
@@ -32,11 +52,11 @@ gulp.task('pages', function () {
 
 });
 
-gulp.task('index', ['pages'], function () {
 
-    return gulp.src('./src/content/index.html')
-      .pipe(require('gulp-swig')())
-      .pipe(gulp.dest('./build/'))
+gulp.task('index', ['pages'], function () {
+  return gulp.src('./src/content/index.html')
+    .pipe(require('gulp-swig')())
+    .pipe(gulp.dest('./build/'));
 });
 
 gulp.task('js', ['pages'], function () {
@@ -72,30 +92,3 @@ gulp.task('default', ['pages', 'index', 'js', 'sass', 'img']);
   // https://github.com/weswigham/metalsmith-metallic
   // https://github.com/unstoppablecarl/metalsmith-navigation
   // https://github.com/RobinThrift/metalsmith-paginate
-
-
-
-/**
- * Log an error and then exit the process.
- *
- * @param {String} message
- */
-
-function fatal(msg){
-  console.error();
-  console.error(chalk.red('  Metalsmith') + chalk.gray(' · ') + msg);
-  console.error();
-  process.exit(1);
-}
-
-/**
- * Log a `message`.
- *
- * @param {String} message
- */
-
-function log(message){
-  console.log();
-  console.log(chalk.gray('  Metalsmith · ') + message);
-  console.log();
-}
