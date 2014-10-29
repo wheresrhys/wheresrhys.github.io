@@ -6,11 +6,13 @@ var gulp = require('gulp');
 gulp.task('pages', function () {
   var metalsmith = require('gulpsmith')();
   var nav = [];
+  
   function sort () {
     nav.sort(function (a, b) {
       return (new Date(b.date)) - (new Date(a.date));
     });
   }
+  
   metalsmith.metadata({
     title: 'wheresrhys',
     description: 'Home of London based web developer Rhys Evans'
@@ -18,29 +20,28 @@ gulp.task('pages', function () {
   metalsmith
     .use(require('metalsmith-drafts')())
     .use(require('metalsmith-collections')({
-      articles: '*.md'
+      contributor: {
+        pattern: 'contributor/*.md',
+        sortBy: 'date',
+        reverse: true
+      },
+      author: {
+        pattern: 'author/*.md',
+        sortBy: 'date',
+        reverse: true
+      },
+      articles: 'articles/*.md'
     }))
     .use(require('metalsmith-markdown')())
-    .use(require('metalsmith-permalinks')({
-      pattern: ':date/:title',
-      date: 'YYYY'
-    }))
-    .use(require('metalsmith-each')(function (file, fileName) {
-        if (file.date) {
-          nav.push({
-            title: file.title,
-            date: file.date,
-            url: '/' + file.path
-          })
-          sort();
-          metalsmith.metadata({
-            nav: nav
-          });
-        }
-   }))
+    .use(require('metalsmith-branch')().pattern('articles/*.html')
+      .use(require('metalsmith-permalinks')({
+        pattern: ':date/:title',
+        date: 'YYYY'
+      }))
+    )
     .use(require('metalsmith-templates')('swig'));
-
-  return gulp.src('./src/content/*.md')
+  ;
+  return gulp.src('./src/content/**/*.md')
     .pipe(require('gulp-front-matter')()).on('data', function(file) {
         Object.keys(file.frontMatter).forEach(function (key) {
           file[key] = file.frontMatter[key]; 
@@ -52,12 +53,6 @@ gulp.task('pages', function () {
 
 });
 
-
-// gulp.task('index', ['pages'], function () {
-//   return gulp.src('./src/content/index.html')
-//     .pipe(require('gulp-swig')())
-//     .pipe(gulp.dest('./build/'));
-// });
 
 gulp.task('js', ['pages'], function () {
   return gulp.src('./src/js/main.js')
