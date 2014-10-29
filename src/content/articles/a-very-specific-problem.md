@@ -20,9 +20,9 @@ But again, this would place a heavy burden on developers to maintain two differe
 
 I think what the web needs is a new attribute on the `<link>` tag:
 
-{% highlight html %}
+```html
 <link rel="stylesheet" href="main.css" specicifity="false" />
-{% endhighlight %}
+```
 
 which developers can use to turn off specicifity in browsers that support doing so. Stylesheets written using a well structured cascade from general to narrower use cases *should* still work fine without any change. They will likely already contain a few extra-specific style rules in order to cope with specicifity problems in existing browsers, but as long as these specicifity overrides are included in a sensible order then removing specicifity shouldn't lead to them getting overridden by other styles. And testing to see whether your styles work with specicifity on or off is trivial - just add or remove the `specicifity="false"` attribute. Any styles that need to preserve specicifity (for instance to override third party styles) could have it re-enabled using, for instance a css property `specific: true`.
 

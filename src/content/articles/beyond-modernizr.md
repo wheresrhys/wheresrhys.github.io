@@ -19,23 +19,23 @@ As well as the javascript API Modernizr does of course offer the convenience of 
 
 Polyfilling this with Modernizr would be less straightforward than the javascript implementation, likely relying on continuing to add classes to the html and duplicating style blocks:
 
-{% highlight css %}
+```css
 @media (feature: svg) {
   /* styles */
 }
 .svg {
   /* styles */
 }
-{% endhighlight %}
+```
 
 … though with css preprocessors and gzipping this isn't necessarily onerous to write or hugely detrimental to file size.
 
 To sum up, what I want is a day when I only have to run a single feature test in my code
 
-{% highlight js %}
+```javascript
 if (!window.features) {
    // download Modernizr
 }
-{% endhighlight %}
+```
 
 Now, wouldn't that be nice.

@@ -32,6 +32,7 @@ gulp.task('pages', function () {
       },
       articles: 'articles/*.md'
     }))
+    .use(require('metalsmith-metallic')())
     .use(require('metalsmith-markdown')())
     .use(require('metalsmith-branch')().pattern('articles/*.html')
       .use(require('metalsmith-permalinks')({
@@ -56,14 +57,15 @@ gulp.task('pages', function () {
 
 gulp.task('js', ['pages'], function () {
   return gulp.src('./src/js/main.js')
-    .pipe(require('gulp-browserify')({debug:false}))
+    .pipe(require('gulp-browserify')({debug:true}))
     .pipe(require('gulp-uglify')())
     .pipe(gulp.dest('./build'));
 });
 
 gulp.task('sass', ['pages'], function () {
   return gulp.src('./src/scss/main.scss')
-    .pipe(require('gulp-sass')({outputStyle: 'compressed'}))
+    .pipe(require('gulp-sass')())//{outputStyle: 'compressed'}))
+    .pipe(require('gulp-csso')())
     .pipe(gulp.dest('./build'));
 });
 
@@ -79,11 +81,3 @@ gulp.task('default', ['pages', 'js', 'sass', 'img']);
 
   // https://github.com/expalmer/metalsmith-gist
   // https://github.com/hurrymaplelad/metalsmith-feed
-  // https://github.com/wilsaj/metalsmith-each
-  // https://github.com/segmentio/metalsmith-collections
-  // https://github.com/blakeembrey/metalsmith-collections-paginate
-  // https://www.npmjs.org/package/metalsmith-code-highlight
-  // https://github.com/segmentio/metalsmith-ignore
-  // https://github.com/weswigham/metalsmith-metallic
-  // https://github.com/unstoppablecarl/metalsmith-navigation
-  // https://github.com/RobinThrift/metalsmith-paginate

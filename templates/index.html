@@ -1,8 +1,10 @@
 {% include '_partials/head.html' %}
 <a class="top-nav" href="/{{articles[0].path}}">Latest thoughts</a>
-wheresrhys.package.json
+<div class="fake-json">
+<h2>wheresrhys.package.json</h2>
+<dl>
 <dt>name</dt><dd><span>Rhys Evans</span></dd>
-<dt>version</dt><dd>0.3.2</dd>
+<dt>version</dt><dd id="age">0.3.2</dd>
 distribution<dd><span>East London</span></dd>
 <dt>description</dt>A sophisticated, minimal-configuration front-end developer
 <dt>keywords</dt>
@@ -47,7 +49,8 @@ distribution<dd><span>East London</span></dd>
     <dt>content delivery</dt><dd>PHP or Jekyll or Java</dd>
     <dt>environment</dt><dd><span>works best in an AGILE development environment</span></dd>
   </dl></dd>
-contributor
+<dt>contributor</dt>
+  <dd><ol class='accordion links'>
   {% for project in contributor %}
     <li><span><a {% if project.url %}href="{{ project.url }}"{% endif %}>{{ project.title }}</a></span>
       <div class="content">
@@ -55,7 +58,7 @@ contributor
       </div>
     </li>
   {% endfor %}
-  
+  </ol></dd>
 <dt>author</dt>
   <dd><ol class='accordion links'>
   {% for project in author %}
@@ -79,5 +82,6 @@ contributor
     <li><span><a href='http://veggiestan.com/'>hummus</a></span></li>
   </ol></dd>
 <dt>contact</dt><dd class='link'><span><a href='http://www.linkedin.com/profile/view?id=122443382'>linkedin</a></span></dd>
+</dl></div>
 <script src='/main.js'></script>
 {% include '_partials/foot.html' %}
