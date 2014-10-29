@@ -1,5 +1,5 @@
-{% include '../../templates/_partials/head.html' %}
-{% include '../../build/link-to-latest.html'%}
+{% include '_partials/head.html' %}
+<a class="top-nav" href="{{nav[0].url}}">Latest thoughts</a>
 <div class='fake-json'>
 <h2>wheresrhys.package.json</h2>
 <dl>
@@ -37,7 +37,7 @@
   <dt>templates</dt>
     <dd><ol>
       <li><span>HTML5</span></li>
-      <li>Mustache or handlebars.js</li>
+      <li>Mustache or Swig or &hellip;</li>
       <li>Accessibility and WAI-ARIA</li>
       <li><span>Photoshop</span></li>
     </ol></dd>
@@ -45,7 +45,7 @@
     <dd><dl>
       <dt>version</dt><dd>GIT or SVN</dd>
       <dt>bugs</dt><dd>Jira or Github</dd>
-      <dt>build</dt><dd>Grunt.js and Browserify</dd>
+      <dt>build</dt><dd>Grunt or Gulp and Browserify</dd>
       <dt>test</dt><dd>(Karma or PhantomJS) and (Jasmine or QUnit or Mocha)</dd>
       <dt>ci</dt><dd>Jenkins or Travis</dd>
       <dt>content delivery</dt><dd>PHP or Jekyll or Java</dd>
@@ -153,4 +153,4 @@
 </dl>
 </div>
 <script src='/main.js'></script>
-{% include '../../templates/_partials/foot.html' %}
+{% include '_partials/foot.html' %}

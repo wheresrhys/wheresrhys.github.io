@@ -1,5 +1,5 @@
 ---
-template: link-to-latest.html
+template: index.html
 title: Wheresrhys
 permalink: false
 ---
