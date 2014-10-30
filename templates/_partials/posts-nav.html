@@ -2,16 +2,7 @@
                   <h2>More thoughts</h2>
                   <ul>
                     {% for article in articles %}
-                      <li><a href="/{{ article.path }}">{{ article.title }}</a> ({{ article.date | date('d M Y') }})</li>
+                      <li>{% if article.path != path %}<a href="/{{ article.path }}">{% endif %}{{ article.title }}{% if article.path != path %}</a>{% endif %} ({{ article.date | date('d M Y') }})</li>
                     {% endfor %}
                   </ul>
-                  <script>
-                  (function () {
-                    var current = document.querySelector('.posts-nav [href*="' + location.pathname + '"]'),
-                        span = document.createElement('span');
-                    span.innerHTML = current.innerHTML;
-                    current.parentNode.insertBefore(span, current);
-                    current.parentNode.removeChild(current)
-                  })();
-                </script>
                 </nav>

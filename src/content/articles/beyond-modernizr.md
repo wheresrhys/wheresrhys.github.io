@@ -1,6 +1,7 @@
 ---
 template: post.html
-title: "Beyond Modernizr"
+title: Beyond Modernizr
+description: What's next for browser feature detection
 date: 2014-04-07
 ---
 Few javascript libraries have achieved the ubiquity of Modernizr. It's up there with the jQuery's of the world as an indispensible tool and is the de facto standard when it comes to feature detection in the browser. 

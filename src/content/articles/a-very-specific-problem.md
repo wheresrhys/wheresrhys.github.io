@@ -1,6 +1,7 @@
 ---
 template: post.html
-title:  "A very specific problem"
+title: A very specific problem
+description: How specicifity leaves a bad smell all over your stylesheets
 date: 2014-03-02
 ---
 

@@ -1,6 +1,7 @@
 ---
 template: post.html
-title:  "A new stack (or, many hippo returns)"
+title:  A new stack (or, many hippo returns)
+description: Migrating from Jekyll to Metalsmith for a nodejs based static site
 draft: true
 ---
 

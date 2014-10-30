@@ -1,3 +1,8 @@
+// RSS
+// CI deploy
+// Descriptions
+// make post the default template
+
 var chalk = require('chalk');
 var Metalsmith = require('metalsmith');
 var swig = require('swig');
@@ -14,8 +19,7 @@ gulp.task('pages', function () {
   }
   
   metalsmith.metadata({
-    title: 'wheresrhys',
-    description: 'Home of London based web developer Rhys Evans'
+    template: 'post.html'
   });
   metalsmith
     .use(require('metalsmith-drafts')())
