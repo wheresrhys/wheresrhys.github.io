@@ -1,11 +1,14 @@
 app := wheresrhys
+auth := $(shell heroku auth:token)
+.PHONY: build
 
-deploy:
-    # Build steps
-    @./node_modules/.bin/gulp
-    
-    # Package+deploy
-    @./node_modules/.bin/haikro build deploy \
-        --app $(app) \
-        --token $(heroku auth:token) \
-        --commit `git rev-parse HEAD`
+build: 
+	# Build steps
+	@./node_modules/.bin/gulp
+
+deploy:	
+	# Package+deploy
+	@./node_modules/.bin/haikro build deploy \
+		--app $(app) \
+		--token $(auth) \
+		--commit `git rev-parse HEAD`

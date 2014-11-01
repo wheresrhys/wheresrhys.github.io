@@ -74,7 +74,7 @@ gulp.task('sass', ['pages'], function () {
 });
 
 gulp.task('img', ['pages'], function () {
-  gulp.src('./img/**/*')
+  gulp.src('./img/*')
     .pipe(gulp.dest('./build/img'));
   gulp.src('./favicon.ico')
     .pipe(gulp.dest('./build'));

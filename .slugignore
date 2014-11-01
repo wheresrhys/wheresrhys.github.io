@@ -1,14 +1,12 @@
 ./.git
 ./tmp
 ./src
-./img
 ./templates
 ./.gitignore
 ./.slugignore
 ./.jshintrc
 ./Makefile
 gulpfile.js
-package.json
 .DS_Store
 ./node_modules/chalk
 ./node_modules/gulp-csso
