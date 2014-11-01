@@ -1,0 +1,1 @@
+require('http-server').HTTPServer({root: './build'});

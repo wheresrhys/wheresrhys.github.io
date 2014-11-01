@@ -1,0 +1,13 @@
+{% include '_partials/head.html' %}
+<a class="top-nav" href="/">Home</a>
+<article class="like-editor">
+<h1>{{ title }}</h1>
+<p class="meta">{{ date | date('d M Y') }}</p>
+
+<div class="content" >
+{{ contents|safe }}
+</div>
+
+</article>
+{% include '_partials/posts-nav.html' %}
+{% include '_partials/foot.html' %}

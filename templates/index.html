@@ -1,0 +1,88 @@
+{% include '_partials/head.html' %}
+<a class="top-nav" href="/{{articles[articles.length - 1].path}}">Latest thoughts</a>
+<div class="fake-json">
+<h2>wheresrhys.package.json</h2>
+<dl>
+<dt>name</dt><dd><span>Rhys Evans</span></dd>
+<dt>version</dt><dd id="age">0.3.2</dd>
+<dt>distribution</dt><dd><span>East London</span></dd>
+<dt>description</dt><dd>A sophisticated, minimal-configuration front-end developer</dd>
+<dt>keywords</dt>
+  <dd><ol><!--
+   --><li><span>Object-oriented javascript</span></li><!--
+   --><li><span>HTML5</span></li><!--
+   --><li><span>CSS</span></li><!--
+  --></ol></dd>
+<dt>licence</dt><dd><span>BSc in Mathematics (1st), University of Warwick</span></dd>
+<dt class="new-section">scripts</dt><dd><dl>
+  <dt>MVC</dt><dd>Backbone or (knockout and Durandal) or Angular</dd>
+  <dt>DOM</dt><dd>jQuery or vanilla js</dd>
+  <dt>Server</dt><dd>node.js and express and mongoDB</dd>
+  <dt>Graphic</dt><dd>raphael or D3</dd>
+</dl></dd>
+<dt>styles</dt>
+  <dd><dl>
+    <dt>CSS</dt>
+    <dd><ol class="one-line"><!--
+      --><li><span>CSS3</span></li><!--
+      --><li><span>Responsive & mobile first</span></li><!--
+    --></ol></dd>
+    <dt>Preprocessors</dt>
+    <dd><ol class="one-line"><!--
+        --><li><span>SASS</span></li><!--
+        --><li><span>Stylus</span></li><!--
+    --></ol></dd>
+  </dl></dd>
+<dt>templates</dt>
+  <dd><ol>
+    <li><span>HTML5</span></li>
+    <li>Mustache or Swig or Handlebars</li>
+    <li>Accessibility and WAI-ARIA</li>
+    <li><span>Photoshop</span></li>
+  </ol></dd>
+<dt>devDependencies</dt>
+  <dd><dl>
+    <dt>version</dt><dd>GIT or SVN</dd>
+    <dt>bugs</dt><dd>Jira or Github</dd>
+    <dt>build</dt><dd>Grunt or Gulp and Browserify</dd>
+    <dt>test</dt><dd>(Karma or PhantomJS) and (Jasmine or QUnit or Mocha)</dd>
+    <dt>ci</dt><dd>Jenkins or Travis</dd>
+    <dt>content delivery</dt><dd>PHP or Jekyll or Java</dd>
+    <dt>environment</dt><dd><span>works best in an AGILE development environment</span></dd>
+  </dl></dd>
+<dt>contributor</dt>
+  <dd><ol class="accordion links">
+  {% for project in contributor %}
+    <li><span><a {% if project.url %}href="{{ project.url }}"{% endif %}>{{ project.title }}</a></span>
+      <div class="content">
+        {% if project.image %} <img data-src="img/{{ project.image }}" />{% endif %}{{ project.contents.toString()|safe }}   
+      </div>
+    </li>
+  {% endfor %}
+  </ol></dd>
+<dt>author</dt>
+  <dd><ol class="accordion links">
+  {% for project in author %}
+    <li><span><a {% if project.url %}href="{{ project.url }}"{% endif %}>{{ project.title }}</a></span>
+      <div class="content">
+        {% if project.image %} <img data-src="img/{{ project.image }}" />{% endif %}{{ project.contents.toString()|safe }}   
+      </div>
+    </li>
+  {% endfor %}
+  </ol></dd>
+<dt>repository</dt>
+  <dd><dl>
+    <dt>type</dt><dd><span>git</span></dd>
+    <dt>url</dt><dd class="link"><span><a href="https://github.com/wheresrhys">github.com/wheresrhys</a></span></dd>
+  </dl></dd>
+<dt class="new-section">dependencies</dt>
+  <dd><ol class="links">
+    <li><span><a href="http://thesession.org/members/61738/tunebook">assorted jigs and reels</a></span></li>
+    <li><span><a href="http://www.flickr.com/photos/rhysickle/6175595864/in/set-72157627610966925">mountains</a></span></li>
+    <li><span><a href="http://www.youtube.com/watch?v=9EZTaEh-inM">humour</a></span></li>
+    <li><span><a href="http://veggiestan.com/">hummus</a></span></li>
+  </ol></dd>
+<dt>contact</dt><dd class="link"><span><a href="http://www.linkedin.com/profile/view?id=122443382">linkedin</a></span></dd>
+</dl></div>
+<script src="/main.js"></script>
+{% include '_partials/foot.html' %}
