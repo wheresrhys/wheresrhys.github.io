@@ -19,7 +19,7 @@ gulp.task('pages', function () {
   }
   
   metalsmith.metadata({
-    template: 'post.html'
+    site: {url: 'http://wheresrhys.co.uk'}
   });
   metalsmith
     .use(require('metalsmith-drafts')())
@@ -34,7 +34,11 @@ gulp.task('pages', function () {
         sortBy: 'date',
         reverse: true
       },
-      articles: 'articles/*.md'
+      articles: {
+        pattern: 'articles/*.md',
+        sortBy: 'date',
+        reverse: true
+      }
     }))
     .use(require('metalsmith-metallic')())
     .use(require('metalsmith-markdown')())
@@ -45,7 +49,7 @@ gulp.task('pages', function () {
       }))
     )
     .use(require('metalsmith-templates')('swig'));
-  ;
+
   return gulp.src('./src/content/**/*.md')
     .pipe(require('gulp-front-matter')()).on('data', function(file) {
         Object.keys(file.frontMatter).forEach(function (key) {
