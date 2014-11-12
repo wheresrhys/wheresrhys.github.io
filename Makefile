@@ -1,5 +1,5 @@
 app := wheresrhys
-auth := $(shell heroku auth:token)
+auth := $(shell (echo -n ":" ; heroku auth:token) | base64)
 .PHONY: build
 
 build: 
