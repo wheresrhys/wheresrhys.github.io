@@ -48,8 +48,11 @@ gulp.task('pages', function () {
         date: 'YYYY'
       }))
     )
-    .use(require('metalsmith-templates')('swig'));
-
+    .use(require('./lib/feed')({
+      collection: 'articles'
+    }))
+    .use(require('metalsmith-templates')('swig'))
+    
   return gulp.src('./src/content/**/*.md')
     .pipe(require('gulp-front-matter')()).on('data', function(file) {
         Object.keys(file.frontMatter).forEach(function (key) {

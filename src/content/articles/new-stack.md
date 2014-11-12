@@ -9,11 +9,20 @@ Missed me?
 
 No, me neither, until the other day when I realised my losing a debit card on holiday had inadvertently stopped payments to my hosting company and downed this site, so I've been offline for a while. As you can see I'm back to normal... but a lot has changed under the hood. 
 
-My blog used to be wordpress driven and resided for several years on a bog-standard LAMP hosting service. Then I relegated the blog to old.wheresrhys.co.uk and set up this one as a jekyll driven github pages site (using some hacky DNS settings to keep both sites under the wheresrhys domain). The death of my LAMP hosting and a quality I have which can best be described as lazy-sightedness* has pushed me to finally bring my hosting infrastructure in line with what I'm accustomed to at work; CI, deploy scripts, node servers and hurrah for heroku.
+My blog used to be wordpress driven and resided for several years on a bog-standard LAMP hosting service. Then I relegated the blog to old.wheresrhys.co.uk and set up this one as a jekyll driven github pages site (using some hacky DNS settings to keep both sites under the wheresrhys domain). The death of my LAMP hosting and a quality I have which can best be described as lazy-sightedness\* has pushed me to finally bring my hosting infrastructure in line with what I'm accustomed to at work; CI, deploy scripts, node servers and hurrah for heroku.
 
 But there's an elephant in the room. I call that elephant 'Ruby'. Lots of people love Ruby, including the local Rhinoceros, 'Jekyll', but I really can't be bothered with her. I have a pet hippo called 'nodejs' I much prefer hanging out with, even though he and Jekyll don't get on very well. What to do??
 
 A while back I looked for an alternative to Jekyll that ran on node. At the time it wasn't very fertile ground, but it's testament to the dynamism of the nodejs community that the number of options [has exploded](https://www.staticgen.com/). Reading through the options available now one of them really caught my eye: [Metalsmith](http://www.metalsmith.io/). I've recently worked a lot with express and gulp, and in Metalsmith there appeared to be a static site generator with a very similar pipe and middleware approach, less dependency ridden and more customisable than I'd imagined I'd find. Too good to be true? Was I getting rid of one elephant only to replace it with another, whiter one?
 
+Having now finished the migration, I'm really happy with metalsmith. It's an excellent, highly customisable tool that, unlike jekyll, isn't particularly opinionated about how I organise my code.
 
-*always seeking the lazy option, but either not paying enough attention or lacking the insight to identify it
+I have very little insight to share on adopting metalsmith, but woudl advise avoiding using ui plugins. A few judiciously selected low-level plugins - `collections`, `each` and `permalinks` to name a few - give you enough access to global and per-page metadata to be able to build your own menus etc. Building your own will also make it easier to customise to your exact needs. I'd also stay away from the recipies in metalsmith's documentation as at least some appear to be out of date, and tracking down the cause of an error when you're including a number of plugins you're not familiar with can be difficult. What I found to be far more useful was following [this quickstart](http://www.robinthrift.com/posts/metalsmith-part-1-setting-up-the-forge/) for a very basic site and then gradually adapting and adding complexity, one feature at a time.
+
+One plugin which deserves special mention is gulpsmith, which allows you to use metalsmith as part of your gulp build (or conversely, to use gulp plugins as part of your metalsmith build). Even though I'm relatively new to gulp I found it more convenient and intuitive to define gulp tasks for each file type/directory (e.g. browerifying js, compiling sass) than to use the equivalent metalsmith plugins and either branch the main metalsmith pipe or do pattern-matching on each file.
+
+And finally, I'm using haikro, a new tool from matt andrews, for deploying my built site to heroku without needing to run the build on heroku *or* commit my built files, which results in a deployment process befitting such a simple site.
+
+And yes, my hippo is very happy with [the result](link to github). 
+
+\**always seeking the lazy option, but either not paying enough attention or lacking the insight to identify it*
