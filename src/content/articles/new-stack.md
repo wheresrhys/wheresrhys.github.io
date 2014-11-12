@@ -23,7 +23,7 @@ I'd also stay away from the recipes in metalsmith's documentation as at least so
 
 One plugin which deserves special mention is [gulpsmith](https://www.npmjs.org/package/gulpsmith), which allows you to use metalsmith as part of your gulp build (or conversely, to use gulp plugins as part of your metalsmith build). Even though I'm relatively new to [gulp](http://gulpjs.com) I found it more convenient and intuitive to define gulp tasks for each file type/directory (e.g. browerifying js, compiling sass) than to use the equivalent metalsmith plugins and either branch the main metalsmith pipe or do pattern-matching on each file.
 
-And finally, I'm using [haikro](https://github.com/matthew-andrews/haikro), a very useful new tool (for which I'm only the second customer) for deploying a node site to [heroku](http://heroku.com) without needing to run the build on heroku *or* commit my built files. It designed to fit into a ci pipeline which has already built the site once, but is also very handy for providing a minimal and very swift deployment process very much befitting a simple static site.
+And finally, I'm using [haikro](https://github.com/matthew-andrews/haikro), a very useful new tool (for which I'm only the second customer) for deploying a node site to [heroku](http://heroku.com) without the need to run the build on heroku *or* commit my built files. It's designed primarily to fit into a ci pipeline which has already built the site once, but is also very handily provides a minimal deployment process very much befitting a simple static site.
 
 And yes, my hippo is very happy with [the result](https://github.com/wheresrhys/wheresrhys.github.io). 
 
