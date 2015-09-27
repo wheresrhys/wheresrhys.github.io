@@ -22,8 +22,8 @@ article {
 
     h1 {
         color: #000;
-        font-size: 3em;  
-         margin-bottom: 2rem;      
+        font-size: 3em;
+         margin-bottom: 2rem;
     }
 
     .meta {
@@ -38,8 +38,21 @@ article {
     p {
         line-height: 1.3;
         font-family: Georgia, Times, Serif;
-        margin-bottom: 3rem; 
-        margin-top: 0; 
+        margin-bottom: 3rem;
+        margin-top: 0;
+    }
+
+    blockquote {
+        @include contentBlock();
+        background: white;
+        & > *:last-child {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    pre {
+        word-wrap: break-word;
     }
 
 }
