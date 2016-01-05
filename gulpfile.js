@@ -11,13 +11,13 @@ var gulp = require('gulp');
 gulp.task('pages', function () {
   var metalsmith = require('gulpsmith')();
   var nav = [];
-  
+
   function sort () {
     nav.sort(function (a, b) {
       return (new Date(b.date)) - (new Date(a.date));
     });
   }
-  
+
   metalsmith.metadata({
     site: {url: 'http://wheresrhys.co.uk'}
   });
@@ -52,11 +52,11 @@ gulp.task('pages', function () {
       collection: 'articles'
     }))
     .use(require('metalsmith-templates')('swig'))
-    
+
   return gulp.src('./src/content/**/*.md')
     .pipe(require('gulp-front-matter')()).on('data', function(file) {
         Object.keys(file.frontMatter).forEach(function (key) {
-          file[key] = file.frontMatter[key]; 
+          file[key] = file.frontMatter[key];
         });
         delete file.frontMatter;
     })

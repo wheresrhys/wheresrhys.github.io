@@ -1,5 +1,3 @@
-app := wheresrhys
-auth := $(shell (echo -n ":" ; heroku auth:token) | base64)
 .PHONY: build
 
 serve:
@@ -10,8 +8,4 @@ build:
 	@./node_modules/.bin/gulp
 
 deploy:
-	# Package+deploy
-	@./node_modules/.bin/haikro build deploy \
-		--app $(app) \
-		--token $(auth) \
-		--commit `git rev-parse HEAD`
+	netlify deploy -s astrologer-goat-57534 -p build
