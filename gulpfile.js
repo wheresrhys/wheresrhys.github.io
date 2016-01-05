@@ -74,10 +74,10 @@ gulp.task('js', ['pages'], function () {
 });
 
 gulp.task('sass', ['pages'], function () {
-  // return gulp.src('./src/scss/main.scss')
-  //   .pipe(require('gulp-sass')())//{outputStyle: 'compressed'}))
-  //   .pipe(require('gulp-csso')())
-  //   .pipe(gulp.dest('./build'));
+  return gulp.src('./src/scss/main.scss')
+    .pipe(require('gulp-sass')())//{outputStyle: 'compressed'}))
+    .pipe(require('gulp-csso')())
+    .pipe(gulp.dest('./build'));
 });
 
 gulp.task('img', ['pages'], function () {
