@@ -5,6 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   background-color: #222;
+  overflow-x: hidden;
 }
 body {
   max-width: 750px;
@@ -27,13 +28,13 @@ header {
       text-indent: 1rem;
       line-height: 2;
       display: block;
-    }      
-    
+    }
+
     &:before,
     &:after {
       font-size: 1.4rem;
       display: block;
-    } 
+    }
     &:before {
       content: '\/\*';
     }
@@ -79,7 +80,7 @@ header {
     font-size: 1.4rem;
     padding: 0;
     margin: 0 0 1rem;
-    line-height: 1.2; 
+    line-height: 1.2;
 
     span {
       display: none;
@@ -90,7 +91,7 @@ header {
     &:after {
       content: attr(data-small);
       white-space: pre;
-    }  
+    }
   }
 }
 
