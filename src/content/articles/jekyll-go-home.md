@@ -30,5 +30,5 @@ Well there is, and the surprising hero is `git`. I can't claim to be the [origin
     git reset HEAD^
     
 
-The above can easily be adapted to work for your my-user-name.github.io site by never working in master and pushing a subtree up to `master` instead of `gh-pages`.
+The above can easily be adapted to work for your my-user-name.github.io site by never working in master (I've set the default branch for wheresrhys.github.io to be `_master`) and pushing a subtree up to `master` instead of `gh-pages`.
 
