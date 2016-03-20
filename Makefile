@@ -8,7 +8,7 @@ build:
 	@./node_modules/.bin/gulp
 
 deploy:
-	git add -A build
+	git add -Af build
 	git commit -m 'commiting new build'
 	@git push origin :gh-pages || echo 'failed to delete gh-pages branch. Does it exist?'
 	git subtree push --prefix build origin gh-pages
