@@ -19,7 +19,7 @@ In a typical node.js webapp you might split your code into `server` and `client`
   \_layout.html // renders the page scaffolding
 ```
 
-Later I'll augment this in order to add custom progressive enhancements *on top* of client side rendering and routing (beat that React!). In the next article I'll explain how the bove structure is accessed by client and server side apps.
+Later I'll augment this in order to add custom progressive enhancements *on top* of client side rendering and routing (beat that React!). In the next article I'll explain how the above structure is accessed by client and server side apps.
 
 ## So which framework do we use?
 Remember, React is not a framework, it's a clever-clogs rendering engine. Swapping it out for a different rendering/templating engine doesn't leave a gaping hole we need to fill with angular or backbone.
@@ -45,6 +45,7 @@ The application structure I'm going to propose for an isomorphic webapp is sligh
 
 - [Part 1: What's wrong with React?]()
 - [Part 2: Choosing a script loader and templating engine]()
+- Part 3: Analyse where your client and server side code has to differ (the aim is to contain all hte differences in a single place)
 - Part 3: Application Structure
 - [Part 4: Bootstrapping and routing]()
 - [Part 5: Progressive enhancement]() (subhead - Wait... where's the framework?)
