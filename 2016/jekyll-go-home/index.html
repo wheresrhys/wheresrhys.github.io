@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class='no-js'>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Jekyll go home</title>
+      <meta name="description" content="How to use your favourite non-jekyll static site generator with github pages">
+      <meta name="author" content="Rhys Evans">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script>document.documentElement.className = 'js';</script>
+      <link href='/main.css' type='text/css' rel='stylesheet'></link>
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+      <link rel="canonical" href="https://www.wheresrhys.co.uk/2016/jekyll-go-home" />
+  </head>
+  <body>
+<header>
+<h1 data-large="/*
+              __                                         __
+             /\ \                                       /\ \
+   __  __  __\ \ \___      __   _ __    __    ____  _ __\ \ \___   __  __    ____
+  /\ \/\ \/\ \\ \  _ `\  /'__`\/\`'__\/'__`\ /',__\/\`'__\ \  _ `\/\ \/\ \  /',__\
+  \ \ \_/ \_/ \\ \ \ \ \/\  __/\ \ \//\  __//\__, `\ \ \/ \ \ \ \ \ \ \_\ \/\__, `\
+   \ \___x___/' \ \_\ \_\ \____\\ \_\\ \____\/\____/\ \_\  \ \_\ \_\/`____ \/\____/
+    \/__//__/    \/_/\/_/\/____/ \/_/ \/____/\/___/  \/_/   \/_/\/_/`/___/> \/___/
+                                                                       /\___/
+                                                                       \/__/
+
+*/" data-medium="/*
+
+        /                             /
+       (___  ___  ___  ___  ___  ___ (___       ___
+  |   )|   )|___)|   )|___)|___ |   )|   )\   )|___
+  |/\/ |  / |__  |    |__   __/ |    |  /  \_/  __/
+                                            /
+
+*/" data-small="/*
+         .                 .
+  .    ,|_  _ ._. _  __._.|_   . __
+   \/\/ [ )(/,[  (/,_) [  [ )\_|_)
+                             ._|
+
+*/">
+        <span>Wheresrhys</span>
+      </h1>
+    </header>
+
+<a class="top-nav" href="/">Home</a>
+<article class="like-editor">
+<h1>Jekyll go home</h1>
+<p class="meta">20 Mar 2016</p>
+
+<div class="content" >
+<p>This is the second time I&#39;ve written a blog post about the stack I use to power this blog. This time I&#39;m going one further because this blog post is about the code changes contained in the pull request which also adds this text to the site. </p>
+<p>A while ago I wrote about migrating the site <a href="http://www.wheresrhys.co.uk/2014/a-new-stack-or-many-hippo-returns/">from jekyll, ruby and github pages to node, metalsmith and heroku</a>. I was very happy to ditch Jekyll as I&#39;m not a fan, and ruby too as I don&#39;t know ruby. At the time I was also happy to move to heroku as it felt hip and sophisticated. Now I&#39;m a little more experienced with deployment and hosting solutions I&#39;ve realised that heroku isn&#39;t the best fit for my little site. Mainly it&#39;s because to get 100% up time I&#39;d have to pay, but it also introduces dependencies and complexity into my deployment.</p>
+<p>After watching Phil Hawksworth&#39;s <a href="https://vimeo.com/145138875">excellent talk on static site hosting</a> I decided I should try something more tailor made for static sites, and gave netlify a go. Only after investing a fair bit of time into setting it up did I realise they inject a &#39;powered by netlify&#39; pop up. Sure, I&#39;ve been able to add a script to suppress this, but it&#39;s hardly honourable behaviour, and this was still added complexity I didn&#39;t need. I was starting to miss github pages. If only there was a way to use github pages without reverting to Jekyll as my static site generator.</p>
+<p>Well there is, and the surprising hero is <code>git</code>. I can&#39;t claim to be the <a href="https://gist.github.com/cobyism/4730490">originator of the idea</a>, but I have refined it and boiled it down to the following shell commands which leave your master branch uncluttered with additional commits and built files. I have them available as <code>make deploy</code>, but it should be possible to adapt them for use in any build scripts you have. An <a href="https://www.npmjs.com/package/gh-pages">npm package</a> also exists to do this and more, but I&#39;m drawn to the simplicity and speed of the shell.</p>
+<pre><code># Add the directory that contains your built static site
+git add -Af build-directory-name
+
+# Create a temporary commit so git knows about the files
+git commit -m &#39;commiting new build&#39;
+
+# Try to delete the content of the gh-pages branch - not essential, but it will avoid potential git conflicts which will cause the deployment to fail
+git push origin :gh-pages || echo &#39;Failed to delete gh-pages branch. Does it exist?&#39;
+
+# Push the build directory to the root of the gh-pages branch
+git subtree push --prefix build-directory-name origin gh-pages
+
+# Revert the last commit
+git reset HEAD^
+</code></pre><p>The above can easily be adapted to work for your my-user-name.github.io site by never working in master and pushing a subtree up to <code>master</code> instead of <code>gh-pages</code>.</p>
+
+</div>
+
+</article>
+                <nav class="posts-nav">
+                  <h2>More thoughts</h2>
+                  <ul>
+                    
+                      <li>Jekyll go home (20 Mar 2016)</li>
+                    
+                      <li><a href="/2015/semver-abuse">Semver abuse</a> (27 Sep 2015)</li>
+                    
+                      <li><a href="/2014/a-new-stack-or-many-hippo-returns">A new stack (or, many hippo returns)</a> (12 Nov 2014)</li>
+                    
+                      <li><a href="/2014/beyond-modernizr">Beyond Modernizr</a> (07 Apr 2014)</li>
+                    
+                      <li><a href="/2014/a-very-specific-problem">A very specific problem</a> (02 Mar 2014)</li>
+                    
+                  </ul>
+                </nav>
+  </body>
+</html>

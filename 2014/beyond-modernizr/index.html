@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class='no-js'>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Beyond Modernizr</title>
+      <meta name="description" content="What&#39;s next for browser feature detection">
+      <meta name="author" content="Rhys Evans">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script>document.documentElement.className = 'js';</script>
+      <link href='/main.css' type='text/css' rel='stylesheet'></link>
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+      <link rel="canonical" href="https://www.wheresrhys.co.uk/2014/beyond-modernizr" />
+  </head>
+  <body>
+<header>
+<h1 data-large="/*
+              __                                         __
+             /\ \                                       /\ \
+   __  __  __\ \ \___      __   _ __    __    ____  _ __\ \ \___   __  __    ____
+  /\ \/\ \/\ \\ \  _ `\  /'__`\/\`'__\/'__`\ /',__\/\`'__\ \  _ `\/\ \/\ \  /',__\
+  \ \ \_/ \_/ \\ \ \ \ \/\  __/\ \ \//\  __//\__, `\ \ \/ \ \ \ \ \ \ \_\ \/\__, `\
+   \ \___x___/' \ \_\ \_\ \____\\ \_\\ \____\/\____/\ \_\  \ \_\ \_\/`____ \/\____/
+    \/__//__/    \/_/\/_/\/____/ \/_/ \/____/\/___/  \/_/   \/_/\/_/`/___/> \/___/
+                                                                       /\___/
+                                                                       \/__/
+
+*/" data-medium="/*
+
+        /                             /
+       (___  ___  ___  ___  ___  ___ (___       ___
+  |   )|   )|___)|   )|___)|___ |   )|   )\   )|___
+  |/\/ |  / |__  |    |__   __/ |    |  /  \_/  __/
+                                            /
+
+*/" data-small="/*
+         .                 .
+  .    ,|_  _ ._. _  __._.|_   . __
+   \/\/ [ )(/,[  (/,_) [  [ )\_|_)
+                             ._|
+
+*/">
+        <span>Wheresrhys</span>
+      </h1>
+    </header>
+
+<a class="top-nav" href="/">Home</a>
+<article class="like-editor">
+<h1>Beyond Modernizr</h1>
+<p class="meta">07 Apr 2014</p>
+
+<div class="content" >
+<p>Few javascript libraries have achieved the ubiquity of Modernizr. It&#39;s up there with the jQuery&#39;s of the world as an indispensible tool and is the de facto standard when it comes to feature detection in the browser. </p>
+<p>It&#39;s enabled us to develop sites using new browser features before they become universally available. It&#39;s made developing for an increasingly fragmented ecosystem of browsers not only possible but predictable and easy. I also have a soft sport for Modernizr as it&#39;s the first open source project I contributed code to (albeit in a very minor way).</p>
+<p>Nevertheless I do have one major gripe with Modernizr, namely that I have to use it at all. I don&#39;t want to download and execute an additional javascript file before the rest of my page can load. In the mobile age, where performance is increasingly given equal footing with design, functionality and content, this additional cost prior to page rendering should be avoided if at all possible.</p>
+<p>But given that the html specs are now a working, evolving document constantly being added to, and that browsers will implement any new features whenever they like (even before they&#39;re added to the spec) the problem of feature detection is not going to go away, and it&#39;s not going to become less important. So if the problem is here to stay and the solution is suboptimal, what do we do? </p>
+<p>The answer&#39;s obvious if we start from the principle that solving a universal, persistent problem on the web shouldn&#39;t, long term, be the responsibility of a utility library; it should be resolved by the specs and browsers themselves.</p>
+<p>So I suggest browsers implement a <code>window.features</code> object which, more or less, duplicates the <code>Modernizr</code> object i.e. for a given feature <code>window.features.theFeature</code> is a boolean denoting whether or not the browser supports it (in reality, it would likely either be <code>true</code> or <code>undefined</code>). Then Modernizr would become a polyfill for <code>window.features</code>. Modernizr&#39;s [lack of a] naming convention for features would need to be looked at, but that&#39;s a minor niggle. </p>
+<p>As well as the javascript API Modernizr does of course offer the convenience of adding css classes to enable feature detection within stylesheets. This is fine, but with native feature detection support the browser could do much better and give us access to a new category of media query <code>@media (feature: svg) {}</code>. Adding a feature to <code>window.features</code> would have the side effect of making the media query for that feature truthy.</p>
+<p>Polyfilling this with Modernizr would be less straightforward than the javascript implementation, likely relying on continuing to add classes to the html and duplicating style blocks:</p>
+<pre><code class="css"><span class="hljs-at_rule">@<span class="hljs-keyword">media</span> (feature: svg) </span>{
+  <span class="hljs-comment">/* styles */</span>
+}
+<span class="hljs-class">.svg</span> <span class="hljs-rules">{
+  <span class="hljs-comment">/* styles */</span>
+<span class="hljs-rule">}</span></span></code></pre>
+
+<p>… though with css preprocessors and gzipping this isn&#39;t necessarily onerous to write or hugely detrimental to file size.</p>
+<p>To sum up, what I want is a day when I only have to run a single feature test in my code</p>
+<pre><code class="javascript"><span class="hljs-keyword">if</span> (!<span class="hljs-built_in">window</span>.features) {
+   <span class="hljs-comment">// download Modernizr</span>
+}</code></pre>
+
+<p>Now, wouldn&#39;t that be nice.</p>
+
+</div>
+
+</article>
+                <nav class="posts-nav">
+                  <h2>More thoughts</h2>
+                  <ul>
+                    
+                      <li><a href="/2016/jekyll-go-home">Jekyll go home</a> (20 Mar 2016)</li>
+                    
+                      <li><a href="/2015/semver-abuse">Semver abuse</a> (27 Sep 2015)</li>
+                    
+                      <li><a href="/2014/a-new-stack-or-many-hippo-returns">A new stack (or, many hippo returns)</a> (12 Nov 2014)</li>
+                    
+                      <li>Beyond Modernizr (07 Apr 2014)</li>
+                    
+                      <li><a href="/2014/a-very-specific-problem">A very specific problem</a> (02 Mar 2014)</li>
+                    
+                  </ul>
+                </nav>
+  </body>
+</html>

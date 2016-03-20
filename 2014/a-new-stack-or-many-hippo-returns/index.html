@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class='no-js'>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>A new stack (or, many hippo returns)</title>
+      <meta name="description" content="Migrating from Jekyll to Metalsmith for a nodejs based static site">
+      <meta name="author" content="Rhys Evans">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script>document.documentElement.className = 'js';</script>
+      <link href='/main.css' type='text/css' rel='stylesheet'></link>
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml" />
+      <link rel="canonical" href="https://www.wheresrhys.co.uk/2014/a-new-stack-or-many-hippo-returns" />
+  </head>
+  <body>
+<header>
+<h1 data-large="/*
+              __                                         __
+             /\ \                                       /\ \
+   __  __  __\ \ \___      __   _ __    __    ____  _ __\ \ \___   __  __    ____
+  /\ \/\ \/\ \\ \  _ `\  /'__`\/\`'__\/'__`\ /',__\/\`'__\ \  _ `\/\ \/\ \  /',__\
+  \ \ \_/ \_/ \\ \ \ \ \/\  __/\ \ \//\  __//\__, `\ \ \/ \ \ \ \ \ \ \_\ \/\__, `\
+   \ \___x___/' \ \_\ \_\ \____\\ \_\\ \____\/\____/\ \_\  \ \_\ \_\/`____ \/\____/
+    \/__//__/    \/_/\/_/\/____/ \/_/ \/____/\/___/  \/_/   \/_/\/_/`/___/> \/___/
+                                                                       /\___/
+                                                                       \/__/
+
+*/" data-medium="/*
+
+        /                             /
+       (___  ___  ___  ___  ___  ___ (___       ___
+  |   )|   )|___)|   )|___)|___ |   )|   )\   )|___
+  |/\/ |  / |__  |    |__   __/ |    |  /  \_/  __/
+                                            /
+
+*/" data-small="/*
+         .                 .
+  .    ,|_  _ ._. _  __._.|_   . __
+   \/\/ [ )(/,[  (/,_) [  [ )\_|_)
+                             ._|
+
+*/">
+        <span>Wheresrhys</span>
+      </h1>
+    </header>
+
+<a class="top-nav" href="/">Home</a>
+<article class="like-editor">
+<h1>A new stack (or, many hippo returns)</h1>
+<p class="meta">12 Nov 2014</p>
+
+<div class="content" >
+<p>Missed me?</p>
+<p>No, me neither, until the other day when I realised my losing a debit card on holiday had inadvertently stopped payments to my hosting company and downed this site... so I&#39;ve been offline for a while. As you can see I&#39;m now back to normal... but a lot has changed under the hood. </p>
+<p>My blog used to be wordpress driven and resided for several years on a bog-standard LAMP hosting service. Then I relegated the blog to old.wheresrhys.co.uk and set up this one as a jekyll driven github pages site (using some hacky DNS settings to keep both sites under the wheresrhys domain). The death of my LAMP hosting and a quality I have which can best be described as lazy-sightedness* has pushed me to finally bring my hosting infrastructure in line with what I&#39;m accustomed to at work; CI, deploy scripts, node servers and hurrah for heroku.</p>
+<p>But there&#39;s an elephant in the room. I call that elephant &#39;Ruby&#39;. Lots of people love Ruby, including the local Rhinoceros, &#39;Jekyll&#39;, but I really can&#39;t be bothered with her. I have a pet hippo called &#39;nodejs&#39; I much prefer hanging out with, even though he and Jekyll don&#39;t get on very well. What to do??</p>
+<p>A while back I looked for an alternative to Jekyll that ran on node. At the time it wasn&#39;t very fertile ground, but it&#39;s testament to the dynamism of the nodejs community that the number of options <a href="https://www.staticgen.com/">has exploded</a>. Reading through the available tools one of them really caught my eye: <a href="http://www.metalsmith.io/">Metalsmith</a>. I&#39;ve recently worked a lot with express and gulp, and in metalsmith there appeared to be a static site generator with a very similar pipe and middleware approach, less dependency ridden and more customisable than I&#39;d imagined I&#39;d find. Too good to be true? Was I getting rid of one elephant only to replace it with another, whiter one?</p>
+<p>Having now finished the migration, I&#39;m really happy with metalsmith. It&#39;s an excellent, highly customisable tool that, unlike Jekyll, isn&#39;t particularly opinionated about how I organise my code.</p>
+<p>I have very little insight to share on adopting metalsmith, but would advise against using ui plugins. A few judiciously selected low-level plugins - <a href="https://github.com/segmentio/metalsmith-collections">collections</a>, <a href="https://www.npmjs.org/package/metalsmith-each">each</a> and <a href="https://github.com/segmentio/metalsmith-permalinks">permalinks</a> to name a few - give you enough access to global and per-page metadata to be able to build your own menus and so forth. Building your own will also make it easier to customise to your exact needs. </p>
+<p>I&#39;d also stay away from the recipes in metalsmith&#39;s documentation as at least some appear to be out of date, and tracking down the cause of a bug when you&#39;re including a number of plugins all at once can be difficult. What I found to be far more useful was following <a href="http://www.robinthrift.com/posts/metalsmith-part-1-setting-up-the-forge/">this quickstart</a> for a very basic site and then gradually adapting and adding complexity, one feature at a time.</p>
+<p>One plugin which deserves special mention is <a href="https://www.npmjs.org/package/gulpsmith">gulpsmith</a>, which allows you to use metalsmith as part of your gulp build (or conversely, to use gulp plugins as part of your metalsmith build). Even though I&#39;m relatively new to <a href="http://gulpjs.com">gulp</a> I found it more convenient and intuitive to define gulp tasks for each file type/directory (e.g. browerifying js, compiling sass) than to use the equivalent metalsmith plugins and either branch the main metalsmith pipe or do pattern-matching on each file.</p>
+<p>And finally, I&#39;m using <a href="https://github.com/matthew-andrews/haikro">haikro</a>, a very useful new tool (for which I&#39;m only the second customer) for deploying a node site to <a href="http://heroku.com">heroku</a> without the need to run the build on heroku <em>or</em> commit my built files. It&#39;s designed primarily to fit into a ci pipeline which has already built the site once, but is also very handily provides a minimal deployment process very much befitting a simple static site.</p>
+<p>And yes, my hippo is very happy with <a href="https://github.com/wheresrhys/wheresrhys.github.io">the result</a>. </p>
+<p>*<em>always seeking the lazy option, but either not paying enough attention or lacking the insight to identify it</em></p>
+
+</div>
+
+</article>
+                <nav class="posts-nav">
+                  <h2>More thoughts</h2>
+                  <ul>
+                    
+                      <li><a href="/2016/jekyll-go-home">Jekyll go home</a> (20 Mar 2016)</li>
+                    
+                      <li><a href="/2015/semver-abuse">Semver abuse</a> (27 Sep 2015)</li>
+                    
+                      <li>A new stack (or, many hippo returns) (12 Nov 2014)</li>
+                    
+                      <li><a href="/2014/beyond-modernizr">Beyond Modernizr</a> (07 Apr 2014)</li>
+                    
+                      <li><a href="/2014/a-very-specific-problem">A very specific problem</a> (02 Mar 2014)</li>
+                    
+                  </ul>
+                </nav>
+  </body>
+</html>
