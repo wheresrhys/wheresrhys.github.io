@@ -6,6 +6,8 @@ serve:
 build:
 	# Build steps
 	@./node_modules/.bin/gulp
+	touch build/CNAME
+	echo 'www.wheresrhys.co.uk' > build/CNAME
 
 deploy:
 	git add -Af build

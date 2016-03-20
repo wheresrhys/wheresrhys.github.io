@@ -14,7 +14,7 @@ After watching Phil Hawksworth's [excellent talk on static site hosting](https:/
 
 Well there is, and the surprising hero is `git`. I can't claim to be the [originator of the idea](https://gist.github.com/cobyism/4730490), but I have refined it and boiled it down to the following shell commands which leave your master branch uncluttered with additional commits and built files. I have them available as `make deploy`, but it should be possible to adapt them for use in any build scripts you have. An [npm package](https://www.npmjs.com/package/gh-pages) also exists to do this and more, but I'm drawn to the simplicity and speed of the shell.
 
-    # Add the directory that contains your built static site
+    # Add the directory that contains your built static site (which you can also safely put in youor .gitignore)
     git add -Af build-directory-name
     
     # Create a temporary commit so git knows about the files
