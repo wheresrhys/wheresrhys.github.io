@@ -8,4 +8,8 @@ build:
 	@./node_modules/.bin/gulp
 
 deploy:
-	netlify deploy -s astrologer-goat-57534 -p build
+	git add -A build
+	git commit -m 'commiting new build'
+	@git push origin :gh-pages || echo 'failed to delete gh-pages branch. Does it exist?'
+	git subtree push --prefix build origin gh-pages
+	git reset HEAD^
