@@ -6,7 +6,7 @@
 <dt>name</dt><dd><span>Rhys Evans</span></dd>
 <dt>version</dt><dd id="age">0.3.2</dd>
 <dt>distribution</dt><dd><span>East London</span></dd>
-<dt>description</dt><dd>A sophisticated, minimal-configuration front-end developer</dd>
+<dt>description</dt><dd>A sophisticated, minimal-configuration full stack and front-end developer</dd>
 <dt>keywords</dt>
   <dd><ol><!--
    --><li><span>Object-oriented javascript</span></li><!--
@@ -55,7 +55,7 @@
   {% for project in contributor %}
     <li><span><a {% if project.url %}href="{{ project.url }}"{% endif %}>{{ project.title }}</a></span>
       <div class="content">
-        {% if project.image %} <img data-src="img/{{ project.image }}" />{% endif %}{{ project.contents.toString()|safe }}   
+        {% if project.image %} <img data-src="img/{{ project.image }}" />{% endif %}{{ project.contents.toString()|safe }}
       </div>
     </li>
   {% endfor %}
@@ -65,7 +65,7 @@
   {% for project in author %}
     <li><span><a {% if project.url %}href="{{ project.url }}"{% endif %}>{{ project.title }}</a></span>
       <div class="content">
-        {% if project.image %} <img data-src="img/{{ project.image }}" />{% endif %}{{ project.contents.toString()|safe }}   
+        {% if project.image %} <img data-src="img/{{ project.image }}" />{% endif %}{{ project.contents.toString()|safe }}
       </div>
     </li>
   {% endfor %}

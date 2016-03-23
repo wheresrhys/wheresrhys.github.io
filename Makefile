@@ -1,5 +1,3 @@
-app := wheresrhys
-auth := $(shell (echo -n ":" ; heroku auth:token) | base64)
 .PHONY: build
 
 serve:
@@ -8,10 +6,12 @@ serve:
 build:
 	# Build steps
 	@./node_modules/.bin/gulp
+	touch build/CNAME
+	echo 'www.wheresrhys.co.uk' > build/CNAME
 
 deploy:
-	# Package+deploy
-	@./node_modules/.bin/haikro build deploy \
-		--app $(app) \
-		--token $(auth) \
-		--commit `git rev-parse HEAD`
+	git add -Af build
+	git commit -m 'commiting new build'
+	@git push origin :master || echo 'failed to delete master branch. Does it exist?'
+	git subtree push --prefix build origin master
+	git reset HEAD^
