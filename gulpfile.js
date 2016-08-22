@@ -53,7 +53,7 @@ gulp.task('pages', function () {
     }))
     .use(require('metalsmith-templates')('swig'))
 
-  return gulp.src('./src/content/**/*.md')
+  return gulp.src('./content/**/*.md')
     .pipe(require('gulp-front-matter')()).on('data', function(file) {
         Object.keys(file.frontMatter).forEach(function (key) {
           file[key] = file.frontMatter[key];
@@ -67,14 +67,14 @@ gulp.task('pages', function () {
 
 
 gulp.task('js', ['pages'], function () {
-  return gulp.src('./src/js/main.js')
+  return gulp.src('./js/main.js')
     .pipe(require('gulp-browserify')({debug:true}))
     .pipe(require('gulp-uglify')())
     .pipe(gulp.dest('./build'));
 });
 
 gulp.task('sass', ['pages'], function () {
-  return gulp.src('./src/scss/main.scss')
+  return gulp.src('./scss/main.scss')
     .pipe(require('gulp-sass')())//{outputStyle: 'compressed'}))
     .pipe(require('gulp-csso')())
     .pipe(gulp.dest('./build'));
