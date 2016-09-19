@@ -1,0 +1,69 @@
+The DOM is not the enemy
+
+For a while
+
+I have a strong suspicion the DOM's cantankerous APIs were the inspiration for Modern Toss's character Alan
+
+
+Anyone who's worked with me over the last year or so will be familiar with my antipathy towards React. I'm full of conspiracy theories as to the nature of its crimes (the latest being that it's building an army of Lady Gaga's). While it's true that I can be quite opinionated about all sorts of things, it's rare that I get quite so irritated by something, so I thought it's high time I put it into wors so atht all 0 of my readers can hear what I have to say.
+
+## The DOM is not the enemy [any more]
+
+I think part of my antipathy towards React comes from the years of apprenticeship I have served as a web developer. I battled browsers which had scant respect for web standards, using a language in which few good patterns were yet to emerge, referring to scattered, inaccurate documentation ... and all _with next to no dev tools!_. It was _hard_, and not in the way that building an elegant complex application is hard; more in the way putting a grit-covered contact lens in your eye just so you can find your cleaning fluid is hard.
+
+But I did learn to put up with a lot of crap from the browser, and these days most of that crap is gone (or can be circumvented given the right combination of polyfills and progressive enhancement). I would go so far as to say it's an exciting time for developing using the browser's native APIs; new features land on a roughly monthly basis and can generally be used in production applications as soon as they land. Compared to yesteryear, the browser is now a fascinating box of toys with which to play. Consequently, my number one frustration with React is that it treats the DOM as a hostile environment, not to be touched by the intrepid web developer; here be dragons and orcs. My natural reaction to being told I can't update a class on a HTML element - which I've spent so many years getting to know - is to declare the thing that's spouting such nonsense to be an abherration
+
+## So why does everyone love React so much?
+
+On the other hand, my history of being abused by ie8 and below maybe does result in myself, and other long-standing browser hackers, overstating how good browser APIs are for building user interfaces these days, because we are comparig them with an extremely low historical bar. I've been along the very long learning curve towards being something approaching a master of the browser's myriad APIs, and so I don't _need_ React's simplicity in order to have a good developer experience, but I can appreciate that others might. And React is (from what I've seen and heard) a real joy compared to most other frameworks out there, providinga small API and few strong opinions (DOM-manipulation aside) on how to write your application.
+
+
+## When is React definitely justified?
+
+
+## Is declarative writing better
+maybe yes
+
+
+
+
+## What's to become of it?
+Standardise DOM diffing
+
+
+# The DOM is not the enemy
+
+It's been stated before that [the DOM is a terrible API](http://programmers.stackexchange.com/questions/147451/whats-so-bad-about-the-dom), and it was... by golly it was.
+The Dom _used_ to be a pretty hostile environment... but we _coped_, even thrived. Such landmark applications as google maps, gmail and  ... tamed the DOM
+
+
+
+Let's get one thing straight first - React is a virus.
+
+> a piece of code which is capable of copying itself and typically has a detrimental effect, such as corrupting the system or destroying data.
+
+If someone tells you they want to
+
+
+
+React is not a solution to problems caused by a bad API; it's a solution to problems caused by bad programmers
+
+3 tabs, cycling automatically, content refreshing automatically, _no layout change outside the affected DOM_ within which manipulation was _almost 100% destructive_. the reason React was brought in was because it made it easier to reason about the problem; a single state being mutatted and propagating outwards was easier than managing the relationships between the 3 moving parts manually.
+
+What is so hard about managing that state? Cycling tabs is pretty much identical to a carousel, which we've all coped with for years. Polling the server for new content is also not new. I see no great complexity inherent in this feature. Say, for argument's sake, it _is_ easier to reason about with React, what gives the developer the right to introduce a new programming language and infelxible paradigm to address a problem which is demonstrably well within the bounds of the existing tools.
+
+But what marks me out as being something other than a curmudgeon (which I am), just being obstructive (which I can be) and unwilling to learn new things (which I base my life upon) is that I am starting to see React get in the way of some great overtures being made by the DOM. Or to speak about it more accurately, the web platform.
+
+
+
+A few months ago at the FT there was a taste of thinsg to come when we had trouble integrating [o-date] with our new section pages, which were built using React. o-date is a very simple utility which runs a single timer and uses it to update the relative time displayed by any date element on the page. When integrating with a react based page that polled for new content and dom-diffed and refreshed the entire page's contents, very strange errors were thrown in a variety of browsers, leading to hours, maybe even days, of lost development time debugging a bug which can only be described as a consequence of _React's hostile takeover of the DOM_. A solution was eventually found, and we moved on, though I, and other skilled web developers on the team, felt very uneasy about not being able to work on our section pages without having to forget all I had learned over many years about the web platform.
+
+A few years ago, during the dark days of ie6 & 7, a normalising API like jQuery made sense as an intermediary layer. But in today's optimistic (_don't mention Trump or Brexit_) times it looks like madness to put a barrier between developers and a generally well-behaved and powerful API. To me it feels very similar to the experience I had recently when working with a data provider that only provided a UI, wehn I'd been accustomed to using one that had a series of RESTful APIs - once you have the expertise to use the power that's under the hood, anything less than full access is frustrating
+
+Recently we've been rolling out a lazy-loaded images solution on the site, taking advantage of the Intersection Observer APi (and a polyfill) to do so. It's had impressive effects on our page load times, but not universally so.
+
+fastFT, the same section page that caused problems with o-date, is the only page on the entire site without lazy-loaded images. It _may_ be possible to implement, but React is a constant obstruction, and I have given up. How can one reconcile the immutable state of the page with scroll
+
+
+
+
