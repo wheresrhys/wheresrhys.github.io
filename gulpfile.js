@@ -73,13 +73,6 @@ gulp.task('js', ['pages'], function () {
     .pipe(gulp.dest('./build'));
 });
 
-gulp.task('sass', ['pages'], function () {
-  return gulp.src('./scss/main.scss')
-    .pipe(require('gulp-sass')())//{outputStyle: 'compressed'}))
-    .pipe(require('gulp-csso')())
-    .pipe(gulp.dest('./build'));
-});
-
 gulp.task('img', ['pages'], function () {
   gulp.src('./img/*')
     .pipe(gulp.dest('./build/img'));
@@ -87,7 +80,7 @@ gulp.task('img', ['pages'], function () {
     .pipe(gulp.dest('./build'));
 });
 
-gulp.task('default', ['pages', 'js', 'sass', 'img']);
+gulp.task('default', ['pages', 'js', 'img']);
 
 
   // https://github.com/expalmer/metalsmith-gist
