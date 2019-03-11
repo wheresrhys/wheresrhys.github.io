@@ -2,7 +2,6 @@
 layout: post
 title: Jekyll go home
 description: How to use your favourite non-jekyll static site generator with github pages
-hashtags: #github #staticsitegenerators #nodejs #git
 date: 2016-03-20
 ---
 

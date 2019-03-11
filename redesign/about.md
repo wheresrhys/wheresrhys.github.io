@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello, I'm Rhys.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I strugle to say what I am these days, but I've been a front-end developer, a web performance specialist, worked on a data and analytics platform, written lots of devleoper tooling, and now find myself working in my employer's version of a Site Reliabilty Engineering team. My employer's the [FT](www.ft.com), by the way.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I like to think I've carried over a lot of the experience and knowledge of my previous incarnations along with me, and now do a passable job of tackling any tech problem that's put in front of me and the teams I lead.
 
+I would do anything for love, but I won't transpile.
 
-[jekyll-organization]: https://github.com/jekyll
+I would _love it_ if you donated some money to [Refugee Support](https://www.refugeesupport.eu/donate/), a charity very close to my heart.

@@ -2,7 +2,6 @@
 template: post.html
 title:  One careful owner?
 description: The trouble with NPM's lack of distributed package ownership
-categories: npm opensource javascript
 date: 2016-03-23
 ---
 

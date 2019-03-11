@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Jekyll go home
+title: Indenting ES2015
 description: Some suggestions for code formatting conventions in ES2015
-hashtags: #ES6 #ES2015 #coding #javascript
 date: 2016-09-19
 ---
 # Indenting ES2015
