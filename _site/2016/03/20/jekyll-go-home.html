@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+	<link rel="icon" href="/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Wheresrhys" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Wheresrhys</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About me</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/speaking/">Speaking</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Jekyll go home</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2016-03-20T00:00:00+00:00" itemprop="datePublished">Mar 20, 2016
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This is the second time I’ve written a blog post about the stack I use to power this blog. This time I’m going one further because this blog post is about the code changes contained in the pull request which also adds this text to the site.</p>
+
+<p>A while ago I wrote about migrating the site <a href="http://www.wheresrhys.co.uk/2014/a-new-stack-or-many-hippo-returns/">from jekyll, ruby and github pages to node, metalsmith and heroku</a>. I was very happy to ditch Jekyll as I’m not a fan, and ruby too as I don’t know ruby. At the time I was also happy to move to heroku as it felt hip and sophisticated. Now I’m a little more experienced with deployment and hosting solutions I’ve realised that heroku isn’t the best fit for my little site. Mainly it’s because to get 100% up time I’d have to pay, but it also introduces dependencies and complexity into my deployment.</p>
+
+<p>After watching Phil Hawksworth’s <a href="https://vimeo.com/145138875">excellent talk on static site hosting</a> I decided I should try something more tailor made for static sites, and gave netlify a go. Only after investing a fair bit of time into setting it up did I realise they inject a ‘powered by netlify’ pop up. Sure, I’ve been able to add a script to suppress this, but it’s hardly honourable behaviour, and this was still added complexity I didn’t need. I was starting to miss github pages. If only there was a way to use github pages without reverting to Jekyll as my static site generator.</p>
+
+<p>Well there is, and the surprising hero is <code class="highlighter-rouge">git</code>. I can’t claim to be the <a href="https://gist.github.com/cobyism/4730490">originator of the idea</a>, but I have refined it and boiled it down to the following shell commands which leave your master branch uncluttered with additional commits and built files. I have them available as <code class="highlighter-rouge">make deploy</code>, but it should be possible to adapt them for use in any build scripts you have. An <a href="https://www.npmjs.com/package/gh-pages">npm package</a> also exists to do this and more, but I’m drawn to the simplicity and speed of the shell.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Add the directory that contains your built static site (which you can also safely put in youor .gitignore)
+git add -Af build-directory-name
+
+# Create a temporary commit so git knows about the files
+git commit -m 'commiting new build'
+
+# Try to delete the content of the gh-pages branch - not essential, but it will avoid potential git conflicts which will cause the deployment to fail
+git push origin :gh-pages || echo 'Failed to delete gh-pages branch. Does it exist?'
+
+# Push the build directory to the root of the gh-pages branch
+git subtree push --prefix build-directory-name origin gh-pages
+
+# Revert the last commit
+git reset HEAD^
+</code></pre></div></div>
+
+<p>The above can easily be adapted to work for your my-user-name.github.io site by never working in master (I’ve set the default branch for wheresrhys.github.io to be <code class="highlighter-rouge">_master</code>) and pushing a subtree up to <code class="highlighter-rouge">master</code> instead of <code class="highlighter-rouge">gh-pages</code>.</p>
+
+
+  </div><a class="u-url" href="/2016/03/20/jekyll-go-home.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Wheresrhys</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wheresrhys</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wheresrhys</span></a></li><li><a href="https://www.twitter.com/wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">wheresrhys</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>The online home of Rhys Evans, rocket from the Javascript.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<canvas id="dots"></canvas>
+<script>
+const canvas = document.getElementById('dots');
+const w = canvas.width = canvas.offsetWidth;
+const h = canvas.height = canvas.offsetHeight;
+const ctx = canvas.getContext('2d');
+
+const radius = 2 + Math.ceil(Math.random() * 2);
+const zoom = 1 + (Math.random() * 0.1);
+const angle = (Math.PI / 180) * ((Math.random() * 4) + radius / (3 * zoom));
+const origin = [
+  w/4 + Math.random()*w/2,
+  h/4 + Math.random()*h/2
+];
+
+let n = Math.ceil(0.4 * w * h / (radius * radius));
+const dots = [];
+while(n--) {
+  dots.push([ Math.random()*w, Math.random()*h]);
+}
+
+const rotate = (x, y) => {
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle)
+  return [
+    cos * (x-origin[0]) - sin * (y-origin[1]) + origin[0],
+    sin * (x-origin[0]) + cos * (y-origin[1]) + origin[1]
+  ];
+}
+
+const magnify = ([x, y]) => {
+  return [
+    ((x-origin[0]) * zoom) + origin[0],
+    ((y-origin[1]) * zoom) + origin[1]
+  ]
+}
+
+const drawDot = (x, y) => {
+  ctx.beginPath();
+  ctx.arc(x, y, radius/2, 0, 2 * Math.PI, false);
+  ctx.fill();
+}
+
+ctx.fillStyle = '#eedddd';
+dots.forEach(([x, y]) => {
+  drawDot(x, y);
+})
+
+ctx.fillStyle = '#ddddee';
+dots.forEach(([x, y]) => {
+  [x, y] = magnify(rotate(x, y));
+  drawDot(x, y);
+})
+</script>
+</body>
+
+</html>

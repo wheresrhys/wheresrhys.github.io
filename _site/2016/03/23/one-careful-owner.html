@@ -1,0 +1,37 @@
+<p>A friend of mine, on recent completion of a half marathon, posted:</p>
+
+<blockquote>
+  <p>Complete set of running gear for sale, large, almost new, low miles and only one knackered owner. Offers?</p>
+</blockquote>
+
+<p>… which is pretty unrelated to the rest of this post, other than it reminded me to write something about the ownership of open source projects.</p>
+
+<p>The very phrase ‘open source’ conjures up images of a utopia; a democratised software ecosystem, where the best ideas and code become widely adopted through a process not dissimilar to natural selection. Everything - including important decision making - is both shared with and owned by the community.</p>
+
+<p>But of course the reality is far from that. For myriad reasons most code has one or more owners who get the final say on what changes are made, ranging from tiny bugfixes to decisions about the direction and scope of the project. For the most part, this is of benefit to the community as it protects us from malicious or irresponsible ‘contributions’ to the codebase.</p>
+
+<p>But it can sometimes become dysfunctional. If a package owner doesn’t have the time or inclination to maintain it, then its presence in your dependency tree - particularly when it’s a subdepency of one of your direct dependencies - can become irksome. The <a href="https://github.com/eugeneware/debowerify/issues/29">github issue</a> that initially inspired this post is an excellent example. A <a href="https://github.com/substack/node-falafel/pull/24">PR</a> to fix a problem that prevented <code class="highlighter-rouge">npm shrinkwrap</code> from running was ignored for <em>a year and a half</em>, despite it passing tests, being supported by a number of consumers of the package, and being owned by a prolific and highly-regarded member of the nodejs community.</p>
+
+<p>It turns out that npm does have a reasonably good <a href="https://www.npmjs.com/policies/disputes">dispute policy</a>, but it <a href="https://github.com/npm/policies/issues/41">doesn’t seem to be widely known or applied</a>, and is also mainly aimed at transferring ownership from one user to another. What’s often needed is transferal of a badly maintained package from a single user or organisation to a wider community that between them have the ability, time and enthusiasm to maintain it.</p>
+
+<p>But that’s not so easy. Take <a href="https://github.com/ftlabs/fastclick">fastclick</a> a utility developed at FT to help give their webapp a more immediate, native app feel (most touch screen browsers, <a href="https://developer.apple.com/library/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html">until very recently</a> delayed responding to taps for 300ms), and subsequently open sourced. It serves a product that must meet high QA standards, so opening it up to community moderation without a bit of effort establishing governance would be unwise. And accepting pull requests and fixing issues which don’t impact all that greatly on the webapp - and could in fact break it, in turn requiring additional developer and QA effort - are difficult to justify. The repo currently languishes with 59 pull requests and 134 open issues; that’s a lot of frustrated effort from the community.</p>
+
+<p>I didn’t pick out either of the examples above in order to name and shame. My first reasonably widely used package, <a href="https://www.npmjs.com/package/fetch-mock">fetch-mock</a>, just hit 70 stars on github, and there have been a steady stream of pull requests from the nodejs community. All in all I’m feeling quite pleased and enthusiastic about that. But there will come a time when my enthusiasm wanes and I will grow tired of closing issues written by people who didn’t read the docs properly, or rejecting pull requests that don’t meet my vague criteria for acceptance. And if it continues to grow in popularity and become a dependency of more and more projects I am ill-prepared to moderate the boundary between my code and the community who use it. But I am also unable to confidently share ownership with anyone who meets the key criteria of being an active contributor, and whom I know enough about to trust with a project others rely on.</p>
+
+<p>This isn’t unique to me - if it’s true of the substacks and the Financial Times’ of the world, then it’s fair to assume it’s true of very many owners of open source projects. This in turn makes <em>all</em> our projects brittle as a poorly maintained dependency is a dependency to avoid… and we’re all using loads of them.</p>
+
+<p>So how do we fix this endemic problem? I think npm has a role to play here.</p>
+
+<p>Once a project grows to become a widely used dependency I’d argue it’s irresponsible for npm not to have an opinion about who owns it. It should have a policy advocating shared ownership of modules once they reach some reasonable milestone indicating they are widely used. As npm host the registry they are in an ideal position to monitor how much the community uses a package and could suggest - maybe even require - that packages owned by a single user are opened up to at least one other collaborator.</p>
+
+<p>Further to this I think npm should be more proactive about encouraging shared ownership as a natural part of publishing a component. Rather than merely playing the role of arbitrator between parties when disputes about a package occur, it would be good if a community of npm superusers could be established, both empowered to step in to improve the state of a package when it falls below the standards one would expect from an important dependency, but also playing an active role in supporting promising-looking projects from their very beginning. All too often the world of open source feels like a competition; the more we can do to foster collaboration the better.</p>
+
+<p>npm/nodejs have made great strides forward in the last year on both the technology and vision side, but, to adapt a common mantra of the web, it’s the content that matters. No matter how good npm’s infrastructure is, attention still needs to be paid to the content it hosts - the packages - if it is to deliver the service its consumers need.</p>
+
+<p>As a timely addendum, npm suffered a major lapse in reliability today due to <a href="http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/">left-pad being un-published</a>. Their swift response was to un-un-publish, an ‘unprecedented action [not] done lightly’.</p>
+
+<blockquote>
+  <p>“This action puts the wider interests of the community of NPM users at odds with the wishes of one author; we picked the needs of the many. This whole situation sucks. We will be carefully considering the issues raised by and publishing a post-mortem later.</p>
+</blockquote>
+
+<p>I hope it’s good.</p>

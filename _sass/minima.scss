@@ -43,6 +43,7 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+
 #dots {
   width: 100vw;
   height: 100vh;
@@ -55,7 +56,7 @@ $on-laptop:        800px !default;
 }
 
 .site-header, .site-footer {
-	background: white;
+  background: white;
 }
 
 // Import partials.

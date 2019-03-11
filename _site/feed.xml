@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-11T22:48:35+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wheresrhys</title><subtitle>The online home of Rhys Evans, rocket from the Javascript.</subtitle><entry><title type="html">Indenting ES2015</title><link href="http://localhost:4000/2016/09/19/indenting-es6.html" rel="alternate" type="text/html" title="Indenting ES2015" /><published>2016-09-19T00:00:00+01:00</published><updated>2016-09-19T00:00:00+01:00</updated><id>http://localhost:4000/2016/09/19/indenting-es6</id><content type="html" xml:base="http://localhost:4000/2016/09/19/indenting-es6.html">&lt;h1 id=&quot;indenting-es2015&quot;&gt;Indenting ES2015&lt;/h1&gt;
+
+&lt;p&gt;Indentation is something all coders have a love/hate relationship with. To a point, it makes code more comprehensible, indicating which statements should be thought of as a larger whole and also pointing about where the language’s block-level features are being applied. But taken too far it can lead to a confusing mess; there’s a reason it’s called the pyramid of doom. In some cases even a couple of levels of indentation can be confusing (after scrolling down a screenfull of statements try remembering if that &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt; closes a &lt;code class=&quot;highlighter-rouge&quot;&gt;for&lt;/code&gt; loop or an &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt;…)&lt;/p&gt;
+
+&lt;p&gt;Indentation, as implied in the last sentence, is almost invariably accompanied by the presence of a curly brace, something all C-family languages have in common. A few years ago when I contemplated learning Ruby and Coffeescript I was ambivalent to their whitespace-sensitive, curly brace free worlds. ‘It’s more expressive, closer to natural language’, screamed the advocates. ‘Its like sentences if you can even call them that without proper punctuation’, I garbled back from my &lt;code class=&quot;highlighter-rouge&quot;&gt;{&lt;/code&gt; crenelated &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt; codebase.&lt;/p&gt;
+
+&lt;p&gt;But something interesting has happened lately; javascript has belatedly begun to add new programming concepts and cross-pollinate with other languages, leading to code that looks very different.&lt;/p&gt;
+
+&lt;p&gt;First up, Promises. The pyramid of doom, easily fallen into in callback-era code, is now easier to circumvent thanks to &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myThing()
+	.then(function (result) {
+        // do some sync stuff first then
+		return doAThingTo(result.value)
+	})
+	.then(function (result2) {
+        // do some sync stuff first then
+		return doAnotherThingTo(result2.value)
+	});
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is far neater than a lot of similar code written using callbacks. In the code sample above I’ve used the convention we’ve adopted (though not strictly enforced) at the FT of indenting &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt; calls by a single tab, which makes for very readable code. I’ve also avoided nesting &lt;code class=&quot;highlighter-rouge&quot;&gt;then()&lt;/code&gt; calls (e.g. I could have had the second then directly attached to the result of &lt;code class=&quot;highlighter-rouge&quot;&gt;doAThingTo(result)&lt;/code&gt;), though sometimes the nature of the procedure demands some nesting e.g.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myThing()
+	.then(function (result) {
+		if (result.ok) {
+			return result.contents()
+				.then(function (contents) {
+					return contents.values
+				})
+		} else {
+			throw 'Not ok';
+		}
+	})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It is &lt;em&gt;possible&lt;/em&gt; to write the above using flatter indentation, but often it’s just easier to nest a little; the flatter your &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt; tree the more you have to worry about ignoring or handling certain kinds of error in your calls to &lt;code class=&quot;highlighter-rouge&quot;&gt;.catch()&lt;/code&gt;, so sometimes a bit of extra indentation is the lesser of two evils.&lt;/p&gt;
+
+&lt;p&gt;So far, so dull, but also fairly readable. Now let’s introduce another ES6 feature to make it even better - arrow functions. The first example above becomes&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myThing()
+    .then(result =&amp;gt; doAThingTo(result.value))
+    .then(result2 =&amp;gt; doAnotherThingTo(result2.value));
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This is starting to look quite beautiful. So now for a slightly more complex example&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;this.keys()
+    .then(keys =&amp;gt;
+        Promise.all(
+            keys
+                .map(key =&amp;gt;
+                    this.db.get(key.url)
+                        .then(({expires} = {}) =&amp;gt; ({key, expires}))
+            )
+        )
+            .then(lookups =&amp;gt;
+                lookups
+                    .sort((i1, i2) =&amp;gt; {
+                        return i1.expires &amp;gt; i2.expires ? -1 : i1.expires &amp;lt; i2.expires ? 1 : 0;
+                    })
+                    .slice(count)
+                    .map(({key}) =&amp;gt; this.delete(key))
+            )
+    )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Wait… who did what in the where, now??&lt;/p&gt;
+
+&lt;p&gt;Finally I’m getting to my point - all these ES6 goodies (and ES5 such as &lt;code class=&quot;highlighter-rouge&quot;&gt;.map()&lt;/code&gt;) may help us slay the old readability dragons, but they’ve brought some dragon eggs with them, and it feels like they’re just coming to the end of incubation. I’ve found myself reading code (written by others, or by myself in the recent past), which demonstrates confidence in the language, is concise as a word and elegant as a swan in an evening dress, but lacks many of the visual cues I’m used to seeing in javascript. The above example - excluding object literals - contains only &lt;em&gt;a single pair of curly braces&lt;/em&gt;, but the logic it carries out is Teotihuacan in scale, and, even though I wrote it… I find it pretty confusing to look at.&lt;/p&gt;
+
+&lt;p&gt;There are simply no established practices regarding how we format and indent code written using new ES6 features, and, as a result, there’s a danger our code will gradually become an incomprehensible mess. We have tools like eslint and lintspaces to enforce coding style on a more granular level, but these, I fear, lag behind the expressiveness of the modern language.&lt;/p&gt;
+
+&lt;p&gt;So our best hope here is to establish good conventions, and avoid code smells. Here are a few I think may be worth starting with, and the reasons why. They’re not rules I rigorously adhere to yet - I’m having way too much fun with the new language features to let trivial things like ease of comprehension or maintainability bother me - but when this ES6 world gets too much, I will return here to read the words I TOLD YOU SO!&lt;/p&gt;
+
+&lt;h2 id=&quot;1-there-is-no-shame-in-being-verbose&quot;&gt;1. There is no shame in being verbose&lt;/h2&gt;
+&lt;p&gt;Not a rule, but more a guiding principle. We’re often led to believe that concise code is cleaner and better, but the less you write the harder it is to be explicit about your code’s intention. If in doubt, press more keys!!&lt;/p&gt;
+
+&lt;h2 id=&quot;2-always-indent-then-calls-on-a-new-line&quot;&gt;2. Always indent &lt;code class=&quot;highlighter-rouge&quot;&gt;.then&lt;/code&gt; calls on a new line&lt;/h2&gt;
+&lt;p&gt;As mentioned a few paragraphs above, it makes for readable Promise chains&lt;/p&gt;
+
+&lt;h2 id=&quot;3-start-a-new-line-and-indent-any-array-methods-where-more-than-one-is-used-in-a-chain&quot;&gt;3. Start a new line and indent any array methods where more than one is used in a chain&lt;/h2&gt;
+&lt;p&gt;Again, this makes for more readable code. The reason I don’t argue for &lt;em&gt;always&lt;/em&gt; starting a new line is that often the methods will be used to apply a very basic function - e.g. extracting a property from an object - and insisting on indenting can lead to more visually-fragmented code e.g. the following almost looks like it could be a mistake, and would be clearer written on one line&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myThing.getProp.getArrayPromise(arr =&amp;gt; arr
+    .map(item =&amp;gt; item.key)
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;4-when-applying-array-methods-within-a-promiseall-always-indent-the-target-array-if-using-more-than-one-array-method&quot;&gt;4. When applying array methods within a &lt;code class=&quot;highlighter-rouge&quot;&gt;Promise.all&lt;/code&gt;, always indent the target array if using more than one array method&lt;/h2&gt;
+
+&lt;p&gt;This more or less follows from the last point. I would rather look at&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Promise.all(
+    myArray
+        .map(item =&amp;gt; item.thing)
+        .filter(thing =&amp;gt; {
+            if (thing &amp;gt; 1) {
+                return 'ham';
+            } else {
+                return 'egg';
+            }
+        })
+)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Than&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Promise.all(myArray
+    .map(item =&amp;gt; item.thing)
+    .filter(thing =&amp;gt; {
+        if (thing &amp;gt; 1) {
+            return 'ham';
+        } else {
+            return 'egg';
+        }
+    }))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Promise.all(myArray.map(item =&amp;gt; item.thing).filter(thing =&amp;gt; {
+    if (thing &amp;gt; 1) {
+        return 'ham';
+    } else {
+        return 'egg';
+    }
+}))
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;In ES6, parentheses often play a similar signposting role to curly braces; a lack of discipline in where they’re applied should hurt our eyes as much as&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if (thing)
+{
+    if(otherThing) callMe()
+    else {ignoreMe()}
+} else if (anotherThing) {
+    blahBlah()
+}else{whatever()
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;5-prefer-to-use-curly-braces-and-a-return-statement-for-complex-anonymous-arrow-functions&quot;&gt;5. Prefer to use curly braces and a &lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; statement for complex &lt;em&gt;anonymous&lt;/em&gt; arrow functions&lt;/h2&gt;
+&lt;p&gt;It’s great to use e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;arr.map(entry =&amp;gt; entry.name)&lt;/code&gt;, but, as in the database lookup example above, it’s possible to return far more complex results, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;Promise.all&lt;/code&gt; wrapped maps of maps of arrays. In addition to the lack of &lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; statements making it confusing work out what - if anything - is being returned, the code is complex enough to develop bugs. It will therefore require stepping into or logging while debugging. The fewer explicit statements there are in your code, the harder it is to jump in exactly where you want, so your code may need a rewrite to become debuggable. These rewrites will involve putting new curly braces in exactly the right place within a series of nested parentheses. It’s very easy to make mistakes, and it just isn’t worth this much pain to save typing a &lt;code class=&quot;highlighter-rouge&quot;&gt;return &lt;/code&gt; and a &lt;code class=&quot;highlighter-rouge&quot;&gt;{&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;6-when-within-a-then-call-try-returning-promises-before-calling-then-on-them&quot;&gt;6. When within a &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt; call, try returning Promises before calling &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt; on them&lt;/h2&gt;
+&lt;p&gt;This is very similar to stating ‘Avoid nesting &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt; calls’, but offers a technique to help achieve this. It can be hard to spot when you’re doing unnecessary nesting, but a good question to ask is ‘Could the Promise I’m &lt;code class=&quot;highlighter-rouge&quot;&gt;then&lt;/code&gt;-ing have been returned before I called &lt;code class=&quot;highlighter-rouge&quot;&gt;.then()&lt;/code&gt; on it?’ By asking this question just now I spotted an unecessary nesting in the database example above which I’d previously missed despite staring at the code for days.&lt;/p&gt;
+
+&lt;p&gt;e.g.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;query()
+    .then(results =&amp;gt; {
+        return Promise.all(results.map(getter))
+            .then(finalCalculation)
+    })
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;could be rewritten as&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;query()
+    .then(results =&amp;gt; Promise.all(results.map(getter)))
+    .then(finalCalculation)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;7-declaring-named-functions-matters-as-much-as-ever&quot;&gt;7. Declaring named functions matters as much as ever,&lt;/h2&gt;
+&lt;p&gt;Arrow functions and chainable methods may make manipulating data inline more concise and less cluttered, but ease of authorship of the &lt;em&gt;parts&lt;/em&gt; of the program does not equate to clarity of the whole. As it’s now far easier to make the magic happen inline, it perhaps requires a little more discipline to recognise when a program is complex enough to benefit from abstracting into discrete parts. And our code can only really be self-documenting if we take it apart and give the constituent parts good names.&lt;/p&gt;
+
+&lt;p&gt;The code below achieves the same result as the database example above (ignore the sloppy use of &lt;code class=&quot;highlighter-rouge&quot;&gt;this&lt;/code&gt;). Its also roughly the same number of lines as before - abstracting away the complex chains into functions means the remaining wiring can be written clearly with far less need for additional indented lines.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const decorateWithExpiry = key =&amp;gt; {
+    return this.db.get(key.url)
+        .then(({expires} = {}) =&amp;gt; ({key, expires}))
+}
+
+const deleteOldest = lookups =&amp;gt; {
+    return lookups
+        .sort((i1, i2) =&amp;gt; {
+            return i1.expires &amp;gt; i2.expires ? -1 : i1.expires &amp;lt; i2.expires ? 1 : 0;
+        })
+        .slice(count)
+        .map(({key}) =&amp;gt; this.delete(key))
+}
+
+this.keys()
+    .then(keys =&amp;gt; Promise.all(keys.map(decorateWithExpiry)))
+    .then(deleteOldest)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Is seven points enough? I reckon so.&lt;/p&gt;</content><author><name></name></author><summary type="html">Indenting ES2015</summary></entry><entry><title type="html">Less is, more-or-less, alright</title><link href="http://localhost:4000/2016/08/18/less-is-more-or-less-alright.html" rel="alternate" type="text/html" title="Less is, more-or-less, alright" /><published>2016-08-18T00:00:00+01:00</published><updated>2016-08-18T00:00:00+01:00</updated><id>http://localhost:4000/2016/08/18/less-is-more-or-less-alright</id><content type="html" xml:base="http://localhost:4000/2016/08/18/less-is-more-or-less-alright.html">&lt;p&gt;There’s a meme currently making the rounds of web developers. It goes a little like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bugs happen in code, so the more code you have the more bugs will happen, so the less code you write the better, ergo, write less code&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There’s some truth in this, but I feel it’s it’s been repeated enough to become dogma. Bugs &lt;em&gt;do&lt;/em&gt; happen in code, but more accurately, bugs happen when code runs up against an unexpected invocation. Does writing less code protect you from this? Not necessarily.&lt;/p&gt;
+
+&lt;p&gt;Given a software system there are certain tasks that need completing e.g.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Submit credit card details and receive confirmation or rejection&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Submit a friend request and receive a humiliating rejection&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For these two examples it’s certainly possible to pick out lots of similarites between the two tasks, to the point where those similarities could be abstracted away into a common library, leading to less duplication and redundancy, &lt;em&gt;less code&lt;/em&gt; and - abracadabra - fewer bugs!&lt;/p&gt;
+
+&lt;p&gt;Except that’s clearly madness. Despite some superficial, and possibly some deep, similarities, the two tasks have great potential to diverge from their current requirements, leading, in time, to greater complexity in having to support both, lack of good domain knowledge in the team[s] that maintain the code and, ultimately, more bugs.&lt;/p&gt;
+
+&lt;p&gt;So why is this ‘less code’ bad, and other ‘less code’ good? How can we find our way to a good ‘less code’.&lt;/p&gt;
+
+&lt;p&gt;I think it lies in whether the simplification in the code has a knock on effect on simplifying the space of tasks the application models. In the example above, a single library with lots of conditionals to branch between the credit card and friend transactions can hardly be said to be simpler conceptually than having two separate libraries. If anything it’s more complex - rather than having two tasks that do some similar things, we now have a single task which repeatedly diverges and converges in its behaviour.&lt;/p&gt;
+
+&lt;p&gt;So how could we reduce our code footprint &lt;em&gt;and&lt;/em&gt; reduce complexity? The answer, as is often the case in good programming, lies in abstraction and composition. 
+For the example above, the way to exploit the similarities between the two tasks isn’t to blindly merge the two code-bases at every point of contact, but rather to identify which of the similarities map well to higher abstractions, e.g. both the credit card and friend transactions could piggy back on to shared authentication, queueing, and UI systems but - and this is crucial - these systems should contain no information about the systems (friend, credit card) that call them. There is a world of difference between &lt;code class=&quot;highlighter-rouge&quot;&gt;CreditCardAndFriendSharedStuff&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;AuthSystem&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;QueueSystem&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;UISystem&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In addition to having less code repetition (though not necessarily fewer lines of code at first), this will also have the effect of reducing the complexity of tasks to be handled - a greater number of small tasks is typically easier to reason about and maintain than larger complex tasks.&lt;/p&gt;
+
+&lt;p&gt;So is this what people are getting at when they urge writing ‘less code’? I think it’s more than this. Once you start to abstract away pieces of your application into shared APIs this can lead to a greater understanding of how it all fits together, which in turn can render insights into how things could be done differently, leading eventually to even more useful higher abstractions or - the holy grail - realising that a task is &lt;em&gt;no longer necessary&lt;/em&gt;, meaning you can delete the code that carries it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;That&lt;/em&gt; is what good ‘less code’ looks like - it’s a symptom of 
+‘less complexity’, which in turn is a consequence of better undertsanding and abstraction. It doesn’t come easy, but it’s a lot more rewarding, and genuinely effective at reducing bugs, than just deleting the odd line here and there.&lt;/p&gt;</content><author><name></name></author><summary type="html">There’s a meme currently making the rounds of web developers. It goes a little like this:</summary></entry><entry><title type="html">One careful owner?</title><link href="http://localhost:4000/2016/03/23/one-careful-owner.html" rel="alternate" type="text/html" title="One careful owner?" /><published>2016-03-23T00:00:00+00:00</published><updated>2016-03-23T00:00:00+00:00</updated><id>http://localhost:4000/2016/03/23/one-careful-owner</id><content type="html" xml:base="http://localhost:4000/2016/03/23/one-careful-owner.html">&lt;p&gt;A friend of mine, on recent completion of a half marathon, posted:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Complete set of running gear for sale, large, almost new, low miles and only one knackered owner. Offers?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;… which is pretty unrelated to the rest of this post, other than it reminded me to write something about the ownership of open source projects.&lt;/p&gt;
+
+&lt;p&gt;The very phrase ‘open source’ conjures up images of a utopia; a democratised software ecosystem, where the best ideas and code become widely adopted through a process not dissimilar to natural selection. Everything - including important decision making - is both shared with and owned by the community.&lt;/p&gt;
+
+&lt;p&gt;But of course the reality is far from that. For myriad reasons most code has one or more owners who get the final say on what changes are made, ranging from tiny bugfixes to decisions about the direction and scope of the project. For the most part, this is of benefit to the community as it protects us from malicious or irresponsible ‘contributions’ to the codebase.&lt;/p&gt;
+
+&lt;p&gt;But it can sometimes become dysfunctional. If a package owner doesn’t have the time or inclination to maintain it, then its presence in your dependency tree - particularly when it’s a subdepency of one of your direct dependencies - can become irksome. The &lt;a href=&quot;https://github.com/eugeneware/debowerify/issues/29&quot;&gt;github issue&lt;/a&gt; that initially inspired this post is an excellent example. A &lt;a href=&quot;https://github.com/substack/node-falafel/pull/24&quot;&gt;PR&lt;/a&gt; to fix a problem that prevented &lt;code class=&quot;highlighter-rouge&quot;&gt;npm shrinkwrap&lt;/code&gt; from running was ignored for &lt;em&gt;a year and a half&lt;/em&gt;, despite it passing tests, being supported by a number of consumers of the package, and being owned by a prolific and highly-regarded member of the nodejs community.&lt;/p&gt;
+
+&lt;p&gt;It turns out that npm does have a reasonably good &lt;a href=&quot;https://www.npmjs.com/policies/disputes&quot;&gt;dispute policy&lt;/a&gt;, but it &lt;a href=&quot;https://github.com/npm/policies/issues/41&quot;&gt;doesn’t seem to be widely known or applied&lt;/a&gt;, and is also mainly aimed at transferring ownership from one user to another. What’s often needed is transferal of a badly maintained package from a single user or organisation to a wider community that between them have the ability, time and enthusiasm to maintain it.&lt;/p&gt;
+
+&lt;p&gt;But that’s not so easy. Take &lt;a href=&quot;https://github.com/ftlabs/fastclick&quot;&gt;fastclick&lt;/a&gt; a utility developed at FT to help give their webapp a more immediate, native app feel (most touch screen browsers, &lt;a href=&quot;https://developer.apple.com/library/mac/releasenotes/General/WhatsNewInSafari/Articles/Safari_9_1.html&quot;&gt;until very recently&lt;/a&gt; delayed responding to taps for 300ms), and subsequently open sourced. It serves a product that must meet high QA standards, so opening it up to community moderation without a bit of effort establishing governance would be unwise. And accepting pull requests and fixing issues which don’t impact all that greatly on the webapp - and could in fact break it, in turn requiring additional developer and QA effort - are difficult to justify. The repo currently languishes with 59 pull requests and 134 open issues; that’s a lot of frustrated effort from the community.&lt;/p&gt;
+
+&lt;p&gt;I didn’t pick out either of the examples above in order to name and shame. My first reasonably widely used package, &lt;a href=&quot;https://www.npmjs.com/package/fetch-mock&quot;&gt;fetch-mock&lt;/a&gt;, just hit 70 stars on github, and there have been a steady stream of pull requests from the nodejs community. All in all I’m feeling quite pleased and enthusiastic about that. But there will come a time when my enthusiasm wanes and I will grow tired of closing issues written by people who didn’t read the docs properly, or rejecting pull requests that don’t meet my vague criteria for acceptance. And if it continues to grow in popularity and become a dependency of more and more projects I am ill-prepared to moderate the boundary between my code and the community who use it. But I am also unable to confidently share ownership with anyone who meets the key criteria of being an active contributor, and whom I know enough about to trust with a project others rely on.&lt;/p&gt;
+
+&lt;p&gt;This isn’t unique to me - if it’s true of the substacks and the Financial Times’ of the world, then it’s fair to assume it’s true of very many owners of open source projects. This in turn makes &lt;em&gt;all&lt;/em&gt; our projects brittle as a poorly maintained dependency is a dependency to avoid… and we’re all using loads of them.&lt;/p&gt;
+
+&lt;p&gt;So how do we fix this endemic problem? I think npm has a role to play here.&lt;/p&gt;
+
+&lt;p&gt;Once a project grows to become a widely used dependency I’d argue it’s irresponsible for npm not to have an opinion about who owns it. It should have a policy advocating shared ownership of modules once they reach some reasonable milestone indicating they are widely used. As npm host the registry they are in an ideal position to monitor how much the community uses a package and could suggest - maybe even require - that packages owned by a single user are opened up to at least one other collaborator.&lt;/p&gt;
+
+&lt;p&gt;Further to this I think npm should be more proactive about encouraging shared ownership as a natural part of publishing a component. Rather than merely playing the role of arbitrator between parties when disputes about a package occur, it would be good if a community of npm superusers could be established, both empowered to step in to improve the state of a package when it falls below the standards one would expect from an important dependency, but also playing an active role in supporting promising-looking projects from their very beginning. All too often the world of open source feels like a competition; the more we can do to foster collaboration the better.&lt;/p&gt;
+
+&lt;p&gt;npm/nodejs have made great strides forward in the last year on both the technology and vision side, but, to adapt a common mantra of the web, it’s the content that matters. No matter how good npm’s infrastructure is, attention still needs to be paid to the content it hosts - the packages - if it is to deliver the service its consumers need.&lt;/p&gt;
+
+&lt;p&gt;As a timely addendum, npm suffered a major lapse in reliability today due to &lt;a href=&quot;http://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/&quot;&gt;left-pad being un-published&lt;/a&gt;. Their swift response was to un-un-publish, an ‘unprecedented action [not] done lightly’.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This action puts the wider interests of the community of NPM users at odds with the wishes of one author; we picked the needs of the many. This whole situation sucks. We will be carefully considering the issues raised by and publishing a post-mortem later.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I hope it’s good.&lt;/p&gt;</content><author><name></name></author><summary type="html">A friend of mine, on recent completion of a half marathon, posted:</summary></entry><entry><title type="html">Jekyll go home</title><link href="http://localhost:4000/2016/03/20/jekyll-go-home.html" rel="alternate" type="text/html" title="Jekyll go home" /><published>2016-03-20T00:00:00+00:00</published><updated>2016-03-20T00:00:00+00:00</updated><id>http://localhost:4000/2016/03/20/jekyll-go-home</id><content type="html" xml:base="http://localhost:4000/2016/03/20/jekyll-go-home.html">&lt;p&gt;This is the second time I’ve written a blog post about the stack I use to power this blog. This time I’m going one further because this blog post is about the code changes contained in the pull request which also adds this text to the site.&lt;/p&gt;
+
+&lt;p&gt;A while ago I wrote about migrating the site &lt;a href=&quot;http://www.wheresrhys.co.uk/2014/a-new-stack-or-many-hippo-returns/&quot;&gt;from jekyll, ruby and github pages to node, metalsmith and heroku&lt;/a&gt;. I was very happy to ditch Jekyll as I’m not a fan, and ruby too as I don’t know ruby. At the time I was also happy to move to heroku as it felt hip and sophisticated. Now I’m a little more experienced with deployment and hosting solutions I’ve realised that heroku isn’t the best fit for my little site. Mainly it’s because to get 100% up time I’d have to pay, but it also introduces dependencies and complexity into my deployment.&lt;/p&gt;
+
+&lt;p&gt;After watching Phil Hawksworth’s &lt;a href=&quot;https://vimeo.com/145138875&quot;&gt;excellent talk on static site hosting&lt;/a&gt; I decided I should try something more tailor made for static sites, and gave netlify a go. Only after investing a fair bit of time into setting it up did I realise they inject a ‘powered by netlify’ pop up. Sure, I’ve been able to add a script to suppress this, but it’s hardly honourable behaviour, and this was still added complexity I didn’t need. I was starting to miss github pages. If only there was a way to use github pages without reverting to Jekyll as my static site generator.&lt;/p&gt;
+
+&lt;p&gt;Well there is, and the surprising hero is &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt;. I can’t claim to be the &lt;a href=&quot;https://gist.github.com/cobyism/4730490&quot;&gt;originator of the idea&lt;/a&gt;, but I have refined it and boiled it down to the following shell commands which leave your master branch uncluttered with additional commits and built files. I have them available as &lt;code class=&quot;highlighter-rouge&quot;&gt;make deploy&lt;/code&gt;, but it should be possible to adapt them for use in any build scripts you have. An &lt;a href=&quot;https://www.npmjs.com/package/gh-pages&quot;&gt;npm package&lt;/a&gt; also exists to do this and more, but I’m drawn to the simplicity and speed of the shell.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Add the directory that contains your built static site (which you can also safely put in youor .gitignore)
+git add -Af build-directory-name
+
+# Create a temporary commit so git knows about the files
+git commit -m 'commiting new build'
+
+# Try to delete the content of the gh-pages branch - not essential, but it will avoid potential git conflicts which will cause the deployment to fail
+git push origin :gh-pages || echo 'Failed to delete gh-pages branch. Does it exist?'
+
+# Push the build directory to the root of the gh-pages branch
+git subtree push --prefix build-directory-name origin gh-pages
+
+# Revert the last commit
+git reset HEAD^
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The above can easily be adapted to work for your my-user-name.github.io site by never working in master (I’ve set the default branch for wheresrhys.github.io to be &lt;code class=&quot;highlighter-rouge&quot;&gt;_master&lt;/code&gt;) and pushing a subtree up to &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the second time I’ve written a blog post about the stack I use to power this blog. This time I’m going one further because this blog post is about the code changes contained in the pull request which also adds this text to the site.</summary></entry><entry><title type="html">Semver abuse</title><link href="http://localhost:4000/2015/09/27/semver-abuse.html" rel="alternate" type="text/html" title="Semver abuse" /><published>2015-09-27T00:00:00+01:00</published><updated>2015-09-27T00:00:00+01:00</updated><id>http://localhost:4000/2015/09/27/semver-abuse</id><content type="html" xml:base="http://localhost:4000/2015/09/27/semver-abuse.html">&lt;p&gt;It’s safe to say that I’m now very much used to working with components. I’ve been a siginificant contributor to both a &lt;a href=&quot;http://registry.origami.ft.com/components&quot;&gt;library of components&lt;/a&gt; and the &lt;a href=&quot;http://origami.ft.com/docs/component-spec/&quot;&gt;specification governing them&lt;/a&gt;, and am now working on a &lt;a href=&quot;http://financial-times.github.io/next/&quot;&gt;project&lt;/a&gt; that consumes these modules and a plethora of others in a microservice architecture. I have also tattooed ‘npm’ on one shoulder and ‘bower’ on the other, and am debating whether I should go for a vintage ‘browserify’ or the more contemporary ‘webpack’ on my nether regions.&lt;/p&gt;
+
+&lt;p&gt;Underpinning all this componentisation is semver, both the &lt;a href=&quot;http://semver.org/&quot;&gt;specification&lt;/a&gt; defining how these version numbers relate to a release’s contents, and the &lt;a href=&quot;https://github.com/npm/node-semver&quot;&gt;node module&lt;/a&gt; that parses these version numbers. Between them they make it possible for an application to request versions of components compatible with a given range.&lt;/p&gt;
+
+&lt;p&gt;To recap, here’s what the semver spec says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Given a version number MAJOR.MINOR.PATCH, increment the:&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;MAJOR version when you make incompatible API changes,&lt;/li&gt;
+    &lt;li&gt;MINOR version when you add functionality in a backwards-compatible manner, and&lt;/li&gt;
+    &lt;li&gt;PATCH version when you make backwards-compatible bug fixes.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So semver, used correctly, rigidly communicates to consumers (be they human or machine) how significant the code changes in a release are. Consumers can therefore make informed decisions about how to respond to the release. &lt;a href=&quot;http://semver.org/&quot;&gt;Semver ranges&lt;/a&gt; such as &lt;code class=&quot;highlighter-rouge&quot;&gt;~1.2.3&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;^2.3.4&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;=2.9.7 &amp;lt; 4&lt;/code&gt; are the standard way for machine consumers to specify whether to accept a given new release or not. If you have faith in a publisher’s use of semver it’s fairly safe to use the semver range &lt;code class=&quot;highlighter-rouge&quot;&gt;^2.3.4&lt;/code&gt; or similar in your dependency manifest as this literally means&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Accept all releases which don’t change the API in an incompatible way compared to version 2.3.4&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(In the rest of this article I’ll be assuming that &lt;code class=&quot;highlighter-rouge&quot;&gt;^2.3.4&lt;/code&gt; is the type of semver range generally used by consumers of a component).&lt;/p&gt;
+
+&lt;p&gt;But there is a downside. When working with a large componentised architecture releasing a major version of a component can be a devil to roll out as each dependent will need to have its dependency manifest (package.json, bower.json etc.) updated. Any that are missed will languish with old versions of the component installed, leading to a range of problems e.g.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;If a component is updated to stop fetching data from a deprecated service any applications which don’t have the update installed will break when that service is switched off&lt;/li&gt;
+  &lt;li&gt;It becomes confusing for developers when different major versions of a component are used in different places - ‘How is this version different to that one?’&lt;/li&gt;
+  &lt;li&gt;If an application really needs some feature only available in a more recent major version it’s difficult to know if upgrading will be a big task or not&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On a few occasions recently myself and colleagues have released breaking changes as minor releases. We’ve been doing so bashfully, referring to them as a ‘cheeky &lt;del&gt;Nando’s&lt;/del&gt; minor’, or apologising for them in our chatroom. But these abuses of semver have in fact had a positive impact on the release process - things get stuck on the last major version less often, increasing the uptake of the latest patches and new API features. So I’ve been trying to understand what distinguishes these benign semver misdemeanours from semver attrocities.&lt;/p&gt;
+
+&lt;p&gt;For me the key is to think of semver as a communication tool to tell consumers something about your component. Then the main factor which determines when it might be OK to abuse semver is how critical semver is to how you communicate with your consumers.&lt;/p&gt;
+
+&lt;p&gt;If your knowledge of the component’s consumers is limited and semver is your only reliable way to communicate to &lt;em&gt;all&lt;/em&gt; of them (this is typically the case for open source projects) then stick to the semver spec &lt;em&gt;to the letter&lt;/em&gt;. It’s irresponsible to break a convention when you have no reliable way of communicating that you’re doing so. If you introduce a breaking change without releasing a major version you will have failed to warn your consumers, using the only channel open to you, that the release may end up breaking their application.&lt;/p&gt;
+
+&lt;p&gt;If, however, you have complimentary channels to communicate and manage software updates for &lt;em&gt;all&lt;/em&gt; your consumers then it can be OK to be less strict. For example, if you’re creating components for internal company use (albeit possibly using open source registries, such as npm, as a delivery mechanism) then it’s probable you will have good information about who your consumers are and have additional channels to communicate with them. You may have some influence over their codebases and deployment processes too. It may even be the case that the only consumers are your team and the applications you’ve written.&lt;/p&gt;
+
+&lt;p&gt;In this case semver is complementary to other tools and practices used by you and your component’s consumers. You may be able to release a breaking change as a minor or patch version provided:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You know about all the teams and codebases that consume your component and what service level you’re expected to provide to them&lt;/li&gt;
+  &lt;li&gt;You communicate well about the change to your consumers. You should have 100% confidence that information delivered via these other communication channels will get through&lt;/li&gt;
+  &lt;li&gt;The risk of something breaking for the end user is negligable. As an additional consideration it’s worth thinking abut whether the risks and costs of your breaking something are smaller than those caused by some consumers failing to update their code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As an example of when we’ve done this, in &lt;a href=&quot;https://github.com/Financial-Times/next-build-tools&quot;&gt;next-build-tools&lt;/a&gt; (a cli for building and deploying microservices and components for &lt;a href=&quot;https://next.ft.com&quot;&gt;next.ft.com&lt;/a&gt;) we wanted to add a subroutine to &lt;code class=&quot;highlighter-rouge&quot;&gt;nbt verify&lt;/code&gt; to check for version parity between certain node modules and their bower equivalents, and fail the build if the condition was not met. Rather than making this sub-routine an opt-in, we decided it would be better to have every microservice’s build run it by default, with the ability to opt out for those which didn’t require the parity check. This would cause every API microservice’s build to fail with:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Error: `next-build-tools verify` now checks to see if your bower and npm component versions match. If you're building an app without a UI `next-build-tools verify --skip-layout-checks`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;But this breaking change would never affect the end user as our CI pipeline won’t deploy given a failed build. The breakage was well-communicated via our dev chatroom and the informative error message so it was also easy for consumers to adapt.&lt;/p&gt;
+
+&lt;p&gt;The end result of this was that all applications for which it was relevant started carrying out the bower-npm parity check without requiring any code changes. Granted, a lot of other applications’ builds had to be modified slightly, but in a very simple way and only when they were being rebuilt anyway, so the cost was low. No &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;s needed to be altered and all applications continued to receive all the latest new features and patches. I call this a win.&lt;/p&gt;
+
+&lt;p&gt;In a curious twist, the bigger the breaking change the safer it is to take this approach. If you’re sure that your change will break any build of any codebase that is incompatible with the new API then the code won’t get deployed to production. A smaller, more niche change e.g. removing a long ago deprecated method, though superficially less dangerous is more likely to slip through the net and cause bugs in production. But in these sorts of situations it can still be possible to release the change as a minor release &lt;em&gt;if&lt;/em&gt; you work to make the risk of a break in production negligable e.g. search the codebase of each consumer to make sure all dependents will cope with the change.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I still think respecting semver is the right approach most of the time - I’m not advocating releasing sweeping API changes as minor versions. But for changes which are technically breaking but carry low risk and are limited in scope a well-managed minor release can be both easier and less time consuming to roll out. From a code comprehensibility point of view it will also lead to a closer correlation between major releases and truly significant API changes - no more wondering if v14 is a complete departure from v13, or if it just removes a long-deprecated method.&lt;/p&gt;
+
+&lt;p&gt;Semver is an indispensable tool, but if you’re striving to have all your applications running the latest component code it can get in the way. If major semver versions are making it hard to upgrade your dependencies it might be worth bending the rules occasionally.&lt;/p&gt;</content><author><name></name></author><summary type="html">It’s safe to say that I’m now very much used to working with components. I’ve been a siginificant contributor to both a library of components and the specification governing them, and am now working on a project that consumes these modules and a plethora of others in a microservice architecture. I have also tattooed ‘npm’ on one shoulder and ‘bower’ on the other, and am debating whether I should go for a vintage ‘browserify’ or the more contemporary ‘webpack’ on my nether regions.</summary></entry><entry><title type="html">A new stack (or, many hippo returns)</title><link href="http://localhost:4000/2014/11/12/new-stack.html" rel="alternate" type="text/html" title="A new stack (or, many hippo returns)" /><published>2014-11-12T00:00:00+00:00</published><updated>2014-11-12T00:00:00+00:00</updated><id>http://localhost:4000/2014/11/12/new-stack</id><content type="html" xml:base="http://localhost:4000/2014/11/12/new-stack.html">&lt;p&gt;Missed me?&lt;/p&gt;
+
+&lt;p&gt;No, me neither, until the other day when I realised my losing a debit card on holiday had inadvertently stopped payments to my hosting company and downed this site… so I’ve been offline for a while. As you can see I’m now back to normal… but a lot has changed under the hood.&lt;/p&gt;
+
+&lt;p&gt;My blog used to be wordpress driven and resided for several years on a bog-standard LAMP hosting service. Then I relegated the blog to old.wheresrhys.co.uk and set up this one as a jekyll driven github pages site (using some hacky DNS settings to keep both sites under the wheresrhys domain). The death of my LAMP hosting and a quality I have which can best be described as lazy-sightedness* has pushed me to finally bring my hosting infrastructure in line with what I’m accustomed to at work; CI, deploy scripts, node servers and hurrah for heroku.&lt;/p&gt;
+
+&lt;p&gt;But there’s an elephant in the room. I call that elephant ‘Ruby’. Lots of people love Ruby, including the local Rhinoceros, ‘Jekyll’, but I really can’t be bothered with her. I have a pet hippo called ‘nodejs’ I much prefer hanging out with, even though he and Jekyll don’t get on very well. What to do??&lt;/p&gt;
+
+&lt;p&gt;A while back I looked for an alternative to Jekyll that ran on node. At the time it wasn’t very fertile ground, but it’s testament to the dynamism of the nodejs community that the number of options &lt;a href=&quot;https://www.staticgen.com/&quot;&gt;has exploded&lt;/a&gt;. Reading through the available tools one of them really caught my eye: &lt;a href=&quot;http://www.metalsmith.io/&quot;&gt;Metalsmith&lt;/a&gt;. I’ve recently worked a lot with express and gulp, and in metalsmith there appeared to be a static site generator with a very similar pipe and middleware approach, less dependency ridden and more customisable than I’d imagined I’d find. Too good to be true? Was I getting rid of one elephant only to replace it with another, whiter one?&lt;/p&gt;
+
+&lt;p&gt;Having now finished the migration, I’m really happy with metalsmith. It’s an excellent, highly customisable tool that, unlike Jekyll, isn’t particularly opinionated about how I organise my code.&lt;/p&gt;
+
+&lt;p&gt;I have very little insight to share on adopting metalsmith, but would advise against using ui plugins. A few judiciously selected low-level plugins - &lt;a href=&quot;https://github.com/segmentio/metalsmith-collections&quot;&gt;collections&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.org/package/metalsmith-each&quot;&gt;each&lt;/a&gt; and &lt;a href=&quot;https://github.com/segmentio/metalsmith-permalinks&quot;&gt;permalinks&lt;/a&gt; to name a few - give you enough access to global and per-page metadata to be able to build your own menus and so forth. Building your own will also make it easier to customise to your exact needs.&lt;/p&gt;
+
+&lt;p&gt;I’d also stay away from the recipes in metalsmith’s documentation as at least some appear to be out of date, and tracking down the cause of a bug when you’re including a number of plugins all at once can be difficult. What I found to be far more useful was following &lt;a href=&quot;http://www.robinthrift.com/posts/metalsmith-part-1-setting-up-the-forge/&quot;&gt;this quickstart&lt;/a&gt; for a very basic site and then gradually adapting and adding complexity, one feature at a time.&lt;/p&gt;
+
+&lt;p&gt;One plugin which deserves special mention is &lt;a href=&quot;https://www.npmjs.org/package/gulpsmith&quot;&gt;gulpsmith&lt;/a&gt;, which allows you to use metalsmith as part of your gulp build (or conversely, to use gulp plugins as part of your metalsmith build). Even though I’m relatively new to &lt;a href=&quot;http://gulpjs.com&quot;&gt;gulp&lt;/a&gt; I found it more convenient and intuitive to define gulp tasks for each file type/directory (e.g. browerifying js, compiling sass) than to use the equivalent metalsmith plugins and either branch the main metalsmith pipe or do pattern-matching on each file.&lt;/p&gt;
+
+&lt;p&gt;And finally, I’m using &lt;a href=&quot;https://github.com/matthew-andrews/haikro&quot;&gt;haikro&lt;/a&gt;, a very useful new tool (for which I’m only the second customer) for deploying a node site to &lt;a href=&quot;http://heroku.com&quot;&gt;heroku&lt;/a&gt; without the need to run the build on heroku &lt;em&gt;or&lt;/em&gt; commit my built files. It’s designed primarily to fit into a ci pipeline which has already built the site once, but is also very handily provides a minimal deployment process very much befitting a simple static site.&lt;/p&gt;
+
+&lt;p&gt;And yes, my hippo is very happy with &lt;a href=&quot;https://github.com/wheresrhys/wheresrhys.github.io&quot;&gt;the result&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;*&lt;em&gt;always seeking the lazy option, but either not paying enough attention or lacking the insight to identify it&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Missed me?</summary></entry><entry><title type="html">Beyond Modernizr</title><link href="http://localhost:4000/2014/04/07/beyond-modernizr.html" rel="alternate" type="text/html" title="Beyond Modernizr" /><published>2014-04-07T00:00:00+01:00</published><updated>2014-04-07T00:00:00+01:00</updated><id>http://localhost:4000/2014/04/07/beyond-modernizr</id><content type="html" xml:base="http://localhost:4000/2014/04/07/beyond-modernizr.html">&lt;p&gt;Few javascript libraries have achieved the ubiquity of Modernizr. It’s up there with the jQuery’s of the world as an indispensible tool and is the de facto standard when it comes to feature detection in the browser.&lt;/p&gt;
+
+&lt;p&gt;It’s enabled us to develop sites using new browser features before they become universally available. It’s made developing for an increasingly fragmented ecosystem of browsers not only possible but predictable and easy. I also have a soft sport for Modernizr as it’s the first open source project I contributed code to (albeit in a very minor way).&lt;/p&gt;
+
+&lt;p&gt;Nevertheless I do have one major gripe with Modernizr, namely that I have to use it at all. I don’t want to download and execute an additional javascript file before the rest of my page can load. In the mobile age, where performance is increasingly given equal footing with design, functionality and content, this additional cost prior to page rendering should be avoided if at all possible.&lt;/p&gt;
+
+&lt;p&gt;But given that the html specs are now a working, evolving document constantly being added to, and that browsers will implement any new features whenever they like (even before they’re added to the spec) the problem of feature detection is not going to go away, and it’s not going to become less important. So if the problem is here to stay and the solution is suboptimal, what do we do?&lt;/p&gt;
+
+&lt;p&gt;The answer’s obvious if we start from the principle that solving a universal, persistent problem on the web shouldn’t, long term, be the responsibility of a utility library; it should be resolved by the specs and browsers themselves.&lt;/p&gt;
+
+&lt;p&gt;So I suggest browsers implement a &lt;code class=&quot;highlighter-rouge&quot;&gt;window.features&lt;/code&gt; object which, more or less, duplicates the &lt;code class=&quot;highlighter-rouge&quot;&gt;Modernizr&lt;/code&gt; object i.e. for a given feature &lt;code class=&quot;highlighter-rouge&quot;&gt;window.features.theFeature&lt;/code&gt; is a boolean denoting whether or not the browser supports it (in reality, it would likely either be &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;undefined&lt;/code&gt;). Then Modernizr would become a polyfill for &lt;code class=&quot;highlighter-rouge&quot;&gt;window.features&lt;/code&gt;. Modernizr’s [lack of a] naming convention for features would need to be looked at, but that’s a minor niggle.&lt;/p&gt;
+
+&lt;p&gt;As well as the javascript API Modernizr does of course offer the convenience of adding css classes to enable feature detection within stylesheets. This is fine, but with native feature detection support the browser could do much better and give us access to a new category of media query &lt;code class=&quot;highlighter-rouge&quot;&gt;@media (feature: svg) {}&lt;/code&gt;. Adding a feature to &lt;code class=&quot;highlighter-rouge&quot;&gt;window.features&lt;/code&gt; would have the side effect of making the media query for that feature truthy.&lt;/p&gt;
+
+&lt;p&gt;Polyfilling this with Modernizr would be less straightforward than the javascript implementation, likely relying on continuing to add classes to the html and duplicating style blocks:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;@media&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;svg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* styles */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.svg&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;/* styles */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;… though with css preprocessors and gzipping this isn’t necessarily onerous to write or hugely detrimental to file size.&lt;/p&gt;
+
+&lt;p&gt;To sum up, what I want is a day when I only have to run a single feature test in my code&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;features&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;c1&quot;&gt;// download Modernizr&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, wouldn’t that be nice.&lt;/p&gt;</content><author><name></name></author><summary type="html">Few javascript libraries have achieved the ubiquity of Modernizr. It’s up there with the jQuery’s of the world as an indispensible tool and is the de facto standard when it comes to feature detection in the browser.</summary></entry><entry><title type="html">A very specific problem</title><link href="http://localhost:4000/2014/03/02/a-very-specific-problem.html" rel="alternate" type="text/html" title="A very specific problem" /><published>2014-03-02T00:00:00+00:00</published><updated>2014-03-02T00:00:00+00:00</updated><id>http://localhost:4000/2014/03/02/a-very-specific-problem</id><content type="html" xml:base="http://localhost:4000/2014/03/02/a-very-specific-problem.html">&lt;p&gt;There are many things that are ‘the’ bane of a front-end developer’s life. Many of these are a consequence of the fact we have to support an ever growing number of environments with increasing, rather than decreasing, variance in their adoption of given APIs. Even though browser vendors now cooperate more fully than in the past when it comes to writing and implementing the standards, a large chunk of our audience still visit our sites using legacy browsers.&lt;/p&gt;
+
+&lt;p&gt;As well as restricting access to new APIs this slow and piecemeal upgrading of the web has another side effect - it’s nigh-on impossible for the specs to make breaking changes, therefore bad engineering/design decisions stick around for a long time.&lt;/p&gt;
+
+&lt;p&gt;I was recently in a workshop with &lt;a href=&quot;http://csswizadry.com&quot;&gt;Harry Roberts&lt;/a&gt;. Most of the contents of the workshop were about how to avoid getting into specicifity wars in CSS. As an aside he mentioned that specicifity is arguably a bad feature of CSS that should never have been put in in the first place.&lt;/p&gt;
+
+&lt;p&gt;The more I think about it, the more I agree with this. If you adopt the good practice of writing your styles in a cascading fashion, starting with generic ones and gradually adding those for narrower use cases then specicifity is not needed and can often be a hinderance. With the exception of &lt;code class=&quot;highlighter-rouge&quot;&gt;!important&lt;/code&gt; specicifity could be done away with altogether (inline styles, as the last styles in the cascade applied to an element wouldn’t need any special specicifity either).&lt;/p&gt;
+
+&lt;p&gt;But how to get rid of specicifity? The web is built on HTML, CSS and javascript, and it’s hard to envision any of them disappearing soon. But due to the inherent non-upgradability of the web we can’t have some browsers suddenly ditching specicifty as it would likely break a lot of sites and place a heavy burden on developers to upgrade their stylesheets to not rely on specicifity.&lt;/p&gt;
+
+&lt;p&gt;An alternative might be to define a new standard styling language which can be included alongside CSS stylesheets - specicifity isn’t the only gripe people have with CSS and it might be worth starting from scratch on a new, improved standard, which newer browsers would favour over CSS if stylesheets using both standards are provided.&lt;/p&gt;
+
+&lt;p&gt;But again, this would place a heavy burden on developers to maintain two differet types of stylesheet, and to learn the differences between the two standards (onerous whether it’s learning a totally new syntax or memorising the subtle differences between the two). It also places high expectations on browser vendors to back, implement and maintain a new standard.&lt;/p&gt;
+
+&lt;p&gt;I think what the web needs is a new attribute on the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt; tag:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;main.css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;specicifity=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;false&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;which developers can use to turn off specicifity in browsers that support doing so. Stylesheets written using a well structured cascade from general to narrower use cases &lt;em&gt;should&lt;/em&gt; still work fine without any change. They will likely already contain a few extra-specific style rules in order to cope with specicifity problems in existing browsers, but as long as these specicifity overrides are included in a sensible order then removing specicifity shouldn’t lead to them getting overridden by other styles. And testing to see whether your styles work with specicifity on or off is trivial - just add or remove the &lt;code class=&quot;highlighter-rouge&quot;&gt;specicifity=&quot;false&quot;&lt;/code&gt; attribute. Any styles that need to preserve specicifity (for instance to override third party styles) could have it re-enabled using, for instance a css property &lt;code class=&quot;highlighter-rouge&quot;&gt;specific: true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;As well as getting rid of what is probably the hardest problem while writing scaleable CSS, removing specicifity would likely improve rendering times slightly as it’s one less thing for browsers to have to process. It’s probably also not particularly difficult for browsers to implement (I’d be surprised if it doesn’t boil down to skipping over a step or two when parsing and rendering).&lt;/p&gt;
+
+&lt;p&gt;So, who’s with me?&lt;/p&gt;</content><author><name></name></author><summary type="html">There are many things that are ‘the’ bane of a front-end developer’s life. Many of these are a consequence of the fact we have to support an ever growing number of environments with increasing, rather than decreasing, variance in their adoption of given APIs. Even though browser vendors now cooperate more fully than in the past when it comes to writing and implementing the standards, a large chunk of our audience still visit our sites using legacy browsers.</summary></entry></feed>

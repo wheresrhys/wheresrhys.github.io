@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+	<link rel="icon" href="/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Wheresrhys" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Wheresrhys</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About me</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/speaking/">Speaking</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Beyond Modernizr</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2014-04-07T00:00:00+01:00" itemprop="datePublished">Apr 7, 2014
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Few javascript libraries have achieved the ubiquity of Modernizr. It’s up there with the jQuery’s of the world as an indispensible tool and is the de facto standard when it comes to feature detection in the browser.</p>
+
+<p>It’s enabled us to develop sites using new browser features before they become universally available. It’s made developing for an increasingly fragmented ecosystem of browsers not only possible but predictable and easy. I also have a soft sport for Modernizr as it’s the first open source project I contributed code to (albeit in a very minor way).</p>
+
+<p>Nevertheless I do have one major gripe with Modernizr, namely that I have to use it at all. I don’t want to download and execute an additional javascript file before the rest of my page can load. In the mobile age, where performance is increasingly given equal footing with design, functionality and content, this additional cost prior to page rendering should be avoided if at all possible.</p>
+
+<p>But given that the html specs are now a working, evolving document constantly being added to, and that browsers will implement any new features whenever they like (even before they’re added to the spec) the problem of feature detection is not going to go away, and it’s not going to become less important. So if the problem is here to stay and the solution is suboptimal, what do we do?</p>
+
+<p>The answer’s obvious if we start from the principle that solving a universal, persistent problem on the web shouldn’t, long term, be the responsibility of a utility library; it should be resolved by the specs and browsers themselves.</p>
+
+<p>So I suggest browsers implement a <code class="highlighter-rouge">window.features</code> object which, more or less, duplicates the <code class="highlighter-rouge">Modernizr</code> object i.e. for a given feature <code class="highlighter-rouge">window.features.theFeature</code> is a boolean denoting whether or not the browser supports it (in reality, it would likely either be <code class="highlighter-rouge">true</code> or <code class="highlighter-rouge">undefined</code>). Then Modernizr would become a polyfill for <code class="highlighter-rouge">window.features</code>. Modernizr’s [lack of a] naming convention for features would need to be looked at, but that’s a minor niggle.</p>
+
+<p>As well as the javascript API Modernizr does of course offer the convenience of adding css classes to enable feature detection within stylesheets. This is fine, but with native feature detection support the browser could do much better and give us access to a new category of media query <code class="highlighter-rouge">@media (feature: svg) {}</code>. Adding a feature to <code class="highlighter-rouge">window.features</code> would have the side effect of making the media query for that feature truthy.</p>
+
+<p>Polyfilling this with Modernizr would be less straightforward than the javascript implementation, likely relying on continuing to add classes to the html and duplicating style blocks:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@media</span> <span class="p">(</span><span class="n">feature</span><span class="p">:</span> <span class="n">svg</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c">/* styles */</span>
+<span class="p">}</span>
+<span class="nc">.svg</span> <span class="p">{</span>
+  <span class="c">/* styles */</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>… though with css preprocessors and gzipping this isn’t necessarily onerous to write or hugely detrimental to file size.</p>
+
+<p>To sum up, what I want is a day when I only have to run a single feature test in my code</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nb">window</span><span class="p">.</span><span class="nx">features</span><span class="p">)</span> <span class="p">{</span>
+   <span class="c1">// download Modernizr</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Now, wouldn’t that be nice.</p>
+
+  </div><a class="u-url" href="/2014/04/07/beyond-modernizr.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Wheresrhys</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wheresrhys</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wheresrhys</span></a></li><li><a href="https://www.twitter.com/wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">wheresrhys</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>The online home of Rhys Evans, rocket from the Javascript.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<canvas id="dots"></canvas>
+<script>
+const canvas = document.getElementById('dots');
+const w = canvas.width = canvas.offsetWidth;
+const h = canvas.height = canvas.offsetHeight;
+const ctx = canvas.getContext('2d');
+
+const radius = 2 + Math.ceil(Math.random() * 2);
+const zoom = 1 + (Math.random() * 0.1);
+const angle = (Math.PI / 180) * ((Math.random() * 4) + radius / (3 * zoom));
+const origin = [
+  w/4 + Math.random()*w/2,
+  h/4 + Math.random()*h/2
+];
+
+let n = Math.ceil(0.4 * w * h / (radius * radius));
+const dots = [];
+while(n--) {
+  dots.push([ Math.random()*w, Math.random()*h]);
+}
+
+const rotate = (x, y) => {
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle)
+  return [
+    cos * (x-origin[0]) - sin * (y-origin[1]) + origin[0],
+    sin * (x-origin[0]) + cos * (y-origin[1]) + origin[1]
+  ];
+}
+
+const magnify = ([x, y]) => {
+  return [
+    ((x-origin[0]) * zoom) + origin[0],
+    ((y-origin[1]) * zoom) + origin[1]
+  ]
+}
+
+const drawDot = (x, y) => {
+  ctx.beginPath();
+  ctx.arc(x, y, radius/2, 0, 2 * Math.PI, false);
+  ctx.fill();
+}
+
+ctx.fillStyle = '#eedddd';
+dots.forEach(([x, y]) => {
+  drawDot(x, y);
+})
+
+ctx.fillStyle = '#ddddee';
+dots.forEach(([x, y]) => {
+  [x, y] = magnify(rotate(x, y));
+  drawDot(x, y);
+})
+</script>
+</body>
+
+</html>

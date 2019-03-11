@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+	<link rel="icon" href="/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Wheresrhys" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Wheresrhys</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About me</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/speaking/">Speaking</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Semver abuse</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2015-09-27T00:00:00+01:00" itemprop="datePublished">Sep 27, 2015
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>It’s safe to say that I’m now very much used to working with components. I’ve been a siginificant contributor to both a <a href="http://registry.origami.ft.com/components">library of components</a> and the <a href="http://origami.ft.com/docs/component-spec/">specification governing them</a>, and am now working on a <a href="http://financial-times.github.io/next/">project</a> that consumes these modules and a plethora of others in a microservice architecture. I have also tattooed ‘npm’ on one shoulder and ‘bower’ on the other, and am debating whether I should go for a vintage ‘browserify’ or the more contemporary ‘webpack’ on my nether regions.</p>
+
+<p>Underpinning all this componentisation is semver, both the <a href="http://semver.org/">specification</a> defining how these version numbers relate to a release’s contents, and the <a href="https://github.com/npm/node-semver">node module</a> that parses these version numbers. Between them they make it possible for an application to request versions of components compatible with a given range.</p>
+
+<p>To recap, here’s what the semver spec says:</p>
+
+<blockquote>
+  <p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+  <ul>
+    <li>MAJOR version when you make incompatible API changes,</li>
+    <li>MINOR version when you add functionality in a backwards-compatible manner, and</li>
+    <li>PATCH version when you make backwards-compatible bug fixes.</li>
+  </ul>
+</blockquote>
+
+<p>So semver, used correctly, rigidly communicates to consumers (be they human or machine) how significant the code changes in a release are. Consumers can therefore make informed decisions about how to respond to the release. <a href="http://semver.org/">Semver ranges</a> such as <code class="highlighter-rouge">~1.2.3</code>, <code class="highlighter-rouge">^2.3.4</code>, <code class="highlighter-rouge">&gt;=2.9.7 &lt; 4</code> are the standard way for machine consumers to specify whether to accept a given new release or not. If you have faith in a publisher’s use of semver it’s fairly safe to use the semver range <code class="highlighter-rouge">^2.3.4</code> or similar in your dependency manifest as this literally means</p>
+
+<blockquote>
+  <p>Accept all releases which don’t change the API in an incompatible way compared to version 2.3.4</p>
+</blockquote>
+
+<p>(In the rest of this article I’ll be assuming that <code class="highlighter-rouge">^2.3.4</code> is the type of semver range generally used by consumers of a component).</p>
+
+<p>But there is a downside. When working with a large componentised architecture releasing a major version of a component can be a devil to roll out as each dependent will need to have its dependency manifest (package.json, bower.json etc.) updated. Any that are missed will languish with old versions of the component installed, leading to a range of problems e.g.</p>
+<ul>
+  <li>If a component is updated to stop fetching data from a deprecated service any applications which don’t have the update installed will break when that service is switched off</li>
+  <li>It becomes confusing for developers when different major versions of a component are used in different places - ‘How is this version different to that one?’</li>
+  <li>If an application really needs some feature only available in a more recent major version it’s difficult to know if upgrading will be a big task or not</li>
+</ul>
+
+<p>On a few occasions recently myself and colleagues have released breaking changes as minor releases. We’ve been doing so bashfully, referring to them as a ‘cheeky <del>Nando’s</del> minor’, or apologising for them in our chatroom. But these abuses of semver have in fact had a positive impact on the release process - things get stuck on the last major version less often, increasing the uptake of the latest patches and new API features. So I’ve been trying to understand what distinguishes these benign semver misdemeanours from semver attrocities.</p>
+
+<p>For me the key is to think of semver as a communication tool to tell consumers something about your component. Then the main factor which determines when it might be OK to abuse semver is how critical semver is to how you communicate with your consumers.</p>
+
+<p>If your knowledge of the component’s consumers is limited and semver is your only reliable way to communicate to <em>all</em> of them (this is typically the case for open source projects) then stick to the semver spec <em>to the letter</em>. It’s irresponsible to break a convention when you have no reliable way of communicating that you’re doing so. If you introduce a breaking change without releasing a major version you will have failed to warn your consumers, using the only channel open to you, that the release may end up breaking their application.</p>
+
+<p>If, however, you have complimentary channels to communicate and manage software updates for <em>all</em> your consumers then it can be OK to be less strict. For example, if you’re creating components for internal company use (albeit possibly using open source registries, such as npm, as a delivery mechanism) then it’s probable you will have good information about who your consumers are and have additional channels to communicate with them. You may have some influence over their codebases and deployment processes too. It may even be the case that the only consumers are your team and the applications you’ve written.</p>
+
+<p>In this case semver is complementary to other tools and practices used by you and your component’s consumers. You may be able to release a breaking change as a minor or patch version provided:</p>
+<ul>
+  <li>You know about all the teams and codebases that consume your component and what service level you’re expected to provide to them</li>
+  <li>You communicate well about the change to your consumers. You should have 100% confidence that information delivered via these other communication channels will get through</li>
+  <li>The risk of something breaking for the end user is negligable. As an additional consideration it’s worth thinking abut whether the risks and costs of your breaking something are smaller than those caused by some consumers failing to update their code.</li>
+</ul>
+
+<p>As an example of when we’ve done this, in <a href="https://github.com/Financial-Times/next-build-tools">next-build-tools</a> (a cli for building and deploying microservices and components for <a href="https://next.ft.com">next.ft.com</a>) we wanted to add a subroutine to <code class="highlighter-rouge">nbt verify</code> to check for version parity between certain node modules and their bower equivalents, and fail the build if the condition was not met. Rather than making this sub-routine an opt-in, we decided it would be better to have every microservice’s build run it by default, with the ability to opt out for those which didn’t require the parity check. This would cause every API microservice’s build to fail with:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: `next-build-tools verify` now checks to see if your bower and npm component versions match. If you're building an app without a UI `next-build-tools verify --skip-layout-checks`
+</code></pre></div></div>
+
+<p>But this breaking change would never affect the end user as our CI pipeline won’t deploy given a failed build. The breakage was well-communicated via our dev chatroom and the informative error message so it was also easy for consumers to adapt.</p>
+
+<p>The end result of this was that all applications for which it was relevant started carrying out the bower-npm parity check without requiring any code changes. Granted, a lot of other applications’ builds had to be modified slightly, but in a very simple way and only when they were being rebuilt anyway, so the cost was low. No <code class="highlighter-rouge">package.json</code>s needed to be altered and all applications continued to receive all the latest new features and patches. I call this a win.</p>
+
+<p>In a curious twist, the bigger the breaking change the safer it is to take this approach. If you’re sure that your change will break any build of any codebase that is incompatible with the new API then the code won’t get deployed to production. A smaller, more niche change e.g. removing a long ago deprecated method, though superficially less dangerous is more likely to slip through the net and cause bugs in production. But in these sorts of situations it can still be possible to release the change as a minor release <em>if</em> you work to make the risk of a break in production negligable e.g. search the codebase of each consumer to make sure all dependents will cope with the change.</p>
+
+<p>Don’t get me wrong, I still think respecting semver is the right approach most of the time - I’m not advocating releasing sweeping API changes as minor versions. But for changes which are technically breaking but carry low risk and are limited in scope a well-managed minor release can be both easier and less time consuming to roll out. From a code comprehensibility point of view it will also lead to a closer correlation between major releases and truly significant API changes - no more wondering if v14 is a complete departure from v13, or if it just removes a long-deprecated method.</p>
+
+<p>Semver is an indispensable tool, but if you’re striving to have all your applications running the latest component code it can get in the way. If major semver versions are making it hard to upgrade your dependencies it might be worth bending the rules occasionally.</p>
+
+  </div><a class="u-url" href="/2015/09/27/semver-abuse.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Wheresrhys</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Wheresrhys</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">wheresrhys</span></a></li><li><a href="https://www.twitter.com/wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">wheresrhys</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>The online home of Rhys Evans, rocket from the Javascript.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+<canvas id="dots"></canvas>
+<script>
+const canvas = document.getElementById('dots');
+const w = canvas.width = canvas.offsetWidth;
+const h = canvas.height = canvas.offsetHeight;
+const ctx = canvas.getContext('2d');
+
+const radius = 2 + Math.ceil(Math.random() * 2);
+const zoom = 1 + (Math.random() * 0.1);
+const angle = (Math.PI / 180) * ((Math.random() * 4) + radius / (3 * zoom));
+const origin = [
+  w/4 + Math.random()*w/2,
+  h/4 + Math.random()*h/2
+];
+
+let n = Math.ceil(0.4 * w * h / (radius * radius));
+const dots = [];
+while(n--) {
+  dots.push([ Math.random()*w, Math.random()*h]);
+}
+
+const rotate = (x, y) => {
+  const cos = Math.cos(angle);
+  const sin = Math.sin(angle)
+  return [
+    cos * (x-origin[0]) - sin * (y-origin[1]) + origin[0],
+    sin * (x-origin[0]) + cos * (y-origin[1]) + origin[1]
+  ];
+}
+
+const magnify = ([x, y]) => {
+  return [
+    ((x-origin[0]) * zoom) + origin[0],
+    ((y-origin[1]) * zoom) + origin[1]
+  ]
+}
+
+const drawDot = (x, y) => {
+  ctx.beginPath();
+  ctx.arc(x, y, radius/2, 0, 2 * Math.PI, false);
+  ctx.fill();
+}
+
+ctx.fillStyle = '#eedddd';
+dots.forEach(([x, y]) => {
+  drawDot(x, y);
+})
+
+ctx.fillStyle = '#ddddee';
+dots.forEach(([x, y]) => {
+  [x, y] = magnify(rotate(x, y));
+  drawDot(x, y);
+})
+</script>
+</body>
+
+</html>
