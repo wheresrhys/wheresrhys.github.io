@@ -1,4 +1,3 @@
-node_modules
-build
-tmp
-node-v*
+_site
+.sass-cache
+.jekyll-metadata

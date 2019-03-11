@@ -1,8 +1,0 @@
-                <nav class="posts-nav">
-                  <h2>More thoughts</h2>
-                  <ul>
-                    {% for article in articles %}
-                      <li>{% if article.path != path %}<a href="/{{ article.path }}">{% endif %}{{ article.title }}{% if article.path != path %}</a>{% endif %} ({{ article.date | date('d M Y') }})</li>
-                    {% endfor %}
-                  </ul>
-                </nav>
