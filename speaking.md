@@ -4,6 +4,11 @@ title: Speaking
 permalink: /speaking/
 ---
 
+## Graph vs graph: GraphQL as the API for your Graph Database (GraphQL Days, Bodensee, September 2019)
+Most stories of GraphQL implementations focus on retrofitting a GraphQL layer on top of existing APIs to surface the data's graphiness. But what if you're starting from scratch and you know you'll need a graph from day 1 - what role is there for GraphQL when it's not the only graph representation in your stack. I'll tell you how, at the FT, we've combined a graph database with GraphQL to expose operational information about our business like never before.
+
+- [Slides](https://speakerdeck.com/wheresrhys/graph-vs-graph)
+
 ## A field guide to the Financial Times (neo4j graph tour, London, March 2019)
 The FT was a microservices pioneer, and our teams had a lot of freedom to pick the tools & processes they wanted. 5 years on, many people have moved on and those innovative projects are now legacy code. I’ll tell you about our journey, using neo4j & graphQL, towards keeping track of it all.
 
