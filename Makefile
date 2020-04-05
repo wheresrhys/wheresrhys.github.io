@@ -1,2 +1,2 @@
 jekyll:
-	jekyll serve build --watch
+	bundle exec jekyll serve build --watch

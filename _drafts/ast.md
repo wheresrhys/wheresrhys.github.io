@@ -1,5 +1,7 @@
 # Practical introduction to Abstract Syntax Trees
 
+https://astexplorer.net/
+
 GraphQL is one of the tools I've really embraced lately. A feature that is held up as a major advantage over more traditional APIs is that everthing about it can be introspected. What this means is that anything working with a GraphQL document or query is able to dive into the structure of it in order to develop superpowers, such as writing a plugin that removes all properties begining with 'banana' from the query.
 
 However, this superpower has a high entrance fee to pay. GraphQL's introspection is powered by Abstract Syntax Trees, which are not a simple concept to grasp. In order to remove the 'banana' I must learn about the gorillas and the entire jungle first!
