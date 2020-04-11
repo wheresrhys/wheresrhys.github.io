@@ -13,6 +13,7 @@ Most stories of GraphQL implementations focus on retrofitting a GraphQL layer on
 The FT was a microservices pioneer, and our teams had a lot of freedom to pick the tools & processes they wanted. 5 years on, many people have moved on and those innovative projects are now legacy code. I’ll tell you about our journey, using neo4j & graphQL, towards keeping track of it all.
 
 - [Slides](https://speakerdeck.com/wheresrhys/a-field-guide-to-the-financial-times)
+- [Video](https://www.youtube.com/watch?v=ai-wG7laIsI)
 
 ## Speeding up without slowing down (DeltaV Conf, London, May 2018)
 At FT we built one of the world's fastest media websites, and release to production dozens of times a day. But the architectural and organisational decisions aimed at allowing us to deliver reliable features quickly and consistently don't always fit neatly with the desire to optimise performance.
