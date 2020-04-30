@@ -6,29 +6,23 @@ layout: default
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
+  <p class="post-list-heading">Hello, I'm <a href="/about">Rhys</a>, and this is my website</p>
+  <p class="post-list-heading">If you arrived here by mistake you can either click the browser's back button, close this tab, run away&hellip; or continue on your awe-inspiring journey across cyberspace by <a href="https://www.youtube.com/watch?v=wnspfa8h5p0">clicking this mysterious link</a></p>
 
-  {{ content }}
+  <h2 class="preamble post-list-heading">Lately, I have mostly been writing:</h2>
+  {%- for post in site.posts limit:1 -%}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    <div class="home-page-post">
+      <h3 class="post-list-heading">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      <p>
+        {{ post.description }}
+      </p>
+    </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
+  {%- endfor -%}
 </div>

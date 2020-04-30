@@ -31,6 +31,7 @@ plugins:
 
 header_pages:
   - about.md
+  - writing.md
   - projects.md
   - speaking.md
 # Exclude from processing.
