@@ -1,0 +1,5 @@
+- twitcher/birder/birdwatcher
+- describe why birds are quiet
+- birdwatching = hunter, collector, beauty
+- Damsel flies audible dragon
+- birding community 
