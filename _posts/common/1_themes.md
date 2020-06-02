@@ -3,3 +3,5 @@
 - birdwatching = hunter, collector, beauty
 - Damsel flies audible dragon
 - birding community 
+- i forgot to mention ospreys catch fish https://www.youtube.com/watch?v=428L7cR4AMU
+- relief channel
