@@ -32,6 +32,7 @@ plugins:
 header_pages:
   - about.md
   - writing.md
+  - 61-boring-birds.md
   - projects.md
   - speaking.md
 # Exclude from processing.
