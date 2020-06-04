@@ -28,7 +28,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-
+permalink: /:categories/:year/:month/:title:output_ext
 header_pages:
   - about.md
   - writing.md

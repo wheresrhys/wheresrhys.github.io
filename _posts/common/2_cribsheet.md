@@ -1,12 +1,76 @@
+4th 
 
-how strange to not walk in the evening sun
-fishing line gauntlet
 
-elderblossom overcome by the stink of rotting algae
-crow eating a trout with pink flesh
-dead fish, deoxygenated water
-I guess fish are always gonna die sometime 
-that coconut
+The house martins, 
+
+flying over my shoulder 20cm away. heard in my ear - what are you saying, little one?
+
+
+HM - longer forked, more frequently spread tail. both can look surorisingly 'cwt' in the back
+
+drinking on the wing
+
+I see through my twilit window that they are still not done.
+
+swifts higher up and concentrated at far end and No4 - shy, like deer
+
+
+
+
+
+
+martins form orderly queues while swifts are renegade soldiers of fortune
+
+
+
+
+
+
+lone swift cry
+
+watched 1 wift figure-8ing
+
+swift tower recording, falling numbers, malta
+
+angler gathering algae
+I can see th eedge of the swift maelstrom from my window as I write this (my flat is tantalisingly close to having a view of the reservoirs, but low elevation and another row of houses thwart that aspiration)
+
+Gannetry, Heronry, Eyrie, Rookery, Swannery, 
+
+gullery ternery
+
+cycling carrying post
+
+light dusting of flies 
+
+
+swift cloud swirl
+
+zebra headed grebe chick
+
+pochard like lozenges
+
+chicks of all species - including humans - ave mastered irritating begging. a pattern seen throughout nature. its meaning transcends species
+
+8x vz 10x bins. 
+surprising skill of refinding a moving bird in the bins
+
+swift cut through air like a jibbed dinghy sailboat through water (i was a rubbish crew, and not quite middle class enough. stupid old naomi and her slack jawed boyfriend. Rich cox thinking i was a plebb)
+
+Wind whooshing in the poplar trees - whoosh! - bad trees because they fall in the wind easily. brittle. 2 stumps here
+
+green woodpecker
+
+
+
+grebe braying like a donkey
+
+9 shelduck chicks
+
+
+
+
+3rd
 
 As the winds &mdash; hopefully of change &mdash; blow across the Atlantic, a change in the weather
 

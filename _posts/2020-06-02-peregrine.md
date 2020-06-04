@@ -48,3 +48,5 @@ That book, [The Peregrine](https://wordery.com/the-peregrine-50th-anniversary-ed
 But you'll stay to read to the end of this blog anyway, won't you? Otherwise you won't get to hear me tell you about the two teenage goslings I watched swimming behind their parents as they passed beneath the pylon, oblivious to the killer above them. Behind me, someone walking along the canal sang Bohemian Rhapsody badly. 
 
 And that coot, as did I, continued on its boring journey around the lake.
+
+[Main image credit](https://commons.wikimedia.org/wiki/File:Peregrine_Falcon_(Falco_peregrinus)_(39637662561).jpg)
