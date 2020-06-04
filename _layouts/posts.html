@@ -6,16 +6,19 @@ layout: default
   <h1 class="post-title">{{ page.title | escape }}</h1>
 </header>
 <ul class="post-list">
-  {%- for post in site.posts -%}
+
 
 {% if page.postTitlePrefixFilter %}
+{% assign posts = site.posts | reverse %}
+{%- for post in posts -%}
 {% if post.title contains page.postTitlePrefixFilter %}
+
   <li>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <span class="post-meta">{{ post.date | date: date_format }}</span>
     <h3>
       <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
+        {{ post.title | replace: page.postTitlePrefixFilter, "" | escape }}
       </a>
     </h3>
 
@@ -23,7 +26,9 @@ layout: default
 
   </li>
 {% endif %}
+{%- endfor -%}
 {% else %}
+{%- for post in site.posts -%}
 <li>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -36,8 +41,9 @@ layout: default
       {{ post.description }}
 
   </li>
+  {%- endfor -%}
 {% endif %}
 
-  {%- endfor -%}
+
 </ul>
 
