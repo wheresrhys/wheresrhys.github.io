@@ -1,3 +1,133 @@
+5th
+Common turn on canal
+No song thrush
+Moorhen and crow land in the grass
+Wind in the grass
+Distant sedge warbler
+chiffchaff dependable
+Greenfinch
+Third more than 30 long tailed tits like dragonflies sounding like Pet Shop Boys sounds
+Blue tips in nest box
+Grass being cut
+Kate found a tiny bee
+Brave Jays at Millfield
+Woodpecker
+Sedge Warbler do do do wheee
+Fewer read buntings
+
+
+
+
+
+Today, for me, even more than yesterday, is what this blog's all about. Going looking for something common but magnificent (the song thrush), accept the playful substitue (the sedge warbler), draw within touching distance of a superstar (the hobby), and yet find the most pleasure in the familiar and understated swallow.
+
+Even when the world of birds is stood relatively still, nature's serendipitous paw has plenty of gems to reveal. If only we give our eyes and ears willingly to it.
+
+
+Juvenile pied wagtail
+I've needed to put the cover on my bins
+I shouts yah block goes to the wind and the rain quoting what's his name from clockwork Orange. One minor characters, they're playing a pivotal role, the more as a plot device. Becomes a violent police officer later
+Gulls and a great tit of the first call after the rain
+A subtle low rainbow
+Huge clouds escaping east
+The underside of the clouds polypped and swollen like a sow's belly
+
+
+
+
+
+
+White eye diamonds beneath its tail. It barely red Doc Martin black throat
+They swallow is 2 to to Martin's as the Artic turn is to the Comintern
+Glossy blue, particularly on the shoulders. In the sun after the rain
+
+
+
+Still lots of birds feeding over the water even though there seem to be fewer insects today. At least fewer bothering me. Hi am not attuned to this world of insects. They are not a priority for me. Likewise the swallows Polly haven't noticed the reduction in traffic it's locked down
+grebe weed dance
+
+
+
+
+
+
+
+
+Passing trains
+The wind descends ahead of the rain. Windfall
+The colour of rain is dark grey same as the clouds
+
+
+
+A black teenager with goosefeathers in his Afro
+A monster toddler in a bike helmet running at a goose
+Following a bird in the binoculars it's a skill that I didn't realise is skill
+A tern also hawking from insects
+
+
+
+Swift fly into the wind, using lift like the taut sail of a competition dinghy
+Rogue Sparrow at Lakeside
+
+
+A female greywag tail, looking like it's being tugged by the tail. On a leash
+
+
+
+At the moment goose parents often outnumber the checks
+
+
+A whitethroat, three Sand Martins, I literally  squeals with joy at the swifts
+Are some swift brown and some of them black, or all the same with different light
+Like Stuart Lee "I got nothing" so I come birdwatching everyday
+An invasion of Blackthorn into the reed warblers home. It perches atop anyway
+The underside of the clouds polypped and swollen like a sow's belly
+The swifts glossy underwing
+
+Ducklings stranded on a bed of algae
+Goldfinches sounding like sand Martins
+A Canada Goose stretches to eat that all seedheads of the maturing grass
+
+Hey herons stalked out of the bush onto the lawn saw me and scarpered
+I chased a second djay of the day home
+A retinue of midges waiting at my front door
+Swifts underwing looks white flying above the house in the sun shining from the side
+
+
+
+
+
+
+The hobby is the hunter of swifts… and dragonflies (damsels)
+My first sight of a hobby was one of those unverified optimistic teenage moments. One for there to be confirmed list. The second sighting was of magical dragon birds in Reading. Boats life is not unlike lockdown. I am developing a stoop
+ It's no longer the child star.
+
+
+A hobby is a hawk and it hawks. Swifts also hawk. The Hawk hawks the hawks
+Wood pigeon the hawk alike
+
+
+
+Lesser white throat are early season performers, but their goal rate drops off
+Reed warblers churr, like a ruler on a desk at its highest setting
+Black cap tack
+Whitethroats buzz and makes sounds like police sirens in the 1980s computer games
+Collared doves are surprisingly infrequent
+Little grebe song
+Only one son Martin and one house Martin
+
+A Reed bunting in the brambles. It makes its glaswgian call: see you
+
+Bramble flowers(of course because later berries. Also looks like strawberry flowers. Strawberries are so called because there found on the ground among the straw)
+Dry grass, Green haws
+Reed warbler duet. The female singer or a rival. Linked to podcast
+Swallow— Liquid, low over water. How instantly I knew even with the naked eye
+
+I returns to check if it was two swallows. Something I never do, retrace my steps
+
+
+
+
 4th 
 
 

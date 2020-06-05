@@ -17,3 +17,5 @@
 - collecting
     + i don't catalogue plants, insects. Lazy but also cf Rosaleigh
 - flight
+ "showed well" (a common birding term that means what it says)
+- jizz
