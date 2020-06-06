@@ -22,10 +22,25 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-<a href="https://twitter.com/intent/tweet?url={{ page.url | url_encode}}&text={{ page.title | url_encode}}&via=wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>Yaffle</a><br/>
+<a id="social-link" href="https://twitter.com/intent/tweet?url={{ page.url | url_encode}}&text={{ page.title | url_encode}}&via=wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>Yaffle</a><br/>
 {% if page.title contains "61 Boring Birds:" %}
+  <script>
+    (async () => {
+      const pages = await fetch('/birds.json')
+        .then(res => res.json())
+      const index = pages
+        .findIndex(url => url && window.location.href.indexOf(url) > -1)
 
-  <a href="/61-boring-birds">🦅 More boring birds</a>
+      const url = pages[index + 1];
+
+      if (url) {
+        const socialLink = document.querySelector('#social-link');
+        socialLink.insertAdjacentHTML('afterend', `<br><a href="${url}">🦅 Next boring bird</a>`)
+      }
+    })()
+  </script>
+  <a href="/61-boring-birds">🦚 All boring birds</a>
+
 {% else %}
   <a href="/writing">📚 More writings</a>
 {% endif %}
