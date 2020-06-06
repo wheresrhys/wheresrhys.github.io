@@ -43,7 +43,7 @@ Glossy blue, particularly on the shoulders. In the sun after the rain
 
 
 
-Still lots of birds feeding over the water even though there seem to be fewer insects today. At least fewer bothering me. Hi am not attuned to this world of insects. They are not a priority for me. Likewise the swallows Polly haven't noticed the reduction in traffic it's locked down
+
 grebe weed dance
 
 
@@ -54,8 +54,6 @@ grebe weed dance
 
 
 Passing trains
-The wind descends ahead of the rain. Windfall
-The colour of rain is dark grey same as the clouds
 
 
 
@@ -66,7 +64,6 @@ A tern also hawking from insects
 
 
 
-Swift fly into the wind, using lift like the taut sail of a competition dinghy
 Rogue Sparrow at Lakeside
 
 
@@ -78,11 +75,9 @@ At the moment goose parents often outnumber the checks
 
 
 A whitethroat, three Sand Martins, I literally  squeals with joy at the swifts
-Are some swift brown and some of them black, or all the same with different light
 Like Stuart Lee "I got nothing" so I come birdwatching everyday
 An invasion of Blackthorn into the reed warblers home. It perches atop anyway
 The underside of the clouds polypped and swollen like a sow's belly
-The swifts glossy underwing
 
 Ducklings stranded on a bed of algae
 Goldfinches sounding like sand Martins
@@ -91,7 +86,7 @@ A Canada Goose stretches to eat that all seedheads of the maturing grass
 Hey herons stalked out of the bush onto the lawn saw me and scarpered
 I chased a second djay of the day home
 A retinue of midges waiting at my front door
-Swifts underwing looks white flying above the house in the sun shining from the side
+
 
 
 
@@ -142,52 +137,26 @@ drinking on the wing
 
 I see through my twilit window that they are still not done.
 
-swifts higher up and concentrated at far end and No4 - shy, like deer
 
 
 
 
 
 
-martins form orderly queues while swifts are renegade soldiers of fortune
-
-
-
-
-
-
-lone swift cry
-
-watched 1 wift figure-8ing
-
-swift tower recording, falling numbers, malta
 
 angler gathering algae
-I can see th eedge of the swift maelstrom from my window as I write this (my flat is tantalisingly close to having a view of the reservoirs, but low elevation and another row of houses thwart that aspiration)
 
-Gannetry, Heronry, Eyrie, Rookery, Swannery, 
+
 
 gullery ternery
 
-cycling carrying post
 
-light dusting of flies 
-
-
-swift cloud swirl
 
 zebra headed grebe chick
 
 pochard like lozenges
 
 chicks of all species - including humans - ave mastered irritating begging. a pattern seen throughout nature. its meaning transcends species
-
-8x vz 10x bins. 
-surprising skill of refinding a moving bird in the bins
-
-swift cut through air like a jibbed dinghy sailboat through water (i was a rubbish crew, and not quite middle class enough. stupid old naomi and her slack jawed boyfriend. Rich cox thinking i was a plebb)
-
-Wind whooshing in the poplar trees - whoosh! - bad trees because they fall in the wind easily. brittle. 2 stumps here
 
 green woodpecker
 
@@ -206,9 +175,6 @@ As the winds &mdash; hopefully of change &mdash; blow across the Atlantic, a cha
 
 Moulting crows
 Black birds
-swifts low but not so low
-trevor noah
-3 days to bring politics into it
 tame reed warbler with detailed ruffled face feathers
 
 many black-headed gulls outnumbering - swamping- terns
@@ -285,3 +251,106 @@ Footless pied wag
 
 
 A minor thing going on in my life right now. I'm reading a book about curlews while also reading a lot of tweets about curfews, and skim reading gets quite confusing. If only it were curlews being deployed across America. I could support that.
+
+
+
+
+propel
+throbbig trembling tremulous
+Circumscribed trajectories
+frenzied
+
+
+Albania
+
+
+
+Scissor tails versus needle tail
+
+
+Swifts bunch and move through the air in swirling cloud like a swarm of locusts
+
+They are like this every year
+They like this EVERY YEAR!
+
+My heart is broken
+hirundines etc depart in dribs and drabs - swifts just vanish
+Do others even see swifts? Did I miss them in other years? How is it possible to see anything else??
+
+Oh my days
+The Swifts are still flying in the thunderstorm
+
+streaked
+
+
+Little man legs
+
+
+
+
+
+3rd
+swifts low but not so low
+
+4th
+swifts higher up and concentrated at far end and No4 - shy, like deer
+martins form orderly queues while swifts are renegade soldiers of fortune
+lone swift cry
+
+watched 1 wift figure-8ing
+
+low is exciting, but they have been super low - is the best
+
+
+swift tower recording, falling numbers, malta
+
+I can see th eedge of the swift maelstrom from my window as I write this (my flat is tantalisingly close to having a view of the reservoirs, but low elevation and another row of houses thwart that aspiration)
+
+swift cloud swirl
+
+8x vz 10x bins. 
+surprising skill of refinding a moving bird in the bins
+
+
+
+
+
+5th
+
+
+
+
+
+6th
+
+
+2 house Martin and one Sand Martin
+
+A brood of five read buntings - non-descript calls for a non-descript bird
+Fishermen in camouflage gear more than birders… Why??
+Lesser black backed gull
+
+Geese huddled in the downwind corner
+Localised windy parts–topographically exposed
+Fisherman ensconced
+Female Linnet. Linen
+Juvenile pied wagtail
+Camouflage fatigued
+A few gulls, two turns battling the wind
+Daisies and a white throat
+Two stock doves
+Song thrush and Robin competing
+No seabirds today
+Cygnet flapping its wings
+Unnoticed epping hill
+Even feral pigeons are playing chicken with me in this wind
+I kicked a glass cigar of flints down the slope
+
+I heard a kingfisher while following chinny
+
+
+
+
+Still lots of birds feeding over the water even though there seem to be fewer insects today. At least fewer bothering me. Hi am not attuned to this world of insects. They are not a priority for me. Likewise the swallows Polly haven't noticed the reduction in traffic it's locked down
+
+A demure Pied wagtail

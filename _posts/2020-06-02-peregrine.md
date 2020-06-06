@@ -3,7 +3,7 @@ layout: post
 title: '61 Boring Birds: #2 Peregrine'
 date: 2020-06-02
 ---
-![image](/assets/peregrine.png)
+![image](/assets/img/peregrine.png)
 
 Another glorious sunny day saw me spend my lunch break at the reservoirs, enjoying and suffering from the sun in equal measure.
 
@@ -11,7 +11,7 @@ The reservoirs each have their own personality, and I'll be sure to introduce yo
 
 Today was always going to be a Lockwood day.
 
-![image](/assets/lockwood.jpg)
+![image](/assets/img/lockwood.jpg)
 
 Lockwood Reservoir is the colossus of the Walthamstow Wetlands reserve. Three quarters of a mile end to end, a quarter of a mile wide and with imposing grass-covered concrete embankments lifting it several meters above its siblings, it's the white whale of my little corner of the Lee Valley. 
 

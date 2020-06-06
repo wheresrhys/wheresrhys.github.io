@@ -3,7 +3,7 @@ layout: post
 title: '61 Boring Birds: #4 House Martin'
 date: 2020-06-04
 ---
-![image](/assets/house-martin.jpg)
+![image](/assets/img/house-martin.jpg)
 Stopping off on my cycle to B&Q to take a closer look at a Grey Wagtail, my forearms acquired a light dusting of tiny flies. Humid and overcast, and not too cold, insects fill the air on days like these. 
 
 I've always assumed that they coordinate their emergence from millions of pupae for a brief flight to find a mate, and that atmospheric conditions are the trigger. But, like songbirds going to ground on windy days and then flitting busily about the following day, maybe they are there all along, only sheltering.
@@ -28,7 +28,7 @@ Over towards No. 5 I could see swifts &mdash; dozens of them &mdash; skating cir
 
 Days like today, the air thick with insects, particularly close to water, are almost guaranteed to attract swifts and hirundines (the term for swallows and their relatives). The abundance of insects I liken to the opening of an ikea store, with each bird rushing to fill its trolley in case the shelves are stripped. I had assumed today marked the bloom of a particular species of fly, but tiny midges, leafhoppers, moths, aphids and thrips all landed on my legs to be photographed. It's a buffet, not a set meal.
 
-![image](/assets/insect1.jpg)![image](/assets/insect2.jpg)![image](/assets/insect3.jpg)![image](/assets/insect4.jpg)![image](/assets/insect5.jpg)![image](/assets/insect6.jpg)
+![image](/assets/img/insect1.jpg)![image](/assets/img/insect2.jpg)![image](/assets/img/insect3.jpg)![image](/assets/img/insect4.jpg)![image](/assets/img/insect5.jpg)![image](/assets/img/insect6.jpg)
 
 Which birds will be feeding on this menu is anybody's guess. Sometimes the sky will be full of swifts with only a handful of the other species, and on other days sand or house martins will be all there is. Today was fortunate in having dozens, if not hundreds, of each one.
 
