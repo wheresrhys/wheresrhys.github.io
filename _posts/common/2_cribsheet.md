@@ -1,3 +1,86 @@
+6th 
+
+
+
+
+
+4 egrets
+
+Perfect arc - spirograph
+Taut wingflap avoid water - sonic boom, like dracula extending cloak
+
+Jumping trout
+Fish eat birds
+More motivate flies
+
+Lack of wind liberates fishermen
+
+
+Fledged l egret fluffy head, walking not flying, noticeably weak flight
+Grey wag white eyebrow
+3 g wag, hub shorter untidier tail. Not packed or folded neatly in the nest
+
+
+Swifts swirling over no4 like tornado or sandstorm 
+
+Wrn nestling. Nervous subsng
+
+
+
+Unwritten rule - tell don’t show, cf Instagram, film
+Graham linehan, when was still my idol. Boxer shorts
+
+
+
+Bbird fly like early manned flight. Stall - unstall
+Chuckle call
+
+Bh gull act like terns
+
+
+
+
+Canada geese queue, in field
+
+
+''' learned blackcap from Marian... coming of age... garden warbler (for another time)
+
+Cub colony man in whbb n it’s cnoatachiw
+Cormorant colonyman on whte coat ma chi one 
+Occasional albarr razz iit’s
+Prehistoric
+Low swimmers
+Cf shag low flyers
+
+Circle high
+Youngsters nearly full grown
+Head home in the evening
+Illicit allotment
+Moorhen chick
+Mallard ducklings - almost full grown, duckling faces
+Blue tit fledgling, adult g tit
+Continental white thigh vs ukcoasta
+Wing drying 
+Anhinga/darter Audubon 
+
+
+Lbbg lower call
+More will die than live
+Gulls mixed in on smaller, deader, barren, barer island
+
+H Martin close to home
+
+
+Heron behind bars fraaaank
+C tern - elation when living in bow. Distance distorts over time
+Fluctuating water levels
+Flighty gadwall, scarper far further and earlier than mallard
+Juv gbbg. Pale
+Mini yaffle
+Song thrush long distance rap battle - though competitive by nature, most birds seem to be cooperative i birdsomg, but not he ST
+
+
+
 5th
 Common turn on canal
 No song thrush
