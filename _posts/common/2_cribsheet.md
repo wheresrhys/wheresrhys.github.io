@@ -1,3 +1,141 @@
+8th 
+
+
+Bramble flowers - we think of thorns, tendrils and berries. Collecting while young. Unappetisingly purple custard. I was a very fussy eater. Hidden fishfingers
+Kazoo bee - stung by bumblebee in country park, honey bee on conwy mountain. Conwy mountain is small mountain
+All sorts of bee
+Marco y/v tilda . Unintentional, or maybe it’s that kind of relationship
+Fewer joggers
+Song thrush
+Green wpecker 
+
+Whitethroat forgets to stop
+
+Weevil. Ochre butterfly
+Chiffchaff & blackcap still sing. And wthroat
+Also reed. Sedge less so, garden and l W throat not at all
+
+Chiffchaff? 
+2 vs 3+ syllable
+Vs willow
+
+Pirate family foraging
+
+F wrhroat
+
+Blackbird weak flight orange bill and eye ring. Learned of brown female
+
+Dabchick tiny next to a marti
+
+
+Squealing young coots
+
+Baby geese stalked through the reeds
+
+
+Blog is about the place really, but constrained by the format. 
+Sprawk again. Comment on abbreviations. The shape of birds
+
+
+
+
+Beautiful birds with dark eyes
+Spread of reeds on deep water pool
+
+Unpredictable feeding habits, unlike honeybees
+
+“Unlike the ho ey bee...
+
+Couple dawdlin
+
+
+Anxiety calls for sprawk, but all safe.
+
+Little dramas/little bundles
+
+
+
+
+3rd - Wind blown up like a lyrebird by the wind
+4th - Adult calling/singing at traffic lights. Classic - though not typical - black throat indcating male. With chick
+
+Grey wag white eyebrow
+3 g wag, hub shorter untidier tail. Not packed or folded neatly in the nest
+
+A female greywag tail, looking like it's being tugged by the tail. On a leash
+Grey wag long tail wind
+
+
+
+
+5 way l grebe fight
+
+
+
+
+Young coots challenging l grebe, but where are the parents . Like me cycling around guernse
+S martin pwn this pool
+
+
+
+Heron preening
+
+
+
+Lone drake pochard beginning moult
+
+
+
+2 cootlwts with parent, 2 seek me out. Beware pike
+
+
+
+
+
+Came here years ago - green sandpiper - felt close. Never went further north common tern
+
+
+
+
+
+Gs woodpecker
+
+Nothing special
+
+Stayed till I got hungry. I wish I’d brought some crisps
+But still nabbed g warbler in wat out
+
+
+Covid perma window open
+Pied - actually white wags - in south of France 
+Information board
+
+
+Historian visits alarm calls. Hi viz highly visible peril. Not to protect humans, but warn birds
+
+I’m a Cetti’s warbler x2 - classic song
+
+
+
+Rude woman, but I win helpfulnes
+
+Tiny cootlings, green scum (Michael Moore)
+
+Sometimes kingfishers
+
+
+Lbbg is threat
+
+
+
+Blackbird melancholy, m tgrush maudlin
+
+G warbler - better songsters’ annoying habit of minnickry. THAT blackcap
+
+Greenfinch more drawn out than normal 
+
+
+
 6th 
 
 
@@ -17,9 +155,6 @@ Lack of wind liberates fishermen
 
 
 Fledged l egret fluffy head, walking not flying, noticeably weak flight
-Grey wag white eyebrow
-3 g wag, hub shorter untidier tail. Not packed or folded neatly in the nest
-
 
 Swifts swirling over no4 like tornado or sandstorm 
 
@@ -150,7 +285,7 @@ A tern also hawking from insects
 Rogue Sparrow at Lakeside
 
 
-A female greywag tail, looking like it's being tugged by the tail. On a leash
+
 
 
 
@@ -325,7 +460,7 @@ Gulls WHEEL
 Moorhen
 Goose quills for writing no need pluck 
 
-Grey wag long tail wind
+
 Abbreviated names
 No bullfinch in win
 Edge of decimation 

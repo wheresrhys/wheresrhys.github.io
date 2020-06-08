@@ -4,6 +4,7 @@ title: '61 Boring Birds: #4 House Martin'
 date: 2020-06-04
 ---
 ![image](/assets/img/house-martin.jpg)
+
 Stopping off on my cycle to B&Q to take a closer look at a Grey Wagtail, my forearms acquired a light dusting of tiny flies. Humid and overcast, and not too cold, insects fill the air on days like these. 
 
 I've always assumed that they coordinate their emergence from millions of pupae for a brief flight to find a mate, and that atmospheric conditions are the trigger. But, like songbirds going to ground on windy days and then flitting busily about the following day, maybe they are there all along, only sheltering.

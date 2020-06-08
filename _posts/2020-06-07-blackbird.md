@@ -9,7 +9,7 @@ By rights, today's post should be another dedicated to the magical swifts still 
 
 The wind has dropped today and the storms have passed, leaving behind the spitting rain and low, rolling clouds of a ruined summer holiday in Dorset. This weather is hard to love, offering little to either sunseeker or stormchaser. 
 
-Arriving at the reserve I heard a **Blackbird** singing over the burbling Coppermill Stream, the water still high from last night's downpour. Each of the british breeding thrush species is a mellow troubadour, and all suit a rainy day well. The blackbird is itself a melancholy crooner from the 50's, a black-suited Roy Orbison with a trademark tremolo in its throat.
+Arriving at the reserve I heard a **Blackbird** singing over the burbling Coppermill Stream, the water still high from last night's downpour. Each of the british breeding thrush species is a beautiful mellow troubadour, and all suit a rainy day well. The blackbird is itself a melancholy crooner from the 50's, a black-suited Roy Orbison with a trademark tremolo in its throat. It flies off to perch on the engine house roof, flapping and gliding weakly like an early biplane, cocking its tail sassily as it lands.
 
 Without the breeze's interference I could hear all manner of birdlife. A cranky reed warbler chugging away in the reeds, and the whinnying chirps of a few young great tit, which seem to be everywhere at the moment. A couple of goldfinch flew overhead, tinging their finger-cymbal voices, and from every thicket, politely spaced, blackcaps each delivered their own twist on the whistling waterfall theme. 
 
