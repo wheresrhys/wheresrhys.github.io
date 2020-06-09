@@ -1,3 +1,27 @@
+9th 
+
+
+Jade, pheasant
+B bird
+Whitethroat song perch
+But undergrowth
+Bbird, Dunnock & chiffchaff
+What makes birdwatching harder now is foliage. Even birds as large as a pheasant can hide 
+Ruined crows
+Young blackcap, delicate little wheezes
+Neat male
+That balckcap, italian
+2 whitethroat territories, 1 bush and half a meadow3 pied wag
+Juv p wag. Unfinished face
+P wag - neat impression, but actually quite sloppy in the details, colouring over the edges, inconsistent density, unlike g
+Juv scalloped back
+They keep not quite as distant
+
+Cap scratches turn into melody, like tuning a radio
+
+No swifts today. Plenty flies. Sustainable fishery
+
+
 8th 
 
 
