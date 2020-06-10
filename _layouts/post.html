@@ -19,10 +19,7 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-<a id="social-link" href="https://twitter.com/intent/tweet?url=http://www.wheresrhys.co.uk{{ page.url | url_encode}}&text={{ page.title | url_encode}}&via=wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>Yaffle</a><br/>
+
 {% if page.title contains "61 Boring Birds:" %}
   <script>
     (async () => {
@@ -34,19 +31,21 @@ layout: default
       const url = pages[index + 1];
 
       if (url) {
-        const socialLink = document.querySelector('#social-link');
-        socialLink.insertAdjacentHTML('afterend', `<br><a href="${url}">🦢 Next boring bird</a>`)
+        const post = document.querySelector('.post-content');
+        post.insertAdjacentHTML('afterend', `<br><a href="${url}">🦢 Next boring bird</a>`)
       }
     })()
   </script>
   {% unless page.title contains "Osprey" %}
-  <a href="/2020/06/01/osprey.html">🦅 First boring bird</a><br>
+  <br><a href="/2020/06/01/osprey.html">🦅 First boring bird</a>
   {% endunless %}
-  <a href="/61-boring-birds">🦚 All boring birds</a>
+  <br><a href="/61-boring-birds">🦚 All boring birds</a>
 
 {% else %}
   <a href="/writing">📚 More writings</a>
 {% endif %}
+<br>
+<a href="https://twitter.com/intent/tweet?url=http://www.wheresrhys.co.uk{{ page.url | url_encode}}&text={{ page.title | url_encode}}&via=wheresrhys"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>Yaffle</a>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
 </article>
