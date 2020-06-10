@@ -35,10 +35,13 @@ layout: default
 
       if (url) {
         const socialLink = document.querySelector('#social-link');
-        socialLink.insertAdjacentHTML('afterend', `<br><a href="${url}">🦅 Next boring bird</a>`)
+        socialLink.insertAdjacentHTML('afterend', `<br><a href="${url}">🦢 Next boring bird</a>`)
       }
     })()
   </script>
+  {% unless page.title contains "Osprey" %}
+  <a href="/2020/06/01/osprey.html">🦅 First boring bird</a><br>
+  {% endunless %}
   <a href="/61-boring-birds">🦚 All boring birds</a>
 
 {% else %}
