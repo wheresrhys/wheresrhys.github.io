@@ -1,3 +1,48 @@
+11th
+
+
+
+
+
+For young greenfinch. Yellowtail flash like a wheatear. Otherwise faun - no Green
+One turn chugging home
+
+
+
+I put the caterpillar back in the already mown grass
+
+3rd Greenfinch song, wheeze
+Consider song fliht near paddocks
+
+peacock butterfly
+Remote-controlled lawnmower
+Tinking Goldfinch
+Reed warbler-Glitchy. Starter motor
+Humid and horrible
+For territories on one edge of the reservoir. A narrow strip of reads. There woven nests
+A white throats on the reed warbler
+Breezy
+Rustling reeds
+Only one damselfly versus the many a few days before
+Two emperor dragonflies
+Thin blue damselflies like graphics from the film Tron or an analog thermometer. Hurts to focus on
+One swift. Mostly high up today
+Blue butterfly. Purple plantain. Red tailed bee. Yellow and purple vetch. Yellow buttercups. Yellow and white box I daisies. Camp stove.
+The breeze is bad for the birds
+Orange dead leaves. White champions.
+Thrushes and robins and blackbirds sing. Dogrose and brambles. Dandelions and rag wort with seedheads
+A lone juvenile hide whitetail again. Lost? 
+Little Grebe song
+cinquefoil - kinkyfoil
+
+One sedge warbler INTHE REEDS
+For reed warblers
+Whitethroats impersonates a surge warbler
+Two more sedge warblers
+Great wagtail
+ chaffinch
+
+
 9th 
 
 
