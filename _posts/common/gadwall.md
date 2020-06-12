@@ -5,4 +5,5 @@ description:
 date: 2020-
 ---
 
-1st Gadwall is to mallard as arctic is to Common as 
+Goslings eating seedheads. A comical epic battle
+One is beginning to develop adult chinstrap. Like a surgical mask worn on its chin

@@ -1,3 +1,37 @@
+12th
+1st Gadwall is to mallard as arctic is to Common as 
+
+
+Stock Dove–Dynamics of pigeon populations
+A dove is the same thing as a pigeon
+ to shelduck
+Crows in the dry sand drained grass
+A crisp strident Goldcrest song
+Disturbing Canada geese
+Half caste goose
+Greylags almost adult
+Malting geese wings
+Dead tree chaffinch. The variety of calls they make
+A chaffinch purring. Birdsong book-Competition
+Lime trees
+A cormorants court in fishing line. It looks semi-paralysed, swimming with the hunched back like Quasimodo. It stands with his heads tucked in. Quasimodo means half moving
+Memories of that rabbits with myxomatosis
+A flock of around 20 duck and a peregrines shadowy presence
+Rain brings the swifts down
+ a dead egrets
+Mallards – to the shallows. 
+Reed warbler again
+AJ flies
+Song thrush like an exotic bulbul
+Oodles of gull chicks
+to Egyptian geese battle to the death, according to a young boy. I wonder if it's testosterone
+Blackbirds galore
+Up north we have to go  somewhere to find gadwall
+35
+Goldcrest still singing
+A goose tail like an earwig
+ humid
+
 11th
 
 
