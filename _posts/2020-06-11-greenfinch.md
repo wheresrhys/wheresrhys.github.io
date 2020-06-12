@@ -18,7 +18,7 @@ A single swift charges over the water; its brethren circle high up in the sky de
 
 Dozens of slim, electric blue damselflies glide their horizontal bodies out of the way of my strides. They look like graphics from the film Tron. It's ard to focus on them as they glow and dissipate inches above the grass.
 
-A blue butterly. Purple plantain. A red-tailed bee.
+A blue butterly. Purple knapweed. A red-tailed bee.
 
 Yellow buttercups, dandelions and ragwort.
 
