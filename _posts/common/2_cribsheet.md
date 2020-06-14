@@ -1,3 +1,31 @@
+14th
+
+
+
+
+The organ man
+
+Such warbler with sweet notes. Sounds like a blackbird. Surprisingly grey. Wings fluttering on the trills. Like a drummer doing it strolls. This one likes and open perch, on the cow parsley or teasels
+Two black cat and a whitethroats
+Has to patch ever been mown
+Pair of reed warbler in the Willows
+Song thrush on a pylon. Amplified
+Black headed gulls hawking for flies
+A flighty juvenile Whitetail
+Another black mimic - no eyes on it
+A Crow singing. A low turn singing. Songs to make you sit and wait
+In A grasshopper, lesser white throat, and wren , each at different points along the sweetness scale, mirror each other's rhythms
+Another lesson whitethroats in the allotment
+Another sedge Warbler patrolling his patch of nettles
+A pair of Goldfinch
+a deep chested female sparrowhawk with malting wings
+Goals with translucent wings
+Three turns
+Chet's Warbler
+To silent sand Martins and and extra blackcap
+Fishing gear mounted like antitank guns
+Patrick quilts. Strydom Chet's Warbler. Turn dives
+
 13th
 
 
