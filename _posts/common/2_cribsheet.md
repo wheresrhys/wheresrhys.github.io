@@ -1,3 +1,48 @@
+13th
+
+
+
+And 
+Two white throat. Never been here before. teasel
+Occasionally the lilting notes of a lasso white throat breakthrough song
+A wasteland of mown grass
+Chet's Warbler
+Purple flowers left alone
+
+That boring birdwatching fisherman. Know it all
+A crow not a Peregrine on the pylon, 
+Kestrel. Silhouetted above Tottenham marsh. Spirit level still.impatient, always drifting on
+I remember seeing kestrels on the A483 in my childhood
+Comparing its silhouette to the Peregrine and the hobby and the sparrowhawk
+
+A painted Lady
+A gull calling
+Rosy Starling. The story at Lizard
+Mating damselflies on the wing. Foreplay as not fully looped
+A red balloon
+The jogger
+A crow with the weak wing
+I hear a lesser whitethroat-tantalising, I stalk it
+ House sparrow decoy
+ Skulking. I never go to this area either
+ Sounds like a comedic old two stroke engine. Ignition with a low battery, and the engine turning over
+ Cheeping
+A Sand Martin
+Nothing on the overflow channel
+Cormorants colliding in like a fighter jet landing on an aircraft carrier
+A large coutts nest
+To juvenile whitetails - worried tseep
+I almost faint
+Feathers and goose shit everywhere, like the aftermath of a kink party
+Egg/oology/curlew
+Baby coot. Why are some Islands underutilised
+Even the kid anglers don't hold the rods any more
+Cars fil the roads with reggae
+Wall waxing lyrical about the south of France birds. Fantasise about to tour company. Bitching about Jamie and his Honey buzzards and yellow whitetails
+We talk about blue butterflies, the holy blue
+Wishing for a painted Lady one appears, then wishing for actors a red kite appears
+
+
 12th
 1st Gadwall is to mallard as arctic is to Common as 
 
