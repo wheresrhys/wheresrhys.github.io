@@ -1,5 +1,126 @@
+15th
+
+
+cormorant rocking, wide mouthed, on its nest needs oiling. all sound like trolley wheels. albatross beak clacking. whinying cormorants
+
+goose rumps. feather buds
+BhG chasing lbbg's, & tern chases gul, but aggression != deadliness
+eclipse mallard
+chiffchaff flycatching in the grass
+blackbirds, birds of the low sun
+4 stock dove
+green woodpecker, goldcrest *2
+rainbow, parakeets
+gswp
+another jay
+house martins
+swifts
+tern dive. wet tern shakes it shoulders. Qigong
+grey wag song
+dunnock & wren
+GBBG - how all the gulls coexist
+jumping trout
+where's the rain
+fly smoke
+starlings drinking
+chaffinch
+
+
+
+chaffinch purrs
+all going about their important business
+crow caws
+ripples on the water
+tern keeya
+5 stock dove - scram!
+
+grebe
+
+
+
+
+
+
+
+
+panic from the geeses of london
+
+
+
+linnets
+the unknown bird
+chiffchaff
+house sparrow in the loosestrife
+young crow seems to be asking for some sort of confirmation. gangly, skiny legs, unlike parent's trousers. A predator, on the food chain
+blackcap and chiffchaff accompany.
+romper suit
+sand martim
+songbird medley - blackbird like nightingale. honky tonk piano
+long tailed tit sip-sip-sipping
+jay at the transformer
+moorhen
+almost a med gull
+
+goose rumps. feather buds
+BhG chasing lbbg's, & tern chases gul, but aggression != deadliness
+eclipse mallard
+chiffchaff flycatching in the grass
+blackbirds, birds of the low sun
+4 stock dove
+green woodpecker, goldcrest *2
+rainbow, parakeets
+gswp
+another jay
+house martins
+swifts
+tern dive. wet tern shakes it shoulders. Qigong
+grey wag song
+dunnock & wren
+GBBG - how all the gulls coexist
+jumping trout
+where's the rain
+fly smoke
+starlings drinking
+chaffinch
+
+cormorant rocking, wide mouthed, on its nest needs oiling. all sound like trolley wheels. albatross beak clacking. whinying cormorants
+
+chaffinch purrs
+all going about their important business
+crow caws
+ripples on the water
+tern keeya
+5 stock dove - scram!
+soft dark light of a veiled sun
+grebe
+
+
+
 14th
 
+
+
+Reed Warbler battles, crashing through the reads
+Tuneful dunnock and black Call and response duet
+ rising flies
+ 16 young or malting mallard
+ Squealing y Young warblers of some kind… cettis?
+ To Egret nestlings
+ Apples
+ ropes and flags on the Piland
+pochard = bullet duck
+Robins pincushion
+Green chick. little Grebe song
+Large gull chicks
+six shelducklings + 4. - they dive. Charged by fighting poshard
+Kingfisher
+Fighting a black headed goals
+Feisty squirrels
+Six cormorants in formation
+One Sand Martin
+A wood pigeon fight. Chaffinch on the ground. Three blackbirds.
+Starling party
+Juvenile great black back to goal at
 
 
 
