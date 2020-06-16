@@ -1,3 +1,48 @@
+16th
+
+
+We hear a lot nowadays about mindfulness. I believe
+
+Reed warblers churr, like a ruler on a desk at its highest setting
+Reed Warbler battles, crashing through the reads
+An invasion of Blackthorn into the reed warblers home. It perches atop anyway
+
+reed beds carry the sound of several singing males. compare the great racket of macedonia's great reed warbler
+
+
+Warm grey purple light
+Green water
+1 gull swims in the safe pool - does it know the dangers of open water
+Excitement when island and tern rafts arrived, just before lockdown
+Big coot chicks
+Coot fight
+Lower pitched call
+Young gfinch
+Grebe dance
+Asian desert warbler, bluetgroat, h sparrow
+Kiaow
+Swifts above no 5 - they love a muggy day
+Fisherman under lofi umbrella
+Close up sebler. Warmer brown, or is it the light. A hidden second bird 
+Fenale tinting, flies, sound of chicks. Tram track back
+Lots of dragonfly . Will I see a hobby again
+Reed warbler like men competing to directing a reversing lorry. Plenty of room. Perfect counterpoint to sedge teen. Occasional heightened intensity. Woah woah
+Fighting with ferocity of larger birds
+Raised crown of singing male. Female chutes around nest
+Crammed in
+When they arrived in may!
+
+The art of bush watching
+Great tit w caterpillar, sebler with flies, reblers
+White butterflies 
+3 fledgling rebler - more like g warbler. Singing w mouth full
+Blackcap
+
+Just tell the story of that short stretch
+Tern calls
+Chiffchaff hammering out like blacksmith
+
+
 15th
 
 
@@ -97,7 +142,6 @@ grebe
 
 
 14th
-
 
 
 Reed Warbler battles, crashing through the reads
