@@ -66,12 +66,12 @@ const drawDot = (x, y) => {
   ctx.fill();
 }
 
-ctx.fillStyle = '#ffeeee';
+ctx.fillStyle = '#fffaf0';
 dots.forEach(([x, y]) => {
   drawDot(x, y);
 })
 
-ctx.fillStyle = '#eeeeff';
+ctx.fillStyle = '#fffaf0';
 dots.forEach(([x, y]) => {
   [x, y] = magnify(rotate(x, y));
   drawDot(x, y);

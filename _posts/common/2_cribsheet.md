@@ -1,3 +1,28 @@
+17th
+
+
+Thunder over epping
+White throat
+Pinpricks on the water surface, like other dimensional rain
+A pair of limit
+Flies like a ropes all rigging all theatre rigging spending the trees
+To send Martin
+The breeze rises, rain approaching? Ripples
+Sand Martins drink on the wing
+Atmosphere suddenly changes
+Blackbird blackcap chief chaff again
+One swift
+Seven juvenile pied white tail, one with no tail
+10 limit, 18 starlings and then some more
+Lesser whitethroats song
+Really young point whitetails, a white fluffy  forehead
+Rain from the south, which is a surprise
+Still as the raindrops gather
+No parents, but finally mum and grandad appear
+Fluffy like teddy bears
+Swifts pushed north by the rain
+Scallop back Teen geese
+
 16th
 
 
