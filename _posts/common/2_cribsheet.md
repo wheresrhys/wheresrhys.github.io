@@ -1,3 +1,84 @@
+18th
+
+
+
+Reed bunting
+Heron noises
+A family of stout build blackcap
+Grebe chicks piping, testing the strength of their swimming legs. . Curiously apprehending a black headed goal
+
+L whitethroat - unique in that it's common but first was on patch
+
+
+Two great crested greed checks
+Herring goal chases cormorants
+Swifts over the filter beds
+Lots of Goldcrest song
+Three juvenile hide whitetails
+Chainsaw versus Black Bird
+Bullfinch?
+Female blackcap  with flies in her mouth
+Two gold crests. To Strange shape of fish versus birds, sparrow versus Robin head
+billowing sales of flies
+The filter beds are swift Central
+A swallow
+Six juvenile whitetails in total. How to tell a young greywacke from a police bag. Black rump
+To send Martins
+A juvenile starling worries a pied wagtail
+
+
+
+Swifts cruising above the Pines, and Alpine view, like in Albania
+The green nest is back at the Watersedge. Hi water
+A nice bed chat about chaffinch and swallow with a fisherman
+But I almost got hit by another man's line. Someone says there's a pike here
+A Canada Goose squat flop
+Wet free feathers on a gooses back
+Greywacke till delivering flies
+
+
+
+A sparrowhawk, sunlight, dangles, hangs, stairs. Watch for a long time. Flat, staircase glide, hang, pause, turn, repeat
+Into the swift storm. They're not alarmed and it does not seem interested. 
+
+Proposed downwards behind a tree,, what happened next
+
+Redheaded gang of cootlets. Stupid repetition of dropping the yellow ball, like barmy the cat. I'm a sucker for stupid animals
+Like a many headed hydra
+Grey whitetail juvenile, short tail, pink legs. Mincing along the strandline
+Regret at having already used a bird, blackcap, Grey wagtail, or having missed an earlier highlight, reed bunting
+Pale mollard with nine ducklings
+Lesser whitethroats song
+Little grieve running
+13 linnet
+A turn looking dark
+A fox scaring the sedge warblers, scolding calls
+Goldfinch song (is path in llay)
+Is a reed bunting has a fuzzy greyside
+Memorial fishing platform
+Cooking some mosh
+Dry grass wet arse
+Great tit family
+Swift and housemartins 'singing' harmonies with their movements
+Singing birds Guard each parameter, no value in fences all or railway tracks
+Sound of fighting dogs, blimey!
+lbbg bhg duet 'ca-ca-caah'
+Compare it with the poor view of bearded tit
+Not seeing the bird is as much a part of the hobby as the other
+Worse than not seeing is may be seeing. presque vu
+It's a black cat :-(
+Starlings
+I shan't describe it join me in my frustration
+Who is a greenfinch… heavy eyed like Nick Cave, causing on the overhead line
+Catch a glimpse of a sky Flyer tumbling, but it is too brief and inconsiderate a view to become a hobby
+A tame stock dove
+The triple rod - sounds like a curb your enthusiasm episode - a popular setup
+
+
+
+
+Goodbye wren
+
 17th
 
 
