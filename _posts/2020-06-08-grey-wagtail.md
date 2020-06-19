@@ -8,7 +8,7 @@ date: 2020-06-08
 
 Lockdown, lockdown, lockdown. It chugs on. Today planned around the roughly weekly shop. Adaptable creatures we are, and I socially distance myself from the same 3 other humans as we each forage up and down the aisles at the same modest pace. My favourite bread is back on the shelves and I pick up a six pack of crisps on the way to the tills. The beeps of the self-checkout trigger a memory and I start huming the theme tune to The Simpsons.
 
-Walking back home down Coppermill Lane I watch a sparrowhawk circling above the rooftops, perfectly balanced around its midrif, stumpy wings arched like acanths leaves and its long tail cantilevered behind. It wouldn't look out of place hanging from a mobile.
+Walking back home down Coppermill Lane I watch a sparrowhawk circling above the rooftops, perfectly balanced around its midrif, stumpy wings arched like acanthus leaves and its long tail cantilevered behind. It wouldn't look out of place hanging from a mobile.
 
 My last day before returning to work and a slightly stiff back precludes my cycling the distance to the Black Live Matter protest, I nevertheless decide to make the most of the time by cycling the mile or so to Hackney marshs in search of the little owls that have taken up residency since January. No sign of them today, predictable though their behaviour is. The owl box has vegitation sticking out of its entrance, so nest building appears to be underway.
 

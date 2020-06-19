@@ -1,3 +1,41 @@
+19th
+
+A stiff breeze, compare 04beaufort, tacking versus jibing
+
+House Martin fun
+To sand Martins give chase noisily
+Swift holds so low, marauding
+
+Even the pigeons flight dances
+Swift like shifting sands windswept beach, goose back like the impressions many tunes on the dry sand ripples, Andy neck like an elephant seal. A purple headed tufty
+Sweet, a romantic name is such a pretty fiscal like flour
+Magpie tail feather. Magpies can be so cautious. Sometimes tailless. Ubiquitous. Lonely
+The lineet's song sounds like children taunting
+Great tir che-cheese - like an electric camera shutter on a cheap 1980s automatic camera
+Sand Martin dirty juvenile, synchronised swimmers
+How great it must feel to learn to fly the first time, compare it with Dora parachuting
+10 or more flighty linnet, one feeding on the map weed
+Almost no fork in the tail
+A family of four Goldfinch
+sedge warbler flying low over the water, joint later bye a reed bunting struggling in the breeze
+diagram 
+
+
+
+1st Sand martins sound like railway lines
+
+Took me til almost the age of forty to realise they have a cute little mask
+
+
+
+To send Martins
+To send Martin
+Sand Martins drink on the wing
+One Sand Martin
+To silent sand Martins and and extra blackcap
+A Sand Martin
+martins form orderly queues while swifts are renegade soldiers of fortune
+
 18th
 
 
