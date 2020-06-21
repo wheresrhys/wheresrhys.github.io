@@ -34,3 +34,5 @@ The gull surveys the dissonant scene around it. It is unnerved, but does not sho
 ![grass feathering](/assets/img/grass-feathering.jpg)
 
 ![flower glow](/assets/img/flower-glow.jpg)
+
+[Main image credit](https://commons.wikimedia.org/wiki/File:Lesser_Black_Backed_Gull_03.jpg)
