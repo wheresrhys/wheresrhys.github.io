@@ -1,3 +1,57 @@
+20th
+
+
+
+ It had circled for a closer view before settling on the signal box
+
+It sits atop its metal watchtower at the trackside.
+
+
+
+
+Crow steals from fisherman, has a lookout.
+Reed warbler churr
+Woodpigeon romance
+Parakeet swings by inches from my head
+Shelducklings - little avocets, minions, shielded, protective
+Comedy black-headed gull calls - tis, tisn't, like vic and bob's characters
+Grebe nest on heron island
+Moorhen in the shade of a tree
+Four egrets fishing
+Evening fisherman social club
+Squirrel creeping around. That time I saw a wood mouse
+So many pochard, so few broods
+Heron Fraank!
+1 grebaeling. Pregnant squirrel
+House martins over the marsh. Did not get the hoped for sand martin roost
+Tern close encounter
+Egyptian goose flying
+Blackbird forces a particularly tuneful whitethroat to up its game. And a goldfinch
+Tufties raft... moult beginning
+LBBG banking, quacking 'keep it up' sarcastically, Elegant in the right setting (but compare withjuv trying to balance on buoy earlier this year)
+Surveys landscape, listening to crowds at the canal.
+Terns on raft are quiet
+Reed bunting, dunnock, whitethroat, trains, linnet - all the same to it. Not part of its utility function
+Dozing grebes
+LBBG appeared hulking, mamoth, foreboding, overbearing, like GBBG, but floated down and was obviously normal sized after all
+Scartches an itch in flight
+Sublime creatures solied by there familiarity
+Chicks on K&J's roof fell down crack and needed rescue
+"Mobbed" by BH gull
+Only 1 starling
+Crow retinue
+Some gull commotion - gull who cried wolf
+No good guys or bd - compare fox
+2 tern moment, circling
+slant-lit colony
+The LBBG surveying is like me
+Oystercatcher adventuring. Pecks tudtie. Debonnair, superior quality
+2 reed bunting on the shore
+Geese roost on no 1
+5 late southward swifts
+Comet sun
+
+
 19th
 
 A stiff breeze, compare 04beaufort, tacking versus jibing
