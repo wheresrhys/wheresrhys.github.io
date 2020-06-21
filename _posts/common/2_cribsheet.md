@@ -1,3 +1,75 @@
+21st
+
+
+Quills
+
+What's that fisherman eating fish food?
+Two kinds of umbellifer " having its flowers arranged in umbels.", Going by the seeds. "gone to seed."
+Great spotted woodpecker Connor even very hard to pick out from the summer leaves
+
+Lesser whitethroats, whitethroats, chit chat. An early indication of warbler flocks to come
+a 10 spot ladybird
+Small numbers of house Martin
+Fast stock and wood pigeon taken by the wind
+Heron aerobatics, gangly grace, like Peter Crouch
+Geese are less timorous now
+A Greek nest on the turn raft
+Birds vanish with the wind
+A small flock of Stalin
+I am challenged by a residents
+Almost full-grown Egyptian geese
+Greylag has pink eyeliner
+Turn diving moments, with weed on its bill
+The handles luck whites in the sun
+The sky is flacked, not swarming, with swifts
+Another heading great tips nest
+Cormorants tilting at home
+An island of sky in a sea of cloud, or a trick of perspective
+The Canada geese really are everywhere today, like triffids
+Pecking order
+Three distant turns over the reservoir, and if you send Martin
+Shall ducklings sat on the jetty, under mothers wing
+
+12 shell ducklings and, Like whirligig beetles (beetle before name)
+The mail has a rust stained vents
+What are you all eat these ducklings. They go so fast
+4 pochard duckings, yellow and also cute
+
+Clacking of egrets and herons. Grieve on nest is oblivious to all of these ducklings
+To almost full grown pochard and six slightly younger ones
+Six bigger shell ducklings
+To stock doves in flight
+Heron versus one, turn versus greed
+In melee of black headed goals, both young and old
+Herring goal mopping a heroin in a tree
+an open mpouthed cormorant sat on the island
+
+
+Goslings eating seedheads. A comical epic battle
+One is beginning to develop adult chinstrap. Like a surgical mask worn on its chin
+
+Geese roost on no 1
+Disturbing Canada geese
+Half caste goose
+Malting geese wings
+
+Baby geese stalked through the reeds at waterworks
+
+Canada geese queue, in field
+
+Geese huddled in the downwind corner
+Localised windy parts–topographically exposed
+
+A Canada Goose squat flop
+Wet free feathers on a gooses back
+
+goose rumps. feather buds
+
+A goose tail like an earwig
+A Canada Goose stretches to eat that all seedheads of the maturing grass
+Goose quills for writing no need pluck 
+
+
 20th
 
 
