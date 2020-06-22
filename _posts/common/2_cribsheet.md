@@ -1,3 +1,43 @@
+
+22nd
+
+Almost full-grown Egyptian geese
+Greylag has pink eyeliner
+
+Egyptian goose flying
+Blackbird forces a particularly tuneful whitethroat to up its game. And a 
+to Egyptian geese battle to the death, according to a young boy. I wonder if it's testosterone
+
+
+
+7 linnet
+Robin song
+Chifchaff
+Tern with a fish - how do they find them?
+Many swans - breeding status?
+Maggenpies, my first experience of Brian Blessed
+Herring gull without mirrors
+Pied wagtails frolicking still
+Wind at the top of LW
+Little egret mid channel. Starlings
+No dogs!
+Lesser whitethroat song
+Egyptisn geese with 10 goslings.
+Tree nesters... but which one?
+Eating slime from the water's edge.
+Barking display fights.
+2 bold ones competing for morsels
+Tame female linnet. Eyes like a nightjar or rocking horse.
+Young blue tits mixed with great tit
+Wren. reed bunting song, female pied wagtail
+Pochards in the shade
+Eclipse shoveler - squashed mallard
+Simple 3 note reed bunting song, cf the more complex one near EW
+The rarest bird does not win by default
+Reed bunting durk durk durk dink dink tse-de-de quierr
+11 swans
+Egyptian goose dunking
+
 21st
 
 

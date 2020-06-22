@@ -26,7 +26,7 @@ Such a familiar bird &mdash; only the mallard, mute swan and pigeon can realisti
 
 More shame on me. This spring I've felt I've shared their lives quite intimately. Goslings have grown from tiny, palm of the hand balls of yellow down to almost full sized. On some the black necks and white chinstraps of the adults are almost complete, with only a hazy suggestion of fuzz softening the edges. A few days ago I watched some week old youngsters attempt to wrestle the seeds from the top of a grass stem, a comic herculean battle that both bird and plant, I think, lost. It is hard to fathom how they can grow so fast on a diet consisting mostly of the grass and other vegetation they're able to snip with their own, at first tiny, beaks. Perhaps the solution to all the world's energy problems lies in the stomach of a goose.
 
-I imagine they've grown used to the daily sight of me as their panicked sprints to the water have become less frantic, the hissed warnings replaced by muffled honks, and their dark, disarming eyes...
+I imagine they've grown used to the daily sight of me as their panicked sprints to the water have become less frantic, the hissed warnings replaced by muffled glottal honks, and their dark, disarming eyes...
 
 ...well, they've always been like that.
 
