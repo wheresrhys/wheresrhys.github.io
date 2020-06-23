@@ -8,7 +8,7 @@ date: 2020-06-17
 
 Tree-covered Pole Hill on the edge of Epping Forest stands to the north, and its dark greens almost blend with the venomous, heavy puce clouds gathered above it. Thunder rolls down the valley and the eerily calm water of Lockwood, playing host to seven regal swans, is full of portent. Unseen aquatic mini-beasts make pinprick concentric circles on the surface. It quite literally looks like rain.
 
-The usual pre-storm birdsong nervously keeps up appearances &mdash; a blackbird, blackcap, chiff chaff and whitethroat &mdash; and the army of canada geese tries its best to put on stiff upper-lipped airs. A handful of gulls perambulate mid-lake, and across the water flies tower in narrow threads, stage rigging for the fake, cut-out trees. 
+The usual pre-storm birdsong nervously keeps up appearances &mdash; a blackbird, blackcap, chiffchaff and whitethroat &mdash; and the army of canada geese tries its best to put on stiff upper-lipped airs. A handful of gulls perambulate mid-lake, and across the water flies tower in narrow threads, stage rigging for the fake, cut-out trees. 
 
 The play is about to begin.
 

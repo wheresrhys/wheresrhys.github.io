@@ -95,14 +95,13 @@ Wagtails have two main methods of feeding. They strut about on open ground searc
 
 When two amateur historians lean over the balustrade to peer into the chambers of the old water pump &mdash; a little too close to the nest for comfort &mdash; the adults let out a rapid series of urgent peeps, but this is nothing to the alarm call they reserve for when a grey-brown female sparrowhawk &mdash; the same one as this morning? &mdash; parachutes in to try its luck. "Swee-eee!" sound their tiny sirens, and the alarms continue while the hawk skulks in the foliage of a nearby birch tree.
 
-
 I do not see if the young one is safe. It would be a short life indeed. Its legs were still baby pink.
 
 The tiny dramas of life and death that take place around us.
 
 The sand martins all left at once. A stock dove flies in to drink nearby, but no-one feels like pretending things are back to normal. Five little grebes, in a drama that would hit the front page on a quieter news day, brawl over territory in the far corner of the pool.
 
-Hungry, I leave teh soap opera and head for home. I hear what sounds like a garden warbler from the usual bushes, but it's half past three and I haven't eaten lunch.
+Hungry, I leave the soap opera and head for home. I hear what sounds like a garden warbler from the usual bushes, but it's half past three and I haven't eaten lunch.
 
 I should have brought some crisps.
 

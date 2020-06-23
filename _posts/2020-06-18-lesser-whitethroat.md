@@ -32,11 +32,11 @@ Goldcrest, swallow and pied wagtail... two already written about, which leaves g
 
 > It made its way into the distant storm of swifts. They seemed unalarmed, with no fear of this pathetic excuse for a predator, impotent where speed, not stealth, is the name of the game. The hawk banked and glided steeply downwards behind some trees. I did not see the outcome.
 
-Sparrohawk, seen well, and drawing me into its world somewhat. A strnog contender, and no mistake, but somehow does not move me. Coudl it be that I don't actually like the bird that much?
+Sparrowhawk, seen well, and drawing me into its world somewhat. A strong contender, and no mistake, but somehow does not move me. Could it be that I don't actually like the bird that much?
 
 > Returning to th emain public path I came across a young birdwatcher and his father, bothe pushing their bikes and the youngster pausing every now and then to investigate some forms perched on a distant branch overhanging the water. A little later I caome across some youths fishing, using the three-rods-on-a-stand setup that seems popular. One of them has his back to the others and stares through a pair of binoculars too. As I walk away I overhear his friend say, "You look like a right pervert with them binoculars, you know that"
 
-> In both of these I see my younger self. A love for nature nurtured by a father who died to young, and the cruel teasing that the hobby too often inspires. I wish it were with disbelief that I could look back on the secretive way I carried out the hobby in my teens, with not even my closest friends being aware that my greatest love was for birds of the feathered kind. Maybe this is why it's still such a personal, private experience. Only in recent years have I fully shaken of the stigma
+> In both of these I see my younger self. A love for nature nurtured by a father who died to young, and the cruel teasing that the hobby too often inspires. I wish it were with disbelief that I could look back on the secretive way I carried out the hobby in my teens, with not even my closest friends being aware that my greatest love was for birds of the feathered kind. Maybe this is why it's still such a personal, private experience. Only in recent years have I fully shaken off the stigma
 
 > The comedian Daniel Kitson delivered a crushing joke at one of his shows a few years ago, demonically suggesting the audience look to their left and right and ask themselves if the friends they were with were just the _people they'd ended up knowing_. Somehow, when I was younger, I never once thought that maybe the people I'd ended up knowing were wrong about the world.
 
@@ -52,7 +52,7 @@ Maybe it's the coot's day? One of them has to be.
 
 Exceedingly tame, this one lit the fires of joy in me more than any other bird today, but its time has [been and gone](http://www.wheresrhys.co.uk/2020/06/08/grey-wagtail.html)
 
-> Round the back of the reservoir a fox scarpered across the railway line, chased by a pair of scolding sedge warblers. A singing goldfinch in a bush, a green greenfinch, heavy-headed as Nick Cave, on the overhead wires, and a small flock of daytripping starlings cought my eye too. The reed beds sound excited to see me again but it is, of course, only the reed warblers. One of them nips of a feathery seedhead and carries it back to the nest.
+> Round the back of the reservoir a fox scarpered across the railway line, chased by a pair of scolding sedge warblers. A singing goldfinch in a bush, a green greenfinch, heavy-headed as Nick Cave, on the overhead wires, and a small flock of daytripping starlings cought my eye too. The reed beds sound excited to see me again but it is, of course, only the reed warblers. One of them nips off a feathery seedhead and carries it back to the nest.
 
 Memories the afternoon's sights and sounds to pass the time while waiting.
 
