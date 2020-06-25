@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #11 Greenfinch'
-description:
+description: Sorted for E's and whizz
 date: 2020-06-11
 ---
 ![greenfinch](/assets/img/greenfinch.jpg)

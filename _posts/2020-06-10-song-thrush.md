@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #10 Song Thrush'
+description: Cracker
 date: 2020-06-10
 ---
 ![song thrush](/assets/img/song-thrush.jpg)
@@ -25,7 +26,7 @@ Like many of our most tuneful songbirds, the song thrush is prone to mimicry or,
   <source src="/assets/song-thrush.mp3" type="audio/mpeg">
 </audio>
 
-We walk through the long gras towards the reeds, where sedge and reed warblers churr their morning welcome. Overhead, ragged-winged mid-moult crows return from their early morning reconnaisance and a peregrine, stiff and heavy as an axe, glides east into the white glow of morning.
+We walk through the long grass towards the reeds, where sedge and reed warblers churr their morning welcome. Overhead, ragged-winged mid-moult crows return from their early morning reconnaisance and a peregrine, stiff and heavy as an axe, glides east into the white glow of morning.
 
 ![marshes](/assets/img/marshes.jpg)
 

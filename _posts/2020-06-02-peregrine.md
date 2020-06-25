@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #2 Peregrine'
+description: The killer in you is the killer in me
 date: 2020-06-02
 ---
 ![image](/assets/img/peregrine.png)
@@ -35,7 +36,7 @@ In level flight they are relatively unassuming, flickering their pointed wings w
 
 They breed on a local tower block &mdash; rearing a very noisy youngster last year &mdash; and are not an unusual sight in the area. But it's possible to go months without seeing one or hearing their raucous screeches. Recently, thanks to the increased frequency of my lockdown birdwatching, I've had some beautiful peregrine moments. I watched a pair's courtship display flight in March, had a pigeon escape a near death experience right above my head &mdash; close enough to hear, and almost to feel the rush of air &mdash; and, best of all, in April watched one glide over my shoulder to land on the concrete bank of Lockwood and have a bath, to the bemusement of a collective of concerned waterbirds.
 
-In today's bright sunlight I saw yet another facet of this bird's charms. Sat near the top of the pylon its black hood, pencil grey back, barred white front and coral yellow legs made it look like the archetype for some ancient royal house's coat of arms. Looking far more the dandy than its usual dark grey silhouette gives the lie to. These bright June days are proving to be a joy for the aesthete birdwatcher's eye. 
+In today's bright sunlight I saw yet another facet of this bird's charms. Sat near the top of the pylon its black hood, pencil grey back, barred white front and coral yellow legs made it look like the archetype for some ancient royal house's coat of arms. Looking far more the dandy than its usual dark grey silhouette gives the lie to. These bright June days are proving to be a joy for the birdwatching aesthete's eye. 
 
 "It looks quite slim," I thought, "probably a tiercel".
 

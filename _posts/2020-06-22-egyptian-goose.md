@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #22 Egyptian Goose'
-description:
+description: Beautiful freak
 date: 2020-06-22
 ---
 ![egyptian goose with goslings](/assets/img/egyptian-goose.jpg)

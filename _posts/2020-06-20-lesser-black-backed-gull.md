@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #20 Lesser Black-Backed Gull (Human)'
-description:
+description: Chill, black and disturbed
 date: 2020-06-20
 ---
 

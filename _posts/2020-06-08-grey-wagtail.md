@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #8 Grey Wagtail'
-description:
+description: Tiny dramas / Bird on a leash
 date: 2020-06-08
 ---
 ![image](/assets/img/grey-wagtail.jpg)

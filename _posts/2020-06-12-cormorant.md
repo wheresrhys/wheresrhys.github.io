@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #12 Cormorant'
-description:
+description: Quasimodo
 date: 2020-06-12
 ---
 ![cormorants](/assets/img/cormorant.jpg)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #17 Pied Wagtail'
-description:
+description: Plucky little Brit
 date: 2020-06-17
 ---
 ![pied wagtail](/assets/img/pied-wagtail.jpg)

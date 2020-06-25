@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #23 Common Sandpiper'
-description:
+description: The early bird
 date: 2020-06-23
 ---
 ![common sandpiper](/assets/img/common-sandpiper.jpg)

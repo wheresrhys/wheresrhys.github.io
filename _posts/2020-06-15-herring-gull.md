@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #15 Herring Gull'
-description:
+description: Sonny and Cher
 date: 2020-06-15
 ---
 ![herring gull](/assets/img/herring-gull.jpg)

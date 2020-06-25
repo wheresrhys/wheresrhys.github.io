@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #18 Lesser Whitethroat'
-description:
+description: Waiting
 date: 2020-06-18
 ---
 ![lesser whitethroat](/assets/img/lesser-whitethroat.jpg)

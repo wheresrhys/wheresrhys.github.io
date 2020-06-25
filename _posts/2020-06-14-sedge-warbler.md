@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #14 Sedge Warbler'
+description: California girls
 date: 2020-06-14
 ---
 ![sedge warbler](/assets/img/sedge-warbler.jpg)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #16 Reed Warbler'
-description:
+description: Reverse parking
 date: 2020-06-16
 ---
 ![reed warbler](/assets/img/reed-warbler.jpg)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #21 Canada Goose'
-description:
+description: Day of the Triffids
 date: 2020-06-21
 ---
 ![3 canada geese](/assets/img/canada-goose-2.jpg)

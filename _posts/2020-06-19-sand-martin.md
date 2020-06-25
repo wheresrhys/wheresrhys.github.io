@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #19 Sand Martin'
-description:
+description: Synchronised swimmers
 date: 2020-06-19
 ---
 ![sand martin](/assets/img/sand-martin.jpg)
