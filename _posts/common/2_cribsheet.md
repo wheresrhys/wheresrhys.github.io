@@ -1,3 +1,80 @@
+25th
+
+
+
+Herons all beak.pumping legs intake off
+Gbbg
+Tern shakes off moisture like a dog
+
+Unusual wren warble
+Romanian
+I think is duck egg
+Pelicans Danube delta
+What is little one with tail like this what they eat
+Egyptian geese they stand like this and are so aggressive
+Bloody foxes
+Gulls I hate them
+It’s all nature
+Cormorants eat trout their own size
+I put a wizzal on the island
+It was not me, it was an Irishman 
+
+
+Three Angry chasey e geese
+2 herons in sun - cooler now
+Convoy of terns draping shadows over the herons
+S neck straight neck
+What food beneath the slime?
+Adult and child
+Early to breed
+Elesmere
+
+
+Wthroats
+Crow with bread in mouth
+Sleepy parakeets
+2 shoveler
+Lone f shelduck - disaster??
+
+Yesterday, the sun determined which way o looked!! The sun’s blinding constitution determining whether I look to my right or my peft
+
+Wpecker
+W pigeon at water’s edge
+Sebler re-hails the morning
+Goose bathhouse
+2 gullets look out
+Coots like flies/scatter plot
+Runting forage again
+L grebe in open water
+Noisy bh gulls
+Linnets
+Juv p wag
+Wpigeon on the path. Glowing orange pink bill
+
+Cmant are so shy
+Tern on railings. Curious kiya
+Peagand heron
+C tern perfection
+F shelduck alone
+3 junior pochard
+Shelduckings starting to look like more substantial beings
+
+Angry chasey e geese
+2 herons in sun - cooler now
+Convoy of terns draping shadows over the herons
+S neck straight neck
+What food beneath the slime?
+Adult and child
+Early to breed
+Elesmere
+4 lapwing
+Shimmering
+Wrists, giant hands
+Woodpecker METALLIC. chip
+Finders keepers - drought like weather
+Herons rejoin
+Looking for sickle shaped white specks
+Insistent chaffinch purr
 
 22nd
 
