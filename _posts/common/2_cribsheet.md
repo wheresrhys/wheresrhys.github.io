@@ -1,3 +1,15 @@
+26th 
+
+, a harvestman like a spindly crab, woodpigeons, a  herring gull, linnets 
+
+siren
+Bat for lashes
+
+
+
+Linnet banjo dry grass crickets loud singsong at the canal tainted love wanna dance with somebody call me maybe canal boat, angular blocks of flats propagate the sound in constantly. Opposite of Albert hall ceiling h martin wrhroat runting blackbird train horn evaporating cloud band harvestman like spindly crab beer cloud-calmed heat lifting a breeze army raising a breeze army dry grass wavers h gull wpigeon distant siren s thrush what’s the orange plant called chiffchaff dunnock tern housesparriws in the brambles2 juv wthroat f yellow eye parakeet s thrush clotted cream whisks silver y more runting grasses bicycle woman ice cream van breeze music blackbird siren grfinch
+
+
 25th
 
 
