@@ -1,3 +1,36 @@
+27th
+
+Big swifts. Hundreds of them, and has Martin
+a mistle Thrush eating leather jackets
+Sand Martin and terns struggle
+Two missal thrush, one more barred than the other, rattling
+Grey Egyptian goose
+Female hide what coil
+A magpie startled. stock dove song
+Common sandpiper and 2 tern drinking
+plummetting gadwall
+Big blue tit family at teh stream - only 1 family? - and soft-headded LTT (cf firecrest waiting)
+Single pochard chick
+Growing raft of tufties
+Willow like a sea monster in the breeze
+geese sprinting to safety through the knapweed
+chatty LBBGs - 'chup-chup', 'yeaow!'. Opposite of silhouettes - foregound characters in a classic disney animation
+Sucklings and cootlets in the lee of the island
+bracing at top of lw
+linnets on a mission
+blue bag
+curlew (whimbrel battled north, c south)
+mallardlings
+5 woodpigeon on pylon
+little tail flicks from p wags, 2 leapfrogging in the wid
+box kite, protective LBBG
+high cormorant banking
+15+ linnnet
+glodfunch, runting, reed warbler with a large morsel in its mouthful
+
+
+
+
 26th 
 
 , a harvestman like a spindly crab, woodpigeons, a  herring gull, linnets 
