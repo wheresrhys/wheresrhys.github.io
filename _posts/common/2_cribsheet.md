@@ -1,3 +1,41 @@
+28th
+
+Swifts, mallardlings, wren sings
+Swift speeds, tacking, really like sailing
+Sand martin and goldfinch look tiny - the winf is large, looming
+Following 1 bird in the bins. Little man legs, bollus
+coots take refuge on island
+2 juv bh gull
+canada goose, look like squaring up for fight, but back down unruffled
+5 bridges of konigsberg
+pete. david
+my, that's a heavily birded islands
+
+coots, cormorants, mute swans
+
+mucky flotsam
+blackcap in the sun
+busy sedge warbler is back
+thistle is purpling
+
+magpie dancing in the grass
+feral pigeons... or racers (that flock in caego)
+
+not even any gulls
+cormorant fishing parties
+jay sounding pained. song thrush
+stock dove
+mallardling eye stripes
+15 mute swan in island shelter
+fishing detector beeping
+runting pinstripe back
+__ __ - - - ......
+blue tit and sand martin lok clumsy next to swifts
+
+7 pied wag & cetti
+
+
+
 27th
 
 Big swifts. Hundreds of them, and has Martin

@@ -2,7 +2,6 @@
 layout: post
 title: '61 Boring Birds: '
 description:
-date: 2020-
+date: 
 ---
 
-1st 3 linnet Facebook
