@@ -1,3 +1,45 @@
+29th
+
+painted like  Macrame
+
+
+beautiful heron, lacrame on back, often see him here territory. same one?
+stood on a sandbank - giant black carp
+always plans departure well in advance
+grebe swimming like frog
+commune in stillness
+mum always says that's a big one
+
+
+
+Jay. Big mouth blakcap
+Long tailed tits
+young goldfinch
+chiffchaff tailfork
+wind. genuinely cold and wintery
+quiet warblers. natural steady paced walk. woodpecker
+fluffy young crow stomps on pied wagtail feeding its two young
+swift knife throwing
+chiffchaff song in the wind, weak rushed song
+young blaclkcaps singing
+3 friendly terns on fencepost
+green woodpecker
+gazetteers, spotted fly, regularity
+young robin growing red breast
+the colony's are noisy
+magpies converse
+2 pochardlings, only 3 shelducklings
+pochard and tufties thoroughly multing
+beautiful heron, lacrame on back, often see him here territory. same one?
+stood on a sandbank - giant black carp
+always plans departure well in advance
+grebe swimming like frog
+commune in stillness
+mum always says that's a big one
+Lesse wthroat
+chiffchaffs
+
+
 28th
 
 Swifts, mallardlings, wren sings
