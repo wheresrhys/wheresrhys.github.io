@@ -1,3 +1,51 @@
+30th
+
+
+Young fluff crow scared of humans, whitethroat
+Feeds it something runny. Eyes like Marty Feldman 
+Wipes drool off beak
+Fluffier than your average fledgling, or is it the sleek black that makes it appear so?
+Constant clamour for food. Adult haircut like butch lesbian pauline
+...unless they have vegan maggots
+Fisherman arguing with goose
+Looks like some creature in a oorly made crow costume
+
+mistle
+common sand
+e goose eating grit
+
+
+Occasionally a Rook will drift over Walthamstow - a surprisingly rare bird
+
+
+
+Mr Lacey watches house martins
+Young e geese with mime faces
+G wpecker
+Swifts with grace like Elizabethan square dancer. Darren
+Mistle thrush, tame, feathers sticking out
+Yellow patches on breast - old feathers - grey new.
+Starling family
+2 p wag
+Sparrows on fence - new colony?
+E goose chicks eating grit
+Fisherman catches fish. How odd what they do afterwards. Like cat and mouse
+C sand - young?
+6 c sand
+
+Moorhen treads water
+Lbbg chase like skua
+Forehead c goose moult
+Magpies always surprisingly nervy for such a ubiquitous bird
+More creaky young blackcaps - whistle while they work
+Young g tits abound in the buddleia
+Semi mobbed by bhg
+Seblers, runting, wthroat way wah alarm call
+Never seen a bhg eat anything
+
+
+
+
 29th
 
 painted like  Macrame
@@ -1425,3 +1473,4 @@ I heard a kingfisher while following chinny
 Still lots of birds feeding over the water even though there seem to be fewer insects today. At least fewer bothering me. Hi am not attuned to this world of insects. They are not a priority for me. Likewise the swallows Polly haven't noticed the reduction in traffic it's locked down
 
 A demure Pied wagtail
+
