@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #30 Carrion Crow'
-description:
+description: Too cool for school
 date: 2020-06-30
 ---
 ![carrion crow](/assets/img/carrion-crow.jpg)
@@ -16,7 +16,7 @@ Near the same spot as [a few days ago](http://www.wheresrhys.co.uk/2020/06/27/cu
 
 At the far corner the youngest egyptian goose chicks gobbled up tiny flecks of grit from the path to aid with their digestion. Many birds share this marvellous innovation &mdash; why evolve molars when you can keep substitute grindstones in your belly. Ingenious.
 
-A little further along a common sandpiper &mdash; one of this year's young judging by the faint wavelet patterns on its back &mdash; scampered ahead of me. They sway their entire rear ends constantly up and down, brown on top and white below, oscillating like marooned buoys bobbing in the waves breaking on the shore. As I walked closer it crouched, giving me a three quarter view looking coquetishly over its shoulder. They will do this over and over again, taking a few skittish steps away each time, before finally deciding the  quit the game and making a break for it with their low, flick-winged flight across the water. Their wing beats remind me of the way teenage boys used to try to do Ali G impressions by throw-clicking their fingers. 
+A little further along a common sandpiper &mdash; one of this year's young judging by the faint wavelet patterns on its back &mdash; scampered ahead of me. They sway their entire rear ends constantly up and down, brown on top and white below, oscillating like marooned buoys bobbing in the waves breaking on the shore. As I walked closer it crouched, giving me a three quarter view looking coquetishly over its shoulder. They will do this over and over again, taking a few skittish steps away each time, before finally deciding the  quit the game and making a break for it with their low, nosey-headed, flick-winged flight across the water. Their wing beats remind me of the way teenage boys used to try to do Ali G impressions by throw-clicking their fingers. 
 
 Further along still, five more sandpipers were gathered in a little squad among the flotsam. In total some 13 were seen on the reserve today. "Bird autumn" really is upon us.
 
