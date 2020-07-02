@@ -1,3 +1,49 @@
+2nd
+
+
+
+
+
+
+molly-coddled
+cossetted
+Green woodpecker, barred like sparrowhawk, mouth mustache like Mr. Tourette, punk head. Waiting for parent with food
+
+White bellied song thrush
+Parakeets
+
+15 goldfinches. Young look like poor kids at school
+chiffchaff
+5 fledgling blackcap with male
+Brown headed robins x 2
+Juvenile dunnock, like a pipt
+9 surviving pochard chicks
+
+
+swifts weave in and out of the trees
+sub yaffle
+2 eclipse mallard up a dead tree
+
+Wren, reed bunting, sand martin ...
+10 shelducklings
+Committed blackcap sings
+Another juv robin, left to own devices (parents busy with a second brood?)
+Cetti chase
+Heron bakc at his spot
+Pochards are all mum, no dad
+Dunnock song. That nigel hinton book
+Reed bunting feed on trapped wind blown seeds
+Martins over the millpond
+
+Evening
+Goldfinches drinking at puddle
+4 juvenile blackbird + male
+25 blackheaded gull rise all of a sudden, followed by a load of larger gulls - what spooked them. The fox
+1 swift low, 11 shelducklings, 6 bigger shelducklings
+Murmuration spreads around a tern, like a scene in lord of the rings
+50 + starlings
+
+
 30th
 
 
