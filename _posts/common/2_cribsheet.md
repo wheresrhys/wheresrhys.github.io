@@ -1,3 +1,42 @@
+
+3rd
+
+I was wrong.
+
+like Americans.  flight and I see w
+
+Didin't see if it succeeded, I thought not, thought I saw a dangling foot, but it was indeed a goldfinch - how old?
+The mood has changed
+Nervous calls of chaffinch. A jay brays, 
+Aftermath of a shooting, a bomb or a childish misdemeanour - they know something bad happened
+Jays growing to family of 4, they know not what went down. oblicvioys
+Now calls increase, get normal - rebler, lue tit, wpigeon
+
+
+Young reed warbler
+Big load of starlings - 100 - moutling and getting spotty
+3 fresh green chiffchaff - looking like rarities - on the wire fence
+Bridges of konigsberg
+Gull and tern mob - Large gulls singled out.
+Maze of gulls - like donkey kong platform game for sand martins
+Reed bunting on the strandline again
+House martins above trees
+Another juv robin "tic"
+Two goldcrests
+sparrers
+Dainty grebes
+Incredible swarm, twister of swift
+No hobby
+Neat linnets
+Dunnock song, defining feature is it's unassuming
+dubbe de dee, dubee de derr (memory of learning seep call)
+Starlings feeding
+That wren still prattling, sounds more like a dunnock/wren cross now than just a loose jangle
+cf Whitethroat jangle - forthright, like a coronation street woman, "And that's that!"
+Greenfinch + chiffchaff (+ goldfinch), about to take photo, then...
+SPARROWHAWK
+
+
 2nd
 
 
