@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Sparrowhawk
+tags:
+  - Sparrowhawk
 title: '61 Boring Birds: #33 Sparrowhawk'
 description: Great white
 date: 2020-07-03

@@ -1,5 +1,15 @@
 ---
 layout: post
+primaryTag: Greenfinch
+tags:
+  - Reed warbler
+  - Swift
+  - Song thrush
+  - Robin
+  - Blackbird
+  - Pied wagtail
+  - Little grebe
+  - Greenfinch
 title: '61 Boring Birds: #11 Greenfinch'
 description: Sorted for E's and whizz
 date: 2020-06-11

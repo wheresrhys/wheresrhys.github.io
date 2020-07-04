@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Pied wagtail
+tags:
+  - Pied wagtail
 title: '61 Boring Birds: #17 Pied Wagtail'
 description: Plucky little Brit
 date: 2020-06-17

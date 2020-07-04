@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Canada goose
+tags:
+  - Canada goose
 title: '61 Boring Birds: #21 Canada Goose'
 description: Day of the Triffids
 date: 2020-06-21

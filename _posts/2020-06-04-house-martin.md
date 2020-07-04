@@ -1,5 +1,12 @@
 ---
 layout: post
+primaryTag: House martin
+tags:
+  - Grey wagtail
+  - Canada goose
+  - Swift
+  - House martin
+  - Sand martin
 title: '61 Boring Birds: #4 House Martin'
 description: A constant stream of tiny farts
 date: 2020-06-04

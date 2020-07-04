@@ -39,8 +39,21 @@ layout: default
   {% unless page.title contains "Osprey" %}
   <br><a href="/2020/06/01/osprey.html">🦅 First boring bird</a>
   {% endunless %}
-  <br><a href="/61-boring-birds">🦚 All boring birds</a>
 
+{% if page.tags.size > 1 %}
+<br>Related boring birds:&nbsp;
+  {%- for tag in page.tags -%}
+    {% unless tag == page.primaryTag %}
+      {% assign related = site.posts | where: "primaryTag", tag | first %}
+      {% if related %}
+        <a href="{{ related.url | relative_url }}">{{ related.primaryTag | escape }}</a>,
+      {% else %}
+        {{ tag | escape }},
+      {% endif %}
+    {% endunless %}
+  {%- endfor -%}
+{% endif %}
+<br><a href="/61-boring-birds">🦚 All boring birds</a>
 {% else %}
   <a href="/writing">📚 More writings</a>
 {% endif %}

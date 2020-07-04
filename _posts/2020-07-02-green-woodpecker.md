@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Green woodpecker
+tags:
+  - Green woodpecker
 title: '61 Boring Birds: #32 Green Woodpecker'
 description: Like the corners of your mind
 date: 2020-07-02

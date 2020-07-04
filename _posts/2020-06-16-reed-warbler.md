@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Reed warbler
+tags:
+  - Reed warbler
 title: '61 Boring Birds: #16 Reed Warbler'
 description: Reverse parking
 date: 2020-06-16

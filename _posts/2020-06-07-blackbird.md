@@ -1,5 +1,18 @@
 ---
 layout: post
+primaryTag: Blackbird
+tags:
+  - Blackbird
+  - Reed warbler
+  - Great tit
+  - Goldfinch
+  - Blackcap
+  - Swift
+  - Mute swan
+  - Little egret
+  - Canada goose
+  - Cormorant
+  - Wren
 title: '61 Boring Birds: #7 Blackbird'
 description: Hiraeth
 date: 2020-06-07

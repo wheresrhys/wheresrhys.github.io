@@ -1,5 +1,18 @@
 ---
 layout: post
+primaryTag: Sedge warbler
+tags:
+  - Sedge warbler
+  - Song thrush
+  - Lesser whitethroat
+  - Carrion crow
+  - Blackcap
+  - Common tern
+  - Wren
+  - Black-headed gull
+  - Swift
+  - Goldfinch
+  - Sparrowhawk
 title: '61 Boring Birds: #14 Sedge Warbler'
 description: California girls
 date: 2020-06-14
@@ -8,7 +21,7 @@ date: 2020-06-14
 
 A mist of midges met me today on my early morning visit. Coronavirus has meant the reserve has been shut, even to permit holders, until 10.30 am, but that has recently been relaxed. It's the first time for several months I've been able to explore it before the birds have a chance to disapear elsewhere. Not that I expect to see anything of any great note, but it's stil nice to experience the calm, empty pathways in the relatively cool, fresh air.
 
-I was greeted, in the same overgrown I mentioned yesterday at the base of Lockwood reservoir, by a cheerfully rattling **Sedge Warbler**. I've not seen one at this spot before and its highly conspicuous, hyperactive displaying hints that it might be a late-arriving male, playing catchup in establishing a territory.
+I was greeted, in the same overgrown scrub I mentioned yesterday at the base of Lockwood reservoir, by a cheerfully rattling **Sedge Warbler**. I've not seen one at this spot before and its highly conspicuous, hyperactive displaying hints that it might be a late-arriving male, playing catchup in establishing a territory.
 
 The superpower of identifying birds by their songs and calls has many mileposts along the route, and distinguishing between sedge and reed warbler songs is something of a rite of passage. They both tend to sing from reedbeds or other damp undergrowth, and deliver a superficially similar series of chuggs, rattles, whirrs and whistles, but are altogether different in mood. 
 

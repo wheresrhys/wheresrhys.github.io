@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Egyptian goose
+tags:
+  - Egyptian goose
 title: '61 Boring Birds: #22 Egyptian Goose'
 description: Beautiful freak
 date: 2020-06-22

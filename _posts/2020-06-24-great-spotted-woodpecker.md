@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Great spotted woodpecker
+tags:
+  - Great spotted woodpecker
 title: '61 Boring Birds: #24 Great Spotted Woodpecker'
 description: Every fruit looks like a nail
 date: 2020-06-24

@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Herring gull
+tags:
+  - Herring gull
 title: '61 Boring Birds: #15 Herring Gull'
 description: Sonny and Cher
 date: 2020-06-15

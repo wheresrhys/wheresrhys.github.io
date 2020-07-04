@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Lesser whitethroat
+tags:
+  - Lesser whitethroat
 title: '61 Boring Birds: #18 Lesser Whitethroat'
 description: Waiting
 date: 2020-06-18

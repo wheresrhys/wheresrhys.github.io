@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Carrion crow
+tags:
+  - Carrion crow
 title: '61 Boring Birds: #30 Carrion Crow'
 description: Too cool for school
 date: 2020-06-30

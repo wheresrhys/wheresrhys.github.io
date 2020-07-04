@@ -1,5 +1,12 @@
 ---
 layout: post
+primaryTag: Peregrine
+tags:
+  - Whitethroat
+  - Dunnock
+  - Coot
+  - Peregrine
+  - Canada goose
 title: '61 Boring Birds: #2 Peregrine'
 description: The killer in you is the killer in me
 date: 2020-06-02
@@ -24,11 +31,11 @@ I heard a Whitethroat &mdash; a summer migrant with a gravelly voice and an air 
 
 Arriving at the circumnavigating service track I was delighted to see the path lined with a bank of purple flowers. Amazing what a week of sunshine can deliver. A little way down the path a fisherman sat amid the blooms, looking dazed and shell-shocked from the day's heat.
 
-A Coot, probably my least favourite bird (more on that when it has its five minutes in the limelight), paddled busily in the shallows, showing off its extraordinary feet through the crystal clear water. I almost forgot how much contempt I hold them in, but still hoped to avoid descending to writing about them as early as day two of the blog.
+A coot, probably my least favourite bird (more on that when it has its five minutes in the limelight), paddled busily in the shallows, showing off its extraordinary feet through the crystal clear water. I almost forgot how much contempt I hold them in, but still hoped to avoid descending to writing about them as early as day two of the blog.
 
 And then it arrived, the second boring bird of the summer - a **Peregrine Falcon**.
 
-It really isn't in the spirit of this project to begin with not one but _two_ birds of prey. Birds of prey are the epitome of an un-boring bird. Even the relatively common Buzzard or Kestrel draw gasps of awe from time-worn birdwatchers, and the Peregrine is an especially legendary specimen.
+It really isn't in the spirit of this project to begin with not one but _two_ birds of prey. Birds of prey are the epitome of an un-boring bird. Even the relatively common buzzard or kestrel draw gasps of awe from time-worn birdwatchers, and the peregrine is an especially legendary specimen.
 
 [Yesterday](/2020/06/01/osprey) I forgot to say that the Osprey is most notable for its habit of [diving into lakes to catch fish](https://www.youtube.com/watch?v=428L7cR4AMU), something few other raptors do, and no others do so spectacularly. The Peregrine is also the master of a remarkable feat of flying, reaching the highest speeds of any creature on the planet when it dives &mdash; or _stoops_ &mdash; from astonishing heights at up to 200mph to catch its prey in mid air, usually a pigeon or similarly sized bird. (For an impression of what that's like [watch this](https://www.reddit.com/r/natureismetal/comments/65vuot/peregrine_falcon_breaks_the_neck_of_a_mallard/), but not for the faint-hearted).
 

@@ -1,5 +1,16 @@
 ---
 layout: post
+primaryTag: Cormorant
+tags:
+  - Shelduck
+  - Stock dove
+  - Starling
+  - Goldcrest
+  - Canada goose
+  - Greylag goose
+  - Cormorant
+  - Gadwall
+  - Peregrine
 title: '61 Boring Birds: #12 Cormorant'
 description: Quasimodo
 date: 2020-06-12
@@ -18,7 +29,7 @@ Another local birder had seen what _might_ have been a rosy starling, a beautifu
 
 Entering the reserve I heard a goldcrest, normally such an insipid singer, hurling strident, clear notes from a large conifer. These tiny birds, small as a hen's egg if not smaller, are often incredibly tame, but also so small that emerging into the world of humans is far from inevitable. The pair that nest around those trees will probably not leave their immediate vicinity until autumn arrives and foraging further affield becomes necessary.
 
-Around the back of No. 5, where I headed next to check for errant pink starlings, I wsa instead greeted by a large gaggle of geese, mainly Canada but with a few greylag too. Some of the youngsters are now grown big and need a double take to dstinguish them from adults, while elsewhere day old goslings are still emerging from their eggshells. The flat patch of gravelly ground between the reservoir and the lane seems like their favoured haunt to gather and moult; one greylag barely has any flight feathers, and one canada's tail is missing all but the outermost black feathers, giving it the look of an earwig's pincers.
+Around the back of No. 5, where I headed next to check for errant pink starlings, I was instead greeted by a large gaggle of geese, mainly Canada but with a few greylag too. Some of the youngsters are now grown big and need a double take to distinguish them from adults, while elsewhere day old goslings are still emerging from their eggshells. The flat patch of gravelly ground between the reservoir and the lane seems like their favoured haunt to gather and moult; one greylag barely has any flight feathers, and one canada's tail is missing all but the outermost black feathers, giving it the look of an earwig's pincers.
 
 Up at the top corner of the lake I came across a **Cormorant** perched curiously at the waterside with its bill tucked into its chin. I was reminded of the rabbit with myxamitosis my family and I found in the seaside scrub while staying with our aunt in [Dwygyfylchi](https://en.wikipedia.org/wiki/Dwygyfylchi). It sat at my feet, tame and blind, inspiring delight and horror in my ten year old mind. 
 

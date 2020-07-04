@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Lesser black-backed gull
+tags:
+  - Lesser black-backed gull
 title: '61 Boring Birds: #20 Lesser Black-Backed Gull (Human)'
 description: Chill, black and disturbed
 date: 2020-06-20

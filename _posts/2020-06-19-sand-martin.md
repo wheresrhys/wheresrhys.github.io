@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Sand martin
+tags:
+  - Sand martin
 title: '61 Boring Birds: #19 Sand Martin'
 description: Synchronised swimmers
 date: 2020-06-19

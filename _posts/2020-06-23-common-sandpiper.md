@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Common sandpiper
+tags:
+  - Common sandpiper
 title: '61 Boring Birds: #23 Common Sandpiper'
 description: The early bird
 date: 2020-06-23

@@ -1,5 +1,14 @@
 ---
 layout: post
+primaryTag: Grey wagtail
+tags:
+  - Sparrowhawk
+  - Sand martin
+  - Coot
+  - Grey wagtail
+  - Stock dove
+  - Little grebe
+  - Garden warbler
 title: '61 Boring Birds: #8 Grey Wagtail'
 description: Tiny dramas / Bird on a leash
 date: 2020-06-08
@@ -10,7 +19,7 @@ Lockdown, lockdown, lockdown. It chugs on. Today planned around the roughly week
 
 Walking back home down Coppermill Lane I watch a sparrowhawk circling above the rooftops, perfectly balanced around its midrif, stumpy wings arched like acanthus leaves and its long tail cantilevered behind. It wouldn't look out of place hanging from a mobile.
 
-My last day before returning to work and a slightly stiff back precludes my cycling the distance to the Black Live Matter protest, I nevertheless decide to make the most of the time by cycling the mile or so to Hackney marshs in search of the little owls that have taken up residency since January. No sign of them today, predictable though their behaviour is. The owl box has vegitation sticking out of its entrance, so nest building appears to be underway.
+My last day before returning to work and a slightly stiff back precludes my cycling the distance to the Black Lives Matter protest, I nevertheless decide to make the most of the time by cycling the mile or so to Hackney marsh in search of the little owls that have taken up residency since January. No sign of them today, predictable though their behaviour is. The owl box has vegitation sticking out of its entrance, so nest building appears to be underway.
 
 Not wanting to waste my journey south, I head to the waterworks reserve in search of one of the summer's less consistent singers. Most warblers that spend their summer in the UK sing consistently all summer. Today I heard the unsurprising singing of chiffchaff, blackcap, whitethroat and reed warbler. it's rare that a day goes by when I don't. 
 
@@ -84,7 +93,7 @@ Immature birds are beginning to emerge from their nests. I've seen three in the 
 ![image](/assets/img/grey-wagtail-storyboard/35.jpg)
 ![image](/assets/img/grey-wagtail-storyboard/36.jpg)
 
-Wagtails have two main methods of feeding. They strut about on open ground searching for tiny creepy crawlies but, far more entertaingly, choose a favourite perch and fly on repeated short sortees to catch insects on the wing. They hover and pirhouette in the air like tinkerbell, reaching their fine bills out to take an insect as if casting a spell with their magic wand, then return to cathc their breath back on solid ground.
+Wagtails have two main methods of feeding. They strut about on open ground searching for tiny creepy crawlies but, far more entertaingly, choose a favourite perch and fly on repeated short sortees to catch insects on the wing. They hover and pirhouette in the air like tinkerbell, reaching their fine bills out to take an insect as if casting a spell with their magic wand, then return to catch their breath back on solid ground.
 
 ![image](/assets/img/grey-wagtail-storyboard/37.jpg)
 ![image](/assets/img/grey-wagtail-storyboard/38.jpg)

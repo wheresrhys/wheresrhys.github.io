@@ -1,5 +1,8 @@
 ---
 layout: post
+primaryTag: Whitethroat
+tags:
+  - Whitethroat
 title: '61 Boring Birds: #26 Whitethroat'
 description: All God's creatures
 date: 2020-06-26

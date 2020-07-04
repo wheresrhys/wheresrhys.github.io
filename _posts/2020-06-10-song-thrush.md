@@ -1,5 +1,14 @@
 ---
 layout: post
+primaryTag: Song thrush
+tags:
+  - Swift
+  - Song thrush
+  - Whitethroat
+  - Sedge warbler
+  - Reed warbler
+  - Carrion crow
+  - Peregrine
 title: '61 Boring Birds: #10 Song Thrush'
 description: Cracker
 date: 2020-06-10
@@ -16,7 +25,7 @@ At 7.30 I was on my bike, cycling along Coppermill Lane between the reservoirs a
 
 Arriving at Leyton Marsh, [under threat](https://www.saveleamarshes.org.uk/) from an application to extend the ice skating centre that uglifies its southern edge, a song thrush greets me. While waiting a pair of whitethroat stumble about a couple of sapling treess, the male pausing to chug out a few bars of song while the female scarcely pauses in her search for insect life. A sand martin flies by and I note how square and abrupt its tail ends, as if cut out with a stencil. 
 
-At the southern corner of Walthamstow Marsh, near where water voles can sometimes be found, I hear our familiar **Song Thrush** singing already. It has altered its favourite song post since earlier in the spring as the brambles have grown almost to the same height as the shrub it perched upon. It now favours a small tree next to the canal path, and perches facing away from us. I fancy it enjoys the echo of its song bouncing back from the walls across the water, and waking the inhabitants of the canal boats from both directions.
+At the southern corner of Walthamstow Marsh, near where water voles can sometimes be found, I hear our familiar thrush singing already. It has altered its favourite song post since earlier in the spring as the brambles have grown almost to the same height as the shrub it perched upon. It now favours a small tree next to the canal path, and perches facing away from us. I fancy it enjoys the echo of its song bouncing back from the walls across the water, and waking the inhabitants of the canal boats from both directions.
 
 And wake them it would. The song thrush is one of the loudest and most persistent songsters we have. It will sing for great lengths of time delivering a mixture of strident, repeated whistles and chuckles and short playful ditties using both its voice boxes to the full. The purity and volume of its standard repertoire is an invigorating tonic at any time of day, but aprticularly enjoyable in the early evening when they will often repeat the kind of showstopping performance most birds reserve for the dawn.
 
