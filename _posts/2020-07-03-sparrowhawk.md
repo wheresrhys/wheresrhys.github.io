@@ -31,7 +31,7 @@ Over so fast. It snatches, turns, wings and tail splayed. Retreats to the dark h
 
 I did not see if it made the kill. 
 
-It darts to another tree, a little further away. I see dangling what I think is a long, narrow, yellow talon &mdash; a quarryless grasp? The empty hand of a failed hunt? 
+It darts to another tree, a little further away. I see dangling what I think is a spindly yellow talon &mdash; a quarryless grasp? The empty hand of a failed hunt? 
 
 Jays &mdash; four of them today &mdash; fly through the scene of the crime, big, noisy and insensitive like disaster tourists. But it rubs off; soon a reed warbler churrs "Life is normal", a blue tit exhales its long-held breath with a chuckle, and a woodpigeon mansplains to anyone who'll listen that it's the system that's to blame. It's like they've all gotten away with some childish misdemeanour. 
 

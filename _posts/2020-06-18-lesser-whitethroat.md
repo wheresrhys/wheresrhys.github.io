@@ -3,6 +3,20 @@ layout: post
 primaryTag: Lesser whitethroat
 tags:
   - Lesser whitethroat
+  - Pied wagtail
+  - Swift 
+  - House martin
+  - Chaffinch
+  - Goldcrest
+  - Swallow
+  - Sparrowhawk
+  - Blackcap
+  - Great crested grebe
+  - Coot 
+  - Grey wagtail
+  - Black-headed gull
+  - Lesser black-backed gull
+  - Whitethroat
 title: '61 Boring Birds: #18 Lesser Whitethroat'
 description: Waiting
 date: 2020-06-18
@@ -37,7 +51,7 @@ Goldcrest, swallow and pied wagtail... two already written about, which leaves g
 
 Sparrowhawk, seen well, and drawing me into its world somewhat. A strong contender, and no mistake, but somehow does not move me. Could it be that I don't actually like the bird that much?
 
-> Returning to th emain public path I came across a young birdwatcher and his father, bothe pushing their bikes and the youngster pausing every now and then to investigate some forms perched on a distant branch overhanging the water. A little later I caome across some youths fishing, using the three-rods-on-a-stand setup that seems popular. One of them has his back to the others and stares through a pair of binoculars too. As I walk away I overhear his friend say, "You look like a right pervert with them binoculars, you know that"
+> Returning to the main public path I came across a young birdwatcher and his father, bothe pushing their bikes and the youngster pausing every now and then to investigate some forms perched on a distant branch overhanging the water. A little later I caome across some youths fishing, using the three-rods-on-a-stand setup that seems popular. One of them has his back to the others and stares through a pair of binoculars too. As I walk away I overhear his friend say, "You look like a right pervert with them binoculars, you know that"
 
 > In both of these I see my younger self. A love for nature nurtured by a father who died to young, and the cruel teasing that the hobby too often inspires. I wish it were with disbelief that I could look back on the secretive way I carried out the hobby in my teens, with not even my closest friends being aware that my greatest love was for birds of the feathered kind. Maybe this is why it's still such a personal, private experience. Only in recent years have I fully shaken off the stigma
 

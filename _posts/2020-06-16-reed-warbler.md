@@ -2,6 +2,9 @@
 layout: post
 primaryTag: Reed warbler
 tags:
+  - Great tit
+  - Swift
+  - Sedge warbler
   - Reed warbler
 title: '61 Boring Birds: #16 Reed Warbler'
 description: Reverse parking

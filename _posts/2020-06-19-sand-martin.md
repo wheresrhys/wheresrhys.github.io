@@ -2,7 +2,16 @@
 layout: post
 primaryTag: Sand martin
 tags:
+  - House martin
+  - Swift
+  - Canada goose
+  - Great tit
+  - Goldfinch
+  - Linnet
+  - Sedge warbler
+  - Reed bunting
   - Sand martin
+  - Egyptian goose
 title: '61 Boring Birds: #19 Sand Martin'
 description: Synchronised swimmers
 date: 2020-06-19

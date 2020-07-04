@@ -2,6 +2,31 @@
 layout: post
 primaryTag: Herring gull
 tags:
+  - Carrion crow
+  - Sand martin
+  - Linnet
+  - Chiffchaff
+  - Blackbird
+  - Blackcap
+  - Long-tailed tit
+  - Jay 
+  - Moorhen
+  - Canada goose
+  - Black-headed gull
+  - Lesser black-backed gull
+  - Common tern
+  - Goldcrest
+  - Green woodpecker
+  - Ring-necked parakeet
+  - House martin
+  - Swift
+  - Dunnock
+  - Wren
+  - Chaffinch
+  - Grey wagtail
+  - Starling
+  - Cormorant
+  - Great black-backed gull
   - Herring gull
 title: '61 Boring Birds: #15 Herring Gull'
 description: Sonny and Cher

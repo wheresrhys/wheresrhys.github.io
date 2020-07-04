@@ -2,7 +2,18 @@
 layout: post
 primaryTag: Pied wagtail
 tags:
+  - Mute swan
+  - Blackbird
+  - Blackcap
+  - Chiffchaff
+  - Whitethroat
+  - Canada goose
+  - Lesser black-backed gull
+  - Sand martin
+  - Linnet
   - Pied wagtail
+  - Starling
+  - Lesser whitethroat
 title: '61 Boring Birds: #17 Pied Wagtail'
 description: Plucky little Brit
 date: 2020-06-17
