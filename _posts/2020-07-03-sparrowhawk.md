@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '61 Boring Birds: #33 Sparrowhawk'
-description:
+description: Great white
 date: 2020-07-03
 ---
 ![sparrowhawk](/assets/img/sparrowhawk.jpg)
