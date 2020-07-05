@@ -3,6 +3,7 @@ layout: post
 primaryTag: Common sandpiper
 tags:
   - Common sandpiper
+  - Green sandpiper
 title: '61 Boring Birds: #23 Common Sandpiper'
 description: The early bird
 date: 2020-06-23
@@ -13,7 +14,7 @@ Lockdown is slowly lifting, but I haven't changed my behaviour very much at all.
 
 One opportunity to alter my routines I haven't yet taken up is the earlier opening hours of the wetlands. Open to the public from 10.30 each day, the same restriction also applied to permit holders until recently, but now the gates are open from 7am if you're name's on the list. (The cafe is also opening up again. The toilets can't be far behind.)
 
-But I haven't been taking advantage of the undisturbed early hours. Partly laziness, but also genuinely being quite enamoured with roaming theabout at close of day.
+But I haven't been taking advantage of the undisturbed early hours. Partly laziness, but also genuinely being quite enamoured with roaming about at close of day.
 
 This morning was not a prime candidate to break the habit. A middling, and worsening, hangover from an enjoyable online drink and political chinwag with Matt meant my alarm was the recipient of more early morning abuse than usual. However, alongside the snooze ticker counting back down to impending rude re-awakenings were a few messages from the whatsapp birders group &mdash; somebody had found an unidentified wader.
 

@@ -2,7 +2,16 @@
 layout: post
 primaryTag: Grey heron
 tags:
+  - Swift
+  - Jay
+  - Long-tailed tit
+  - Pied wagtail
+  - Carrion crow
+  - Robin
+  - Chiffchaff
+  - Green woodpecker
   - Grey heron
+  - Great crested grebe
 title: '61 Boring Birds: #29 Grey Heron'
 description: Lakeside haute-couture
 date: 2020-06-29

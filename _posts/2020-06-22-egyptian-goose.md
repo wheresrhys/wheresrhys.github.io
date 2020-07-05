@@ -2,7 +2,13 @@
 layout: post
 primaryTag: Egyptian goose
 tags:
+  - Robin
+  - Chiffchaff
+  - Linnet
+  - Common tern
+  - Pied wagtail
   - Egyptian goose
+  - Shoveler
 title: '61 Boring Birds: #22 Egyptian Goose'
 description: Beautiful freak
 date: 2020-06-22

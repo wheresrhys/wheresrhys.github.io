@@ -2,6 +2,15 @@
 layout: post
 primaryTag: Green woodpecker
 tags:
+  - Carrion crow
+  - Ring-necked parakeet
+  - Goldfinch
+  - Song thrush
+  - Blackcap
+  - Robin
+  - Dunnock
+  - Shelduck
+  - Cetti's warbler
   - Green woodpecker
 title: '61 Boring Birds: #32 Green Woodpecker'
 description: Like the corners of your mind

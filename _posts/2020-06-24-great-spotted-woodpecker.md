@@ -2,7 +2,37 @@
 layout: post
 primaryTag: Great spotted woodpecker
 tags:
+  - Robin
+  - Blackbird
+  - Blue tit
+  - Chiffchaff
+  - Long-tailed tit
+  - Cetti's warbler
+  - Sedge warbler
+  - Little grebe
+  - Common tern
+  - Black-headed gull
+  - Song thrush
+  - Stock dove
+  - Mallard
+  - Tufted duck
+  - Little egret
+  - Grey heron
+  - Shoveler
+  - Reed bunting
+  - Grey wagtail
+  - Blackcap
+  - Great crested grebe
+  - Shelduck
+  - Pochard
+  - Reed warbler
+  - Goldfinch
+  - Woodpigeon
+  - Ring-necked parakeet
   - Great spotted woodpecker
+  - Lesser whitethroat
+  - Dunnock
+  - Greenfinch
 title: '61 Boring Birds: #24 Great Spotted Woodpecker'
 description: Every fruit looks like a nail
 date: 2020-06-24
@@ -21,16 +51,16 @@ Good sense, and being neither a mad dog nor an Englishman, meant I stayed out of
 ![heron cooling in the sun](/assets/img/peter-stringfellow.jpg)
 
 |In the bushes near the bottom of the first pylon on the central path I found an absolute beaut of a male blackcap. It's a revelation how easy to see they are durng this frantic period of gathering food for the young at all costs. A family of reed buntings, in their clumsy loose-long tails and pinstripe tweeds, also put in an appearance. A chiffchaff landed on the pylon and started looking for insects and spiders in the barbedwire. I never see other birds doing this, so it's "well done!" to the enterprising chiffchaff I suppose.  |The two young, delinquent stripy-headed grebes are still up to no good at the corner of the reservoir. A pair of shelduck lead their impressionable young brood away to Sunday school.|
-|As I stared at a dead, half-eaten carp lying on one of the fishing jetties (really quite a large one, and I wonder what creature had succeeeded in dragging it there) a cetti's warbler flew across the clearing carrying a faecal sack in its mouth. What an innovation birds have &mdash; essentially the young urinate and defecate into biological, hermetically sealed nappies. Across the milky water the youngest shelduck brood on the reserve &mdash; twelve ducklings a few days old &mdash; were escorted across open water by their parents. Patterned like penguins, and with distinctive back-combed black hairdos, I kept thinking they looked like new romantics on a coach trip. Over by the reedbeds a female pochard introduced her 13, day-old ducklings to the world, their dark brown and yellow helmet-heads neatly curved, like part of a lego duplo set. |I notice a pair of tufted ducks staring at me from the water. Glowing vivid, flamey yellow, they can look quite demonic up close. Despite making me uneasy and holding the upper hand, they paddle slowly away. Beyond them some black-headed gulls torment a big fish in the water... and each other. I notice fresh green spikes growing on one of the gorse bushes that bring a little heahtland glamour to the shrubbery here. Two blackbirds scamper ahead of me on the path, both carrying an insect treat for the youngsters. Speaking of youngsters, the twelve shelducklings still float their 1980's coiffures mid-water, all happily, and iraculously, uneaten.|
+|As I stared at a dead, half-eaten carp lying on one of the fishing jetties (really quite a large one, and I wonder what creature had succeeeded in dragging it there) a cetti's warbler flew across the clearing carrying a faecal sack in its mouth. What an innovation birds have &mdash; essentially the young urinate and defecate into biological, hermetically sealed nappies. Across the milky water the youngest shelduck brood on the reserve &mdash; twelve ducklings a few days old &mdash; were escorted across open water by their parents. Patterned like penguins, and with distinctive back-combed black hairdos, I kept thinking they looked like new romantics on a coach trip. Over by the reedbeds a female pochard introduced her 13, day-old ducklings to the world, their dark brown and yellow helmet-heads neatly curved, like part of a lego duplo set. |I notice a pair of tufted ducks staring at me from the water. Glowing vivid, flamey yellow, they can look quite demonic up close. Despite making me uneasy and holding the upper hand, they paddle slowly away. Beyond them some black-headed gulls torment a big fish in the water... and each other. I notice fresh green spikes growing on one of the gorse bushes that bring a little heahtland glamour to the shrubbery here. Two blackbirds scamper ahead of me on the path, both carrying an insect treat for the youngsters. Speaking of youngsters, the twelve shelducklings still float their 1980's coiffures mid-water, all happily, and miraculously, uneaten.|
 |Back at the footbridge over the stream the trees and bushes still bustled with bird life. Reed warbler clamoured and whinged from the reedbed and a blackcap whistled as it worked the understorey. Young blue tits, printed with the ink running low, dangled their subdued selves from the twigs. As a final goodbye a few goldfinch, including some young, empty-faced birds, settled on the bed of knapweed next to the cafe for a feed. |Three woodpigeon "have words" in the lonely tree net to the reedbed, and one limps off to find more convivial company. The screeching of parakeets is more evident this evening, but it suits a sunny evening. Bringing the rainforest to Britain... |
 
-A young **Great Spotted Woodpecker** tries, unsuccessfully to negotiate its way into a cherry &mdash; when your head's the head of a woodpecker, every fruit looks like a nail... or something like that. Not having acquired the geometric balance of the adults, that coudl be painted by Mondrian, it has the black and white colours arranged in prison tattoo swirls on its neck. It's red crest would fit right in at a rave. this woodpecker is the most Generation Z bird I've ever seen.
+A young **Great Spotted Woodpecker** tries, unsuccessfully to negotiate its way into a cherry &mdash; when your head's the head of a woodpecker, every fruit looks like a nail... or something like that. Not having acquired the geometric balance of the adults, that could be painted by Mondrian, it has the black and white colours arranged in prison tattoo swirls on its neck. It's red crest would fit right in at a rave. this woodpecker is the most Generation Z bird I've ever seen.
 
-About a month ago, when I discovered how easy it was to cycle to, I spent a few enjoyable afternoons at the southern edge of Epping Forest, where it pokes into the East side of Walthamstow. In the small patch of tress there I discovered an astonishing _siz_ woodpecker nests, easy to find due to the irritating "chick-chick-chick..." noise the chicks make, and their habit of poking their heads out of the tree hole to get a feel for the surrounding area.
+About a month ago, when I discovered how easy it was to cycle to, I spent a few enjoyable afternoons at the southern edge of Epping Forest, where it pokes into the East side of Walthamstow. In the small patch of tress there I discovered an astonishing _six_ woodpecker nests, easy to find due to the irritating "chick-chick-chick..." noise the chicks make, and their habit of poking their heads out of the tree hole to get a feel for the surrounding area.
 
 Finding six nests was _really_ something , but they are surprisingly common. I've seen them on many occasions right in the heart of London. Listening out for their distinctive metallic "chip!" calls &mdash; like a rivet being hammered &mdash; and looking for a bird the size of a starling bombing across from tree to tree will pay off in pretty much any public park. The best thing is that, despite their everydayness, they're still woodpeckers, and I don't think any degree of familiarity will be able to rob me of the feeling that they are just a little bit magical.
 
-Sitting down by yet another bush, I waited for half an hour, absorbing the acrobatics and gossipy songs of a dozen goldfinches, a well-lit song thrush &mdash; 8 o'clock, and the sun was low now &mdash;, several well turned-out juvenile blackbirds. A lesser whitethroat put in a special guest appearance and a few dunnock, reed buntings and greenfinches turned up for the odd cameo too. Add the increasingly ubiquitous young blue tits to the canvas, and a few reed warblers stepping through the twigs like they were lily pads, consuming every moth, damsel fly and wasp in their path, and it amounts to a calm little Serengeti of the subburbs.
+Sitting down by yet another bush, I waited for half an hour, absorbing the acrobatics and gossipy songs of a dozen goldfinches, a well-lit song thrush &mdash; 8 o'clock, and the sun was low now &mdash;, several well turned-out juvenile blackbirds. A lesser whitethroat put in a special guest appearance and a few dunnock, reed buntings and greenfinches turned up for the odd cameo too. Add the increasingly ubiquitous young blue tits to the canvas, and a few reed warblers stepping through the twigs like they were lily pads, consuming every moth, damsel fly and wasp in their path, and it amounts to a calm little Serengeti of the suburbs.
 
 Over which the sun has now set.
 

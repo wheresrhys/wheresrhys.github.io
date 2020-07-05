@@ -2,7 +2,26 @@
 layout: post
 primaryTag: Sparrowhawk
 tags:
+  - Starling
+  - Chiffchaff
+  - Common tern
+  - Black-headed gull
+  - Sand martin
+  - Swift
+  - Linnet
+  - Grey heron
+  - Great crested grebe
+  - Robin
+  - Reed bunting
+  - Dunnock
+  - Wren
+  - Goldfinch
   - Sparrowhawk
+  - Chaffinch
+  - Jay
+  - Reed warbler
+  - Blue tit
+  - Woodpigeon
 title: '61 Boring Birds: #33 Sparrowhawk'
 description: Great white
 date: 2020-07-03

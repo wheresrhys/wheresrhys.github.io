@@ -2,7 +2,14 @@
 layout: post
 primaryTag: Carrion crow
 tags:
+  - House martin
+  - Swift
+  - Mistle thrush
+  - Egyptian goose
+  - Common sandpiper
   - Carrion crow
+  - Canada goose
+  - Sand martin
 title: '61 Boring Birds: #30 Carrion Crow'
 description: Too cool for school
 date: 2020-06-30

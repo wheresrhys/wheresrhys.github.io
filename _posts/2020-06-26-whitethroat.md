@@ -2,7 +2,18 @@
 layout: post
 primaryTag: Whitethroat
 tags:
+  - Common tern
+  - Shelduck
+  - Great crested grebe
+  - Linnet
+  - Reed bunting
+  - Blackbird
+  - Song thrush
+  - Chiffchaff
+  - House sparrow
+  - Dunnock
   - Whitethroat
+  - Greenfinch
 title: '61 Boring Birds: #26 Whitethroat'
 description: All God's creatures
 date: 2020-06-26
