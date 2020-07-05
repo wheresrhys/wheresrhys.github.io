@@ -1,3 +1,54 @@
+5th
+---
+layout: post
+title: '61 Boring Birds: #35 Hobby'
+primaryTag: Hobby
+tags:
+  - Hobby
+description: Distant speck
+date: 2020-07-05
+---
+
+Impressions of wind
+
+Ruffled egyptian goose
+Stock dove taken in hand by the wind
+Explosions of wind fan out across the water like fireworks or bracket fungus
+White bellied linnets
+P wag blown almost inside out by the wind
+Wind whistling in the orchard like on the eglwyseg moors
+Even underwater weeds are windswept by the breakers
+E goose in magnificent trousers
+
+
+# Impression of BH gulls
+
+Kiki tern, Gulls in the distance
+Linnet, Chiffchaff, Sand martin
+
+Black headed gulls on school fields
+Wish for med gull. soon there will be some common
+2 young gulls, and one 2cy. Bathing
+1 cormorant fishing in plain sight
+
+# Sit down to watch
+
+As if in answer to yesterday's kestrel the BH gulls hover
+Dribs and drabs of sand martin & a lone swift
+Sand martins anything from black to white
+
+Grebes carrying weed for a nest
+Hobby
+How to train your dragon. Look like big swift or stumpy sometimes. cf the shape above millfields - almost kestrel
+Serendipitous copying of non birders to scan the sky for buzzard
+This blog needs at least one distant speck
+Keep thinking I see from window - hard to judge size of swifts
+Millfields this year and in the past too - surprisingly common
+first sight in wales, hobbies in reading
+
+Floating gull chicks. Bh gulls arrayed like chess pieces
+
+
 4th
 
 Konigsberg
