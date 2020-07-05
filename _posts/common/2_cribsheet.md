@@ -1,3 +1,59 @@
+4th
+
+Konigsberg
+Masses of grounded leaves
+Robin and reblers
+Swifts look large in the lightbox sky. Watchers. sentinels. thin army. Tokyo intersection. slower today. Unhurried but prompt. Army of drones
+Blown foam
+Teen coot playing hard to get
+Island of geese and coots
+Wet shoes
+Lots of sand martins - migration?
+Diving shelducklings are getting quite big
+Yaffle
+Goose parcour
+Coot like aphids/blackfly
+Herring gull chases tern - surprisingly slow despite its sleek shape
+Then lbbg chase heron because they perceive it to be a danger
+120 starling - I wish I'd saved them rather than being so frivolous
+Display all characteristics of winter murmurations (though scaled down)
+Subdued goldfinches
+Supermum mallard with 9 ducklings still - they are getting big
+3 young foxes, 1 tame
+Grebes ( & tufties) roll over to show off their white bellies
+Reed bunting nervous parents, tseu, alongside reed warbler
+LTT, GT Cettis, chiffchaff, BT, chaffinch
+House martin between the trees
+LWT
+Dunnock with beakful of flies, hoarse shispered seep, like highest harmonic from an emphasemic lung
+Cetti's smash and grab guerrilla protest
+Blackcaps still sing
+Tame juv blackcap in oak and sycamore sapling
+10 pochardlings
+Many egrets on the island, bad fisherman at gate
+Tufted duck and pochard flotillas sizeable now
+Winter arriving in subtle ways - migrating sand martin 
+Reed warbler on the abruptly beginning coppermill, fed by pump and pump alone
+Alarmed blackbird, annoyed at jay
+The big thistle is open
+Blackcap has dele ali's hair
+Grebe eats fish
+Meadow flowers
+Tern fishing up the channle
+Dive bonmbs lbbg 
+Wind adores a kestrel
+Looked like a crow at first
+Male. uptilted wingtips (like planes). Only hovers properly after a long while, previously hangs like a gull
+Ignored by cocky swifts
+Grebe on nest next to large swan
+Swans wear island like a crown
+'Swift bathing'
+Swift backpedalling (like gull the other day)
+p wag chase starling
+Playing chicken with swifts
+
+
+
 
 3rd
 
