@@ -1,13 +1,47 @@
+6th 
+
+
+9 mistle thrushes
+young woodpigeons
+Band practice - punk thrushes
+Ochre beneath, grey on top, almost white head
+Fox among the starlings and pigeons. 200 starlings?
+Horses vs paddocks
+Filter beds = happy place
+Frantic pick-axing while rotating
+
+which my friend with young children 
+
+Chestnut sided
+
+
+
+No owl
+Blackcap sounding like G warbler
+5 little grtebe chicks with stripy heads. 3 parents 1 + 2 + 2
+Head underwater watching parent
+High pitched calls sounding like a catherine wheel
+Usually fluffy arsed, but slicked back today
+Pink and yellow bill, like a woodpigeon
+Tiny next to coots
+
+Grey wagtail like a hummingbird/drone/kestrel above the algae
+Pochard female + 4 chicks
+
+Young moorhen, even younger moorhen and sleeping mallard
+Subdued reed warblers
+Dried up pool, longer reeds
+Sleepy baby pochard
+2 stock doves, banana shaped
+
+
+
+
+
+
+
 5th
----
-layout: post
-title: '61 Boring Birds: #35 Hobby'
-primaryTag: Hobby
-tags:
-  - Hobby
-description: Distant speck
-date: 2020-07-05
----
+
 
 Impressions of wind
 
