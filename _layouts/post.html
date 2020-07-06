@@ -46,9 +46,9 @@ layout: default
     {% unless tag == page.primaryTag %}
       {% assign related = site.posts | where: "primaryTag", tag | first %}
       {% if related %}
-        <a href="{{ related.url | relative_url }}">{{ related.primaryTag | escape }}</a>,
+        <a href="{{ related.url | relative_url }}">{{ related.primaryTag | escape }}</a>{% unless forloop.last %},{% endunless %}
       {% else %}
-        {{ tag | escape }},
+        {{ tag | escape }}{% unless forloop.last %},{% endunless %}
       {% endif %}
     {% endunless %}
   {%- endfor -%}
