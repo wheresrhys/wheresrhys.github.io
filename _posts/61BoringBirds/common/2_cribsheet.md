@@ -1,3 +1,142 @@
+7th
+
+Reed bunting sings
+Goldfinches numerous,
+Green woodpecker on freshly painted pylon - chew chew
+2 chiffchaff also on the pylon
+Blackbirds serenade
+Stock dove glides in on v shaped wings
+Flies to breathe
+Dunnock song
+Starlnigs roost by fisherman's hut. Glide in and I think they are martins
+Pair of tufties up to no good
+Reed warblers sing, peregrine cries, tern lilts
+jay, distant small duck
+
+
+Reed bunting f, so much better marked than juv. juv begging with fluttering wings
+Swan stretches leg
+Interfernece patterns from the bow-waves of wo many waterfowl
+The shapes of wings - tern, hobby, cormorant, swift, chiffchaff
+green woodpecker
+Young wren sounding almost professional now
+Robin tic-trilling
+
+
+
+
+
+A stock dove glides in with wings arched in a stiff 'V'
+
+
+Army of sand martins in 2's, 3's, 4's and 5' 
+
+Mournful gulls, then excitable "wlecome back dude"
+Mats of flies beaten
+F pochard chases tuftie
+7 gulls join the martins
+sneeznig goose
+steel black sky
+2 martins hover facing each other
+
+Stock dove glides in on v shaped wings
+Flies to breathe
+Dunnock song
+Starlnigs roost by fisherman's hut. Glide in and I think they are martins
+
+The joy of a sunlit s
+
+
+
+
+well-behaved pochard in a line
+
+creche of pochard, creche of shelduck
+sneeznig goose
+Shelducks evolving
+
+Parakeet like an AK47
+Reed bunting starlings
+Cygnet shakes a leg
+Shoveler (going by the low slung shape)... no - a amallard
+Tufties dotted on the water like miniature geese
+Bickering wrens
+Serenading blackbird
+White mallard still with 9 ducklings. She is muddy and moulting
+Buccaneering terns - ki-ki-ki-kiyerr
+Mixed age shelducklings 12
+2 comma and a peacock
+Singing stock dove
+Hard edged wren
+juv GBBG floating
+Geese posed dramatically like a boy band
+Squeaky pulley cormorants
+Pair of gadwall - go by shape & orange bill, and smaller than grebe
+White eing patch. 2f?
+Pure white bellied young cormorant
+
+Herring gull bothers me
+LBBG's talking
+blue tits, squelching whitethroats
+Egret, lots of woodpigeons & blackbirds
+Another male eclipse gadwall
+Young egret and young heron - size different
+Cgiffchaff on tree stump
+Reed warbler fighting blue tit
+Chiffchaff in the sun
+Beautfiful juvenile dunnock in the woodpile - pale-faced
+Blackcap, family of very young reed warblers sunning. buff grey foreheads. Could almost be blackcaps
+Chifchaff song
+
+
+Reed bunting f, so much better marked than juv. juv begging with fluttering wings
+Swan stretches leg
+Interfernece patterns from the bow-waves of wo many waterfowl
+The shapes of wings - tern, hobby, cormorant, swift, chiffchaff
+green woodpecker
+Young wren sounding almost professional now
+Robin tic-trilling
+
+
+
+
+Always the same black-headed gull coming to bother me? Is it just saying hello?
+Tern's wing moulting
+well-behaved pochard in a line
+
+creche of pochard, creche of shelduck
+sneeznig goose
+Shelducks evolving
+
+Army of sand martins in 2's, 3's, 4's and 5' swarming around citadel of trees
+
+Mournful gulls, then excitable "wlecome back dude"
+Mats of flies beaten
+F pochard chases tuftie
+7 gulls join the martins
+sneeznig goose
+steel black sky
+2 martins hover facing each other
+
+Reed bunting sings
+Goldfinches numerous,
+Green woodpecker on freshly painted pylon - chew chew
+2 chiffchaff also on the pylon
+Blackbirds serenade
+Stock dove glides in on v shaped wings
+Flies to breathe
+Dunnock song
+Starlnigs roost by fisherman's hut. Glide in and I think they are martins
+Pair of tufties up to no good
+Reed warblers sing, peregrine cries, tern lilts
+jay, distant small duck
+
+
+Pair of tufties up to no good
+Reed warblers sing, peregrine cries, tern lilts
+jay, distant small duck
+
+
 6th 
 
 
