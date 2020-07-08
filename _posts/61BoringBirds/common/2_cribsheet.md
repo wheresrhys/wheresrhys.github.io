@@ -1,3 +1,62 @@
+8th
+
+NIgel hinton
+
+
+
+Dunnock with beakful of flies, hoarse shispered seep, like highest harmonic from an emphasemic lung
+Dunnock song, defining feature is it's unassuming
+dubbe de dee, dubee de derr (memory of learning seep call)
+Dunnock song. That nigel hinton book
+Tuneful dunnock and black Call and response duet
+
+
+I remember that it is a bird I learned
+I only learned the seep call last year
+
+
+Dunnock song, defining feature is it's unassuming
+dubbe de dee, dubee de derr (memory of learning seep call)
+Starlings feeding
+That wren still prattling, sounds more like a dunnock/wren cross now than just a loose jangle
+cf Whitethroat jangle - forthright, like a coronation street woman, "And that's that!"
+
+
+
+
+one of the more understated , 
+7 blackbird, adopted goose, angry wren
+Moulting 4 greenfinch
+Young robin, getting white-bellied, but brown breast still
+Starling, woodpigeon, song thrush, chaffinch
+Many swifts, dunnock song
+String of 4 threaded sand martins
+Slow swift like escalator
+Almost twatted by a house martin
+Goldcrest in willow
+Mixed martins on the low bridge, like shrapnel/crossfire/coeboys and indians/ a bridge too far
+Great spotted woodpecker
+Nig bassy moulting GBBG, sounds like a gruff dragon coughing up phlegm
+mobbed by h gull. front heavy with that back and baguette body and deep chest feet showing though moulting tail feathers - how embarrassing
+F tuftie waddles to safety among the geese - why on land at all?
+Flushed a wren
+Swifts move as one, like a loose-knit lung or sweater
+Parakeet chase - their calls cause more anic than necessary in the waterfowl
+3 dunnocks, pink legged cetti (silent), youn blackcaps
+dunnocks prehistoric and dainty, fanning tail and wings. damp preening
+Another young robin = where are the adults?
+Cetti's and dunnock play kiss chase
+Adult robin tics at me
+Cetti's juv song
+juvenile robin red breast, but with brown head looks like stonechat
+reed warbler hoovering up the flies
+bcap, robins, dunnock, whitethroat, really a lot of LBJs all competing for food
+Tern crossing the road witha fish
+
+
+Not Kennedy, Nixon, Reagan or Trump.
+
+
 7th
 
 Reed bunting sings
