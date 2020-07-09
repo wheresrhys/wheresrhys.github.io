@@ -1,3 +1,73 @@
+9th
+
+Bucolic scene
+
+
+
+
+In a final gesture of friendship
+I'm gifted 
+
+
+
+
+A hobby closes in on the scene
+
+Calls deaden in sight of the dragon
+
+Hobby! Calls deaden. Right place right time
+
+(In space )
+The rain makes the sound of blown sand
+It ricochets on the water
+
+
+
+Rainfinches (goldfinches) with faces washed off & house martins, LTT sound, 
+
+"Our reputation is your guarantee"
+Says my local chippie's window
+And year after year the seed heads deliver
+A hearty meal to hearty 
+
+4
+3
+4
+4
+4
+3/4
+
+
+A tern's kicks out its cry
+
+
+And leave the house 
+Martins alone
+
+
+1st June - Great tit family
+3rd - tit flight vs finch
+
+
+Terns chase - its a bird eat bird world
+Tower of martins (mainly H)
+Mid air cormorant shake, like a wet dog
+Tween-gulls with cross-hatched wings
+Tern fight - golden snitch
+Swans regal in any weather
+blue tit, 2 B&W g tits
+
+A SCENE
+
+Small london plane and birch
+Tern kiks
+
+Almost adult Grebe diving
+Tern dives audaciously in front of heron, who turns and approaches in curiosity
+
+
+
+
 8th
 
 NIgel hinton
