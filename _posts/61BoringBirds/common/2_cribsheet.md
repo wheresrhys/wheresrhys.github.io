@@ -1,3 +1,31 @@
+10th
+
+
+
+
+Fisherman raver
+
+Blackberry starlings (polka dot patches), linnet, goldfinch, single neat male sparrow
+sand martins grating, reed bunting song
+bhg country gent
+buzzard gap tailed. soaring ever higher, mobbed by sand martins, lost in 10 seconds
+GBBG - a nice one - shifts a HG on
+mixed wagtails
+who turned the bird tap off
+small numbers of goldfinch
+20 linnet
+magpie
+
+vermin scavenger
+vibrations from the quill
+basketball
+dragonfly so large I think it's a bird
+two tone, two pitched gulls
+asbo canada goose - varying degrees of wild
+
+bridges of konigsberg
+
+
 9th
 
 Bucolic scene
