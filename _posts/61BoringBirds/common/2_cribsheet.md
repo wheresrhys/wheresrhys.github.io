@@ -1,3 +1,49 @@
+13th
+Goldfinch bonanza
+Backlit running coot, like a scene from an 80s music video
+Even parakeets parchute in alluringly
+Young great spotted woodpecker pecks into a willow gall
+Tern & crow drama - will not tolerate any overhead intruders
+cf law on extracting rent for overhead flightpaths
+LBBG, BhGull mob, but otherwise enemies - "My enemy's enemy is my friend"
+Pink leg of  asitting egyptian goose
+Designated mobber tern
+Mobbing me or the gull?
+Moorhen chicks, free riders safe in the colony
+Mirrored tern display flights, coasting home
+Cemlyn - all for one and one for all
+1 runting draws my attention to 1 high swift and 3 sand martins
+Cygnet at the awkward, roman nose/hooter phase. Now long necjed enough to fetch its own weeds. Mother swan  makes little crying fart alarm calls, and oyungster retreats
+Juv tern on the water pipe casing. badly drawn tern - stouter shoulders, shorter bill, tubbier. Gets fed a fish
+
+
+Yellowhammers
+Skylark
+Absurdly swollen  thoroughbred corn
+Buzzard
+R ppartridge
+Treecreeper 3 or4, swimming like a vertical excites seal on land 
+G wpecker
+Classic roving tit flock. Why do tits rove?
+Spotted fly
+Chiffchaffs
+Coal tit??
+Goldcrest
+Gsw
+Nuthatch i think
+2 green sand
+Vagaries if London boundary 
+Swam
+Tantalising - could be wood
+Guernsey formative years. Trusting. Not a paedo. Lost on bike. Push van up hill
+Blue tits on paving, but flying ants was yesterday???
+Why called green
+Pale throat
+Both seated
+4 teenage moorhen
+Tern sign off in the breeze
+
+
 10th
 
 
