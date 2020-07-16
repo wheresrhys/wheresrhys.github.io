@@ -1,3 +1,64 @@
+16th
+
+
+
+. I have seen other nests, during the early summer when the reservoir levels were also artificilaly lowered, high and dry
+
+
+
+floating nest with egg and spectators
+3rd high & dry grebe nest
+
+
+young grebesback
+crocodile
+
+
+
+
+Young gulls testing their wings
+Maginificent Egyptian Goose... until it calls, sounding like the white noise warning a reversing truck emits
+L grebe hiding
+Lots of swift and house martin & sm
+Pochards. Shelduck on land
+Grebe flight (2?)
+Starling drink
+Cananda geese keep distance from greylag in the field
+Feral pigeons also in the field
+Greylags in to land
+Greylag powering through the weed
+Grebelet tunnels into the back and disappears - second head. Second chick misses out
+Jay - something about moorhens on quiet streams
+7 great tits by the bins, drinking
+
+Peregrine screech
+cf chicks fledging (have been for a wile) and some still begining
+Male runting eating seedhead
+Huge weed looks like crocodile
+Pigeon green woodpecker collision
+Greylag Goose fight
+Spray paint man
+
+
+
+
+
+Almost adult Grebe diving
+Grebes carrying weed for a nest
+Grebes ( & tufties) roll over to show off their white bellies
+Grebe eats fish
+Grebe on nest next to large swan
+Dainty grebes
+grebe swimming like frog
+Grebe nest on heron island
+Dozing grebes
+Grebe chicks piping, testing the strength of their swimming legs. . Curiously apprehending a black headed goal
+Grebe dance
+grebe weed dance
+zebra headed grebe chick
+grebe braying like a donkey
+
+
 13th
 Goldfinch bonanza
 Backlit running coot, like a scene from an 80s music video
