@@ -3,6 +3,14 @@ layout: post
 title: '61 Boring Birds: #46 Great Crested Grebe'
 primaryTag: Great crested grebe
 tags:
+    - Peregrine
+    - Herring gull
+    - Lesser black-backed gull
+    - Common tern
+    - Pochard
+    - Mallard
+    - Shelduck
+    - Tufted duck
     - Great crested grebe
 description:
 date: 2020-07-16
