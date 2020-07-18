@@ -1,3 +1,45 @@
+
+17th
+
+
+
+
+Tit flock
+Aggressiv faced herring gull - deformed?
+Distant yellow-legged gull? Followed on its circuit
+Early fishermen
+Whinchat - white wing bar & tail sides, perching jizz -  like an arrow - faint white eyebrow, orange chin, wheatear-like wing delineation, perched midway up a branch - but no really clear sight. Distant
+Loveley scampering male, bushy brow, but strangely placid, unfierce expression, despite brow and posture
+6 tuftie ducklings (3 broods this morning)
+Grebes sometimes have heads tucked in, but swim vigorously in the same direction. Comical. Unlike ducks their heads point the the right way
+Kingfisher - first view for some time. Surprisingly camouflaged against ripples of water
+Herring gull sog=ng
+Brown dragonfly
+Blackcaps eating berries, reed bunting singing
+Catching a zig-zagging fly mid-air - wow!
+Same reed bunting singing as the white whale of early june
+Some swifts, sand martins and fox cubs. No wheatear
+Juv tern testing wings vigorously
+Greylags outnumber swans 10-1
+Reed bunting and sedge warbler along water's edge
+What isn't here
+- Sedge warbler song, whitethroat and reed warbler too
+- Still a little of blackcap and chiffchaff
+Summer is fading away - will I notice when it's gone?
+This morning's weather is autumn coastal
+See sand martins clearly moulting (pre migration?)
+3 terns in chase
+Sedge warbler wooden ruler call
+Juvenile grey wag's tail is getting longer, vent getting yellower, legs still pink
+Stumpy tailed magpie
+Heron - as my essex friends might say - was "mobbed to shit". One tern speeds back to the colony, low over the water and determined, like superman
+Kingfisher again
+Jay. Many shelducklings
+Grebe chase and a clouf of angry terns - is there "something in the water"?
+Fairy wing tails & little cartoon feet
+A mistle thrush flies away, Goldcrest, 4 mistle thrush, so tame - used to anglers?
+Grebe and young cormorant similarities
+
 16th
 
 
