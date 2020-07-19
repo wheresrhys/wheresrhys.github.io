@@ -5,7 +5,6 @@ description: Simply the best
 primaryTag: Common tern
 tags:
     - Common tern
-    - Arctic tern
     - Black-headed gull
     - Lesser black-backed gull
     - Herring gull

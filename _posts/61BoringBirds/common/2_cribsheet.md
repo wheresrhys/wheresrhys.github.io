@@ -1,9 +1,29 @@
+18th
+Reed buntings in the mist - actually looks a bit gorilla
+Really a lot of coot and tufted ducks
+Last canada goose creche, guarded with valour
+Baby dunnock
+Reed warbler subsong
+Juvenile robin. Chaffinches
+Swifts last hurrah
+Persistent drizzle, no waders (but dunlin later)
+Dave's observation of direction of travel of rain
+Wet jay vs wet pigeon
+100 starling
+7 cygnets ugly phase - grow up so fast
+2 collared dove
+Moorhen twig
+No sun, but the thinning cloud glows with new warmth
+3 Song thrush greet the dryness
+Egret flying like barn owl
+Everything is a mood board for designer sportswear range
+Uneasy truce with fishermen
+- casting flies aggressively
+- threatening presen in their tents
+- nam
+
 
 17th
-
-
-
-
 Tit flock
 Aggressiv faced herring gull - deformed?
 Distant yellow-legged gull? Followed on its circuit

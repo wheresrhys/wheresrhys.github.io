@@ -15,6 +15,7 @@ tags:
     - Blue tit
     - Long-tailed tit
     - Treecreeper
+    - Buzzard
     - Spotted flycatcher
     - Green sandpiper
 date: 2020-07-13
