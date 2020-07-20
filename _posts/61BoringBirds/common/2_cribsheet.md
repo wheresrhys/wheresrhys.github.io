@@ -1,3 +1,21 @@
+20th
+
+Lone runting
+Ice floes of algae
+very eclipse teal, quarter size of mallard
+9 swans
+another teal
+
+Squirrel scamper chase
+Nightingale like song thrush 
+Jay sounds like circuit bending
+Just fledged bhg on bank
+Boney skulked dinosaur head
+Swam to shore to explore
+Young wpigeon
+Blackbird unplugged
+
+
 18th
 Reed buntings in the mist - actually looks a bit gorilla
 Really a lot of coot and tufted ducks
@@ -22,6 +40,9 @@ Uneasy truce with fishermen
 - threatening presen in their tents
 - nam
 
+Moorhen climbing dock to fetch blackberry for chicks.. failed
+Grass snake
+House sparrows in reeds
 
 17th
 Tit flock
