@@ -1,3 +1,51 @@
+21st
+
+
+Quite possibly its maiden flight
+
+Young tern hasn't figured out how to tuck in its legs yet. One leg hangs higher than the other. Really like a toddler walking. Enjoying the view from a few feet higher up. Squealing with joy (or out of control panic)
+Or max on scooter
+
+LRP!! scaly back, pale, not yellow, eye ring
+Few steps then tilt and pick in the rotting dried algaw (eaten by young egyptian goose the other day) though unsightly. pumping neck nervously
+Jumping trout, friendly fisherman. Sleepy pochard.
+
+fisherman
+tilt
+
+young tern
+
+
+ The A woodpecker
+
+
+8 pochardlings
+Big-eyed spotted flycatcher. Blue tit. Male chaffinch. Chiffchaff. All flycatching
+Well-marked wings. Lots of wrens
+Clean-bellied zebra anake bird
+Imm BhG on post. Like 12 year old graduating to hanging out at the bus stop drinking cheap cider
+Young blackbird on pylon
+Pecking pecjer, goldfinch, pale starling moulting into spots, chiffchaffs, jay
+Blue tit almost like azure tit LTT
+GSW with 3 spiked tail on pylon
+Coots in love
+Elusive reed bunting
+Young chaffinch force fed a large fly by its mother. 
+Chading chiffchaffs (or willow warblers?)
+2 song thrushes and a woodpigeon on the pylon
+Family of 5 chaffinh
+London's thought bubble cloud
+Very junior tufted ducks already clearly tufted ducks. cf shelduck. At what age do ducks of each species acquire their look
+LRP!! scaly back, pale, not yellow, eye ring
+Few steps then tilt and pick in the rotting dried algaw (eaten by young egyptian goose the other day) though unsightly. pumping neck nervously
+Jumping trout, friendly fisherman. Sleepy pochard. 
+Great tits in the sleepy hollow poplars
+Moulting chaffinch
+Young tern hasn't figured out how to tuck in its legs yet. One leg hangs higher than the other. Really like a toddler walking. Enjoying the view from a few feet higher up. Squealing with joy (or out of control panic)
+Or max on scooter
+Blackberry goose shit
+
+
 20th
 
 Lone runting
