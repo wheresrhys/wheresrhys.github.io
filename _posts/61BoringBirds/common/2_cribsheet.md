@@ -1,3 +1,37 @@
+23rd
+
+
+Kingfisher, maybe 2?
+Noisy cetti's warbler
+A few dozen swift
+Common sand
+Mob of coots
+Tern flight path
+BhG - adventurous chick on the shore with a bald patch
+Green sand up high and away to south
+male sparrowhawk
+No turnstone
+Just say no to birdwatching
+In style of police officer
+But they won't tell you about the crushing lows
+Green woodpecker
+LRP. Young dead shelduck
+Pochard in flight - clockwork duck
+Stuttering rebler subsong
+Yellow kneed bumble bee
+Tiny dunlin
+
+20 woodpigeon
+Lots of gulls
+1 stock dove, few s martin
+Softly parallel cormorants, like windfarm
+One goose can't fly and is abandoned - "wait - where's vince"
+16 terns, now 2 floating bhG chicks
+Dunlin excitement 
+Glimpse, bike ride, eventually refound common sand, doubt, then double check and joy
+Mutilated canada goose
+
+
 22nd
 
 
