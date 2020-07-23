@@ -1,3 +1,35 @@
+22nd
+
+
+Yellow legs or pondscum
+Gulls on thermal
+Seblers hide and seek
+Odd little grebe looking at brest bone, long neckstaring at sternum. Nvel gazer
+Linnets and woodpigeons (1 juv) - common folk
+Female gadwall white belly
+Black headed gull melee
+Little grebe belly flop, skimmed stone landing, like an angry coot run
+Polite gadwalls. 
+Something really spooked the gulls
+Fluffy head young geese
+Balloon
+Gulls - one out all out
+Hawking for flies
+Young or moulting magpie?
+Hidden little grebes
+Greylag mob flying in
+Heron really doesn't like me - never heard such a sound
+2 green woodpeckers
+Little ringed plover
+2 young dunnock sipping to each other
+Lovely brown chiffchaff
+Kingfisher sound
+Chiffchaff with a dipping tail
+LTT = sigl-di-gwt = shake yo ass
+Grey heron like character from children of the sun
+Bright red rowan berries
+Swimming BhG will drown
+
 21st
 
 
