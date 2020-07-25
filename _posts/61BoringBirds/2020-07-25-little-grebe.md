@@ -5,6 +5,8 @@ description: Leftfield fancy dress
 primaryTag: Little grebe
 tags:
     - Kestrel
+    - Green woodpecker
+    - Magpie
     - Moorhen
     - Coot
     - Black-headed gull
