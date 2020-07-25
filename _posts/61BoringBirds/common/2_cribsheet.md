@@ -1,3 +1,25 @@
+25th
+
+No owl
+Female kestrel - Youngsters are about. 2 stock doves. Battle of waterworks meadow https://www.gofundme.com/f/ecological-surveys-of-the-waterworks?utm_source=twitter&utm_medium=social&utm_campaign=p_cp+share-sheet
+Male juv green woodpecker with 2 magpies. Trespassing in _their_ tree
+2 gadwall, 2 imm bhg, lots of cootlets, imm moorhen + second moorhen brood, 2 tufted ducklings, only 1 pochard, 7 little grebe chicks, bhg struggling through heavy algae
+Little grebe chick next to nearly full grown coot
+adult little grebe same size as tufted ducklings and is attacked by one of them - how humiliating
+Little grebes diving beneath the weeds
+Passing of tiny fish, but plays with food
+Mum is a fishing machine
+Chicks with silver fox/cyberpunk heads. Heads beneath water like goosander chicks
+20 feral pigeons, one peregrine
+4 very pale juv pied wagtails, splayed tails in the wind
+Fluffy preening male
+Young woodpigeon looking like a stock dove - dark eye, but ugly
+Linnets preening. Swift negotiates a pylon. Crow caws
+Air/breeze/muggy
+Grey wagtail with white wing patches
+Those immature gulls are survivors
+Black to pjuv pied wagtail
+2 sand martins
 
 24th
 3 swifts
