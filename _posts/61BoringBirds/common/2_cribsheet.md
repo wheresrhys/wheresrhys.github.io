@@ -1,3 +1,22 @@
+
+24th
+3 swifts
+Dog whistle
+YLG
+So pale, white rump, slender bat wings
+Key to get good is to identify each gull, not just loook for YLG, so I now basically ‘know’ a lbbg from a herring
+Mating meadow browns - looks like a kidnapping
+Whinnying seesawing lbbg juniors
+Tern with fish
+Probable kingfisher
+Magpie in a shopping trolley
+High flying c sand
+Do young gulls do laps?
+2cy something
+Ducks on the weir
+Ducklings fast like fish fry 
+Distant c sand
+Walks like a duck, quacks like a duck, it’s a mallard
 23rd
 
 

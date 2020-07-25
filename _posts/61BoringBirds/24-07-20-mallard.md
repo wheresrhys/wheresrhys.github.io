@@ -1,0 +1,38 @@
+---
+layout: post
+title: '61 Boring Birds: #45 Mallard'
+description: Visible ducklings
+primaryTag: Mallard
+tags:
+    - Lesser black-backed gull
+    - Mallard
+date: 24-07-20
+---
+![mallard ducklings](/img/assets/mallard.jpg)
+
+A day of deceptions.
+
+Starting with the dog whistle blown over on Tottenham Marsh, which makes me think a kinfisher is passing.
+
+Followed by a distant dark-backed, light bodied and bright white-rumped gull rising up from the water and flying north on powerful dark wings. More than a hint of yellow-legged gull about it. But it eventually flies back in and I get a closer look at what I guess is a three year old lesser-black-backed gull, though it doesn't quite fit that category either due to quite a heavy, dark tail band.
+
+I've gradually come to realise that the key to finding the rarer gulls is not to focus on being able to identify them specifically, but to be able to identify _every_ gull. It seems like an almost tautological thing to say, but there really is no hope being able to identify a yellow-legged or caspian gull _with certainty_ unless you get familiar with the broad &mdash; and overlapping &mdash; range of plumages of their close relatives. So nowadays, on my more disciplined days, I do try to attach a species label to each young, speckly grey gull I see. And one day it'll pay off.
+
+But not every family of birds is so demanding on the eye and brain. Specifically, if it walks like a duck and it quacks like a duck, it's a **Mallard**.
+
+About as familiar as any bird, they are the typical park duck that every child feeds their crusts too. They are the genetic ancestors of almost all [farm ducks](https://en.wikipedia.org/wiki/Domestic_duck) the world over (with the exception of the [muscovy duck](https://en.wikipedia.org/wiki/Muscovy_duck)). They are one of the few ducks to quack &mdash; other species offer up a far more enchanting variety of whistles, grunts and cackles.
+
+And... well... it's difficult to get excited about them I'm afraid. Perhaps it's just that familiarity can breed disdain, but mallards really do feel like objectively the worst ducks; every other species has at least _some_thing on them:
+-  The wigeon whistles lie a kazoo
+-  The teal is a little toy
+-  The pintail is curved like a musical note
+-  The gadwall has the refined balance of an Aston Martin
+-  The shoveler is just plain hilarious
+-  The tufted duck has its hipster hair
+-  ...
+
+I could go on but it's getting embarrassing.
+
+I do see a couple of broods of ducklings today though, one brand new scurrying about on the water, and the other a little older, resting along the weir at the top of High Maynard. It's been a joy to watch the most protective mother duck in christendom raise nine healthy ducklings to near adulthood on East Warwick, right under the noses of all those hungry gulls. Every time I run into a family of mallards I can't help but melt a little, it has to be said. Who doesn't love a duckling?
+
+And perhaps that's the one thing they give us that no other duck does &mdash; to paraphrase Stewart Lee, "Visible ducklings."
