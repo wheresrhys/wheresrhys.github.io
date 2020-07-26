@@ -1,3 +1,32 @@
+26th
+
+Very noisy juvenile terns, sound a bit like mogwai
+Lots of swifts mingling with terns
+Kingfisher - a daily fixture
+Shleduck hanging with the big boi geese
+Cormorant club island decampent
+Swift weekender last hurrah
+Slugs all eading south east, excpet one heading north east, across path
+Jay, green woodpecker
+Scruffy chiffchaff, sleek willow warbler
+Lots of long tailed tits. One plays at my feet in the weeds
+Cetti contest
+Nice grebelets
+3 young cettis, light ringed eyes, chupping and seeping. Short tail. Not so skulking. Faintly streaked. Starlingesque calls and subwarbles, crooning
+1 tufted duckling left
+Look across no.4 to choose a route - fisherman is there so will take the main path
+Greeting (in both senses) common terns
+Goldfinches and chaffinch
+Woodpile cetti's and lots of chiffchaffs
+Reed warbler feeding its chick - the locals at the pub
+Fewer blackcaps (though saw one male later)
+Completely tailless male pied wagtail
+2 terns bicker and crashland, like in phantom menace
+Youngsters in late-season practice
+Cetti's smash and grab guerrilla protest
+I’m a Cetti’s warbler x2 - classic song
+
+
 25th
 
 No owl
