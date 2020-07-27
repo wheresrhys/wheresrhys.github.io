@@ -1,3 +1,23 @@
+27th
+
+
+
+Sand martins
+Cormorant stain on the water
+Blank, rugged sky noon
+Such a flat sky, like a sea on the moon
+Common sand, walking to stand still
+Sidewinding juvenile LBBG
+Washed up weeds like grass clippings
+Water red with stirred up clay
+Bitched brew
+Canada geese in the channel
+5 swift (more later)
+Not Yellow Legged gull
+Tern twice the speed of sand martins
+That white-faced gull
+
+
 26th
 
 Very noisy juvenile terns, sound a bit like mogwai
