@@ -1,3 +1,32 @@
+28th
+
+
+Grey chiffchaff, willow warbler
+Noisy - fighting? - herons
+Great tit young and old
+Lots of chaffinches
+woozy willow warbler
+3 blackcap in a line
+2 green woodpecker. Long tailed tits gallore. Blue tits on pylon
+Swifts. Cetti subsong like robin
+Moulting song thrush
+1 tufted duckling + 3 - why such late breeders?
+Pochards all grown up
+9 shelducklings left (3 on EW too)
+House martins amid the trees
+3rd eillow warbler making hoo-eet call
+Martin glade, 1 sand martin
+Charm of 20 goldfinches on shipping container
+Tailless pied wagtail again
+100 swift. Stock dove
+Great black-backed gull - huge, bedraggled, albatross bill, eye like pterodactyl
+Crows like rooks
+Super alert little egret
+Windy sun
+4 great tit, 1 robin, 7 reed warbler - quantum birding
+Scruffy mouselike chiffchaff - wyw ring, dipped tail
+
+
 27th
 
 
