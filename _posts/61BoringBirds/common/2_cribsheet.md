@@ -1,3 +1,31 @@
+29th
+
+5 tufted ducklings
+Lots of swift
+Jay. Cormorants fanning out through the skies
+Mystery mechanical whirring birds in the bushes, could be cetti's but are in fact reed warblers
+Willow warbler or chiffchaff - greyish, no eyering, dark legs, strong supercillium, not a yellowy juv, hweet-ish.. leaning towards chiffchaff
+Pylon - LTT, young BT, wren, chaffinch. 1 willow warbler calling
+BT & LTT trilling in alarm
+Sedge warbler off the central path
+female sparrowhawk with prey
+Hidden chiffchaff is a little ventriloquist
+1 young whitethroat - resident or migrant
+Little grebe + moorhen
+150 house martins, all suddenly bunched up. Very dense in the air
+Hidden goldcrest 0 likes the gloom of a plantation
+Bluegreen bilge
+Young robin, male blackcap
+Blackcap far bigger than reed warbler
+Many chaffinch
+Robin territorial despite its youth. Another with a slight orange flush
+Finally a willow warbler song
+Goldfinch panic leaving the thistles
+1 surviving black headed gull chick
+Juvenile tern arachutes then lands on the water to exchange fish
+Gulls with glowing primaries
+
+
 28th
 
 
