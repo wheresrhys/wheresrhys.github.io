@@ -1,3 +1,82 @@
+31st
+
+
+
+Storm clouds gather. Greeted by geese. Grebe fish exchange
+
+If I don't pick a 61st bird, then this blog never ends
+
+Wind lifts. Nervous egrets
+First flighty common sandpiper escaped down the channel, second one calmly circles back"
+The massive swollen mood of the sky
+Handful of seifts
+Water clouded with algae
+Kingfisher call. 
+Mean fisherman
+Young blue tit picks at something black
+canada geese sitting
+Dunnock underfoot
+Nice young robin
+Elderberries - were they flowers when I started this blog
+Tiny tufted ducklings
+Half red-breasted robin
+Moorhen hiding - head out - in the duckweed and lily pads
+Very buff chested chiffchaff
+Epic chiffchaff flock - swift-like flypast. Long forked tail
+Young great tits and long tailed tits
+Family wonder if I'm still alive
+Blackcaps
+Black-headed gulls and tern fish. Terns flit down by the bridge
+Still that black-headed gull chickand nervous parent - "I don't like the look of him Frank"
+Divebombing herring gull
+Grebe settling on nest
+2 confusing common sandpipers on the island
+Distant jay, a grebe grunting
+5 reed buntings. Male not singing, already moulting for winter, a short interlude of being well dressed
+Heron in the corner
+
+Parakeets over west warwick, funnelling down to the canal
+1 high swift - not wanting to be left out of the grand finale
+5 juv gadwall - not garganey, juvenile moorhen, 2 linnet, 2 little grebe, 2 sand martins, 2 egyptian geese
+Gloaming, the feeling of a quiet ending and a job well done
+
+Capoeirs - I was a fan for about 2 minutes before realising its like watching a bunch of bad mimes rehearsing how to fall over, accompanied by the world's worst radio station
+... vs gulls and terns
+Woodpigeons disturbed
+Canada geese flying in to land
+
+
+
+30th
+Leaves are pale in the light
+20 Jolly goldfinches
+The smell of caterpillars
+Half tail blackbird
+I now recognise grebelets by their irritating we-we-we-we call
+Juvenile great tits treecreeping
+Chiffchaff song
+Wrens, blue tits, cetti's warbler
+Last 2 egrets to graduate
+Male sparrowhawk with prey
+Elusive goldcrest
+Chiffchaff song ...
+
+Chiffs, young whitethroat, reed bunting, rebler song, long tailed tit, 1 willow warbler
+Begging reed warbler. Robin and dunnock look on
+Lots of scruffy chiffchaffs, 1 sleek willow warbler. Flat top
+The most hesitant reed warbler song
+A morning for really feeling and experiencing the birds (something to do with my bike crash aches and pains?)
+Tern low fly past, like michael bay scene
+Close up tern perch
+Blackcap subsong, like the soliloquoy of the last warbler
+Giant thitle has been mown
+Perfect day to be mowing
+Common sand whee-we-we-we-we.. shits itself in the water cf Michael Moore
+Geese and magpies chilling in the channel. Kingfisher
+
+
+
+
 29th
 
 5 tufted ducklings
