@@ -40,7 +40,7 @@ Parakeets over west warwick, funnelling down to the canal
 5 juv gadwall - not garganey, juvenile moorhen, 2 linnet, 2 little grebe, 2 sand martins, 2 egyptian geese
 Gloaming, the feeling of a quiet ending and a job well done
 
-Capoeirs - I was a fan for about 2 minutes before realising its like watching a bunch of bad mimes rehearsing how to fall over, accompanied by the world's worst radio station
+Capoeira - I was a fan for about 2 minutes before realising its like watching a bunch of bad mimes rehearsing how to fall over, accompanied by the world's worst radio station
 ... vs gulls and terns
 Woodpigeons disturbed
 Canada geese flying in to land
