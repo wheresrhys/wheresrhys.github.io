@@ -29,6 +29,7 @@ tags:
 date: 2020-08-19
 ---
 ![wood warbler](/assets/img/wood-warbler.jpg)
+
 Forgive me, for I have been a lazy diarist, a foot-dragging chronologer, a tardy almanacker. It's not the birds' fault, nor the weather's, nor the ever peaceful surroundings of the lower Lea valley. 
 
 If I have an excuse it's that a week of over-warm afternoons dulled enjoyment of anything and everything, and I am a creature of great inertia. Which is to dress up the fact I'm a lazy bastard, particularly when it's too hot.
