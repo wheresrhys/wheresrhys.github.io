@@ -1,10 +1,26 @@
 ---
 layout: post
 title: '61 Boring Birds: #66 Spotted flycatcher'
-description: 
+description: I've been expecting you
 primaryTag: Spotted flycatcher
 tags: 
-date: 2020-08-19
+    - Common tern
+    - Swift
+    - House martin
+    - Sand martin
+    - Treecreeper
+    - Nuthatch
+    - Goldcrest
+    - Great spotted woodpecker
+    - Spotted flycatcher
+    - Hobby
+    - Siskin
+    - Whinchat
+    - Whitethroat
+    - Lesser whitethroat
+    - Meadow pipit
+    - Tree pipit
+date: 2020-08-31
 ---
 ![spotted flycatcher](/assets/img/spotted-flycatcher.jpg)
 
