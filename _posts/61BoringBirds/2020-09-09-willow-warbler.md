@@ -4,14 +4,26 @@ title: '61 Boring Birds: #67 Willow warbler'
 description: Summer breathes its last
 primaryTag: Willow warbler
 tags: 
-    - 
-date: 2020-08-31
+    - Meadow pipit
+    - Shoveler
+    - Kingfisher
+    - Jackdaw
+    - Common sandpiper
+    - Common tern
+    - Spotted flycatcher
+    - Blackcap
+    - Chiffchaff
+    - Whitethroat
+    - Lesser whitethroat
+    - Goldcrest
+    - Willow warbler
+date: 2020-09-09
 ---
 ![willow warbler](/assets/img/willow-warbler.jpg)
 
 "It's over".
 
-So said a local birdwatcher of few words, whose name I still don't know, when teh subject of meadow pipits came up. For the last few days they've been passing over in considerable numbers.
+So said a local birdwatcher of few words, whose name I still don't know, when the subject of meadow pipits came up. For the last few days they've been passing over in considerable numbers.
 
 "Considerable," is all relative, and by this I mean dribs and drabs, the odd one or two flying weakly overhead, and _sip-sip_-ing as they go. I counted eleven yesterday which, by Walthamstow standards, is notable. 
 
@@ -31,7 +43,7 @@ Yesterday a wheatear, starting off tame on the banks of Lockwood, flew to the th
 
 "We're leaving," they all tell me. "We're leaving."
 
-The flocks of warblers carry the same message. Blackcaps and chiffchaffs for the most part. A few will stay for the winter, but probably none of these summer/early autumn lightweights &mdash; a wind from the east will blow their more robust, continental friends in to rely on this nation of bird feeders' largesse. In amongst them are the occasional whitthroat (both commonplace and lesser), but these are now outnumbered by goldcrests, which are finding their winter footing.
+The flocks of warblers carry the same message. Blackcaps and chiffchaffs for the most part. A few will stay for the winter, but probably none of these summer/early autumn lightweights &mdash; a wind from the east will blow their more robust, continental friends in to rely on this nation of bird feeders' largesse. In amongst them are the occasional whitethroat (both commonplace and lesser), but these are now outnumbered by goldcrests, which are finding their winter footing.
 
 And **Willow warblers**, bright and sleek as an open top sports car driving along the coast, weave in and out of the foliages' chicanes. Initially only passing through in small numbers, they are now present in every stretch of bushes. Holding themselves back for the final push for an Indian summer of birdlife. Their weary, hesitant, mournful song drips from their throats, sounding like the summer itself is exhaling.  
 
