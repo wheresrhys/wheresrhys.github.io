@@ -14,19 +14,27 @@ Working in the FT's Reliability Engineering team I've done my best to absorb wis
 
 Traditionally, approaches tended to focus on _what went wrong?_, with techniques such as the '5 whys' aimed at forensically deconstructing the events to find what the underlying reason for the failure was. Who, or what's, fault was it?
 
-But the more empathetic, curious and effective methodology favoured by leading tech companies nowadays is that of the blameless postmortem. Two key principles are, as the name suggests, deliberately eschewing the apportionment of blame; turning the incident review into a witch hunt discourages honesty, and therefore hinders getting at all the salient facts.
+But the more empathetic, curious and effective methodology favoured by leading tech companies nowadays is that of the blameless postmortem. There are various aspects to this approach, but I'd liek to emphasises two. 
 
-And getting at all the salient facts is the other key attribute of this approach. Rather than asking 'What went wrong?', blameless post mortems ask "What happened?". This more open ended, exploratory approach uncovers answers to questions such as "What went well?", "Why were other teams not affected?", and (a favourite of my boss, Sarah's) "Where did we get lucky?". 
+Firstly, as the name suggests, it deliberately eschews seeking to  apportion blame; turning the incident review into a witch hunt discourages honesty, and therefore hinders getting at all the salient facts.
 
-Armed with this information the follow up actions will likely be far more effective in the long term. A traditional post-mortem might unearth an action of "Scale up the database", whereas a blameless one might end up with something far more insightful such as "Devise a better process for communicating about expected spikes in upstream traffic".
+Secondly, it's aim is to surface all the salient facts. Rather than asking "What went wrong?", blameless post mortems ask "What happened?". This more open ended, exploratory approach uncovers answers to questions such as "What went well?", "Did it just affect us?" and "Where did we get lucky?". 
+
+Armed with this information the follow up actions will likely be far more effective in the long term. A traditional post-mortem might unearth an action of "Scale up the database", whereas a blameless one might end up with something far more insightful such as "Improve the process for communicating about planned spikes in upstream traffic".
 
 This focus on the holistic picture, rather than just the negatives, is extremely valuable. Without it, you will end up with a tech estate full of sticking plaster solutions to local problems; you will be focused on avoiding failure. With it, you stand a better chance of doubling down on _what works well_, and those sticking plasters become unecessary as success after success is emulated.
 
 So what has this got to do with the team almost missing its business critical deadline?
 
-Judging by the response, the focus was on avoiding failure. I can picture the "5 whys" being asked and the root cause being identified as "The team's work was not well tracked." Applying new micro-managed tracking on that team is not enough though; in order to _avoid failure_ that same approach must be applied to every team, and thus follows the straight-jacketing of every team. 
+Judging by the response, the focus was on avoiding failure. I can picture the "5 whys" being asked and the root cause being identified as "The team's work was not well tracked." Introducing micro-managed tracking to that team's processes is not enough though; in order to _avoid failure_ that same approach must be applied to _every_ team, and thus follows the straight-jacketing of every team. 
 
-But what if a more blameless, exploratory approach were used? In a slight variant on technical postmortems, it's perhaps more useful to look at other _successful_ teams and ask _"what are they doing right?"_ "Why are they so successful?"
+But the blameless postmortem approach reveals the bigger picture, and we learn more profound lessons.
+
+Rather than focus on explaining the _failures_ of the team in question, what if we looked around at all the things going on. 
+
+
+
+it's more illuminating to ask more searching, open ended questions. look at other _successful_ teams and ask "What are _they_ doing right?"
 
 Ask "How can this failing team emulate their success?", rather than "How can they avoid this team's failure?". 
 
