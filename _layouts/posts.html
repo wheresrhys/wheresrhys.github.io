@@ -9,6 +9,7 @@ layout: default
 
 
 {%- for post in site.posts -%}
+{% if not post.title contains "61 Boring Birds:" %}
 <li>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -21,9 +22,9 @@ layout: default
       {{ post.description }}
 
   </li>
-  {%- endfor -%}
 
 
-
+{% endif %}
+{%- endfor -%}
 </ul>
 
