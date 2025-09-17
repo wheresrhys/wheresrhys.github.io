@@ -14,7 +14,7 @@ postTitlePrefixFilter: '61 Boring Birds:'
 
 
 {%- for post in site.posts -%}
-{% if not post.title contains page.postTitlePrefixFilter %}
+{% unless  post.title contains page.postTitlePrefixFilter %}
 <li>
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -29,7 +29,7 @@ postTitlePrefixFilter: '61 Boring Birds:'
   </li>
 
 
-{% endif %}
+{% endunless %}
 {%- endfor -%}
 </ul>
 
