@@ -9,4 +9,26 @@ const posts = defineCollection({
 		description: z.string(),
 	}),
 });
-export const collections = { posts };
+
+
+const birds = defineCollection({
+	loader: glob({ pattern: "*.md", base: "./src/data/birds" }),
+	schema: z.object({
+		title: z.string(),
+		date: z.union([z.string(), z.date()]),
+		description: z.string(),
+		primaryTag: z.string(),
+		tags: z.array(z.string())
+	}),
+});
+
+
+const pages = defineCollection({
+	loader: glob({ pattern: "*.md", base: "./src/data/pages" }),
+	schema: z.object({
+		title: z.string(),
+		description: z.string(),
+	}),
+});
+
+export const collections = { posts, birds, pages };

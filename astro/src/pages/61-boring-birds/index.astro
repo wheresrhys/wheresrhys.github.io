@@ -1,0 +1,90 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {generateBlogPostURL} from '../writing/utils';
+
+const months = ["January", 'February','March', 'April', 'May', "June", 'July', 'August', 'September', 'October', 'November', 'December']
+
+function shortDate (date) {
+  return `${date.getDate()} ${months[date.getMonth()]}`
+}
+
+function humanDate (date) {
+  return `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
+}
+
+const title = '61 boring birds';
+const description = 'A COVID lockdown birding odyssey';
+const permalink = `${Astro.site.href}61-boring-birds`;
+
+let allPosts = await getCollection('birds')
+allPosts = allPosts.sort((a, b) => new Date(a.data.date).valueOf() - new Date(b.data.date).valueOf());
+
+const allTags = {}
+const allPrimaryTags = []
+allPosts.forEach(post => {
+  allPrimaryTags.push(post.data.primaryTag)
+  post.data.tags.forEach(tag => {
+    allTags[tag] = allTags[tag] || [];
+    allTags[tag].push(post)
+  })
+})
+
+---
+
+<BaseLayout title={title} description={description} permalink={permalink} current="blog">
+  <div class="container">
+    <h1>61 Boring birds</h1>
+    {allPosts.map((post, index) => {
+      const href = `/61-boring-birds/${generateBlogPostURL(post)}`;
+      const otherPosts = allTags[post.data.primaryTag].filter(other => other !== post)
+      return (
+        <div>
+          { index !== 0 && <hr /> }
+          <div class="post-item">
+            <h2>
+              <a href={href}>{post.data.title.replace('61 Boring Birds: ', '')}</a>
+            </h2>
+            <p>{post.data.description}</p>
+            <div class="post-item-footer">
+              <span class="post-item-date">— {humanDate(post.data.date)}</span>
+            </div>
+            {otherPosts.length ?
+                <><br>Also on: {otherPosts.map((post, i) => <>{i > 0 ? ", ": ''}<a href={`/61-boring-birds/${generateBlogPostURL(post)}`}>{shortDate(post.data.date)}</a></>)}</>
+              : null
+            }
+          </div>
+        </div>
+      )
+    })}
+
+
+    <h2>Honourable mentions</h2>
+<ul class="post-list">
+{Object.entries(allTags).filter(([tag]) => !allPrimaryTags.includes(tag)).map(([species, posts]) => <li>
+  <strong>{species}</strong>: {posts.map((post, i) => <>{i > 0 ? ", ": ''}<a href={`/61-boring-birds/${generateBlogPostURL(post)}`}>{shortDate(post.data.date)}</a></>)}
+</li>)}
+</ul>
+
+  </div>
+</BaseLayout>
+
+<style>
+  h2,
+  .post-item-footer {
+    font-family: var(--font-family-sans);
+    font-weight: 700;
+  }
+
+  .post-item-date {
+    color: var(--text-secondary);
+    text-align: left;
+    text-transform: uppercase;
+    margin-right: 16px;
+  }
+
+  hr {
+    margin: 60px auto;
+  }
+</style>
+

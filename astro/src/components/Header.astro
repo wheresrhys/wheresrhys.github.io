@@ -11,6 +11,7 @@ const { current = '' } = Astro.props;
     max-width: 1400px;
     padding: 2em;
     width: 100%;
+    align-items: baseline;
   }
 
   @media screen and (max-width: 520px) {
@@ -18,9 +19,21 @@ const { current = '' } = Astro.props;
       padding: 2em 0;
     }
   }
+
+
+  header h1 {
+    font-weight: 700;
+    justify-content: flex-end;
+    padding: 10px 5px;
+    margin:  0;
+  }
+
+  header h1 a {
+    text-decoration:  none;
+  }
 </style>
 
 <header>
-  <h1>wheresrhys.co.uk</h1>
+  <h1><a href="/">wheresrhys.co.uk</a></h1>
   <Nav current={current} />
 </header>

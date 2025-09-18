@@ -2,11 +2,11 @@
 import { getCollection, render } from 'astro:content'
 import readingTime from 'reading-time'
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import {generateBlogPostURL} from './utils';
+import {generateBlogPostURL} from '../writing/utils';
 
 export async function getStaticPaths() {
-	const posts = await getCollection('posts')
-  return posts.map(p => ({
+  const birds = await getCollection('birds')
+  return birds.map(p => ({
     params: { post: generateBlogPostURL(p)},
     props: { post: p },
   }));
@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props
 const { title, description, date } = post.data;
 const readingTimeEstimate = readingTime(post.body).text
-const permalink = `${Astro.site.href}writing/${generateBlogPostURL(post)}`;
+const permalink = `${Astro.site.href}61-boring-birds/${generateBlogPostURL(post)}`;
 const { Content } = await render(post)
 ---
 
@@ -29,6 +29,14 @@ const { Content } = await render(post)
     <article class="content">
       <Content />
     </article>
+
+🦢 Next boring bird
+🦅 First boring bird
+Related boring birds:  Chiffchaff, Whitethroat, Lesser whitethroat, Stock dove, Woodpigeon, Grey heron, Starling, Great spotted woodpecker, Grey heron, Little egret, Great crested grebe, Cormorant, Common tern, Black-headed gull, Shelduck, Pochard,
+🦚 All boring birds
+Yaffle
+
+
   </div>
 </BaseLayout>
 
