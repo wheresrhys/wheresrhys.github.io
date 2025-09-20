@@ -12,7 +12,7 @@ tags:
     - Shelduck
     - Tufted duck
     - Great crested grebe
-description:
+description: Elegant slumming
 date: 2020-07-16
 ---
 ![great crested crebe](/assets/img/great-crested-grebe.jpg)

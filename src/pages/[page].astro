@@ -5,7 +5,6 @@ import {generateBlogPostURL} from './utils';
 
 export async function getStaticPaths() {
 	const pages = await getCollection('pages')
-  console.log(pages)
   return pages.map(page => ({
     params: { page: page.id},
     props: { page },
