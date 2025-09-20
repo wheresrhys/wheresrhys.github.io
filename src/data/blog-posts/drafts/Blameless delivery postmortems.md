@@ -8,11 +8,11 @@ But questions were asked. And decisions were made. And that company quickly foun
 
 Back when the above happened I resented the consequences, but couldn't articulate a better approach. I just felt, at a really visceral level, that the solution was a severe case of throwing the baby out with the bathwater, causing untold damage to the autonomy, flexibility and creativity that drove the organisation's success.
 
-And then it hit me. "Success" was the key word missing from the response. It seemed geared towards avoiding failure, rather than emulating success. This is a process anti-pattern I've become familiar with in recent years in a different field [not quite] entirely &mdash; operational incident reviews.
+And then it hit me. "Success" was the key word missing from the response. It seemed geared towards avoiding failure, rather than emulating success. This is a process anti-pattern I've become familiar with in recent years in a different, and not  entirely unrelated, field &mdash; operational incident reviews.
 
-Working in the FT's Reliability Engineering team I've done my best to absorb wisdom from various speakers and authors on how to respond to incidents once the dust has settled.
+When I worked in the FT's Reliability Engineering team I did my best to absorb wisdom from various speakers and authors on how to respond to incidents once the dust has settled.
 
-Traditionally, approaches tended to focus on _what went wrong?_, with techniques such as the '5 whys' aimed at forensically deconstructing the events to find what the underlying reason for the failure was. Who, or what's, fault was it?
+Traditional approaches tended to focus on _what went wrong?_, with techniques such as the '5 whys' aimed at forensically deconstructing the events to find what the underlying reason for the failure was. Who, or what's, fault was it?
 
 But the more empathetic, curious and effective methodology favoured by leading tech companies nowadays is that of the blameless postmortem. There are various aspects to this approach, but I'd liek to emphasises two. 
 
