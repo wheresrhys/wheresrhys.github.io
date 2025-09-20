@@ -2,7 +2,10 @@
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {generateBlogPostURL} from './utils';
-
+const months = ["January", 'February','March', 'April', 'May', "June", 'July', 'August', 'September', 'October', 'November', 'December']
+function humanDate (date) {
+  return `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
+}
 const title = 'Blog';
 const description = 'Latest articles.';
 const permalink = `${Astro.site.href}blog`;
@@ -25,7 +28,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.
             </h2>
             <p>{post.data.description}</p>
             <div class="post-item-footer">
-              <span class="post-item-date">— {post.data.date}</span>
+              <span class="post-item-date">— {humanDate(post.data.date)}</span>
             </div>
           </div>
         </div>

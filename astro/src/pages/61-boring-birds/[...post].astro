@@ -3,16 +3,28 @@ import { getCollection, render } from 'astro:content'
 import readingTime from 'reading-time'
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import {generateBlogPostURL} from '../writing/utils';
-
+const months = ["January", 'February','March', 'April', 'May', "June", 'July', 'August', 'September', 'October', 'November', 'December']
+function humanDate (date) {
+  return `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`
+}
 export async function getStaticPaths() {
-  const birds = await getCollection('birds')
-  return birds.map(p => ({
+  let birds = await getCollection('birds')
+  birds = birds.sort((a, b) => new Date(a.data.date).valueOf() - new Date(b.data.date).valueOf())
+  return birds.map((p, i) => ({
     params: { post: generateBlogPostURL(p)},
-    props: { post: p },
+    props: {
+      post: p,
+      nextPost: birds[i+1],
+      previousPost: birds[i-1],
+      related: p.data.tags.filter(tag => tag !== p.data.primaryTag).map(species => ({
+        species,
+        post: birds.find(({data: {primaryTag}}) => primaryTag === species)
+      }))
+    },
   }));
 }
 
-const { post } = Astro.props
+const { post, nextPost, previousPost, related } = Astro.props
 const { title, description, date } = post.data;
 const readingTimeEstimate = readingTime(post.body).text
 const permalink = `${Astro.site.href}61-boring-birds/${generateBlogPostURL(post)}`;
@@ -21,7 +33,7 @@ const { Content } = await render(post)
 
 <BaseLayout title={title} description={description} permalink={permalink} current="writing">
   <header>
-    <p>{date} ~ {readingTimeEstimate}</p>
+    <p>{humanDate(date)} ~ {readingTimeEstimate}</p>
     <h1>{title}</h1>
     <hr />
   </header>
@@ -30,12 +42,12 @@ const { Content } = await render(post)
       <Content />
     </article>
 
-🦢 Next boring bird
-🦅 First boring bird
-Related boring birds:  Chiffchaff, Whitethroat, Lesser whitethroat, Stock dove, Woodpigeon, Grey heron, Starling, Great spotted woodpecker, Grey heron, Little egret, Great crested grebe, Cormorant, Common tern, Black-headed gull, Shelduck, Pochard,
-🦚 All boring birds
-Yaffle
-
+<p>
+{nextPost ? <>🦢 <a href={`/61-boring-birds/${generateBlogPostURL(nextPost)}`}>Next boring bird</a><br/></>: null}
+{previousPost ? <>🦅 <a href={`/61-boring-birds/${generateBlogPostURL(previousPost)}`}>Previous boring bird</a><br/></>: null}
+{related.length ? <>Related boring birds:  {related.map(({species, post}, i) => <>{i > 0 ? ", ": ''}{post ? <a href={`/61-boring-birds/${generateBlogPostURL(post)}`}>{species}</a>: species}</>)}<br/></> : null}
+🦚 <a href="/61-boring-birds">All boring birds</a><br/>
+</p>
 
   </div>
 </BaseLayout>
