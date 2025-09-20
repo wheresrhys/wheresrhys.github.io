@@ -10,13 +10,17 @@
         "description": {
           "type": "string"
         },
+        "navId": {
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }
       },
       "required": [
         "title",
-        "description"
+        "description",
+        "navId"
       ],
       "additionalProperties": false
     }

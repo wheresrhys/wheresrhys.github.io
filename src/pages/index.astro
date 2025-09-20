@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
+import { getCollection } from 'astro:content'
 const title = 'wheresrhys.co.uk';
 const description = 'The website of Rhys Evans, technologist with a social conscience';
 const permalink = Astro.site.href;
+const allPosts = await getCollection('posts')
+const latestPost = allPosts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf())[0];
+import {generateBlogPostURL} from './utils';
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>
@@ -11,11 +14,11 @@ const permalink = Astro.site.href;
     <div class="home-copy">
       <p>Hello, I'm <a href="/about">Rhys</a>, and this is my website</p>
       <p>If you arrived here by mistake you can either click the browser's back button, close this tab, run away&hellip; or continue on your awe-inspiring journey across cyberspace by <a href="https://www.youtube.com/watch?v=wnspfa8h5p0">clicking this mysterious link</a></p>
-      <p>Lately, I have mostly been writing about <a class="post-link" href="url">
-          Latest post title: Latest post description</a>.</p>
+      <p>Lately, I have mostly been writing about <a class="post-link" href={generateBlogPostURL(latestPost)}>
+          {latestPost.data.title}: {latestPost.data.description}</a>.</p>
 
     </div>
-     <div class="hero-image-container">
+    <!--  <div class="hero-image-container">
       <picture>
         <source srcset="/assets/home-illustration.webp" media="(min-width: 600px)">
         <img class="hero-image" alt="Illustration of person reading a book" src="/assets/home-illustration-small.webp" width="550" height="466">
@@ -26,7 +29,7 @@ const permalink = Astro.site.href;
         from
         <a href="https://icons8.com/illustrations" target="_blank" rel="noopener">Ouch!</a>
       </p>
-    </div>
+    </div> -->
 
 
   </div>
@@ -40,14 +43,16 @@ const permalink = Astro.site.href;
     align-items: center;
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content: left;
     margin: 2em 0;
     min-height: 400px;
+
   }
 
   .home-copy {
     flex: 1;
     padding: 0 1em;
+    max-width: 700px;
   }
 
   .home-copy h2 {

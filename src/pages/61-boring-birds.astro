@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import {generateBlogPostURL} from '../writing/utils';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {generateBlogPostURL} from './utils';
 
 const months = ["January", 'February','March', 'April', 'May', "June", 'July', 'August', 'September', 'October', 'November', 'December']
 
@@ -32,11 +32,11 @@ allPosts.forEach(post => {
 
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink} current="blog">
+<BaseLayout title={title} description={description} permalink={permalink} current="61-boring-birds">
   <div class="container">
     <h1>61 Boring birds</h1>
     {allPosts.map((post, index) => {
-      const href = `/61-boring-birds/${generateBlogPostURL(post)}`;
+      const href = `/${generateBlogPostURL(post)}`;
       const otherPosts = allTags[post.data.primaryTag].filter(other => other !== post)
       return (
         <div>
@@ -50,7 +50,7 @@ allPosts.forEach(post => {
               <span class="post-item-date">— {humanDate(post.data.date)}</span>
             </div>
             {otherPosts.length ?
-                <><br>Also on: {otherPosts.map((post, i) => <>{i > 0 ? ", ": ''}<a href={`/61-boring-birds/${generateBlogPostURL(post)}`}>{shortDate(post.data.date)}</a></>)}</>
+                <><br>Also on: {otherPosts.map((post, i) => <>{i > 0 ? ", ": ''}<a href={`/${generateBlogPostURL(post)}`}>{shortDate(post.data.date)}</a></>)}</>
               : null
             }
           </div>
@@ -62,7 +62,7 @@ allPosts.forEach(post => {
     <h2>Honourable mentions</h2>
 <ul class="post-list">
 {Object.entries(allTags).filter(([tag]) => !allPrimaryTags.includes(tag)).map(([species, posts]) => <li>
-  <strong>{species}</strong>: {posts.map((post, i) => <>{i > 0 ? ", ": ''}<a href={`/61-boring-birds/${generateBlogPostURL(post)}`}>{shortDate(post.data.date)}</a></>)}
+  <strong>{species}</strong>: {posts.map((post, i) => <>{i > 0 ? ", ": ''}<a href={`/${generateBlogPostURL(post)}`}>{shortDate(post.data.date)}</a></>)}
 </li>)}
 </ul>
 

@@ -1,6 +1,7 @@
 ---
 title: Speaking
 description: Conference and meetup talks I've delivered
+navId: speaking
 ---
 
 ## Hidden in the clouds: Using Graph Technology to Understand Your Cloud Estate 

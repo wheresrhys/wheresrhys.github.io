@@ -28,6 +28,7 @@ const pages = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
+		navId: z.string(),
 	}),
 });
 

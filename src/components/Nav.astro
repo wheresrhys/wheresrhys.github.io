@@ -54,8 +54,9 @@ const { current = '' } = Astro.props;
   }
 
   @media screen and (max-width: 520px) {
-    .theme-toggle-container {
-      margin-right: 1em;
+    a {
+      margin-left:  0;
+      align-self:  center;
     }
   }
 
@@ -67,5 +68,5 @@ const { current = '' } = Astro.props;
   <a class={current === "writing" ? "selected" : ""} href='/writing'>writing</a>
   <a class={current === "speaking" ? "selected" : ""} href='/speaking'>speaking</a>
   <a class={current === "projects" ? "selected" : ""} href='/projects'>projects</a>
-  <a class={current === "61 boring birds" ? "selected" : ""} href='/61-boring-birds'>61 boring birds</a>
+  <a class={current === "61-boring-birds" ? "selected" : ""} href='/61-boring-birds'>61 boring birds</a>
 </nav>
